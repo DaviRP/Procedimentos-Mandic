@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python3 perfil.py)",
+      "Bash(python3 -m py_compile perfil.py)",
+      "Bash(jobs -l)",
+      "Bash(ps -p 68569 -o pid,ppid,stat,etime,command)",
+      "Bash(kill -9 68569 68593)",
+      "PowerShell(python --version)",
+      "PowerShell(pip --version)",
+      "PowerShell(py --version 2>$null)",
+      "PowerShell(Get-Command python3 -ErrorAction SilentlyContinue)",
+      "PowerShell(winget install -e --id Python.Python.3.12 --accept-package-agreements --accept-source-agreements)",
+      "PowerShell(winget install -e --id Google.Chrome --accept-package-agreements --accept-source-agreements)",
+      "PowerShell(Get-Command python -All)",
+      "PowerShell(Get-Command python.exe -All -ErrorAction SilentlyContinue)"
+    ]
+  }
+}
