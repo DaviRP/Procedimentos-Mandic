@@ -11,7 +11,7 @@ from selenium.webdriver.common.keys import Keys
 
 
 ARQUIVO = "LISTA_PERFIL_TRATAMENTO.csv"
-CLINICA = "ARARAS - GRUPO MANDIC"
+CLINICA = "FORTALEZA - GRUPO MANDIC"
 
 
 def normalizar_cpf(cpf):

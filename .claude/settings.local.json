@@ -14,7 +14,11 @@
       "PowerShell(winget install -e --id Python.Python.3.12 --accept-package-agreements --accept-source-agreements)",
       "PowerShell(winget install -e --id Google.Chrome --accept-package-agreements --accept-source-agreements)",
       "PowerShell(Get-Command python -All)",
-      "PowerShell(Get-Command python.exe -All -ErrorAction SilentlyContinue)"
+      "PowerShell(Get-Command python.exe -All -ErrorAction SilentlyContinue)",
+      "PowerShell(git config --global user.name)",
+      "PowerShell(git config --global user.email)",
+      "PowerShell(git config user.name)",
+      "PowerShell(git config user.email)"
     ]
   }
 }
