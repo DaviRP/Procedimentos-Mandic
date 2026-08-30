@@ -10,8 +10,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 
-ARQUIVO = "Grupos.xlsx"
-CLINICA = "ARARAS - GRUPO MANDIC"
+ARQUIVO = "01.GruposDeEquivalencia/grupos.xlsx"
+CLINICA = "FORTALEZA - GRUPO MANDIC"
 
 
 def carregar_grupos():
@@ -20,9 +20,9 @@ def carregar_grupos():
     cabecalho = [cell.value for cell in ws[1]]
 
     col_grupo        = cabecalho.index("Grupo de equivalência") + 1
-    col_numero       = cabecalho.index("Numero Fabricante 2") + 1
-    col_nome         = cabecalho.index("Nome do produto 3") + 1
-    col_identificador = cabecalho.index("Identificador4") + 1
+    col_numero       = cabecalho.index("Códº Fabricante") + 1
+    col_nome         = cabecalho.index("Nome do produto") + 1
+    col_identificador = cabecalho.index("Identificador (IDPRD)") + 1
 
     # Cria coluna Status se não existir
     if "Status" not in cabecalho:
@@ -105,7 +105,6 @@ def executar():
         return
 
     opcoes = webdriver.ChromeOptions()
-    opcoes.add_argument("--window-size=1920,1080")
     driver = webdriver.Chrome(options=opcoes)
     wait = WebDriverWait(driver, 15)
     wait_curto = WebDriverWait(driver, 3)
@@ -117,12 +116,12 @@ def executar():
         campo_email = wait.until(EC.presence_of_element_located(
             (By.XPATH, "/html/body/div[1]/div/div[2]/div[1]/div/div[3]/form/div[1]/input")
         ))
-        campo_email.send_keys("dpegoraro++++dpegoraro@bionexo.com")
+        campo_email.send_keys("mmerlo++++dpegoraro@bionexo.com")
         driver.find_element(By.XPATH, "/html/body/div[1]/div/div[2]/div[1]/div/div[3]/form/div[2]/button").click()
 
         campo_senha = wait.until(EC.element_to_be_clickable((By.ID, "password")))
         campo_senha.click()
-        campo_senha.send_keys("Bi0n3xdpegrr06")
+        campo_senha.send_keys("CNN@foguete")
         driver.find_element(By.XPATH, "/html/body/div[1]/div/div[2]/div[1]/div/div[4]/form/div[4]/button").click()
         time.sleep(5)
 

@@ -1,4 +1,5 @@
 import openpyxl
+import os
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -9,8 +10,34 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 
-ARQUIVO = "procedimentos.xlsx"
-CLINICA = "ARARAS - GRUPO MANDIC"
+ARQUIVO = "01.GruposDeEquivalencia/produtoFixo.xlsx"
+CLINICA = "FORTALEZA - GRUPO MANDIC"
+
+
+def _salvar_planilha(wb):
+    # wb.save(ARQUIVO) escreve direto em cima do arquivo original — se o
+    # processo for interrompido no meio (erro + Ctrl+C, travamento, arquivo
+    # aberto no Excel/LibreOffice ao mesmo tempo etc.), o .xlsx fica
+    # corrompido, pela metade. Salvando num arquivo temporário e só trocando
+    # pelo original no final (os.replace é atômico), o original nunca fica
+    # num estado inválido: ou a troca completa com o arquivo novo inteiro, ou
+    # falha e o original continua intacto.
+    tmp = ARQUIVO + ".tmp"
+    wb.save(tmp)
+    os.replace(tmp, ARQUIVO)
+
+
+def _idx_coluna(cabecalho, nome, obrigatoria=True):
+    # Busca o índice de uma coluna pelo nome, ignorando maiúsculas/minúsculas
+    # e espaços nas pontas — assim renomear "grupo" -> "Grupo" na planilha,
+    # por exemplo, não quebra o script.
+    alvo = nome.strip().lower()
+    for i, c in enumerate(cabecalho):
+        if c and str(c).strip().lower() == alvo:
+            return i + 1
+    if obrigatoria:
+        raise ValueError(f"Coluna '{nome}' não encontrada na planilha. Colunas disponíveis: {cabecalho}")
+    return None
 
 
 def carregar_procedimentos():
@@ -18,18 +45,16 @@ def carregar_procedimentos():
     ws = wb.active
     cabecalho = [cell.value for cell in ws[1]]
 
-    col_procedimento  = cabecalho.index("Procedimento") + 1
-    col_grupo         = cabecalho.index("Grupo de equivalência") + 1
-    col_numero        = cabecalho.index("Numero Fabricante ") + 1
-    col_nome          = cabecalho.index("Nome do produto padrão") + 1
-    col_identificador = cabecalho.index("Identificador") + 1
+    col_procedimento  = _idx_coluna(cabecalho, "Procedimento")
+    col_numero        = _idx_coluna(cabecalho, "Numero Fabricante")
+    col_nome          = _idx_coluna(cabecalho, "Nome do produto")
+    col_identificador = _idx_coluna(cabecalho, "Identificador")
 
-    if "Status" not in cabecalho:
+    col_status = _idx_coluna(cabecalho, "Status", obrigatoria=False)
+    if col_status is None:
         col_status = len(cabecalho) + 1
         ws.cell(row=1, column=col_status, value="Status")
-        wb.save(ARQUIVO)
-    else:
-        col_status = cabecalho.index("Status") + 1
+        _salvar_planilha(wb)
 
     # Pré-passagem: coleta procedimentos que já têm qualquer linha marcada
     procs_cadastrados = set()
@@ -44,7 +69,6 @@ def carregar_procedimentos():
     for row in ws.iter_rows(min_row=2):
         num_row = row[0].row
         procedimento  = ws.cell(row=num_row, column=col_procedimento).value
-        grupo         = ws.cell(row=num_row, column=col_grupo).value
         numero        = ws.cell(row=num_row, column=col_numero).value
         nome          = ws.cell(row=num_row, column=col_nome).value
         identificador = ws.cell(row=num_row, column=col_identificador).value
@@ -54,20 +78,26 @@ def carregar_procedimentos():
 
         procedimento = str(procedimento).strip()
 
+        # Pula o procedimento inteiro se já foi processado numa execução anterior
         if procedimento in procs_cadastrados:
             continue
 
         if procedimento not in procedimentos:
-            procedimentos[procedimento] = {"linhas": [], "grupos": []}
+            procedimentos[procedimento] = {"linhas": [], "produtos": []}
 
         procedimentos[procedimento]["linhas"].append(num_row)
 
-        if grupo:
-            procedimentos[procedimento]["grupos"].append({
-                "grupo":         str(grupo).strip(),
-                "numero":        str(numero).strip() if numero else "",
-                "nome_produto":  str(nome).strip() if nome else "",
-                "identificador": str(identificador).strip() if identificador else "",
+        numero_str        = str(numero).strip() if numero else ""
+        nome_str          = str(nome).strip() if nome else ""
+        identificador_str = str(identificador).strip() if identificador else ""
+
+        # Linha sem nenhuma informação de produto não gera vínculo — só
+        # conta como parte do procedimento, sem entrar na lista a cadastrar.
+        if numero_str or nome_str or identificador_str:
+            procedimentos[procedimento]["produtos"].append({
+                "numero": numero_str,
+                "nome": nome_str,
+                "identificador": identificador_str,
             })
 
     return col_status, procedimentos
@@ -78,14 +108,14 @@ def marcar_cadastrado(linhas, col_status):
     ws = wb.active
     for linha in linhas:
         ws.cell(row=linha, column=col_status, value="cadastrado")
-    wb.save(ARQUIVO)
+    _salvar_planilha(wb)
 
 
 def executar():
     col_status, procedimentos = carregar_procedimentos()
 
     if not procedimentos:
-        print("Nenhum grupo encontrado.")
+        print("Nenhum procedimento encontrado.")
         return
 
     opcoes = webdriver.ChromeOptions()
@@ -101,12 +131,12 @@ def executar():
         campo_email = wait.until(EC.presence_of_element_located(
             (By.XPATH, "/html/body/div[1]/div/div[2]/div[1]/div/div[3]/form/div[1]/input")
         ))
-        campo_email.send_keys("dpegoraro++++dpegoraro@bionexo.com")
+        campo_email.send_keys("mmerlo++++dpegoraro@bionexo.com")
         driver.find_element(By.XPATH, "/html/body/div[1]/div/div[2]/div[1]/div/div[3]/form/div[2]/button").click()
 
         campo_senha = wait.until(EC.element_to_be_clickable((By.ID, "password")))
         campo_senha.click()
-        campo_senha.send_keys("Bi0n3xdpegrr06")
+        campo_senha.send_keys("CNN@foguete")
         driver.find_element(By.XPATH, "/html/body/div[1]/div/div[2]/div[1]/div/div[4]/form/div[4]/button").click()
         time.sleep(5)
 
@@ -143,13 +173,17 @@ def executar():
 
         for idx, (nome_proc, dados) in enumerate(procedimentos.items(), start=1):
             linhas = dados["linhas"]
-            grupos = dados["grupos"]
+            produtos = dados["produtos"]
 
-            if not grupos:
-                print(f"\n[{idx}/{total}] Pulando '{nome_proc}' — sem grupos.")
+            # Procedimento sem nenhum produto vinculado — não há nada a fazer
+            # na tela, só marca como processado pra não reentrar na fila em
+            # execuções futuras.
+            if not produtos:
+                print(f"\n[{idx}/{total}] '{nome_proc}' sem produto — marcando como cadastrado.")
+                marcar_cadastrado(linhas, col_status)
                 continue
 
-            print(f"\n[{idx}/{total}] Processando: {nome_proc} — {len(grupos)} grupo(s)")
+            print(f"\n[{idx}/{total}] Processando: {nome_proc} — {len(produtos)} produto(s)")
             inicio = time.time()
 
             # 1. Busca o procedimento
@@ -175,45 +209,51 @@ def executar():
             driver.execute_script("arguments[0].click();", aba_ficha)
             time.sleep(1)
 
-            # Loop de grupos do procedimento
-            for grupo in grupos:
-                # 5. Clica em Adicionar item
+            # Loop de produtos do procedimento
+            for produto in produtos:
+                # 5. Clica em Adicionar item. A opção "Produto" já vem
+                # marcada por padrão nesse formulário (radio checked), então
+                # não precisa selecionar nada — segue direto pro autocomplete
+                # do produto.
                 botao_add = wait.until(EC.element_to_be_clickable((By.ID, "adicionar-produto")))
                 driver.execute_script("arguments[0].click();", botao_add)
                 time.sleep(1)
 
-                # 6. Seleciona a opção Grupo de equivalência
-                radio_grupo = wait.until(EC.element_to_be_clickable((By.ID, "tipo-item")))
-                driver.execute_script("arguments[0].click();", radio_grupo)
-                time.sleep(0.5)
-
-                # 7. Digita o nome do grupo e seleciona via autocomplete
-                campo_grupo = wait.until(EC.element_to_be_clickable((By.ID, "autocomplete-grupo-equivalencia")))
-                campo_grupo.clear()
-                campo_grupo.send_keys(grupo["grupo"])
-                time.sleep(1)
-                campo_grupo.send_keys(Keys.ARROW_DOWN)
-                time.sleep(0.1)
-                campo_grupo.send_keys(Keys.RETURN)
-                time.sleep(0.5)
-
-                # 8. Digita o nome do produto padrão e seleciona via autocomplete
-                campo_produto = wait.until(EC.element_to_be_clickable((By.ID, "produto-equivalente")))
+                # 6. Digita o nome do produto e seleciona via autocomplete.
+                # Mesmo padrão "data-select-type=force" dos outros campos —
+                # não dá pra clicar direto no primeiro item da lista, precisa
+                # seta pra baixo + enter.
+                campo_produto = wait.until(EC.element_to_be_clickable((By.ID, "produto")))
                 campo_produto.clear()
-                campo_produto.send_keys(grupo["nome_produto"])
+                campo_produto.send_keys(produto["nome"])
                 time.sleep(1)
                 campo_produto.send_keys(Keys.ARROW_DOWN)
                 time.sleep(0.1)
                 campo_produto.send_keys(Keys.RETURN)
                 time.sleep(0.5)
 
-                # 9. Preenche quantidade 1
+                # 7. Preenche a quantidade. A planilha não tem coluna
+                # "Quantidade" pra esse fluxo, então usa "1" fixo.
                 campo_qtd = wait.until(EC.element_to_be_clickable((By.ID, "quantidade")))
                 campo_qtd.clear()
                 campo_qtd.send_keys("1")
                 time.sleep(0.3)
 
-                # TODO: clicar no botão de salvar o item
+                # 8. Salva o item
+                botao_salvar_item = wait.until(EC.element_to_be_clickable(
+                    (By.CSS_SELECTOR, "button.adicionar-produto-lista")
+                ))
+                driver.execute_script("arguments[0].click();", botao_salvar_item)
+                time.sleep(1)
+
+            # 9. Depois de adicionar todos os produtos do procedimento, salva
+            # o formulário do procedimento (botão de submit da tela, não o
+            # "Salvar" de cada item individual).
+            botao_salvar_procedimento = wait.until(EC.element_to_be_clickable(
+                (By.CSS_SELECTOR, "button[type='submit'][name='_method'][value='post']")
+            ))
+            driver.execute_script("arguments[0].click();", botao_salvar_procedimento)
+            time.sleep(2)
 
             # Marca todas as linhas do procedimento como cadastrado
             marcar_cadastrado(linhas, col_status)
@@ -224,7 +264,7 @@ def executar():
             eta = restantes * media
             horas, rem = divmod(int(eta), 3600)
             minutos, segundos = divmod(rem, 60)
-            print(f"  Cadastrado! {len(grupos)} grupo(s).")
+            print(f"  Cadastrado! {len(produtos)} produto(s).")
             print(f"  Tempo médio: {media:.1f}s | Restantes: {restantes} | ETA: {horas:02d}:{minutos:02d}:{segundos:02d}")
 
             # Volta para a lista de procedimentos

@@ -19,57 +19,44 @@ CLINICA = "FORTALEZA - GRUPO MANDIC"
 # Depois de validar, é só voltar para False para rodar a planilha inteira.
 FILTRAR_TESTE = True
 PGS_TESTE = [
-    "181282",
-  
+    "177342",
+    "335975",
+    "247359",
+    "298104",
+    "254087",
 ]
 
 _PGS_TESTE_NORMALIZADOS = {str(pg).strip() for pg in PGS_TESTE}
 
 
-def _construir_mapa_mojibake():
-    """Gera o mapa de sequências mojibake -> caractere correto: para cada
-    caractere acentuado/tipográfico comum (Latin-1 Supplement + pontuação do
-    Windows-1252, tipo aspas curvas e travessão), calcula como ele ficaria se
-    seus bytes UTF-8 fossem lidos, por engano, como cp1252 (ex: 'á' -> 'Ã¡',
-    'ç' -> 'Ã§', '–' -> 'â€"').
-
-    O byte de continuação de um caractere UTF-8 multibyte está sempre na faixa
-    0x80–0xBF, que em cp1252 nunca cai numa letra ASCII — por isso sequências
-    legítimas do português como 'ÇÃO' ou 'IRMÃE' nunca entram nesse mapa, e a
-    correção pode ser aplicada como troca pontual de substring, sem arriscar
-    reinterpretar um texto que já está correto."""
-    mapa = {}
-    for cp in range(0xA0, 0x2123):
-        char = chr(cp)
-        try:
-            bruto = char.encode("utf-8")
-        except UnicodeEncodeError:
-            continue
-        if len(bruto) not in (2, 3):
-            continue
-        try:
-            mojibake = bruto.decode("cp1252")
-        except UnicodeDecodeError:
-            continue
-        if mojibake != char and mojibake.isprintable():
-            mapa[mojibake] = char
-    return mapa
-
-
-_MOJIBAKE = _construir_mapa_mojibake()
-_MOJIBAKE_RE = re.compile("|".join(re.escape(k) for k in sorted(_MOJIBAKE, key=len, reverse=True)))
-
-
 def corrigir_encoding(texto):
-    """Corrige mojibake pontual: trechos com bytes UTF-8 que foram decodificados
-    como cp1252/Latin-1 (ex: 'UsuÃ¡rio' -> 'Usuário'). Troca só as sequências
-    que batem exatamente com um caractere conhecido — nunca mexe em 'Ã'/'Â'
-    legítimos de palavras como 'AÇÃO' (ver _construir_mapa_mojibake)."""
+    """Corrige mojibake: bytes UTF-8 que foram decodificados como cp1252/Latin-1
+    (ex: 'OrÃ§amento' -> 'Orçamento', 'PRÃ“TESE' -> 'PRÓTESE').
+
+    A fonte original usa cp1252 (Windows-1252) — por isso aspas curvas como em
+    'Ã“' aparecem no lugar de acentos (0x93 em cp1252 é “, que não existe em
+    Latin-1 puro). Tenta cp1252 primeiro e cai para Latin-1 como reserva.
+
+    Só tenta corrigir se houver sinal de mojibake (o 'Ã'/'Â' é a marca
+    característica dessa dupla-codificação); sem esse sinal, o texto já está
+    correto e é devolvido sem alteração. Se algum trecho tiver bytes realmente
+    inválidos (registro corrompido na origem), corrige o resto do texto e
+    substitui só o trecho quebrado, em vez de descartar a correção inteira."""
     if not texto:
         return ""
-    if not _MOJIBAKE_RE.search(texto):
+    if "Ã" not in texto and "Â" not in texto:
         return texto
-    return _MOJIBAKE_RE.sub(lambda m: _MOJIBAKE[m.group(0)], texto)
+
+    for codificacao in ("cp1252", "latin1"):
+        try:
+            return texto.encode(codificacao, errors="strict").decode("utf-8", errors="strict")
+        except (UnicodeDecodeError, UnicodeEncodeError):
+            continue
+
+    try:
+        return texto.encode("cp1252", errors="replace").decode("utf-8", errors="replace")
+    except UnicodeEncodeError:
+        return texto
 
 
 def tratar_texto(texto_html):
@@ -188,7 +175,8 @@ def executar():
         total = len(solicitacoes)
 
         for idx, sol in enumerate(solicitacoes, start=1):
-            print(f"\n[{idx}/{total}] PG {sol['pg']} (prontuário {sol['codigo_prontuario']})")
+            nome_paciente = sol["nome"]
+            print(f"\n[{idx}/{total}] PG {sol['pg']} — {nome_paciente}")
 
             try:
                 # 1. Vai para a lista de pacientes e abre o filtro
@@ -280,7 +268,7 @@ def executar():
                     print("  Reiniciando o navegador do zero...")
                     raise
 
-                print(f"  ERRO ao processar PG {sol['pg']}: {e}")
+                print(f"  ERRO ao processar PG {sol['pg']} ({nome_paciente}): {e}")
                 try:
                     driver.get("https://app.clinicanasnuvens.com.br/pacientes")
                     time.sleep(2)
@@ -290,7 +278,7 @@ def executar():
                 continue
 
             except Exception as e:
-                print(f"  ERRO ao processar PG {sol['pg']}: {e}")
+                print(f"  ERRO ao processar PG {sol['pg']} ({nome_paciente}): {e}")
                 try:
                     driver.get("https://app.clinicanasnuvens.com.br/pacientes")
                     time.sleep(2)
