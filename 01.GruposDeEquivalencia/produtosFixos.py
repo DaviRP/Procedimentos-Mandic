@@ -10,7 +10,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 
-ARQUIVO = "01.GruposDeEquivalencia/produtoFixo.xlsx"
+ARQUIVO = "01.GruposDeEquivalencia/pilarBasico.xlsx"
 CLINICA = "FORTALEZA - GRUPO MANDIC"
 
 
