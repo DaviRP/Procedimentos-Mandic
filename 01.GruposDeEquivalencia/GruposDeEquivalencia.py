@@ -1,3 +1,4 @@
+import ctypes
 import openpyxl
 import os
 import time
@@ -8,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
-
+## Cadastrando grupo: Coping/Cilindro/Ucla/Tampa Proteção Básico — 834 produto(s)
 
 ARQUIVO = "01.GruposDeEquivalencia\grupos.xlsx"
 CLINICA = "GRANDE VITORIA - GRUPO MANDIC"
@@ -262,12 +263,21 @@ def executar():
         driver.quit()
 
 
+# Impede o Windows de suspender/hibernar enquanto o script roda
+ES_CONTINUOUS       = 0x80000000
+ES_SYSTEM_REQUIRED  = 0x00000001
+ctypes.windll.kernel32.SetThreadExecutionState(ES_CONTINUOUS | ES_SYSTEM_REQUIRED)
+
 # Reinicia tudo do zero em caso de qualquer erro
-while True:
-    try:
-        executar()
-        break
-    except Exception as e:
-        print(f"\nERRO: {e}")
-        print("Reiniciando em 10 segundos...")
-        time.sleep(3)
+try:
+    while True:
+        try:
+            executar()
+            break
+        except Exception as e:
+            print(f"\nERRO: {e}")
+            print("Reiniciando em 10 segundos...")
+            time.sleep(3)
+finally:
+    # Devolve o controle de energia ao Windows
+    ctypes.windll.kernel32.SetThreadExecutionState(ES_CONTINUOUS)
