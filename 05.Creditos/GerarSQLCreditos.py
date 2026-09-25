@@ -19,6 +19,14 @@ Mapeamento de colunas do CSV -> parâmetros da procedure:
     p_codtipopagamento-> valor fixo (config abaixo)
 
 Colunas do CSV não utilizadas pela procedure: IDLAN, CODCFO, DATAVENCIMENTO.
+
+Como usar:
+    1. Copie `modelo_creditos.csv` para `creditos.csv` e preencha uma linha por crédito
+       (PG, VALOR, DATAEMISSAO e, opcionalmente, IDLAN para rastreio).
+    2. Rode `python GerarSQLCreditos.py` e execute o `Creditos_Insert.sql` gerado.
+
+O CSV pode ser salvo pelo Excel: aceita separador `,` ou `;`, codificação UTF-8
+ou ANSI, e data em AAAA-MM-DD ou DD/MM/AAAA.
 """
 
 import csv
@@ -29,12 +37,11 @@ from pathlib import Path
 # CONFIGURAÇÃO — ajustar antes de rodar
 # =============================================================================
 
-ARQUIVO_CSV = "creditos.csv"
+ARQUIVO_CSV = "modelo_creditos.csv"
 ARQUIVO_SAIDA = "Creditos_Insert.sql"
-ENCODING_CSV = "utf-8"
 
-TENANT_ID = 14567
-CODCONTA = 25614
+TENANT_ID = 14551
+CODCONTA = 25740
 TIPODOCUMENTO = "CARTEIRA"
 NUMERODOCUMENTO = "31232"
 CODCATEGORIA = 616956
@@ -51,6 +58,31 @@ def escapar_sql(valor: str) -> str:
 def normalizar_valor(valor_str: str) -> str:
     """Converte '351,3' -> '351.3'; mantém '696' como está."""
     return valor_str.strip().replace(",", ".")
+
+
+def normalizar_data(data_str: str) -> str:
+    """Converte '13/07/2021' ou '2021-07-13' -> '2021-07-13'. Lança ValueError se inválida."""
+    data_str = data_str.strip()
+    for formato in ("%Y-%m-%d", "%d/%m/%Y"):
+        try:
+            return datetime.strptime(data_str, formato).strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+    raise ValueError(data_str)
+
+
+def ler_csv(caminho: Path) -> list[dict]:
+    """Lê o CSV aceitando UTF-8 (com/sem BOM) ou ANSI, e separador ',' ou ';'."""
+    try:
+        texto = caminho.read_text(encoding="utf-8-sig")
+    except UnicodeDecodeError:
+        texto = caminho.read_text(encoding="cp1252")
+
+    primeira_linha = texto.splitlines()[0] if texto else ""
+    separador = ";" if primeira_linha.count(";") > primeira_linha.count(",") else ","
+
+    leitor = csv.DictReader(texto.splitlines(), delimiter=separador)
+    return [{(k or "").strip(): (v or "") for k, v in linha.items()} for linha in leitor]
 
 
 def montar_call(linha: dict) -> str:
@@ -95,9 +127,7 @@ def main():
     caminho_csv = pasta_script / ARQUIVO_CSV
     caminho_saida = pasta_script / ARQUIVO_SAIDA
 
-    with caminho_csv.open(newline="", encoding=ENCODING_CSV) as f:
-        leitor = csv.DictReader(f)
-        linhas = list(leitor)
+    linhas = ler_csv(caminho_csv)
 
     blocos = []
     ignoradas = []
@@ -113,7 +143,7 @@ def main():
             continue
 
         try:
-            datetime.strptime(data, "%Y-%m-%d")
+            linha["DATAEMISSAO"] = normalizar_data(data)
         except ValueError:
             ignoradas.append((i, f"data inválida: {data!r}"))
             continue

@@ -10,8 +10,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 
-ARQUIVO = "01.GruposDeEquivalencia/pilarBasico.xlsx"
-CLINICA = "FORTALEZA - GRUPO MANDIC"
+ARQUIVO = "01.GruposDeEquivalencia\grupos.xlsx"
+CLINICA = "GRANDE VITORIA - GRUPO MANDIC"
 
 
 def carregar_grupos():
