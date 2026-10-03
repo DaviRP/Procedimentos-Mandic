@@ -11,27 +11,46 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 ## Cadastrando grupo: Coping/Cilindro/Ucla/Tampa Proteção Básico — 834 produto(s)
 
-ARQUIVO = "01.GruposDeEquivalencia\grupos.xlsx"
+# Planilha única com uma aba por script (ver Template Procedimentos, Grupos e Produtos.xlsx)
+ARQUIVO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Template Procedimentos, Grupos e Produtos.xlsx")
+ABA = "Grupos de equivalencia"
 CLINICA = "GRANDE VITORIA - GRUPO MANDIC"
+
+
+def _salvar_planilha(wb):
+    # Salva numa cópia e só depois troca pelo original (os.replace é atômico):
+    # se o script for interrompido no meio, a planilha original fica intacta.
+    tmp = ARQUIVO + ".tmp"
+    wb.save(tmp)
+    os.replace(tmp, ARQUIVO)
+
+
+def _idx_coluna(cabecalho, nome, obrigatoria=True):
+    # Busca a coluna pelo nome, ignorando maiúsculas/minúsculas e espaços nas pontas.
+    alvo = nome.strip().lower()
+    for i, c in enumerate(cabecalho):
+        if c and str(c).strip().lower() == alvo:
+            return i + 1
+    if obrigatoria:
+        raise ValueError(f"Coluna '{nome}' não encontrada na aba '{ABA}'. Colunas disponíveis: {cabecalho}")
+    return None
 
 
 def carregar_grupos():
     wb = openpyxl.load_workbook(ARQUIVO)
-    ws = wb.active
+    ws = wb[ABA]
     cabecalho = [cell.value for cell in ws[1]]
 
-    col_grupo        = cabecalho.index("Grupo de equivalência") + 1
-    col_numero       = cabecalho.index("Códº Fabricante") + 1
-    col_nome         = cabecalho.index("Nome do produto") + 1
-    col_identificador = cabecalho.index("Identificador (IDPRD)") + 1
+    col_grupo         = _idx_coluna(cabecalho, "Nome do Grupos")
+    col_identificador = _idx_coluna(cabecalho, "IDPRD")
+    col_nome          = _idx_coluna(cabecalho, "Nome Produto")
 
     # Cria coluna Status se não existir
-    if "Status" not in cabecalho:
+    col_status = _idx_coluna(cabecalho, "Status", obrigatoria=False)
+    if col_status is None:
         col_status = len(cabecalho) + 1
         ws.cell(row=1, column=col_status, value="Status")
-        wb.save(ARQUIVO)
-    else:
-        col_status = cabecalho.index("Status") + 1
+        _salvar_planilha(wb)
 
     # Pré-passagem: coleta grupos que já têm qualquer linha marcada como cadastrado
     grupos_cadastrados = set()
@@ -45,9 +64,8 @@ def carregar_grupos():
     grupos = {}
     for row in ws.iter_rows(min_row=2):
         num_row = row[0].row
-        grupo        = ws.cell(row=num_row, column=col_grupo).value
-        numero       = ws.cell(row=num_row, column=col_numero).value
-        nome         = ws.cell(row=num_row, column=col_nome).value
+        grupo         = ws.cell(row=num_row, column=col_grupo).value
+        nome          = ws.cell(row=num_row, column=col_nome).value
         identificador = ws.cell(row=num_row, column=col_identificador).value
 
         if not grupo:
@@ -60,19 +78,17 @@ def carregar_grupos():
             continue
 
         if grupo not in grupos:
-            grupos[grupo] = {"linha": num_row, "produtos": []}
+            grupos[grupo] = {"linhas": [], "produtos": []}
+        grupos[grupo]["linhas"].append(num_row)
 
-        if numero or nome or identificador:
-            numero_str = str(numero).strip() if numero else ""
+        if nome or identificador:
             nome_str = str(nome).strip() if nome else ""
-            identificador_str = str(identificador).strip() if identificador else ""
-            # Chave de dedup: identificador é o campo realmente único por produto
-            # (Numero Fabricante 2 costuma vir vazio na planilha, então não serve como chave)
-            chave = identificador_str or numero_str or nome_str
+            identificador_str = _texto_id(identificador)
+            # Chave de dedup: o IDPRD é o campo realmente único por produto
+            chave = identificador_str or nome_str
             ja_existe = any(p["chave"] == chave for p in grupos[grupo]["produtos"])
             if not ja_existe:
                 grupos[grupo]["produtos"].append({
-                    "numero": numero_str,
                     "nome": nome_str,
                     "identificador": identificador_str,
                     "chave": chave,
@@ -82,11 +98,21 @@ def carregar_grupos():
     return col_status, grupos
 
 
-def marcar_cadastrado(linha, col_status):
+def _texto_id(valor):
+    """IDPRD como texto: 12345.0 (número no Excel) -> '12345'."""
+    if valor is None:
+        return ""
+    if isinstance(valor, float) and valor.is_integer():
+        return str(int(valor))
+    return str(valor).strip()
+
+
+def marcar_cadastrado(linhas, col_status):
     wb = openpyxl.load_workbook(ARQUIVO)
-    ws = wb.active
-    ws.cell(row=linha, column=col_status, value="cadastrado")
-    wb.save(ARQUIVO)
+    ws = wb[ABA]
+    for linha in linhas:
+        ws.cell(row=linha, column=col_status, value="cadastrado")
+    _salvar_planilha(wb)
 
 
 def imprimir_grupos(grupos):
@@ -94,7 +120,7 @@ def imprimir_grupos(grupos):
     for nome, dados in list(grupos.items())[:1]:
         print(f"  [{nome}] — {len(dados['produtos'])} produto(s)")
         for p in dados["produtos"]:
-            print(f"    • {p['numero']} | {p['nome']}")
+            print(f"    • {p['identificador']} | {p['nome']}")
     print()
 
 
@@ -158,7 +184,7 @@ def executar():
         tempos = []
 
         for idx, (nome_grupo, dados) in enumerate(grupos.items(), start=1):
-            linha   = dados["linha"]
+            linhas   = dados["linhas"]
             produtos = dados["produtos"]
             print(f"\n[{idx}/{total}] Cadastrando grupo: {nome_grupo} — {len(produtos)} produto(s)")
             inicio = time.time()
@@ -198,7 +224,8 @@ def executar():
                 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                 time.sleep(0.5)
                 campo.click()
-                campo.send_keys(produto["identificador"])
+                # Busca pelo IDPRD; sem IDPRD na planilha, busca pelo nome do produto
+                campo.send_keys(produto["identificador"] or produto["nome"])
                 time.sleep(2)
 
                 campo.send_keys(Keys.ARROW_DOWN)
@@ -234,8 +261,8 @@ def executar():
             driver.execute_script("arguments[0].click();", botao_salvar)
             time.sleep(2)
 
-            # Marca como cadastrado no Excel
-            marcar_cadastrado(linha, col_status)
+            # Marca todas as linhas do grupo como cadastrado no Excel
+            marcar_cadastrado(linhas, col_status)
 
             tempos.append(time.time() - inicio)
             media = sum(tempos) / len(tempos)
@@ -263,10 +290,7 @@ def executar():
         driver.quit()
 
 
-# Impede o Windows de suspender/hibernar enquanto o script roda
-ES_CONTINUOUS       = 0x80000000
-ES_SYSTEM_REQUIRED  = 0x00000001
-ctypes.windll.kernel32.SetThreadExecutionState(ES_CONTINUOUS | ES_SYSTEM_REQUIRED)
+
 
 # Reinicia tudo do zero em caso de qualquer erro
 try:
@@ -277,7 +301,8 @@ try:
         except Exception as e:
             print(f"\nERRO: {e}")
             print("Reiniciando em 10 segundos...")
-            time.sleep(3)
+            time.sleep(10)
 finally:
-    # Devolve o controle de energia ao Windows
-    ctypes.windll.kernel32.SetThreadExecutionState(ES_CONTINUOUS)
+    # Devolve o controle de energia ao Windows (no Mac/Linux não existe windll)
+    if os.name == "nt":
+        ctypes.windll.kernel32.SetThreadExecutionState(0x80000000)  # ES_CONTINUOUS

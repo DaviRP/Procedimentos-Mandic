@@ -10,8 +10,10 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 
-ARQUIVO = "01.GruposDeEquivalencia/pilarBasico.xlsx"
-CLINICA = "FORTALEZA - GRUPO MANDIC"
+# Planilha única com uma aba por script (ver Template Procedimentos, Grupos e Produtos.xlsx)
+ARQUIVO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Template Procedimentos, Grupos e Produtos.xlsx")
+ABA = "Procedimentos e Produtos"
+CLINICA = "BRASILIA - GRUPO MANDIC"
 
 
 def _salvar_planilha(wb):
@@ -36,19 +38,28 @@ def _idx_coluna(cabecalho, nome, obrigatoria=True):
         if c and str(c).strip().lower() == alvo:
             return i + 1
     if obrigatoria:
-        raise ValueError(f"Coluna '{nome}' não encontrada na planilha. Colunas disponíveis: {cabecalho}")
+        raise ValueError(f"Coluna '{nome}' não encontrada na aba '{ABA}'. Colunas disponíveis: {cabecalho}")
     return None
+
+
+def _texto(valor):
+    """Célula -> texto: 2.0 (número no Excel) -> '2'; vazio -> ''."""
+    if valor is None:
+        return ""
+    if isinstance(valor, float) and valor.is_integer():
+        return str(int(valor))
+    return str(valor).strip()
 
 
 def carregar_procedimentos():
     wb = openpyxl.load_workbook(ARQUIVO)
-    ws = wb.active
+    ws = wb[ABA]
     cabecalho = [cell.value for cell in ws[1]]
 
-    col_procedimento  = _idx_coluna(cabecalho, "Procedimento")
-    col_numero        = _idx_coluna(cabecalho, "Numero Fabricante")
-    col_nome          = _idx_coluna(cabecalho, "Nome do produto")
-    col_identificador = _idx_coluna(cabecalho, "Identificador")
+    col_procedimento = _idx_coluna(cabecalho, "nome do Procedimento")
+    col_nome         = _idx_coluna(cabecalho, "Nome do produto")
+    col_numero       = _idx_coluna(cabecalho, "Numero Fabricante")
+    col_quantidade   = _idx_coluna(cabecalho, "Quantidade")
 
     col_status = _idx_coluna(cabecalho, "Status", obrigatoria=False)
     if col_status is None:
@@ -68,10 +79,10 @@ def carregar_procedimentos():
     procedimentos = {}
     for row in ws.iter_rows(min_row=2):
         num_row = row[0].row
-        procedimento  = ws.cell(row=num_row, column=col_procedimento).value
-        numero        = ws.cell(row=num_row, column=col_numero).value
-        nome          = ws.cell(row=num_row, column=col_nome).value
-        identificador = ws.cell(row=num_row, column=col_identificador).value
+        procedimento = ws.cell(row=num_row, column=col_procedimento).value
+        numero       = ws.cell(row=num_row, column=col_numero).value
+        nome         = ws.cell(row=num_row, column=col_nome).value
+        quantidade   = ws.cell(row=num_row, column=col_quantidade).value
 
         if not procedimento:
             continue
@@ -87,17 +98,16 @@ def carregar_procedimentos():
 
         procedimentos[procedimento]["linhas"].append(num_row)
 
-        numero_str        = str(numero).strip() if numero else ""
-        nome_str          = str(nome).strip() if nome else ""
-        identificador_str = str(identificador).strip() if identificador else ""
+        numero_str = _texto(numero)
+        nome_str   = _texto(nome)
 
         # Linha sem nenhuma informação de produto não gera vínculo — só
         # conta como parte do procedimento, sem entrar na lista a cadastrar.
-        if numero_str or nome_str or identificador_str:
+        if numero_str or nome_str:
             procedimentos[procedimento]["produtos"].append({
                 "numero": numero_str,
                 "nome": nome_str,
-                "identificador": identificador_str,
+                "quantidade": _texto(quantidade) or "1",
             })
 
     return col_status, procedimentos
@@ -105,7 +115,7 @@ def carregar_procedimentos():
 
 def marcar_cadastrado(linhas, col_status):
     wb = openpyxl.load_workbook(ARQUIVO)
-    ws = wb.active
+    ws = wb[ABA]
     for linha in linhas:
         ws.cell(row=linha, column=col_status, value="cadastrado")
     _salvar_planilha(wb)
@@ -225,18 +235,18 @@ def executar():
                 # seta pra baixo + enter.
                 campo_produto = wait.until(EC.element_to_be_clickable((By.ID, "produto")))
                 campo_produto.clear()
-                campo_produto.send_keys(produto["nome"])
+                # Busca pelo nome; sem nome na planilha, busca pelo Numero Fabricante
+                campo_produto.send_keys(produto["nome"] or produto["numero"])
                 time.sleep(1)
                 campo_produto.send_keys(Keys.ARROW_DOWN)
                 time.sleep(0.1)
                 campo_produto.send_keys(Keys.RETURN)
                 time.sleep(0.5)
 
-                # 7. Preenche a quantidade. A planilha não tem coluna
-                # "Quantidade" pra esse fluxo, então usa "1" fixo.
+                # 7. Preenche a quantidade (coluna "Quantidade"; vazia = 1)
                 campo_qtd = wait.until(EC.element_to_be_clickable((By.ID, "quantidade")))
                 campo_qtd.clear()
-                campo_qtd.send_keys("1")
+                campo_qtd.send_keys(produto["quantidade"])
                 time.sleep(0.3)
 
                 # 8. Salva o item

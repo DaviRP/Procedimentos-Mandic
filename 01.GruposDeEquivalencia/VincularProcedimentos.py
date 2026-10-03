@@ -10,9 +10,10 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 
-ARQUIVO = "01.GruposDeEquivalencia/procedimentos.xlsx"
-CLINICA = "FORTALEZA - GRUPO MANDIC"
-
+# Planilha única com uma aba por script (ver Template Procedimentos, Grupos e Produtos.xlsx)
+ARQUIVO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Template Procedimentos, Grupos e Produtos.xlsx")
+ABA = "Procedimentos e Grupos"
+CLINICA = "GRANDE VITORIA - GRUPO MANDIC"
 SEM_GRUPO = "sem grupo de equivalência"
 
 
@@ -38,18 +39,28 @@ def _idx_coluna(cabecalho, nome, obrigatoria=True):
         if c and str(c).strip().lower() == alvo:
             return i + 1
     if obrigatoria:
-        raise ValueError(f"Coluna '{nome}' não encontrada na planilha. Colunas disponíveis: {cabecalho}")
+        raise ValueError(f"Coluna '{nome}' não encontrada na aba '{ABA}'. Colunas disponíveis: {cabecalho}")
     return None
+
+
+def _texto(valor):
+    """Célula -> texto: 2.0 (número no Excel) -> '2'; vazio -> ''."""
+    if valor is None:
+        return ""
+    if isinstance(valor, float) and valor.is_integer():
+        return str(int(valor))
+    return str(valor).strip()
 
 
 def carregar_procedimentos():
     wb = openpyxl.load_workbook(ARQUIVO)
-    ws = wb.active
+    ws = wb[ABA]
     cabecalho = [cell.value for cell in ws[1]]
 
-    col_procedimento = _idx_coluna(cabecalho, "Nome")
-    col_grupo        = _idx_coluna(cabecalho, "Grupo")
+    col_procedimento = _idx_coluna(cabecalho, "Nome procedimento")
+    col_grupo        = _idx_coluna(cabecalho, "Nome do Grupo")
     col_quantidade   = _idx_coluna(cabecalho, "Quantidade")
+    col_produto_principal = _idx_coluna(cabecalho, "Produto principal")
 
     col_status = _idx_coluna(cabecalho, "Status", obrigatoria=False)
     if col_status is None:
@@ -72,6 +83,7 @@ def carregar_procedimentos():
         procedimento = ws.cell(row=num_row, column=col_procedimento).value
         grupo        = ws.cell(row=num_row, column=col_grupo).value
         quantidade   = ws.cell(row=num_row, column=col_quantidade).value
+        produto_principal = ws.cell(row=num_row, column=col_produto_principal).value
 
         if not procedimento:
             continue
@@ -95,7 +107,9 @@ def carregar_procedimentos():
         if grupo_str and grupo_str.lower() != SEM_GRUPO:
             procedimentos[procedimento]["grupos"].append({
                 "grupo": grupo_str,
-                "quantidade": str(quantidade).strip() if quantidade else "1",
+                "quantidade": _texto(quantidade) or "1",
+                # Vazio = usa o primeiro produto do grupo como produto padrão
+                "produto_principal": _texto(produto_principal),
             })
 
     return col_status, procedimentos
@@ -103,7 +117,7 @@ def carregar_procedimentos():
 
 def marcar_cadastrado(linhas, col_status):
     wb = openpyxl.load_workbook(ARQUIVO)
-    ws = wb.active
+    ws = wb[ABA]
     for linha in linhas:
         ws.cell(row=linha, column=col_status, value="cadastrado")
     _salvar_planilha(wb)
@@ -263,23 +277,35 @@ def executar():
                 campo_grupo.send_keys(Keys.RETURN)
                 time.sleep(0.5)
 
-                # 8. Abre a busca do "produto padrão" (ícone de lupa ao lado do
-                # campo #produto-equivalente), espera a lista carregar e
-                # seleciona o primeiro produto com seta pra baixo + enter.
-                # Manda as teclas direto pro input #produto-equivalente (não
-                # via ActionChains solto) pra garantir que caem no campo
-                # certo, e não em outro elemento que esteja com foco.
-                busca_produto_padrao = wait.until(EC.element_to_be_clickable(
-                    (By.CSS_SELECTOR, "span[data-autocomplete-ref='produto-equivalente']")
-                ))
-                driver.execute_script("arguments[0].click();", busca_produto_padrao)
-                time.sleep(1.5)
+                # 8. Produto padrão (campo #produto-equivalente).
+                # Com "Produto principal" na planilha: digita o nome no campo e
+                # seleciona a sugestão com seta pra baixo + enter.
+                # Sem ele: abre a busca pela lupa ao lado do campo e pega o
+                # primeiro produto do grupo (comportamento anterior).
+                # As teclas vão direto pro input #produto-equivalente (não via
+                # ActionChains solto) pra garantir que caem no campo certo.
+                campo_produto_padrao = wait.until(EC.presence_of_element_located((By.ID, "produto-equivalente")))
+                if grupo["produto_principal"]:
+                    campo_produto_padrao.click()
+                    campo_produto_padrao.clear()
+                    campo_produto_padrao.send_keys(grupo["produto_principal"])
+                    time.sleep(1.5)
+                else:
+                    busca_produto_padrao = wait.until(EC.element_to_be_clickable(
+                        (By.CSS_SELECTOR, "span[data-autocomplete-ref='produto-equivalente']")
+                    ))
+                    driver.execute_script("arguments[0].click();", busca_produto_padrao)
+                    time.sleep(1.5)
 
-                campo_produto_padrao = driver.find_element(By.ID, "produto-equivalente")
                 campo_produto_padrao.send_keys(Keys.ARROW_DOWN)
                 time.sleep(0.2)
                 campo_produto_padrao.send_keys(Keys.RETURN)
                 time.sleep(0.5)
+
+                if grupo["produto_principal"]:
+                    escolhido = (campo_produto_padrao.get_attribute("value") or "").strip()
+                    if grupo["produto_principal"].lower() not in escolhido.lower():
+                        print(f"  Atenção: produto padrão '{escolhido}' selecionado para '{grupo['produto_principal']}'.")
 
                 # 9. Preenche a quantidade (vem da planilha, coluna "Quantidade")
                 campo_qtd = wait.until(EC.element_to_be_clickable((By.ID, "quantidade")))

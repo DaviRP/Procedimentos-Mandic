@@ -1,6 +1,9 @@
 import openpyxl
 import csv
 import time
+import threading
+import traceback
+from datetime import datetime, timedelta
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -10,8 +13,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 
-ARQUIVO = "LISTA_PERFIL_TRATAMENTO.csv"
-CLINICA = "FORTALEZA - GRUPO MANDIC"
+ARQUIVO = "03.PerfilTratamento/LISTA_PERFIL_TRATAMENTO_PACIENTE_VITORIA.csv"
+CLINICA = "GRANDE VITORIA - GRUPO MANDIC"
 
 
 def normalizar_cpf(cpf):
@@ -97,6 +100,33 @@ def imprimir_amostra(pacientes, quantidade=10):
             print(f"  - {nome_perfil}: {subperfis}")
 
 
+def formatar_duracao(segundos):
+    segundos = int(segundos)
+    horas, resto = divmod(segundos, 3600)
+    minutos, segundos = divmod(resto, 60)
+    return f"{horas:02d}:{minutos:02d}:{segundos:02d}"
+
+
+def relogio_previsao(progresso, parar, intervalo=60):
+    """A cada `intervalo` segundos, imprime o tempo restante estimado para terminar."""
+    while not parar.wait(intervalo):
+        concluidos = progresso["concluidos"]
+        total = progresso["total"]
+        decorrido = time.time() - progresso["inicio"]
+
+        if concluidos == 0:
+            print(f"\n⏱  [{formatar_duracao(decorrido)} decorrido] Calculando previsão...")
+            continue
+
+        media = decorrido / concluidos
+        restante = media * (total - concluidos)
+        termino = datetime.now() + timedelta(seconds=restante)
+        print(
+            f"\n⏱  {concluidos}/{total} pacientes | média {media:.1f}s/paciente | "
+            f"restante: {formatar_duracao(restante)} | término previsto: {termino:%d/%m %H:%M}"
+        )
+
+
 def marcar_cadastrado(linhas, col_status):
     wb = openpyxl.load_workbook(ARQUIVO)
     ws = wb.active
@@ -117,6 +147,7 @@ def executar():
     opcoes.add_argument("--window-size=1920,1080")
     driver = webdriver.Chrome(options=opcoes)
     wait = WebDriverWait(driver, 15)
+    parar_relogio = threading.Event()
 
     try:
         # ── Login ──────────────────────────────────────────────────────────────
@@ -125,12 +156,12 @@ def executar():
         campo_email = wait.until(EC.presence_of_element_located(
             (By.XPATH, "/html/body/div[1]/div/div[2]/div[1]/div/div[3]/form/div[1]/input")
         ))
-        campo_email.send_keys("dpegoraro++++dpegoraro@bionexo.com")
+        campo_email.send_keys("mmerlo++++dpegoraro@bionexo.com")
         driver.find_element(By.XPATH, "/html/body/div[1]/div/div[2]/div[1]/div/div[3]/form/div[2]/button").click()
 
         campo_senha = wait.until(EC.element_to_be_clickable((By.ID, "password")))
         campo_senha.click()
-        campo_senha.send_keys("Bi0n3xdpegrr06")
+        campo_senha.send_keys("CNN@foguete")
         driver.find_element(By.XPATH, "/html/body/div[1]/div/div[2]/div[1]/div/div[4]/form/div[4]/button").click()
         time.sleep(5)
 
@@ -164,7 +195,11 @@ def executar():
         # ── Loop principal ─────────────────────────────────────────────────────
         total = len(pacientes)
 
+        progresso = {"concluidos": 0, "total": total, "inicio": time.time()}
+        threading.Thread(target=relogio_previsao, args=(progresso, parar_relogio), daemon=True).start()
+
         for idx, (cpf, dados) in enumerate(pacientes.items(), start=1):
+            progresso["concluidos"] = idx - 1
             nome_paciente = dados["nomePaciente"]
             print(f"\n[{idx}/{total}] Localizando: {nome_paciente} (CPF: {cpf})")
 
@@ -314,12 +349,23 @@ def executar():
 
                 continue
 
-        print("\nBusca de pacientes concluída!")
+        progresso["concluidos"] = total
+        print(f"\nBusca de pacientes concluída! Tempo total: {formatar_duracao(time.time() - progresso['inicio'])}")
 
     except Exception:
+        # Salva o estado da tela para diagnosticar onde travou
+        try:
+            driver.save_screenshot("03.PerfilTratamento/erro.png")
+            with open("03.PerfilTratamento/erro.html", "w", encoding="utf-8") as f:
+                f.write(driver.page_source)
+            print(f"\nURL no momento do erro: {driver.current_url}")
+            print("Screenshot salvo em 03.PerfilTratamento/erro.png")
+        except Exception:
+            pass
         raise
 
     finally:
+        parar_relogio.set()
         driver.quit()
 
 
@@ -329,6 +375,7 @@ while True:
         executar()
         break
     except Exception as e:
-        print(f"\nERRO: {e}")
+        print(f"\nERRO: {type(e).__name__}: {e}")
+        traceback.print_exc(limit=3)
         print("Reiniciando em 10 segundos...")
-        time.sleep(3)
+        time.sleep(10)
