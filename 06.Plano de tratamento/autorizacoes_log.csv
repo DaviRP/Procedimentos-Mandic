@@ -1,0 +1,19 @@
+data,idPlano,descricao,status,erro
+09/10/2026 11:24:58,309565,Detalhes | 309565 272647 TRANSCRIÇÃO ODONTOSING 02/10/2026 | 10:29 ANA PAULA SOUSA NUNES GRUPO MANDIC ana maria de oliveira ramos ana maria de oliveira ramos | Aberta,erro,"Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102944a84 chromedriver + 3508868
+1   chromedriver                        0x0000000102630f10 chromedriver + 282384
+2   chromedriver                        0x0000000102679d5c chromedriver + 580956
+3   chromedriver                        0x00000001026b9c30 chromedriver + 842800
+4   chromedriver                        0x000000010266f42c chromedriver + 537644
+5   chromedriver                        0x0000000102912e68 chromedriver + 3305064
+6   chromedriver                        0x0000000102916168 chromedriver + 3318120
+7   chromedriver                        0x00000001028fc42c chromedriver + 3212332
+8   chromedriver                        0x00000001029169f8 chromedriver + 3320312
+9   chromedriver                        0x00000001028eff00 chromedriver + 3161856
+10  chromedriver                        0x0000000102932fb4 chromedriver + 3436468
+11  chromedriver                        0x0000000102933114 chromedriver + 3436820
+12  chromedriver                        0x0000000102944744 chromedriver + 3508036
+13  libsystem_pthread.dylib             0x000000019eef1c08 _pthread_start + 132
+14  libsystem_pthread.dylib             0x000000019eeecb7c thread_start + 4
+"

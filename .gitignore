@@ -1,0 +1,6 @@
+# Integração lake Mandic: credencial e dados pessoais nunca vão para o git
+Integração lake Mandic/*.json
+Integração lake Mandic/*.csv
+Integração lake Mandic/saida_parquet/
+Integração lake Mandic/.venv/
+Integração lake Mandic/dados_csv/

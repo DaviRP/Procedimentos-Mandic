@@ -36,9 +36,9 @@ from openpyxl.utils import get_column_letter
 # Caminhos relativos à pasta do script, independente de onde ele é executado
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-ARQ_PLANOS = "Planos_de_tratamentos_Grande_Vitoria.xlsx"
+ARQ_PLANOS = "Planos de tratamento após 10.09 Vitória V Final.xlsx"
 ABA_PLANOS = "Planilha Final"
-ARQ_TEMPLATE = os.path.join("..", "01.GruposDeEquivalencia", "Template Procedimentos, Grupos e Produtos.xlsx")
+ARQ_TEMPLATE = "Template Procedimentos, Grupos e Produtos.xlsx"
 ABA_PROCEDIMENTOS = "Procedimentos"
 ABA_FICHA = "Procedimentos e Grupos"
 ABA_GRUPOS = "Grupos de equivalencia"

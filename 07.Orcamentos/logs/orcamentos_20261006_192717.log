@@ -1,0 +1,2513 @@
+19:27:18 Início da execução | 166 paciente(s) | 1 navegador(es) | headless | clínica SOU COLUNA RIO VERDE - Clínica da Coluna AMS
+19:27:18 Abrindo 1 navegador(es).
+19:27:32 [N1] Clínica 'SOU COLUNA RIO VERDE - Clínica da Coluna AMS' já selecionada.
+19:27:32 [N1] Sessão aberta.
+
+19:27:32 [N1] [1/166] ──────────────────────────────────────────────────
+19:27:32 [N1]   Paciente: Umberg Santana Dantas (CPF: 04765137589, prontuário 5447) | 27 linha(s) na planilha
+19:27:32 [N1]        26x SESSÃO INDIVIDUAL — R$ 68,53 cada
+19:27:32 [N1]         1x SESSÃO INDIVIDUAL — R$ 68,97 cada
+19:27:32 [N1]       Total do orçamento: R$ 1.850,75
+19:27:38 [N1]     Paciente selecionado: Umberg Santana Dantas
+19:27:38 [N1]     Item 1/2: 26x SESSÃO INDIVIDUAL — R$ 68,53
+19:27:46 [N1]     Item 2/2: 1x SESSÃO INDIVIDUAL — R$ 68,97
+19:27:59 [N1]     Parcelas geradas.
+19:27:59 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:27:59 [N1]     Salvando orçamento...
+19:28:08 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.850,75).
+
+19:28:08 [N1] [2/166] ──────────────────────────────────────────────────
+19:28:08 [N1]   Paciente: Wagner Guardiano Macedo (CPF: 85563544168, prontuário 8012) | 3 linha(s) na planilha
+19:28:08 [N1]         3x SESSÃO INDIVIDUAL — R$ 245,00 cada
+19:28:08 [N1]       Total do orçamento: R$ 735,00
+19:28:13 [N1]     Paciente selecionado: Wagner Guardiano Macedo
+19:28:13 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 245,00
+
+19:28:18 ⏱  1/166 pacientes (1%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 0 verificar
+19:28:18 ⏱  média 60s/paciente (somando os navegadores) | restante: 02:45:00 | término previsto: 06/10 22:13
+19:28:26 [N1]     Parcelas geradas.
+19:28:26 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:28:26 [N1]     Salvando orçamento...
+19:28:34 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 735,00).
+
+19:28:34 [N1] [3/166] ──────────────────────────────────────────────────
+19:28:34 [N1]   Paciente: Thieiner Alves Cabral (CPF: 03137470161, prontuário 6261) | 2 linha(s) na planilha
+19:28:34 [N1]         2x SESSÃO INDIVIDUAL — R$ 0,00 cada
+19:28:34 [N1]       Total do orçamento: R$ 0,00
+19:28:40 [N1]     Paciente selecionado: Thieiner Alves Cabral
+19:28:40 [N1]     Item 1/1: 2x SESSÃO INDIVIDUAL — R$ 0,00
+19:28:53 [N1]     Parcelas geradas.
+19:28:53 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:28:53 [N1]     Salvando orçamento...
+
+19:29:18 ⏱  2/166 pacientes (1%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 0 verificar
+19:29:18 ⏱  média 60s/paciente (somando os navegadores) | restante: 02:44:00 | término previsto: 06/10 22:13
+19:29:26 [N1]   ✖ ERRO no orçamento de 'Thieiner Alves Cabral' (CPF: 03137470161): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+19:29:26 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/03137470161_orcamento.png
+19:29:26 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+19:29:26 [N1] [4/166] ──────────────────────────────────────────────────
+19:29:26 [N1]   Paciente: Marcos Antônio Dos Santos (CPF: 91085276600, prontuário 8507) | 1 linha(s) na planilha
+19:29:26 [N1]         1x SESSÃO CORTESIA — R$ 300,00 cada
+19:29:26 [N1]       Total do orçamento: R$ 300,00
+19:29:32 [N1]     Paciente selecionado: Marcos Antônio dos Santos
+19:29:32 [N1]     Item 1/1: 1x SESSÃO CORTESIA — R$ 300,00
+19:29:45 [N1]     Parcelas geradas.
+19:29:46 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:29:46 [N1]     Salvando orçamento...
+19:29:54 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 300,00).
+
+19:29:54 [N1] [5/166] ──────────────────────────────────────────────────
+19:29:54 [N1]   Paciente: Paloma Cruvinel Cabral (CPF: 70743245156, prontuário 8480) | 5 linha(s) na planilha
+19:29:54 [N1]         5x SESSÃO INDIVIDUAL — R$ 233,36 cada
+19:29:54 [N1]       Total do orçamento: R$ 1.166,80
+19:30:00 [N1]     Paciente selecionado: Paloma Cruvinel Cabral
+19:30:00 [N1]     Item 1/1: 5x SESSÃO INDIVIDUAL — R$ 233,36
+19:30:13 [N1]     Parcelas geradas.
+19:30:14 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:30:14 [N1]     Salvando orçamento...
+
+19:30:18 ⏱  4/166 pacientes (2%) | ✔ 3 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:30:18 ⏱  média 45s/paciente (somando os navegadores) | restante: 02:01:30 | término previsto: 06/10 21:31
+19:30:22 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 1.166,80).
+
+19:30:22 [N1] [6/166] ──────────────────────────────────────────────────
+19:30:22 [N1]   Paciente: Irene Alves Dos Santos (CPF: 01403309175, prontuário 9092) | 35 linha(s) na planilha
+19:30:22 [N1]        35x SESSÃO INDIVIDUAL — R$ 235,00 cada
+19:30:22 [N1]       Total do orçamento: R$ 8.225,00
+19:30:27 [N1]     Paciente selecionado: Irene Alves dos Santos
+19:30:28 [N1]     Item 1/1: 35x SESSÃO INDIVIDUAL — R$ 235,00
+19:30:40 [N1]     Parcelas geradas.
+19:30:41 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:30:41 [N1]     Salvando orçamento...
+19:30:49 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 8.225,00).
+
+19:30:49 [N1] [7/166] ──────────────────────────────────────────────────
+19:30:49 [N1]   Paciente: Anisio Peres De Carvalho (CPF: 49362135191, prontuário 9071) | 1 linha(s) na planilha
+19:30:49 [N1]         1x SESSÃO CORTESIA — R$ 300,00 cada
+19:30:49 [N1]       Total do orçamento: R$ 300,00
+19:30:55 [N1]     Paciente selecionado: Anisio Peres de Carvalho
+19:30:55 [N1]     Item 1/1: 1x SESSÃO CORTESIA — R$ 300,00
+19:31:07 [N1]     Parcelas geradas.
+19:31:08 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:31:08 [N1]     Salvando orçamento...
+19:31:16 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 300,00).
+
+19:31:16 [N1] [8/166] ──────────────────────────────────────────────────
+19:31:16 [N1]   Paciente: Nilson Correa Neves (CPF: 30622212168, prontuário 9299) | 5 linha(s) na planilha
+19:31:16 [N1]         5x SESSÃO CORTESIA — R$ 330,00 cada
+19:31:16 [N1]       Total do orçamento: R$ 1.650,00
+
+19:31:18 ⏱  7/166 pacientes (4%) | ✔ 6 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:31:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 01:30:51 | término previsto: 06/10 21:02
+19:31:23 [N1]     Paciente selecionado: Nilson Correa Neves
+19:31:23 [N1]     Item 1/1: 5x SESSÃO CORTESIA — R$ 330,00
+19:31:36 [N1]     Parcelas geradas.
+19:31:36 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:31:36 [N1]     Salvando orçamento...
+19:31:44 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 1.650,00).
+
+19:31:44 [N1] [9/166] ──────────────────────────────────────────────────
+19:31:44 [N1]   Paciente: Claudio Cardoso Do Nascimento (CPF: 02504969503, prontuário 9200) | 19 linha(s) na planilha
+19:31:44 [N1]        19x SESSÃO INDIVIDUAL — R$ 265,00 cada
+19:31:44 [N1]       Total do orçamento: R$ 5.035,00
+19:31:50 [N1]     Paciente selecionado: Claudio Cardoso do Nascimento
+19:31:51 [N1]     Item 1/1: 19x SESSÃO INDIVIDUAL — R$ 265,00
+19:32:03 [N1]     Parcelas geradas.
+19:32:04 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:32:04 [N1]     Salvando orçamento...
+19:32:12 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 5.035,00).
+
+19:32:12 [N1] [10/166] ──────────────────────────────────────────────────
+19:32:12 [N1]   Paciente: Fernando Braga Da Silva (CPF: 03208405146, prontuário 10371) | 22 linha(s) na planilha
+19:32:12 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 269,50 cada
+19:32:12 [N1]         3x REAVALIAÇÃO — R$ 269,50 cada
+19:32:12 [N1]         9x ETAPA 1/24 - CORREÇÃO — R$ 269,50 cada
+19:32:12 [N1]       Total do orçamento: R$ 5.929,00
+
+19:32:18 ⏱  9/166 pacientes (5%) | ✔ 8 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:32:18 ⏱  média 33s/paciente (somando os navegadores) | restante: 01:27:13 | término previsto: 06/10 20:59
+19:32:18 [N1]     Paciente selecionado: Fernando Braga da Silva
+19:32:18 [N1]     Item 1/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 269,50
+19:32:26 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 269,50
+19:32:32 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:32:35 [N1]     Item 3/3: 9x ETAPA 1/24 - CORREÇÃO — R$ 269,50
+19:32:47 [N1]     Parcelas geradas.
+19:32:48 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:32:48 [N1]     Salvando orçamento...
+19:32:56 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 5.929,00).
+
+19:32:56 [N1] [11/166] ──────────────────────────────────────────────────
+19:32:56 [N1]   Paciente: Cleonice De Sousa Brito. (CPF: 76768279149, prontuário 10520) | 26 linha(s) na planilha
+19:32:56 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 262,50 cada
+19:32:56 [N1]         3x REAVALIAÇÃO — R$ 262,50 cada
+19:32:56 [N1]         2x ETAPA 1/24 - CORREÇÃO — R$ 262,50 cada
+19:32:56 [N1]       Total do orçamento: R$ 6.825,00
+19:33:02 [N1]     Paciente selecionado: Cleonice de Sousa Brito.
+19:33:02 [N1]     Item 1/3: 21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 262,50
+19:33:11 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 262,50
+19:33:17 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+
+19:33:18 ⏱  10/166 pacientes (6%) | ✔ 9 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:33:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 01:33:36 | término previsto: 06/10 21:06
+19:33:19 [N1]     Item 3/3: 2x ETAPA 1/24 - CORREÇÃO — R$ 262,50
+19:33:32 [N1]     Parcelas geradas.
+19:33:33 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:33:33 [N1]     Salvando orçamento...
+19:33:41 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 6.825,00).
+
+19:33:41 [N1] [12/166] ──────────────────────────────────────────────────
+19:33:41 [N1]   Paciente: Ana Paula Ferreira Siqueira (CPF: 00698120124, prontuário 11350) | 18 linha(s) na planilha
+19:33:41 [N1]        15x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00 cada
+19:33:41 [N1]         3x REAVALIAÇÃO — R$ 245,00 cada
+19:33:41 [N1]       Total do orçamento: R$ 4.410,00
+19:33:47 [N1]     Paciente selecionado: Ana Paula Ferreira Siqueira
+19:33:47 [N1]     Item 1/2: 15x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00
+19:33:55 [N1]     Item 2/2: 3x REAVALIAÇÃO — R$ 245,00
+19:34:01 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:34:08 [N1]     Parcelas geradas.
+19:34:09 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:34:09 [N1]     Salvando orçamento...
+19:34:17 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 4.410,00).
+
+19:34:17 [N1] [13/166] ──────────────────────────────────────────────────
+19:34:17 [N1]   Paciente: Robson Camargo Dos Santos (CPF: 85757519134, prontuário 11341) | 19 linha(s) na planilha
+19:34:17 [N1]        16x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00 cada
+19:34:17 [N1]         3x REAVALIAÇÃO — R$ 245,00 cada
+19:34:17 [N1]       Total do orçamento: R$ 4.655,00
+
+19:34:18 ⏱  12/166 pacientes (7%) | ✔ 11 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:34:18 ⏱  média 35s/paciente (somando os navegadores) | restante: 01:29:50 | término previsto: 06/10 21:04
+19:34:23 [N1]     Paciente selecionado: Robson Camargo dos Santos
+19:34:23 [N1]     Item 1/2: 16x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00
+19:34:31 [N1]     Item 2/2: 3x REAVALIAÇÃO — R$ 245,00
+19:34:37 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:34:44 [N1]     Parcelas geradas.
+19:34:45 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:34:45 [N1]     Salvando orçamento...
+19:34:53 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 4.655,00).
+
+19:34:53 [N1] [14/166] ──────────────────────────────────────────────────
+19:34:53 [N1]   Paciente: Luciano De Andrade Araujo (CPF: 60415323398, prontuário 11091) | 7 linha(s) na planilha
+19:34:53 [N1]         5x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 265,00 cada
+19:34:53 [N1]         2x REAVALIAÇÃO — R$ 265,00 cada
+19:34:53 [N1]       Total do orçamento: R$ 1.855,00
+19:34:59 [N1]     Paciente selecionado: Luciano de Andrade Araujo
+19:34:59 [N1]     Item 1/2: 5x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 265,00
+19:35:07 [N1]     Item 2/2: 2x REAVALIAÇÃO — R$ 265,00
+19:35:13 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+
+19:35:18 ⏱  13/166 pacientes (8%) | ✔ 12 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:35:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 01:34:09 | término previsto: 06/10 21:09
+19:35:20 [N1]     Parcelas geradas.
+19:35:21 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:35:21 [N1]     Salvando orçamento...
+19:35:29 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.855,00).
+
+19:35:29 [N1] [15/166] ──────────────────────────────────────────────────
+19:35:29 [N1]   Paciente: Marcos Aguiar Lemes (CPF: 03008004288, prontuário 10796) | 1 linha(s) na planilha
+19:35:29 [N1]         1x REAVALIAÇÃO — R$ 250,00 cada
+19:35:29 [N1]       Total do orçamento: R$ 250,00
+19:35:34 [N1]     Paciente selecionado: Marcos Aguiar Lemes
+19:35:34 [N1]     Item 1/1: 1x REAVALIAÇÃO — R$ 250,00
+19:35:40 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:35:47 [N1]     Parcelas geradas.
+19:35:48 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:35:48 [N1]     Salvando orçamento...
+19:35:56 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 250,00).
+
+19:35:56 [N1] [16/166] ──────────────────────────────────────────────────
+19:35:56 [N1]   Paciente: Isadora Machado De Moraes (CPF: 05785419122, prontuário 11677) | 15 linha(s) na planilha
+19:35:56 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00 cada
+19:35:56 [N1]         3x REAVALIAÇÃO — R$ 245,00 cada
+19:35:56 [N1]         2x ETAPA 1/24 - CORREÇÃO — R$ 245,00 cada
+19:35:56 [N1]       Total do orçamento: R$ 3.675,00
+19:36:02 [N1]     Paciente selecionado: Isadora Machado de Moraes
+19:36:02 [N1]     Item 1/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00
+19:36:10 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 245,00
+19:36:16 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+
+19:36:18 ⏱  15/166 pacientes (9%) | ✔ 14 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:36:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 01:30:36 | término previsto: 06/10 21:06
+19:36:19 [N1]     Item 3/3: 2x ETAPA 1/24 - CORREÇÃO — R$ 245,00
+19:36:31 [N1]     Parcelas geradas.
+19:36:32 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:36:32 [N1]     Salvando orçamento...
+19:36:40 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 3.675,00).
+
+19:36:40 [N1] [17/166] ──────────────────────────────────────────────────
+19:36:40 [N1]   Paciente: Alessandro Cassia E Silva (CPF: 78195195172, prontuário 2937) | 9 linha(s) na planilha
+19:36:40 [N1]         9x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 68,53 cada
+19:36:40 [N1]       Total do orçamento: R$ 616,77
+19:36:46 [N1]     Paciente selecionado: Alessandro Cassia e Silva
+19:36:46 [N1]     Item 1/1: 9x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 68,53
+19:36:58 [N1]     Parcelas geradas.
+19:36:59 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:36:59 [N1]     Salvando orçamento...
+19:37:07 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 616,77).
+
+19:37:07 [N1] [18/166] ──────────────────────────────────────────────────
+19:37:07 [N1]   Paciente: Silvia De Jesus Figueira (CPF: 35737158268, prontuário 11978) | 2 linha(s) na planilha
+19:37:07 [N1]         1x ETAPA 1/24 - CORREÇÃO — R$ 280,00 cada
+19:37:07 [N1]         1x REAVALIAÇÃO — R$ 280,00 cada
+19:37:07 [N1]       Total do orçamento: R$ 560,00
+19:37:13 [N1]     Paciente selecionado: Silvia de Jesus figueira
+19:37:13 [N1]     Item 1/2: 1x ETAPA 1/24 - CORREÇÃO — R$ 280,00
+
+19:37:18 ⏱  17/166 pacientes (10%) | ✔ 16 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:37:18 ⏱  média 35s/paciente (somando os navegadores) | restante: 01:27:39 | término previsto: 06/10 21:04
+19:37:21 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 280,00
+19:37:27 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:37:33 [N1]     Parcelas geradas.
+19:37:34 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:37:34 [N1]     Salvando orçamento...
+19:37:43 [N1]   ✔ Orçamento cadastrado em 35s (2 item(ns), total R$ 560,00).
+
+19:37:43 [N1] [19/166] ──────────────────────────────────────────────────
+19:37:43 [N1]   Paciente: Débora Mota Santos (CPF: 04565261103, prontuário 12444) | 2 linha(s) na planilha
+19:37:43 [N1]         1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00 cada
+19:37:43 [N1]         1x REAVALIAÇÃO — R$ 245,00 cada
+19:37:43 [N1]       Total do orçamento: R$ 490,00
+19:37:49 [N1]     Paciente selecionado: Débora Mota Santos
+19:37:49 [N1]     Item 1/2: 1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00
+19:37:57 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 245,00
+19:38:03 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:38:09 [N1]     Parcelas geradas.
+19:38:10 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:38:10 [N1]     Salvando orçamento...
+
+19:38:18 ⏱  18/166 pacientes (11%) | ✔ 17 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:38:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 01:30:27 | término previsto: 06/10 21:08
+19:38:18 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 490,00).
+
+19:38:18 [N1] [20/166] ──────────────────────────────────────────────────
+19:38:18 [N1]   Paciente: Nelci Terezinha Rossetti (CPF: 00372000118, prontuário 12604) | 4 linha(s) na planilha
+19:38:18 [N1]         1x REAVALIAÇÃO — R$ 233,45 cada
+19:38:18 [N1]         1x REAVALIAÇÃO — R$ 233,33 cada
+19:38:18 [N1]         2x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 233,33 cada
+19:38:18 [N1]       Total do orçamento: R$ 933,44
+19:38:24 [N1]     Paciente selecionado: Nelci Terezinha Rossetti
+19:38:25 [N1]     Item 1/3: 1x REAVALIAÇÃO — R$ 233,45
+19:38:30 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:38:33 [N1]     Item 2/3: 1x REAVALIAÇÃO — R$ 233,33
+19:38:39 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:38:41 [N1]     Item 3/3: 2x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 233,33
+19:38:54 [N1]     Parcelas geradas.
+19:38:55 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:38:55 [N1]     Salvando orçamento...
+19:39:03 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 933,44).
+
+19:39:03 [N1] [21/166] ──────────────────────────────────────────────────
+19:39:03 [N1]   Paciente: Everson Felisberto Almeida Soares (CPF: 70375394141, prontuário 12745) | 17 linha(s) na planilha
+19:39:03 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 265,00 cada
+19:39:03 [N1]         3x REAVALIAÇÃO — R$ 265,00 cada
+19:39:03 [N1]         4x ETAPA 1/24 - CORREÇÃO — R$ 265,00 cada
+19:39:03 [N1]       Total do orçamento: R$ 4.505,00
+19:39:08 [N1]     Paciente selecionado: Everson Felisberto Almeida soares
+19:39:09 [N1]     Item 1/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 265,00
+19:39:17 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 265,00
+
+19:39:18 ⏱  20/166 pacientes (12%) | ✔ 19 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:39:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 01:27:36 | término previsto: 06/10 21:06
+19:39:23 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:39:25 [N1]     Item 3/3: 4x ETAPA 1/24 - CORREÇÃO — R$ 265,00
+19:39:38 [N1]     Parcelas geradas.
+19:39:39 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:39:39 [N1]     Salvando orçamento...
+19:39:47 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 4.505,00).
+
+19:39:47 [N1] [22/166] ──────────────────────────────────────────────────
+19:39:47 [N1]   Paciente: Angélica Da Silva Andrade (CPF: 04660104192, prontuário 12972) | 14 linha(s) na planilha
+19:39:47 [N1]         3x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 222,00 cada
+19:39:47 [N1]         1x REAVALIAÇÃO — R$ 223,18 cada
+19:39:47 [N1]         1x REAVALIAÇÃO — R$ 222,00 cada
+19:39:47 [N1]         8x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 222,22 cada
+19:39:47 [N1]         1x REAVALIAÇÃO — R$ 222,22 cada
+19:39:47 [N1]       Total do orçamento: R$ 3.111,16
+19:39:52 [N1]     Paciente selecionado: Angélica da Silva Andrade
+19:39:53 [N1]     Item 1/5: 3x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 222,00
+19:40:01 [N1]     Item 2/5: 1x REAVALIAÇÃO — R$ 223,18
+19:40:07 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:40:10 [N1]     Item 3/5: 1x REAVALIAÇÃO — R$ 222,00
+19:40:16 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+
+19:40:18 ⏱  21/166 pacientes (13%) | ✔ 20 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:40:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 01:29:46 | término previsto: 06/10 21:10
+19:40:18 [N1]     Item 4/5: 8x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 222,22
+19:40:27 [N1]     Item 5/5: 1x REAVALIAÇÃO — R$ 222,22
+19:40:33 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:40:39 [N1]     Parcelas geradas.
+19:40:40 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:40:40 [N1]     Salvando orçamento...
+19:40:48 [N1]   ✔ Orçamento cadastrado em 62s (5 item(ns), total R$ 3.111,16).
+
+19:40:48 [N1] [23/166] ──────────────────────────────────────────────────
+19:40:48 [N1]   Paciente: José Laurindo De Moraes (CPF: 39747786168, prontuário 12676) | 1 linha(s) na planilha
+19:40:48 [N1]         1x REAVALIAÇÃO — R$ 245,00 cada
+19:40:48 [N1]       Total do orçamento: R$ 245,00
+19:40:54 [N1]     Paciente selecionado: José laurindo de Moraes
+19:40:54 [N1]     Item 1/1: 1x REAVALIAÇÃO — R$ 245,00
+19:41:00 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:41:07 [N1]     Parcelas geradas.
+19:41:08 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:41:08 [N1]     Salvando orçamento...
+19:41:16 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 245,00).
+
+19:41:16 [N1] [24/166] ──────────────────────────────────────────────────
+19:41:16 [N1]   Paciente: José Dias Da Silva (CPF: 85850111573, prontuário 13395) | 18 linha(s) na planilha
+19:41:16 [N1]        15x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00 cada
+19:41:16 [N1]         3x REAVALIAÇÃO — R$ 245,00 cada
+19:41:16 [N1]       Total do orçamento: R$ 4.410,00
+
+19:41:18 ⏱  23/166 pacientes (14%) | ✔ 22 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:41:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 01:27:03 | término previsto: 06/10 21:08
+19:41:21 [N1]     Paciente selecionado: José Dias da Silva
+19:41:21 [N1]     Item 1/2: 15x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00
+19:41:30 [N1]     Item 2/2: 3x REAVALIAÇÃO — R$ 245,00
+19:41:36 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:41:42 [N1]     Parcelas geradas.
+19:41:43 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:41:43 [N1]     Salvando orçamento...
+19:41:51 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 4.410,00).
+
+19:41:51 [N1] [25/166] ──────────────────────────────────────────────────
+19:41:51 [N1]   Paciente: Lucas Moraes Braz Da Silva (CPF: 70466371136, prontuário 13426) | 6 linha(s) na planilha
+19:41:51 [N1]         4x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00 cada
+19:41:51 [N1]         2x REAVALIAÇÃO — R$ 245,00 cada
+19:41:51 [N1]       Total do orçamento: R$ 1.470,00
+19:41:57 [N1]     Paciente selecionado: Lucas Moraes Braz da Silva
+19:41:57 [N1]     Item 1/2: 4x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00
+19:42:06 [N1]     Item 2/2: 2x REAVALIAÇÃO — R$ 245,00
+19:42:11 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+
+19:42:18 ⏱  24/166 pacientes (14%) | ✔ 23 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:42:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:28:45 | término previsto: 06/10 21:11
+19:42:18 [N1]     Parcelas geradas.
+19:42:19 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:42:19 [N1]     Salvando orçamento...
+19:42:27 [N1]   ✔ Orçamento cadastrado em 35s (2 item(ns), total R$ 1.470,00).
+
+19:42:27 [N1] [26/166] ──────────────────────────────────────────────────
+19:42:27 [N1]   Paciente: Osvaldo Cardoso De Oliveira (CPF: 88049515591, prontuário 13635) | 16 linha(s) na planilha
+19:42:27 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 265,00 cada
+19:42:27 [N1]         3x REAVALIAÇÃO — R$ 265,00 cada
+19:42:27 [N1]         3x ETAPA 1/24 - CORREÇÃO — R$ 265,00 cada
+19:42:27 [N1]       Total do orçamento: R$ 4.240,00
+19:42:33 [N1]     Paciente selecionado: Osvaldo Cardoso de Oliveira
+19:42:33 [N1]     Item 1/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 265,00
+19:42:42 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 265,00
+19:42:47 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:42:50 [N1]     Item 3/3: 3x ETAPA 1/24 - CORREÇÃO — R$ 265,00
+19:43:02 [N1]     Parcelas geradas.
+19:43:03 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:43:03 [N1]     Salvando orçamento...
+19:43:11 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 4.240,00).
+
+19:43:11 [N1] [27/166] ──────────────────────────────────────────────────
+19:43:11 [N1]   Paciente: Mauro Antonio Modzelewski (CPF: 76724301068, prontuário 13990) | 29 linha(s) na planilha
+19:43:11 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00 cada
+19:43:11 [N1]         3x REAVALIAÇÃO — R$ 245,00 cada
+19:43:11 [N1]         5x ETAPA 1/24 - CORREÇÃO — R$ 245,00 cada
+19:43:11 [N1]       Total do orçamento: R$ 7.105,00
+19:43:17 [N1]     Paciente selecionado: Mauro Antonio Modzelewski
+19:43:17 [N1]     Item 1/3: 21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00
+
+19:43:18 ⏱  26/166 pacientes (16%) | ✔ 25 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:43:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 01:26:09 | término previsto: 06/10 21:09
+19:43:26 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 245,00
+19:43:31 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:43:34 [N1]     Item 3/3: 5x ETAPA 1/24 - CORREÇÃO — R$ 245,00
+19:43:47 [N1]     Parcelas geradas.
+19:43:47 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:43:47 [N1]     Salvando orçamento...
+19:43:56 [N1]   ✔ Orçamento cadastrado em 45s (3 item(ns), total R$ 7.105,00).
+
+19:43:56 [N1] [28/166] ──────────────────────────────────────────────────
+19:43:56 [N1]   Paciente: Laura Loise Tasinafo Zago (CPF: 02703949154, prontuário 13714) | 28 linha(s) na planilha
+19:43:56 [N1]         3x REAVALIAÇÃO — R$ 245,00 cada
+19:43:56 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00 cada
+19:43:56 [N1]         4x ETAPA 1/24 - CORREÇÃO — R$ 245,00 cada
+19:43:56 [N1]       Total do orçamento: R$ 6.860,00
+19:44:01 [N1]     Paciente selecionado: Laura Loise Tasinafo Zago
+19:44:02 [N1]     Item 1/3: 3x REAVALIAÇÃO — R$ 245,00
+19:44:07 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:44:10 [N1]     Item 2/3: 21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00
+
+19:44:18 ⏱  27/166 pacientes (16%) | ✔ 26 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:44:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:27:31 | término previsto: 06/10 21:11
+19:44:19 [N1]     Item 3/3: 4x ETAPA 1/24 - CORREÇÃO — R$ 245,00
+19:44:31 [N1]     Parcelas geradas.
+19:44:32 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:44:32 [N1]     Salvando orçamento...
+19:44:40 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 6.860,00).
+
+19:44:40 [N1] [29/166] ──────────────────────────────────────────────────
+19:44:40 [N1]   Paciente: Wenderson Francisco Dos Santos (CPF: 92633757120, prontuário 14479) | 1 linha(s) na planilha
+19:44:40 [N1]         1x RETORNO — R$ 0,00 cada
+19:44:40 [N1]       Total do orçamento: R$ 0,00
+19:44:46 [N1]     Paciente selecionado: Wenderson Francisco dos santos
+19:44:46 [N1]     Item 1/1: 1x RETORNO — R$ 0,00
+19:44:58 [N1]     Parcelas geradas.
+19:44:59 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:44:59 [N1]     Salvando orçamento...
+
+19:45:18 ⏱  28/166 pacientes (17%) | ✔ 27 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+19:45:18 ⏱  média 39s/paciente (somando os navegadores) | restante: 01:28:43 | término previsto: 06/10 21:14
+19:45:32 [N1]   ✖ ERRO no orçamento de 'Wenderson Francisco Dos Santos' (CPF: 92633757120): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+19:45:32 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/92633757120_orcamento.png
+19:45:32 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+19:45:32 [N1] [30/166] ──────────────────────────────────────────────────
+19:45:32 [N1]   Paciente: Carla Maria Mantelli (CPF: 98793217153, prontuário 14829) | 29 linha(s) na planilha
+19:45:32 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00 cada
+19:45:32 [N1]         3x REAVALIAÇÃO — R$ 245,00 cada
+19:45:32 [N1]         5x ETAPA 1/24 - CORREÇÃO — R$ 245,00 cada
+19:45:32 [N1]       Total do orçamento: R$ 7.105,00
+19:45:38 [N1]     Paciente selecionado: Carla Maria Mantelli
+19:45:38 [N1]     Item 1/3: 21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00
+19:45:47 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 245,00
+19:45:53 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:45:56 [N1]     Item 3/3: 5x ETAPA 1/24 - CORREÇÃO — R$ 245,00
+19:46:08 [N1]     Parcelas geradas.
+19:46:09 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:46:09 [N1]     Salvando orçamento...
+19:46:17 [N1]   ✔ Orçamento cadastrado em 45s (3 item(ns), total R$ 7.105,00).
+
+19:46:17 [N1] [31/166] ──────────────────────────────────────────────────
+19:46:17 [N1]   Paciente: José Pinheiro De Santana (CPF: 69410160197, prontuário 16260) | 3 linha(s) na planilha
+19:46:17 [N1]         2x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 265,00 cada
+19:46:17 [N1]         1x REAVALIAÇÃO — R$ 265,00 cada
+19:46:17 [N1]       Total do orçamento: R$ 795,00
+
+19:46:18 ⏱  30/166 pacientes (18%) | ✔ 28 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:46:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:26:08 | término previsto: 06/10 21:12
+19:46:23 [N1]     Paciente selecionado: José Pinheiro de Santana
+19:46:23 [N1]     Item 1/2: 2x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 265,00
+19:46:31 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 265,00
+19:46:37 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:46:43 [N1]     Parcelas geradas.
+19:46:44 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:46:44 [N1]     Salvando orçamento...
+19:46:52 [N1]   ✔ Orçamento cadastrado em 35s (2 item(ns), total R$ 795,00).
+
+19:46:52 [N1] [32/166] ──────────────────────────────────────────────────
+19:46:52 [N1]   Paciente: Weverton Oliveira De Sousa Paula (CPF: 63422565191, prontuário 16276) | 22 linha(s) na planilha
+19:46:52 [N1]         1x REAVALIAÇÃO — R$ 222,30 cada
+19:46:52 [N1]         2x REAVALIAÇÃO — R$ 222,22 cada
+19:46:52 [N1]        19x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 222,22 cada
+19:46:52 [N1]       Total do orçamento: R$ 4.888,92
+19:46:58 [N1]     Paciente selecionado: Weverton Oliveira de Sousa Paula
+19:46:59 [N1]     Item 1/3: 1x REAVALIAÇÃO — R$ 222,30
+19:47:04 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:47:07 [N1]     Item 2/3: 2x REAVALIAÇÃO — R$ 222,22
+19:47:13 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:47:16 [N1]     Item 3/3: 19x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 222,22
+
+19:47:18 ⏱  31/166 pacientes (19%) | ✔ 29 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:47:18 ⏱  média 39s/paciente (somando os navegadores) | restante: 01:27:06 | término previsto: 06/10 21:14
+19:47:28 [N1]     Parcelas geradas.
+19:47:29 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:47:29 [N1]     Salvando orçamento...
+19:47:37 [N1]   ✔ Orçamento cadastrado em 45s (3 item(ns), total R$ 4.888,92).
+
+19:47:37 [N1] [33/166] ──────────────────────────────────────────────────
+19:47:37 [N1]   Paciente: Bruno Pereira De Sousa Maia (CPF: 01917999127, prontuário 16280) | 13 linha(s) na planilha
+19:47:37 [N1]         2x REAVALIAÇÃO — R$ 265,00 cada
+19:47:37 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 265,00 cada
+19:47:37 [N1]         1x ETAPA 1/24 - CORREÇÃO — R$ 0,00 cada
+19:47:37 [N1]       Total do orçamento: R$ 3.180,00
+19:47:43 [N1]     Paciente selecionado: Bruno Pereira de Sousa Maia
+19:47:43 [N1]     Item 1/3: 2x REAVALIAÇÃO — R$ 265,00
+19:47:48 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:47:51 [N1]     Item 2/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 265,00
+19:47:59 [N1]     Item 3/3: 1x ETAPA 1/24 - CORREÇÃO — R$ 0,00
+19:48:11 [N1]     Parcelas geradas.
+19:48:12 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:48:12 [N1]     Salvando orçamento...
+
+19:48:18 ⏱  32/166 pacientes (19%) | ✔ 30 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:48:18 ⏱  média 39s/paciente (somando os navegadores) | restante: 01:27:56 | término previsto: 06/10 21:16
+19:48:20 [N1]   ✔ Orçamento cadastrado em 43s (3 item(ns), total R$ 3.180,00).
+
+19:48:20 [N1] [34/166] ──────────────────────────────────────────────────
+19:48:20 [N1]   Paciente: Adalbetto Dionisio Pedrini (CPF: 45636257953, prontuário 16306) | 6 linha(s) na planilha
+19:48:20 [N1]         6x SESSÃO INDIVIDUAL — R$ 265,00 cada
+19:48:20 [N1]       Total do orçamento: R$ 1.590,00
+19:48:26 [N1]     Paciente selecionado: Adalbetto Dionisio Pedrini
+19:48:26 [N1]     Item 1/1: 6x SESSÃO INDIVIDUAL — R$ 265,00
+19:48:38 [N1]     Parcelas geradas.
+19:48:39 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:48:39 [N1]     Salvando orçamento...
+19:48:47 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 1.590,00).
+
+19:48:47 [N1] [35/166] ──────────────────────────────────────────────────
+19:48:47 [N1]   Paciente: Idete De Oliveira Matuda (CPF: 62841173100, prontuário 16331) | 35 linha(s) na planilha
+19:48:47 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00 cada
+19:48:47 [N1]         3x REAVALIAÇÃO — R$ 245,00 cada
+19:48:47 [N1]        11x ETAPA 1/24 - CORREÇÃO — R$ 245,00 cada
+19:48:47 [N1]       Total do orçamento: R$ 8.575,00
+19:48:53 [N1]     Paciente selecionado: Idete de Oliveira Matuda
+19:48:53 [N1]     Item 1/3: 21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 245,00
+19:49:02 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 245,00
+19:49:08 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:49:11 [N1]     Item 3/3: 11x ETAPA 1/24 - CORREÇÃO — R$ 245,00
+
+19:49:18 ⏱  34/166 pacientes (20%) | ✔ 32 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:49:18 ⏱  média 39s/paciente (somando os navegadores) | restante: 01:25:25 | término previsto: 06/10 21:14
+19:49:23 [N1]     Parcelas geradas.
+19:49:24 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:49:24 [N1]     Salvando orçamento...
+19:49:32 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 8.575,00).
+
+19:49:32 [N1] [36/166] ──────────────────────────────────────────────────
+19:49:32 [N1]   Paciente: Rodrigo Nunes De Freitas (CPF: 04142239937, prontuário 16335) | 1 linha(s) na planilha
+19:49:32 [N1]         1x SESSÃO INDIVIDUAL — R$ 241,66 cada
+19:49:32 [N1]       Total do orçamento: R$ 241,66
+19:49:38 [N1]     Paciente selecionado: RODRIGO NUNES DE FREITAS
+19:49:38 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 241,66
+19:49:50 [N1]     Parcelas geradas.
+19:49:51 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:49:51 [N1]     Salvando orçamento...
+19:49:59 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 241,66).
+
+19:49:59 [N1] [37/166] ──────────────────────────────────────────────────
+19:49:59 [N1]   Paciente: Emanuel De Souza Oliveira (CPF: 05852865583, prontuário 16334) | 3 linha(s) na planilha
+19:49:59 [N1]         3x SESSÃO INDIVIDUAL — R$ 285,00 cada
+19:49:59 [N1]       Total do orçamento: R$ 855,00
+19:50:05 [N1]     Paciente selecionado: Emanuel de Souza Oliveira
+19:50:05 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 285,00
+
+19:50:18 ⏱  36/166 pacientes (22%) | ✔ 34 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:50:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:23:03 | término previsto: 06/10 21:13
+19:50:18 [N1]     Parcelas geradas.
+19:50:19 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:50:19 [N1]     Salvando orçamento...
+19:50:27 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 855,00).
+
+19:50:27 [N1] [38/166] ──────────────────────────────────────────────────
+19:50:27 [N1]   Paciente: Elessandra Pereira Ramos (CPF: 00754600173, prontuário 16340) | 9 linha(s) na planilha
+19:50:27 [N1]         7x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 229,16 cada
+19:50:27 [N1]         1x REAVALIAÇÃO — R$ 229,32 cada
+19:50:27 [N1]         1x REAVALIAÇÃO — R$ 229,16 cada
+19:50:27 [N1]       Total do orçamento: R$ 2.062,60
+19:50:33 [N1]     Paciente selecionado: ELESSANDRA PEREIRA RAMOS
+19:50:33 [N1]     Item 1/3: 7x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 229,16
+19:50:41 [N1]     Item 2/3: 1x REAVALIAÇÃO — R$ 229,32
+19:50:47 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:50:49 [N1]     Item 3/3: 1x REAVALIAÇÃO — R$ 229,16
+19:50:55 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:51:02 [N1]     Parcelas geradas.
+19:51:03 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:51:03 [N1]     Salvando orçamento...
+19:51:11 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 2.062,60).
+
+19:51:11 [N1] [39/166] ──────────────────────────────────────────────────
+19:51:11 [N1]   Paciente: Edivalda Serafim Garcia (CPF: 71516735153, prontuário 16346) | 5 linha(s) na planilha
+19:51:11 [N1]         4x SESSÃO INDIVIDUAL — R$ 280,00 cada
+19:51:11 [N1]         1x SESSÃO INDIVIDUAL — R$ 210,00 cada
+19:51:11 [N1]       Total do orçamento: R$ 1.330,00
+19:51:17 [N1]     Paciente selecionado: Edivalda Serafim Garcia
+19:51:17 [N1]     Item 1/2: 4x SESSÃO INDIVIDUAL — R$ 280,00
+
+19:51:18 ⏱  38/166 pacientes (23%) | ✔ 36 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:51:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:20:50 | término previsto: 06/10 21:12
+19:51:25 [N1]     Item 2/2: 1x SESSÃO INDIVIDUAL — R$ 210,00
+19:51:37 [N1]     Parcelas geradas.
+19:51:38 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:51:38 [N1]     Salvando orçamento...
+19:51:46 [N1]   ✔ Orçamento cadastrado em 35s (2 item(ns), total R$ 1.330,00).
+
+19:51:46 [N1] [40/166] ──────────────────────────────────────────────────
+19:51:46 [N1]   Paciente: Maria Clarice Gomes Godoy (CPF: 72349476987, prontuário 16353) | 28 linha(s) na planilha
+19:51:46 [N1]         2x REAVALIAÇÃO — R$ 216,66 cada
+19:51:46 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 216,66 cada
+19:51:46 [N1]         1x REAVALIAÇÃO — R$ 216,90 cada
+19:51:46 [N1]         4x ETAPA 1/24 - CORREÇÃO — R$ 216,66 cada
+19:51:46 [N1]       Total do orçamento: R$ 6.066,72
+19:51:52 [N1]     Paciente selecionado: Maria Clarice Gomes Godoy
+19:51:52 [N1]     Item 1/4: 2x REAVALIAÇÃO — R$ 216,66
+19:51:58 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:52:01 [N1]     Item 2/4: 21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 216,66
+19:52:09 [N1]     Item 3/4: 1x REAVALIAÇÃO — R$ 216,90
+19:52:15 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+
+19:52:18 ⏱  39/166 pacientes (23%) | ✔ 37 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:52:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:21:25 | término previsto: 06/10 21:13
+19:52:18 [N1]     Item 4/4: 4x ETAPA 1/24 - CORREÇÃO — R$ 216,66
+19:52:30 [N1]     Parcelas geradas.
+19:52:31 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:52:31 [N1]     Salvando orçamento...
+19:52:39 [N1]   ✔ Orçamento cadastrado em 53s (4 item(ns), total R$ 6.066,72).
+
+19:52:39 [N1] [41/166] ──────────────────────────────────────────────────
+19:52:39 [N1]   Paciente: Ingrid Alves Duarte Dos Santos (CPF: 03850953173, prontuário 16390) | 1 linha(s) na planilha
+19:52:39 [N1]         1x SESSÃO INDIVIDUAL — R$ 214,36 cada
+19:52:39 [N1]       Total do orçamento: R$ 214,36
+19:52:45 [N1]     Paciente selecionado: Ingrid Alves Duarte dos Santos
+19:52:45 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 214,36
+19:52:57 [N1]     Parcelas geradas.
+19:52:58 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:52:58 [N1]     Salvando orçamento...
+19:53:06 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 214,36).
+
+19:53:06 [N1] [42/166] ──────────────────────────────────────────────────
+19:53:06 [N1]   Paciente: Jean Carlos Pimentel (CPF: 03404989198, prontuário 16400) | 22 linha(s) na planilha
+19:53:06 [N1]        19x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 165,27 cada
+19:53:06 [N1]         2x REAVALIAÇÃO — R$ 165,27 cada
+19:53:06 [N1]         1x REAVALIAÇÃO — R$ 165,55 cada
+19:53:06 [N1]       Total do orçamento: R$ 3.636,22
+19:53:12 [N1]     Paciente selecionado: Jean Carlos Pimentel
+19:53:12 [N1]     Item 1/3: 19x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 165,27
+
+19:53:18 ⏱  41/166 pacientes (25%) | ✔ 39 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:53:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:19:16 | término previsto: 06/10 21:12
+19:53:20 [N1]     Item 2/3: 2x REAVALIAÇÃO — R$ 165,27
+19:53:26 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:53:29 [N1]     Item 3/3: 1x REAVALIAÇÃO — R$ 165,55
+19:53:34 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:53:41 [N1]     Parcelas geradas.
+19:53:42 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:53:42 [N1]     Salvando orçamento...
+19:53:50 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 3.636,22).
+
+19:53:50 [N1] [43/166] ──────────────────────────────────────────────────
+19:53:50 [N1]   Paciente: Marlene De Lurdes Pecin Silva (CPF: 91773806149, prontuário 16406) | 2 linha(s) na planilha
+19:53:50 [N1]         2x REAVALIAÇÃO — R$ 138,88 cada
+19:53:50 [N1]       Total do orçamento: R$ 277,76
+19:53:56 [N1]     Paciente selecionado: Marlene de Lurdes Pecin Silva
+19:53:56 [N1]     Item 1/1: 2x REAVALIAÇÃO — R$ 138,88
+19:54:02 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:54:08 [N1]     Parcelas geradas.
+19:54:09 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:54:09 [N1]     Salvando orçamento...
+19:54:17 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 277,76).
+
+19:54:17 [N1] [44/166] ──────────────────────────────────────────────────
+19:54:17 [N1]   Paciente: Sara Angelika Do Nascimento Rodrigues (CPF: 00500191123, prontuário 16398) | 2 linha(s) na planilha
+19:54:17 [N1]         2x SESSÃO INDIVIDUAL — R$ 200,00 cada
+19:54:17 [N1]       Total do orçamento: R$ 400,00
+
+19:54:18 ⏱  43/166 pacientes (26%) | ✔ 41 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:54:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:17:14 | término previsto: 06/10 21:11
+19:54:24 [N1]     Paciente selecionado: Sara Angelika do Nascimento Rodrigues
+19:54:24 [N1]     Item 1/1: 2x SESSÃO INDIVIDUAL — R$ 200,00
+19:54:36 [N1]     Parcelas geradas.
+19:54:36 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:54:36 [N1]     Salvando orçamento...
+19:54:45 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 400,00).
+
+19:54:45 [N1] [45/166] ──────────────────────────────────────────────────
+19:54:45 [N1]   Paciente: Raí Wellingthon Da Silva Vasconcelos (CPF: 03708218159, prontuário 16418) | 3 linha(s) na planilha
+19:54:45 [N1]         1x REAVALIAÇÃO — R$ 165,27 cada
+19:54:45 [N1]         1x REAVALIAÇÃO — R$ 165,55 cada
+19:54:45 [N1]         1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 165,27 cada
+19:54:45 [N1]       Total do orçamento: R$ 496,09
+19:54:51 [N1]     Paciente selecionado: Raí Wellingthon da Silva Vasconcelos
+19:54:51 [N1]     Item 1/3: 1x REAVALIAÇÃO — R$ 165,27
+19:54:56 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:54:59 [N1]     Item 2/3: 1x REAVALIAÇÃO — R$ 165,55
+19:55:05 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:55:08 [N1]     Item 3/3: 1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 165,27
+
+19:55:18 ⏱  44/166 pacientes (27%) | ✔ 42 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:55:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:17:38 | término previsto: 06/10 21:12
+19:55:20 [N1]     Parcelas geradas.
+19:55:21 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:55:21 [N1]     Salvando orçamento...
+19:55:29 [N1]   ✔ Orçamento cadastrado em 45s (3 item(ns), total R$ 496,09).
+
+19:55:29 [N1] [46/166] ──────────────────────────────────────────────────
+19:55:29 [N1]   Paciente: Luiz Carlos De Paula (CPF: 41413792120, prontuário 16435) | 28 linha(s) na planilha
+19:55:29 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 165,27 cada
+19:55:29 [N1]         1x REAVALIAÇÃO — R$ 165,55 cada
+19:55:29 [N1]         2x REAVALIAÇÃO — R$ 165,27 cada
+19:55:29 [N1]         4x ETAPA 1/24 - CORREÇÃO — R$ 165,27 cada
+19:55:29 [N1]       Total do orçamento: R$ 4.627,84
+19:55:35 [N1]     Paciente selecionado: Luiz Carlos de Paula
+19:55:36 [N1]     Item 1/4: 21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 165,27
+19:55:44 [N1]     Item 2/4: 1x REAVALIAÇÃO — R$ 165,55
+19:55:50 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:55:53 [N1]     Item 3/4: 2x REAVALIAÇÃO — R$ 165,27
+19:55:58 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:56:01 [N1]     Item 4/4: 4x ETAPA 1/24 - CORREÇÃO — R$ 165,27
+19:56:14 [N1]     Parcelas geradas.
+19:56:15 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:56:15 [N1]     Salvando orçamento...
+
+19:56:18 ⏱  45/166 pacientes (27%) | ✔ 43 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:56:18 ⏱  média 39s/paciente (somando os navegadores) | restante: 01:17:59 | término previsto: 06/10 21:14
+19:56:23 [N1]   ✔ Orçamento cadastrado em 54s (4 item(ns), total R$ 4.627,84).
+
+19:56:23 [N1] [47/166] ──────────────────────────────────────────────────
+19:56:23 [N1]   Paciente: Adriano Coser (CPF: 01651973075, prontuário 16462) | 31 linha(s) na planilha
+19:56:23 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 165,00 cada
+19:56:23 [N1]         3x REAVALIAÇÃO — R$ 165,00 cada
+19:56:23 [N1]         7x ETAPA 1/24 - CORREÇÃO — R$ 165,00 cada
+19:56:23 [N1]       Total do orçamento: R$ 5.115,00
+19:56:29 [N1]     Paciente selecionado: Adriano Coser
+19:56:29 [N1]     Item 1/3: 21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 165,00
+19:56:38 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 165,00
+19:56:44 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:56:46 [N1]     Item 3/3: 7x ETAPA 1/24 - CORREÇÃO — R$ 165,00
+19:56:59 [N1]     Parcelas geradas.
+19:57:00 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:57:00 [N1]     Salvando orçamento...
+19:57:08 [N1]   ✔ Orçamento cadastrado em 45s (3 item(ns), total R$ 5.115,00).
+
+19:57:08 [N1] [48/166] ──────────────────────────────────────────────────
+19:57:08 [N1]   Paciente: Elaine Oliveira Cabral (CPF: 64035921149, prontuário 16458) | 8 linha(s) na planilha
+19:57:08 [N1]         6x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 165,27 cada
+19:57:08 [N1]         1x REAVALIAÇÃO — R$ 165,55 cada
+19:57:08 [N1]         1x REAVALIAÇÃO — R$ 165,27 cada
+19:57:08 [N1]       Total do orçamento: R$ 1.322,44
+19:57:14 [N1]     Paciente selecionado: Elaine Oliveira Cabral
+19:57:15 [N1]     Item 1/3: 6x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 165,27
+
+19:57:18 ⏱  47/166 pacientes (28%) | ✔ 45 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:57:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:15:57 | término previsto: 06/10 21:13
+19:57:23 [N1]     Item 2/3: 1x REAVALIAÇÃO — R$ 165,55
+19:57:29 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:57:32 [N1]     Item 3/3: 1x REAVALIAÇÃO — R$ 165,27
+19:57:38 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:57:44 [N1]     Parcelas geradas.
+19:57:45 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:57:45 [N1]     Salvando orçamento...
+19:57:53 [N1]   ✔ Orçamento cadastrado em 45s (3 item(ns), total R$ 1.322,44).
+
+19:57:53 [N1] [49/166] ──────────────────────────────────────────────────
+19:57:53 [N1]   Paciente: Galeno Pinto Da Costa (CPF: 54652880197, prontuário 16484) | 3 linha(s) na planilha
+19:57:53 [N1]         3x SESSÃO INDIVIDUAL — R$ 280,00 cada
+19:57:53 [N1]       Total do orçamento: R$ 840,00
+19:57:59 [N1]     Paciente selecionado: Galeno Pinto da Costa
+19:57:59 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 280,00
+19:58:12 [N1]     Parcelas geradas.
+19:58:12 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:58:12 [N1]     Salvando orçamento...
+
+19:58:18 ⏱  48/166 pacientes (29%) | ✔ 46 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:58:18 ⏱  média 39s/paciente (somando os navegadores) | restante: 01:16:12 | término previsto: 06/10 21:14
+19:58:21 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 840,00).
+
+19:58:21 [N1] [50/166] ──────────────────────────────────────────────────
+19:58:21 [N1]   Paciente: Jafia Rebeca Leoncio Do Nascimento (CPF: 08230557101, prontuário 16514) | 4 linha(s) na planilha
+19:58:21 [N1]         3x SESSÃO INDIVIDUAL — R$ 183,33 cada
+19:58:21 [N1]         1x SESSÃO INDIVIDUAL — R$ 183,37 cada
+19:58:21 [N1]       Total do orçamento: R$ 733,36
+19:58:26 [N1]     Paciente selecionado: Jafia Rebeca Leoncio do Nascimento
+19:58:26 [N1]     Item 1/2: 3x SESSÃO INDIVIDUAL — R$ 183,33
+19:58:35 [N1]     Item 2/2: 1x SESSÃO INDIVIDUAL — R$ 183,37
+19:58:47 [N1]     Parcelas geradas.
+19:58:48 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:58:48 [N1]     Salvando orçamento...
+19:58:56 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 733,36).
+
+19:58:56 [N1] [51/166] ──────────────────────────────────────────────────
+19:58:56 [N1]   Paciente: Gesimare Prezoto Dos Santos (CPF: 95878459191, prontuário 16527) | 2 linha(s) na planilha
+19:58:56 [N1]         2x SESSÃO INDIVIDUAL — R$ 206,00 cada
+19:58:56 [N1]       Total do orçamento: R$ 412,00
+19:59:02 [N1]     Paciente selecionado: Gesimare Prezoto dos Santos
+19:59:02 [N1]     Item 1/1: 2x SESSÃO INDIVIDUAL — R$ 206,00
+19:59:14 [N1]     Parcelas geradas.
+19:59:15 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:59:15 [N1]     Salvando orçamento...
+
+19:59:18 ⏱  50/166 pacientes (30%) | ✔ 48 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+19:59:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:14:14 | término previsto: 06/10 21:13
+19:59:23 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 412,00).
+
+19:59:23 [N1] [52/166] ──────────────────────────────────────────────────
+19:59:23 [N1]   Paciente: Valdina Maria Rodrigues Alves (CPF: 62534998153, prontuário 16534) | 4 linha(s) na planilha
+19:59:23 [N1]         3x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 206,25 cada
+19:59:23 [N1]         1x REAVALIAÇÃO — R$ 206,25 cada
+19:59:23 [N1]       Total do orçamento: R$ 825,00
+19:59:29 [N1]     Paciente selecionado: Valdina Maria Rodrigues Alves
+19:59:29 [N1]     Item 1/2: 3x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 206,25
+19:59:38 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 206,25
+19:59:43 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+19:59:50 [N1]     Parcelas geradas.
+19:59:51 [N1]     Situação Aprovado, gera financeiro desmarcado.
+19:59:51 [N1]     Salvando orçamento...
+19:59:59 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 825,00).
+
+19:59:59 [N1] [53/166] ──────────────────────────────────────────────────
+19:59:59 [N1]   Paciente: Norival Antônio Da Silva (CPF: 04207858172, prontuário 16562) | 11 linha(s) na planilha
+19:59:59 [N1]        11x SESSÃO INDIVIDUAL — R$ 206,25 cada
+19:59:59 [N1]       Total do orçamento: R$ 2.268,75
+20:00:05 [N1]     Paciente selecionado: Norival Antônio da Silva
+20:00:05 [N1]     Item 1/1: 11x SESSÃO INDIVIDUAL — R$ 206,25
+20:00:17 [N1]     Parcelas geradas.
+
+20:00:18 ⏱  52/166 pacientes (31%) | ✔ 50 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:00:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:12:21 | término previsto: 06/10 21:12
+20:00:18 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:00:18 [N1]     Salvando orçamento...
+20:00:26 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 2.268,75).
+
+20:00:26 [N1] [54/166] ──────────────────────────────────────────────────
+20:00:26 [N1]   Paciente: Wesley Rodrigues Dos Santos (CPF: 84012463187, prontuário 16556) | 12 linha(s) na planilha
+20:00:26 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 140,00 cada
+20:00:26 [N1]         2x REAVALIAÇÃO — R$ 140,00 cada
+20:00:26 [N1]       Total do orçamento: R$ 1.680,00
+20:00:32 [N1]     Paciente selecionado: Wesley Rodrigues dos Santos
+20:00:32 [N1]     Item 1/2: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 140,00
+20:00:41 [N1]     Item 2/2: 2x REAVALIAÇÃO — R$ 140,00
+20:00:47 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:00:54 [N1]     Parcelas geradas.
+20:00:55 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:00:55 [N1]     Salvando orçamento...
+20:01:03 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.680,00).
+
+20:01:03 [N1] [55/166] ──────────────────────────────────────────────────
+20:01:03 [N1]   Paciente: Wthierlley Silva Ribeiro (CPF: 70795255195, prontuário 16575) | 6 linha(s) na planilha
+20:01:03 [N1]         6x SESSÃO INDIVIDUAL — R$ 206,25 cada
+20:01:03 [N1]       Total do orçamento: R$ 1.237,50
+20:01:09 [N1]     Paciente selecionado: Wthierlley Silva Ribeiro
+20:01:09 [N1]     Item 1/1: 6x SESSÃO INDIVIDUAL — R$ 206,25
+
+20:01:18 ⏱  54/166 pacientes (33%) | ✔ 52 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:01:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:10:31 | término previsto: 06/10 21:11
+20:01:21 [N1]     Parcelas geradas.
+20:01:22 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:01:22 [N1]     Salvando orçamento...
+20:01:30 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 1.237,50).
+
+20:01:30 [N1] [56/166] ──────────────────────────────────────────────────
+20:01:30 [N1]   Paciente: Elias Ferreira Da Silva (CPF: 04725990620, prontuário 16297) | 2 linha(s) na planilha
+20:01:30 [N1]         2x SESSÃO INDIVIDUAL — R$ 90,00 cada
+20:01:30 [N1]       Total do orçamento: R$ 180,00
+20:01:36 [N1]     Paciente selecionado: Elias Ferreira da silva
+20:01:36 [N1]     Item 1/1: 2x SESSÃO INDIVIDUAL — R$ 90,00
+20:01:48 [N1]     Parcelas geradas.
+20:01:49 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:01:49 [N1]     Salvando orçamento...
+20:01:57 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 180,00).
+
+20:01:57 [N1] [57/166] ──────────────────────────────────────────────────
+20:01:57 [N1]   Paciente: Vanusa Ferreira Da Silva (CPF: 86496999104, prontuário 16571) | 3 linha(s) na planilha
+20:01:57 [N1]         3x SESSÃO INDIVIDUAL — R$ 206,25 cada
+20:01:57 [N1]       Total do orçamento: R$ 618,75
+20:02:02 [N1]     Paciente selecionado: Vanusa Ferreira da Silva
+20:02:03 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 206,25
+20:02:15 [N1]     Parcelas geradas.
+20:02:16 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:02:16 [N1]     Salvando orçamento...
+
+20:02:18 ⏱  56/166 pacientes (34%) | ✔ 54 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:02:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:08:45 | término previsto: 06/10 21:11
+20:02:24 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 618,75).
+
+20:02:24 [N1] [58/166] ──────────────────────────────────────────────────
+20:02:24 [N1]   Paciente: Vera Lúcia De Souza Dos Santos (CPF: 39341925134, prontuário 16610) | 4 linha(s) na planilha
+20:02:24 [N1]         2x REAVALIAÇÃO — R$ 150,00 cada
+20:02:24 [N1]         2x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 150,00 cada
+20:02:24 [N1]       Total do orçamento: R$ 600,00
+20:02:30 [N1]     Paciente selecionado: Vera Lúcia de Souza dos Santos
+20:02:30 [N1]     Item 1/2: 2x REAVALIAÇÃO — R$ 150,00
+20:02:36 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:02:39 [N1]     Item 2/2: 2x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 150,00
+20:02:51 [N1]     Parcelas geradas.
+20:02:52 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:02:52 [N1]     Salvando orçamento...
+20:03:00 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 600,00).
+
+20:03:00 [N1] [59/166] ──────────────────────────────────────────────────
+20:03:00 [N1]   Paciente: Marcos Barbosa De Jesus (CPF: 94834164187, prontuário 16620) | 5 linha(s) na planilha
+20:03:00 [N1]         3x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00 cada
+20:03:00 [N1]         2x REAVALIAÇÃO — R$ 190,00 cada
+20:03:00 [N1]       Total do orçamento: R$ 950,00
+20:03:06 [N1]     Paciente selecionado: Marcos Barbosa de Jesus
+20:03:06 [N1]     Item 1/2: 3x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00
+20:03:14 [N1]     Item 2/2: 2x REAVALIAÇÃO — R$ 190,00
+
+20:03:18 ⏱  58/166 pacientes (35%) | ✔ 56 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:03:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 01:07:02 | término previsto: 06/10 21:10
+20:03:20 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:03:26 [N1]     Parcelas geradas.
+20:03:27 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:03:27 [N1]     Salvando orçamento...
+20:03:35 [N1]   ✔ Orçamento cadastrado em 35s (2 item(ns), total R$ 950,00).
+
+20:03:35 [N1] [60/166] ──────────────────────────────────────────────────
+20:03:35 [N1]   Paciente: Felipe Caponi De Oliveira (CPF: 05214886136, prontuário 16617) | 17 linha(s) na planilha
+20:03:35 [N1]         3x REAVALIAÇÃO — R$ 187,50 cada
+20:03:35 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 187,50 cada
+20:03:35 [N1]         4x ETAPA 1/24 - CORREÇÃO — R$ 187,50 cada
+20:03:35 [N1]       Total do orçamento: R$ 3.187,50
+20:03:41 [N1]     Paciente selecionado: Felipe Caponi de Oliveira
+20:03:41 [N1]     Item 1/3: 3x REAVALIAÇÃO — R$ 187,50
+20:03:47 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:03:50 [N1]     Item 2/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 187,50
+20:03:58 [N1]     Item 3/3: 4x ETAPA 1/24 - CORREÇÃO — R$ 187,50
+20:04:11 [N1]     Parcelas geradas.
+20:04:12 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:04:12 [N1]     Salvando orçamento...
+
+20:04:18 ⏱  59/166 pacientes (36%) | ✔ 57 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:04:18 ⏱  média 38s/paciente (somando os navegadores) | restante: 01:07:06 | término previsto: 06/10 21:11
+20:04:20 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 3.187,50).
+
+20:04:20 [N1] [61/166] ──────────────────────────────────────────────────
+20:04:20 [N1]   Paciente: Ivo Câmara De Gouveia Neto (CPF: 02661751122, prontuário 16646) | 19 linha(s) na planilha
+20:04:20 [N1]         6x ETAPA 1/24 - CORREÇÃO — R$ 206,25 cada
+20:04:20 [N1]         3x REAVALIAÇÃO — R$ 206,25 cada
+20:04:20 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 206,25 cada
+20:04:20 [N1]       Total do orçamento: R$ 3.918,75
+20:04:25 [N1]     Paciente selecionado: Ivo Câmara de Gouveia Neto
+20:04:26 [N1]     Item 1/3: 6x ETAPA 1/24 - CORREÇÃO — R$ 206,25
+20:04:34 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 206,25
+20:04:40 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:04:43 [N1]     Item 3/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 206,25
+20:04:55 [N1]     Parcelas geradas.
+20:04:56 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:04:56 [N1]     Salvando orçamento...
+20:05:04 [N1]   ✔ Orçamento cadastrado em 45s (3 item(ns), total R$ 3.918,75).
+
+20:05:04 [N1] [62/166] ──────────────────────────────────────────────────
+20:05:04 [N1]   Paciente: Alexandre Castro Macedo De Abreu (CPF: 02743502118, prontuário 16650) | 12 linha(s) na planilha
+20:05:04 [N1]        12x SESSÃO INDIVIDUAL — R$ 206,25 cada
+20:05:04 [N1]       Total do orçamento: R$ 2.475,00
+20:05:10 [N1]     Paciente selecionado: Alexandre Castro Macedo de Abreu
+20:05:10 [N1]     Item 1/1: 12x SESSÃO INDIVIDUAL — R$ 206,25
+
+20:05:18 ⏱  61/166 pacientes (37%) | ✔ 59 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:05:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 01:05:24 | término previsto: 06/10 21:10
+20:05:22 [N1]     Parcelas geradas.
+20:05:23 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:05:23 [N1]     Salvando orçamento...
+20:05:31 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 2.475,00).
+
+20:05:31 [N1] [63/166] ──────────────────────────────────────────────────
+20:05:31 [N1]   Paciente: José Fábio De Sousa (CPF: 01359751157, prontuário 16655) | 4 linha(s) na planilha
+20:05:31 [N1]         2x REAVALIAÇÃO — R$ 150,00 cada
+20:05:31 [N1]         2x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 150,00 cada
+20:05:31 [N1]       Total do orçamento: R$ 600,00
+20:05:37 [N1]     Paciente selecionado: José Fábio de Sousa
+20:05:37 [N1]     Item 1/2: 2x REAVALIAÇÃO — R$ 150,00
+20:05:43 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:05:46 [N1]     Item 2/2: 2x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 150,00
+20:05:58 [N1]     Parcelas geradas.
+20:05:59 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:05:59 [N1]     Salvando orçamento...
+20:06:07 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 600,00).
+
+20:06:07 [N1] [64/166] ──────────────────────────────────────────────────
+20:06:07 [N1]   Paciente: Vitório Augusto (CPF: 70840770146, prontuário 16667) | 1 linha(s) na planilha
+20:06:07 [N1]         1x REAVALIAÇÃO — R$ 150,00 cada
+20:06:07 [N1]       Total do orçamento: R$ 150,00
+20:06:13 [N1]     Paciente selecionado: Vitório Augusto
+20:06:13 [N1]     Item 1/1: 1x REAVALIAÇÃO — R$ 150,00
+
+20:06:18 ⏱  63/166 pacientes (38%) | ✔ 61 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:06:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 01:03:46 | término previsto: 06/10 21:10
+20:06:19 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:06:26 [N1]     Parcelas geradas.
+20:06:27 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:06:27 [N1]     Salvando orçamento...
+20:06:35 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 150,00).
+
+20:06:35 [N1] [65/166] ──────────────────────────────────────────────────
+20:06:35 [N1]   Paciente: Luciene Cândida De Jesus (CPF: 62540742149, prontuário 16677) | 2 linha(s) na planilha
+20:06:35 [N1]         2x REAVALIAÇÃO — R$ 100,00 cada
+20:06:35 [N1]       Total do orçamento: R$ 200,00
+20:06:41 [N1]     Paciente selecionado: Luciene Cândida de Jesus
+20:06:41 [N1]     Item 1/1: 2x REAVALIAÇÃO — R$ 100,00
+20:06:47 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:06:53 [N1]     Parcelas geradas.
+20:06:54 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:06:54 [N1]     Salvando orçamento...
+20:07:02 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 200,00).
+
+20:07:02 [N1] [66/166] ──────────────────────────────────────────────────
+20:07:02 [N1]   Paciente: Kemelly Candiago (CPF: 70584282125, prontuário 16490) | 6 linha(s) na planilha
+20:07:02 [N1]         6x SESSÃO INDIVIDUAL — R$ 206,25 cada
+20:07:02 [N1]       Total do orçamento: R$ 1.237,50
+20:07:08 [N1]     Paciente selecionado: Kemelly candiago
+20:07:08 [N1]     Item 1/1: 6x SESSÃO INDIVIDUAL — R$ 206,25
+
+20:07:18 ⏱  65/166 pacientes (39%) | ✔ 63 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:07:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 01:02:09 | término previsto: 06/10 21:09
+20:07:21 [N1]     Parcelas geradas.
+20:07:21 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:07:21 [N1]     Salvando orçamento...
+20:07:30 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 1.237,50).
+
+20:07:30 [N1] [67/166] ──────────────────────────────────────────────────
+20:07:30 [N1]   Paciente: Teresa Rosa Da Silva Costa (CPF: 02473347158, prontuário 16705) | 15 linha(s) na planilha
+20:07:30 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 195,83 cada
+20:07:30 [N1]         2x REAVALIAÇÃO — R$ 195,83 cada
+20:07:30 [N1]         1x REAVALIAÇÃO — R$ 195,91 cada
+20:07:30 [N1]         2x ETAPA 1/24 - CORREÇÃO — R$ 195,83 cada
+20:07:30 [N1]       Total do orçamento: R$ 2.937,53
+20:07:35 [N1]     Paciente selecionado: Teresa Rosa da Silva Costa
+20:07:36 [N1]     Item 1/4: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 195,83
+20:07:44 [N1]     Item 2/4: 2x REAVALIAÇÃO — R$ 195,83
+20:07:50 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:07:53 [N1]     Item 3/4: 1x REAVALIAÇÃO — R$ 195,91
+20:07:59 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:08:02 [N1]     Item 4/4: 2x ETAPA 1/24 - CORREÇÃO — R$ 195,83
+20:08:14 [N1]     Parcelas geradas.
+20:08:15 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:08:15 [N1]     Salvando orçamento...
+
+20:08:18 ⏱  66/166 pacientes (40%) | ✔ 64 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:08:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 01:02:07 | término previsto: 06/10 21:10
+20:08:23 [N1]   ✔ Orçamento cadastrado em 53s (4 item(ns), total R$ 2.937,53).
+
+20:08:23 [N1] [68/166] ──────────────────────────────────────────────────
+20:08:23 [N1]   Paciente: Rejane Silva (CPF: 02751469280, prontuário 16714) | 12 linha(s) na planilha
+20:08:23 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 206,25 cada
+20:08:23 [N1]         2x REAVALIAÇÃO — R$ 206,25 cada
+20:08:23 [N1]       Total do orçamento: R$ 2.475,00
+20:08:28 [N1]     Paciente selecionado: Rejane Silva
+20:08:29 [N1]     Item 1/2: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 206,25
+20:08:37 [N1]     Item 2/2: 2x REAVALIAÇÃO — R$ 206,25
+20:08:43 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:08:50 [N1]     Parcelas geradas.
+20:08:50 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:08:50 [N1]     Salvando orçamento...
+20:08:58 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 2.475,00).
+
+20:08:58 [N1] [69/166] ──────────────────────────────────────────────────
+20:08:58 [N1]   Paciente: Fernando De Sousa Pereira (CPF: 03181662160, prontuário 16720) | 6 linha(s) na planilha
+20:08:58 [N1]         6x SESSÃO INDIVIDUAL — R$ 175,00 cada
+20:08:58 [N1]       Total do orçamento: R$ 1.050,00
+20:09:04 [N1]     Paciente selecionado: Fernando de sousa pereira
+20:09:04 [N1]     Item 1/1: 6x SESSÃO INDIVIDUAL — R$ 175,00
+20:09:16 [N1]     Parcelas geradas.
+20:09:17 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:09:17 [N1]     Salvando orçamento...
+
+20:09:18 ⏱  68/166 pacientes (41%) | ✔ 66 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:09:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 01:00:32 | término previsto: 06/10 21:09
+20:09:25 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 1.050,00).
+
+20:09:25 [N1] [70/166] ──────────────────────────────────────────────────
+20:09:25 [N1]   Paciente: Hebert Machado Campos (CPF: 51516179153, prontuário 16724) | 1 linha(s) na planilha
+20:09:25 [N1]         1x SESSÃO INDIVIDUAL — R$ 206,25 cada
+20:09:25 [N1]       Total do orçamento: R$ 206,25
+20:09:31 [N1]     Paciente selecionado: Hebert Machado Campos
+20:09:31 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 206,25
+20:09:43 [N1]     Parcelas geradas.
+20:09:44 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:09:44 [N1]     Salvando orçamento...
+20:09:52 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 206,25).
+
+20:09:52 [N1] [71/166] ──────────────────────────────────────────────────
+20:09:52 [N1]   Paciente: Valtenir Garcia Branquinho (CPF: 93567200100, prontuário 16729) | 28 linha(s) na planilha
+20:09:52 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00 cada
+20:09:52 [N1]         3x REAVALIAÇÃO — R$ 190,00 cada
+20:09:52 [N1]         4x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:09:52 [N1]       Total do orçamento: R$ 5.320,00
+20:09:58 [N1]     Paciente selecionado: Valtenir Garcia branquinho
+20:09:58 [N1]     Item 1/3: 21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00
+20:10:07 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 190,00
+20:10:13 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:10:16 [N1]     Item 3/3: 4x ETAPA 1/24 - CORREÇÃO — R$ 190,00
+
+20:10:18 ⏱  70/166 pacientes (42%) | ✔ 68 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:10:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 00:58:58 | término previsto: 06/10 21:09
+20:10:28 [N1]     Parcelas geradas.
+20:10:29 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:10:29 [N1]     Salvando orçamento...
+20:10:37 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 5.320,00).
+
+20:10:37 [N1] [72/166] ──────────────────────────────────────────────────
+20:10:37 [N1]   Paciente: Fernando Guimarães Do Prado (CPF: 85014877168, prontuário 16736) | 7 linha(s) na planilha
+20:10:37 [N1]         1x SESSÃO INDIVIDUAL — R$ 174,52 cada
+20:10:37 [N1]         6x SESSÃO INDIVIDUAL — R$ 174,44 cada
+20:10:37 [N1]       Total do orçamento: R$ 1.221,16
+20:10:42 [N1]     Paciente selecionado: Fernando Guimarães do Prado
+20:10:43 [N1]     Item 1/2: 1x SESSÃO INDIVIDUAL — R$ 174,52
+20:10:51 [N1]     Item 2/2: 6x SESSÃO INDIVIDUAL — R$ 174,44
+20:11:03 [N1]     Parcelas geradas.
+20:11:04 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:11:04 [N1]     Salvando orçamento...
+20:11:12 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.221,16).
+
+20:11:12 [N1] [73/166] ──────────────────────────────────────────────────
+20:11:12 [N1]   Paciente: Suair Ferreira De Mendonça (CPF: 32451059168, prontuário 16765) | 7 linha(s) na planilha
+20:11:12 [N1]         7x SESSÃO INDIVIDUAL — R$ 190,00 cada
+20:11:12 [N1]       Total do orçamento: R$ 1.330,00
+
+20:11:18 ⏱  72/166 pacientes (43%) | ✔ 70 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:11:18 ⏱  média 37s/paciente (somando os navegadores) | restante: 00:57:27 | término previsto: 06/10 21:08
+20:11:18 [N1]     Paciente selecionado: Suair Ferreira de Mendonça
+20:11:18 [N1]     Item 1/1: 7x SESSÃO INDIVIDUAL — R$ 190,00
+20:11:31 [N1]     Parcelas geradas.
+20:11:32 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:11:32 [N1]     Salvando orçamento...
+20:11:40 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 1.330,00).
+
+20:11:40 [N1] [74/166] ──────────────────────────────────────────────────
+20:11:40 [N1]   Paciente: Sadi Pedro Somera. (CPF: 00018423906, prontuário 16679) | 3 linha(s) na planilha
+20:11:40 [N1]         3x SESSÃO INDIVIDUAL — R$ 185,00 cada
+20:11:40 [N1]       Total do orçamento: R$ 555,00
+20:11:46 [N1]     Paciente selecionado: Sadi Pedro Somera.
+20:11:46 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 185,00
+20:11:58 [N1]     Parcelas geradas.
+20:11:59 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:11:59 [N1]     Salvando orçamento...
+20:12:07 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 555,00).
+
+20:12:07 [N1] [75/166] ──────────────────────────────────────────────────
+20:12:07 [N1]   Paciente: Alexandre Nagy Nobre (CPF: 04196078117, prontuário 16808) | 1 linha(s) na planilha
+20:12:07 [N1]         1x SESSÃO INDIVIDUAL — R$ 206,25 cada
+20:12:07 [N1]       Total do orçamento: R$ 206,25
+20:12:13 [N1]     Paciente selecionado: Alexandre Nagy Nobre
+20:12:13 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 206,25
+
+20:12:18 ⏱  74/166 pacientes (45%) | ✔ 72 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:12:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:55:57 | término previsto: 06/10 21:08
+20:12:25 [N1]     Parcelas geradas.
+20:12:26 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:12:26 [N1]     Salvando orçamento...
+20:12:34 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 206,25).
+
+20:12:34 [N1] [76/166] ──────────────────────────────────────────────────
+20:12:34 [N1]   Paciente: Antônio Do Nascimento (CPF: 42943698172, prontuário 16827) | 1 linha(s) na planilha
+20:12:34 [N1]         1x SESSÃO INDIVIDUAL — R$ 190,00 cada
+20:12:34 [N1]       Total do orçamento: R$ 190,00
+20:12:40 [N1]     Paciente selecionado: Antônio do Nascimento
+20:12:40 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 190,00
+20:12:52 [N1]     Parcelas geradas.
+20:12:53 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:12:53 [N1]     Salvando orçamento...
+20:13:01 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 190,00).
+
+20:13:01 [N1] [77/166] ──────────────────────────────────────────────────
+20:13:01 [N1]   Paciente: Ricardo Cruvinel Maia (CPF: 89177029100, prontuário 16841) | 5 linha(s) na planilha
+20:13:01 [N1]         5x SESSÃO INDIVIDUAL — R$ 206,25 cada
+20:13:01 [N1]       Total do orçamento: R$ 1.031,25
+20:13:07 [N1]     Paciente selecionado: Ricardo Cruvinel Maia
+20:13:07 [N1]     Item 1/1: 5x SESSÃO INDIVIDUAL — R$ 206,25
+
+20:13:18 ⏱  76/166 pacientes (46%) | ✔ 74 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:13:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:54:28 | término previsto: 06/10 21:07
+20:13:19 [N1]     Parcelas geradas.
+20:13:20 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:13:20 [N1]     Salvando orçamento...
+20:13:28 [N1]   ✔ Orçamento cadastrado em 26s (1 item(ns), total R$ 1.031,25).
+
+20:13:28 [N1] [78/166] ──────────────────────────────────────────────────
+20:13:28 [N1]   Paciente: Ana Maria Corrêa (CPF: 13283600163, prontuário 16852) | 25 linha(s) na planilha
+20:13:28 [N1]        22x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 166,66 cada
+20:13:28 [N1]         2x REAVALIAÇÃO — R$ 166,66 cada
+20:13:28 [N1]         1x REAVALIAÇÃO — R$ 166,98 cada
+20:13:28 [N1]       Total do orçamento: R$ 4.166,82
+20:13:34 [N1]     Paciente selecionado: Ana Maria Corrêa
+20:13:34 [N1]     Item 1/3: 22x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 166,66
+20:13:42 [N1]     Item 2/3: 2x REAVALIAÇÃO — R$ 166,66
+20:13:48 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:13:51 [N1]     Item 3/3: 1x REAVALIAÇÃO — R$ 166,98
+20:13:57 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:14:03 [N1]     Parcelas geradas.
+20:14:04 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:14:04 [N1]     Salvando orçamento...
+20:14:12 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 4.166,82).
+
+20:14:12 [N1] [79/166] ──────────────────────────────────────────────────
+20:14:12 [N1]   Paciente: Sandra Das Graças De Paula (CPF: 84261838168, prontuário 16858) | 18 linha(s) na planilha
+20:14:12 [N1]         3x REAVALIAÇÃO — R$ 190,00 cada
+20:14:12 [N1]        15x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00 cada
+20:14:12 [N1]       Total do orçamento: R$ 3.420,00
+
+20:14:18 ⏱  78/166 pacientes (47%) | ✔ 76 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:14:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:53:01 | término previsto: 06/10 21:07
+20:14:18 [N1]     Paciente selecionado: Sandra das Graças de Paula
+20:14:18 [N1]     Item 1/2: 3x REAVALIAÇÃO — R$ 190,00
+20:14:24 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:14:27 [N1]     Item 2/2: 15x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00
+20:14:39 [N1]     Parcelas geradas.
+20:14:40 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:14:40 [N1]     Salvando orçamento...
+20:14:48 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 3.420,00).
+
+20:14:48 [N1] [80/166] ──────────────────────────────────────────────────
+20:14:48 [N1]   Paciente: Josiane Oliveira Silva (CPF: 00339719192, prontuário 16863) | 14 linha(s) na planilha
+20:14:48 [N1]         3x REAVALIAÇÃO — R$ 165,00 cada
+20:14:48 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 165,00 cada
+20:14:48 [N1]         1x ETAPA 1/24 - CORREÇÃO — R$ 165,00 cada
+20:14:48 [N1]       Total do orçamento: R$ 2.310,00
+20:14:54 [N1]     Paciente selecionado: Josiane Oliveira Silva
+20:14:54 [N1]     Item 1/3: 3x REAVALIAÇÃO — R$ 165,00
+20:15:00 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:15:03 [N1]     Item 2/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 165,00
+20:15:11 [N1]     Item 3/3: 1x ETAPA 1/24 - CORREÇÃO — R$ 165,00
+
+20:15:18 ⏱  79/166 pacientes (48%) | ✔ 77 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:15:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:52:51 | término previsto: 06/10 21:08
+20:15:24 [N1]     Parcelas geradas.
+20:15:25 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:15:25 [N1]     Salvando orçamento...
+20:15:33 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 2.310,00).
+
+20:15:33 [N1] [81/166] ──────────────────────────────────────────────────
+20:15:33 [N1]   Paciente: Mara Rúbia Pereira Dutra (CPF: 69243581104, prontuário 16872) | 11 linha(s) na planilha
+20:15:33 [N1]         8x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 181,91 cada
+20:15:33 [N1]         1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 179,89 cada
+20:15:33 [N1]         2x REAVALIAÇÃO — R$ 181,91 cada
+20:15:33 [N1]       Total do orçamento: R$ 1.998,99
+20:15:38 [N1]     Paciente selecionado: Mara Rúbia Pereira Dutra
+20:15:39 [N1]     Item 1/3: 8x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 181,91
+20:15:47 [N1]     Item 2/3: 1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 179,89
+20:15:56 [N1]     Item 3/3: 2x REAVALIAÇÃO — R$ 181,91
+20:16:02 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:16:08 [N1]     Parcelas geradas.
+20:16:09 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:16:09 [N1]     Salvando orçamento...
+20:16:17 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 1.998,99).
+
+20:16:17 [N1] [82/166] ──────────────────────────────────────────────────
+20:16:17 [N1]   Paciente: Stela Mar Dos Reis Marques (CPF: 01009098179, prontuário 16878) | 1 linha(s) na planilha
+20:16:17 [N1]         1x SESSÃO INDIVIDUAL — R$ 166,74 cada
+20:16:17 [N1]       Total do orçamento: R$ 166,74
+
+20:16:18 ⏱  81/166 pacientes (49%) | ✔ 79 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:16:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:51:25 | término previsto: 06/10 21:07
+20:16:23 [N1]     Paciente selecionado: Stela Mar dos Reis Marques
+20:16:23 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 166,74
+20:16:35 [N1]     Parcelas geradas.
+20:16:36 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:16:36 [N1]     Salvando orçamento...
+20:16:44 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 166,74).
+
+20:16:44 [N1] [83/166] ──────────────────────────────────────────────────
+20:16:44 [N1]   Paciente: Isauri Dos Santos Macedo (CPF: 37596454534, prontuário 16847) | 1 linha(s) na planilha
+20:16:44 [N1]         1x SESSÃO INDIVIDUAL — R$ 160,00 cada
+20:16:44 [N1]       Total do orçamento: R$ 160,00
+20:16:50 [N1]     Paciente selecionado: Isauri dos santos macedo
+20:16:50 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 160,00
+20:17:02 [N1]     Parcelas geradas.
+20:17:03 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:17:03 [N1]     Salvando orçamento...
+20:17:11 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 160,00).
+
+20:17:11 [N1] [84/166] ──────────────────────────────────────────────────
+20:17:11 [N1]   Paciente: Elsio Ricardo Valini (CPF: 29535057847, prontuário 16888) | 4 linha(s) na planilha
+20:17:11 [N1]         4x SESSÃO INDIVIDUAL — R$ 206,25 cada
+20:17:11 [N1]       Total do orçamento: R$ 825,00
+20:17:17 [N1]     Paciente selecionado: Elsio Ricardo Valini
+20:17:17 [N1]     Item 1/1: 4x SESSÃO INDIVIDUAL — R$ 206,25
+
+20:17:18 ⏱  83/166 pacientes (50%) | ✔ 81 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:17:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:50:00 | término previsto: 06/10 21:07
+20:17:29 [N1]     Parcelas geradas.
+20:17:30 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:17:30 [N1]     Salvando orçamento...
+20:17:38 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 825,00).
+
+20:17:38 [N1] [85/166] ──────────────────────────────────────────────────
+20:17:38 [N1]   Paciente: Luana Barbosa Da Silva (CPF: 04345089182, prontuário 16899) | 22 linha(s) na planilha
+20:17:38 [N1]         3x REAVALIAÇÃO — R$ 206,25 cada
+20:17:38 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 206,25 cada
+20:17:38 [N1]         9x ETAPA 1/24 - CORREÇÃO — R$ 206,25 cada
+20:17:38 [N1]       Total do orçamento: R$ 4.537,50
+20:17:43 [N1]     Paciente selecionado: Luana Barbosa da Silva
+20:17:44 [N1]     Item 1/3: 3x REAVALIAÇÃO — R$ 206,25
+20:17:49 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:17:52 [N1]     Item 2/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 206,25
+20:18:01 [N1]     Item 3/3: 9x ETAPA 1/24 - CORREÇÃO — R$ 206,25
+20:18:13 [N1]     Parcelas geradas.
+20:18:14 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:18:14 [N1]     Salvando orçamento...
+
+20:18:18 ⏱  84/166 pacientes (51%) | ✔ 82 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:18:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:49:47 | término previsto: 06/10 21:08
+20:18:22 [N1]   ✔ Orçamento cadastrado em 45s (3 item(ns), total R$ 4.537,50).
+
+20:18:22 [N1] [86/166] ──────────────────────────────────────────────────
+20:18:22 [N1]   Paciente: Marcelo Rodrigues Alves Guerra (CPF: 33137669863, prontuário 16908) | 7 linha(s) na planilha
+20:18:22 [N1]         7x SESSÃO INDIVIDUAL — R$ 210,00 cada
+20:18:22 [N1]       Total do orçamento: R$ 1.470,00
+20:18:28 [N1]     Paciente selecionado: Marcelo rodrigues alves guerra
+20:18:28 [N1]     Item 1/1: 7x SESSÃO INDIVIDUAL — R$ 210,00
+20:18:40 [N1]     Parcelas geradas.
+20:18:41 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:18:41 [N1]     Salvando orçamento...
+20:18:49 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 1.470,00).
+
+20:18:49 [N1] [87/166] ──────────────────────────────────────────────────
+20:18:49 [N1]   Paciente: Antonio José Dos Santos Filho (CPF: 35892579549, prontuário 16930) | 2 linha(s) na planilha
+20:18:49 [N1]         2x REAVALIAÇÃO — R$ 190,00 cada
+20:18:49 [N1]       Total do orçamento: R$ 380,00
+20:18:55 [N1]     Paciente selecionado: Antonio José dos Santos Filho
+20:18:55 [N1]     Item 1/1: 2x REAVALIAÇÃO — R$ 190,00
+20:19:01 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:19:08 [N1]     Parcelas geradas.
+20:19:09 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:19:09 [N1]     Salvando orçamento...
+20:19:16 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 380,00).
+
+20:19:16 [N1] [88/166] ──────────────────────────────────────────────────
+20:19:16 [N1]   Paciente: Débora Vieira Dos Santos (CPF: 05097247108, prontuário 16939) | 9 linha(s) na planilha
+20:19:16 [N1]         8x ETAPA 1/24 - CORREÇÃO — R$ 206,25 cada
+20:19:16 [N1]         1x REAVALIAÇÃO — R$ 206,25 cada
+20:19:16 [N1]       Total do orçamento: R$ 1.856,25
+
+20:19:18 ⏱  87/166 pacientes (52%) | ✔ 85 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:19:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:47:13 | término previsto: 06/10 21:06
+20:19:22 [N1]     Paciente selecionado: Débora Vieira dos Santos
+20:19:22 [N1]     Item 1/2: 8x ETAPA 1/24 - CORREÇÃO — R$ 206,25
+20:19:31 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 206,25
+20:19:37 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:19:43 [N1]     Parcelas geradas.
+20:19:44 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:19:44 [N1]     Salvando orçamento...
+20:19:52 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.856,25).
+
+20:19:52 [N1] [89/166] ──────────────────────────────────────────────────
+20:19:52 [N1]   Paciente: Filipe Da Silva Rosa (CPF: 70924838167, prontuário 16932) | 4 linha(s) na planilha
+20:19:52 [N1]         1x REAVALIAÇÃO — R$ 206,25 cada
+20:19:52 [N1]         2x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 206,25 cada
+20:19:52 [N1]         1x SESSÃO CORTESIA — R$ 0,00 cada
+20:19:52 [N1]       Total do orçamento: R$ 618,75
+20:19:58 [N1]     Paciente selecionado: Filipe da Silva Rosa
+20:19:58 [N1]     Item 1/3: 1x REAVALIAÇÃO — R$ 206,25
+20:20:04 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:20:07 [N1]     Item 2/3: 2x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 206,25
+20:20:15 [N1]     Item 3/3: 1x SESSÃO CORTESIA — R$ 0,00
+
+20:20:18 ⏱  88/166 pacientes (53%) | ✔ 86 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:20:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:46:58 | término previsto: 06/10 21:07
+20:20:28 [N1]     Parcelas geradas.
+20:20:29 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:20:29 [N1]     Salvando orçamento...
+20:20:37 [N1]   ✔ Orçamento cadastrado em 45s (3 item(ns), total R$ 618,75).
+
+20:20:37 [N1] [90/166] ──────────────────────────────────────────────────
+20:20:37 [N1]   Paciente: Julimar De Almeida Pereira (CPF: 72765208115, prontuário 16946) | 1 linha(s) na planilha
+20:20:37 [N1]         1x SESSÃO INDIVIDUAL — R$ 206,25 cada
+20:20:37 [N1]       Total do orçamento: R$ 206,25
+20:20:43 [N1]     Paciente selecionado: Julimar de almeida pereira
+20:20:43 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 206,25
+20:20:55 [N1]     Parcelas geradas.
+20:20:56 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:20:56 [N1]     Salvando orçamento...
+20:21:04 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 206,25).
+
+20:21:04 [N1] [91/166] ──────────────────────────────────────────────────
+20:21:04 [N1]   Paciente: Vitor Batista Thiesen De Melo (CPF: 70963091107, prontuário 16813) | 8 linha(s) na planilha
+20:21:04 [N1]         1x REAVALIAÇÃO — R$ 158,37 cada
+20:21:04 [N1]         7x ETAPA 1/24 - CORREÇÃO — R$ 158,33 cada
+20:21:04 [N1]       Total do orçamento: R$ 1.266,68
+20:21:10 [N1]     Paciente selecionado: Vitor Batista Thiesen de Melo
+20:21:10 [N1]     Item 1/2: 1x REAVALIAÇÃO — R$ 158,37
+20:21:16 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+
+20:21:18 ⏱  90/166 pacientes (54%) | ✔ 88 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:21:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:45:36 | término previsto: 06/10 21:06
+20:21:19 [N1]     Item 2/2: 7x ETAPA 1/24 - CORREÇÃO — R$ 158,33
+20:21:31 [N1]     Parcelas geradas.
+20:21:32 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:21:32 [N1]     Salvando orçamento...
+20:21:40 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.266,68).
+
+20:21:40 [N1] [92/166] ──────────────────────────────────────────────────
+20:21:40 [N1]   Paciente: Sebastião Francisco De Oliveira Neto (CPF: 04174233144, prontuário 16952) | 7 linha(s) na planilha
+20:21:40 [N1]         6x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 200,00 cada
+20:21:40 [N1]         1x ETAPA 1/24 - CORREÇÃO — R$ 200,00 cada
+20:21:40 [N1]       Total do orçamento: R$ 1.400,00
+20:21:46 [N1]     Paciente selecionado: Sebastião Francisco de Oliveira Neto
+20:21:46 [N1]     Item 1/2: 6x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 200,00
+20:21:55 [N1]     Item 2/2: 1x ETAPA 1/24 - CORREÇÃO — R$ 200,00
+20:22:08 [N1]     Parcelas geradas.
+20:22:09 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:22:09 [N1]     Salvando orçamento...
+20:22:17 [N1]   ✔ Orçamento cadastrado em 37s (2 item(ns), total R$ 1.400,00).
+
+20:22:17 [N1] [93/166] ──────────────────────────────────────────────────
+20:22:17 [N1]   Paciente: Elza Aparecida Carmo Sato (CPF: 33471894187, prontuário 16961) | 6 linha(s) na planilha
+20:22:17 [N1]         4x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00 cada
+20:22:17 [N1]         2x REAVALIAÇÃO — R$ 190,00 cada
+20:22:17 [N1]       Total do orçamento: R$ 1.140,00
+
+20:22:18 ⏱  92/166 pacientes (55%) | ✔ 90 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:22:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:44:14 | término previsto: 06/10 21:06
+20:22:23 [N1]     Paciente selecionado: Elza Aparecida Carmo Sato
+20:22:23 [N1]     Item 1/2: 4x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00
+20:22:32 [N1]     Item 2/2: 2x REAVALIAÇÃO — R$ 190,00
+20:22:37 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:22:44 [N1]     Parcelas geradas.
+20:22:45 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:22:45 [N1]     Salvando orçamento...
+20:22:53 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.140,00).
+
+20:22:53 [N1] [94/166] ──────────────────────────────────────────────────
+20:22:53 [N1]   Paciente: Ivan Gomes Pires (CPF: 80057144168, prontuário 16969) | 1 linha(s) na planilha
+20:22:53 [N1]         1x REAVALIAÇÃO — R$ 210,00 cada
+20:22:53 [N1]       Total do orçamento: R$ 210,00
+20:22:59 [N1]     Paciente selecionado: Ivan Gomes Pires
+20:22:59 [N1]     Item 1/1: 1x REAVALIAÇÃO — R$ 210,00
+20:23:05 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:23:12 [N1]     Parcelas geradas.
+20:23:13 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:23:13 [N1]     Salvando orçamento...
+
+20:23:18 ⏱  93/166 pacientes (56%) | ✔ 91 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:23:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:43:57 | término previsto: 06/10 21:07
+20:23:21 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 210,00).
+
+20:23:21 [N1] [95/166] ──────────────────────────────────────────────────
+20:23:21 [N1]   Paciente: Jean De Almeida Toniol (CPF: 75529076149, prontuário 16980) | 3 linha(s) na planilha
+20:23:21 [N1]         2x ETAPA 1/24 - CORREÇÃO — R$ 210,00 cada
+20:23:21 [N1]         1x REAVALIAÇÃO — R$ 210,00 cada
+20:23:21 [N1]       Total do orçamento: R$ 630,00
+20:23:27 [N1]     Paciente selecionado: Jean de Almeida Toniol
+20:23:27 [N1]     Item 1/2: 2x ETAPA 1/24 - CORREÇÃO — R$ 210,00
+20:23:36 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 210,00
+20:23:41 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:23:48 [N1]     Parcelas geradas.
+20:23:49 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:23:49 [N1]     Salvando orçamento...
+20:23:57 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 630,00).
+
+20:23:57 [N1] [96/166] ──────────────────────────────────────────────────
+20:23:57 [N1]   Paciente: Maria Moreira Ramos Teixeira (CPF: 94836396115, prontuário 16924) | 3 linha(s) na planilha
+20:23:57 [N1]         3x SESSÃO INDIVIDUAL — R$ 250,00 cada
+20:23:57 [N1]       Total do orçamento: R$ 750,00
+20:24:03 [N1]     Paciente selecionado: Maria Moreira Ramos Teixeira
+20:24:03 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 250,00
+20:24:15 [N1]     Parcelas geradas.
+20:24:16 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:24:16 [N1]     Salvando orçamento...
+
+20:24:18 ⏱  95/166 pacientes (57%) | ✔ 93 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:24:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:42:36 | término previsto: 06/10 21:06
+20:24:24 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 750,00).
+
+20:24:24 [N1] [97/166] ──────────────────────────────────────────────────
+20:24:24 [N1]   Paciente: Dinalva De Souza (CPF: 93438036134, prontuário 17008) | 4 linha(s) na planilha
+20:24:24 [N1]         3x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:24:24 [N1]         1x REAVALIAÇÃO — R$ 190,00 cada
+20:24:24 [N1]       Total do orçamento: R$ 760,00
+20:24:30 [N1]     Paciente selecionado: Dinalva de Souza
+20:24:30 [N1]     Item 1/2: 3x ETAPA 1/24 - CORREÇÃO — R$ 190,00
+20:24:38 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 190,00
+20:24:44 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:24:50 [N1]     Parcelas geradas.
+20:24:51 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:24:51 [N1]     Salvando orçamento...
+20:24:59 [N1]   ✔ Orçamento cadastrado em 35s (2 item(ns), total R$ 760,00).
+
+20:24:59 [N1] [98/166] ──────────────────────────────────────────────────
+20:24:59 [N1]   Paciente: Leidiane Delfina De Oliveira (CPF: 96508930168, prontuário 16265) | 44 linha(s) na planilha
+20:24:59 [N1]        40x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 70,00 cada
+20:24:59 [N1]         4x ETAPA 1/24 - CORREÇÃO — R$ 70,00 cada
+20:24:59 [N1]       Total do orçamento: R$ 3.080,00
+20:25:05 [N1]     Paciente selecionado: Leidiane Delfina de Oliveira
+20:25:05 [N1]     Item 1/2: 40x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 70,00
+20:25:14 [N1]     Item 2/2: 4x ETAPA 1/24 - CORREÇÃO — R$ 70,00
+
+20:25:18 ⏱  97/166 pacientes (58%) | ✔ 95 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:25:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:41:15 | término previsto: 06/10 21:06
+20:25:26 [N1]     Parcelas geradas.
+20:25:27 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:25:27 [N1]     Salvando orçamento...
+20:25:35 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 3.080,00).
+
+20:25:35 [N1] [99/166] ──────────────────────────────────────────────────
+20:25:35 [N1]   Paciente: Olide Maria Pizzatto Guerra (CPF: 29999650953, prontuário 17017) | 9 linha(s) na planilha
+20:25:35 [N1]         2x REAVALIAÇÃO — R$ 190,00 cada
+20:25:35 [N1]         7x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00 cada
+20:25:35 [N1]       Total do orçamento: R$ 1.710,00
+20:25:41 [N1]     Paciente selecionado: Olide Maria Pizzatto Guerra
+20:25:41 [N1]     Item 1/2: 2x REAVALIAÇÃO — R$ 190,00
+20:25:46 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:25:49 [N1]     Item 2/2: 7x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00
+20:26:01 [N1]     Parcelas geradas.
+20:26:02 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:26:02 [N1]     Salvando orçamento...
+20:26:10 [N1]   ✔ Orçamento cadastrado em 35s (2 item(ns), total R$ 1.710,00).
+
+20:26:10 [N1] [100/166] ──────────────────────────────────────────────────
+20:26:10 [N1]   Paciente: Ilma Adriana Silva (CPF: 69142076153, prontuário 17020) | 24 linha(s) na planilha
+20:26:10 [N1]         3x REAVALIAÇÃO — R$ 190,00 cada
+20:26:10 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00 cada
+20:26:10 [N1]       Total do orçamento: R$ 4.560,00
+20:26:16 [N1]     Paciente selecionado: Ilma Adriana Silva
+20:26:16 [N1]     Item 1/2: 3x REAVALIAÇÃO — R$ 190,00
+
+20:26:18 ⏱  99/166 pacientes (60%) | ✔ 97 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:26:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:39:56 | término previsto: 06/10 21:06
+20:26:22 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:26:25 [N1]     Item 2/2: 21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00
+20:26:37 [N1]     Parcelas geradas.
+20:26:38 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:26:38 [N1]     Salvando orçamento...
+20:26:46 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 4.560,00).
+
+20:26:46 [N1] [101/166] ──────────────────────────────────────────────────
+20:26:46 [N1]   Paciente: Clodomar Luiz Magnobosco (CPF: 38625601987, prontuário 17024) | 9 linha(s) na planilha
+20:26:46 [N1]         1x REAVALIAÇÃO — R$ 180,00 cada
+20:26:46 [N1]         8x ETAPA 1/24 - CORREÇÃO — R$ 180,00 cada
+20:26:46 [N1]       Total do orçamento: R$ 1.620,00
+20:26:52 [N1]     Paciente selecionado: Clodomar Luiz Magnobosco
+20:26:52 [N1]     Item 1/2: 1x REAVALIAÇÃO — R$ 180,00
+20:26:58 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:27:01 [N1]     Item 2/2: 8x ETAPA 1/24 - CORREÇÃO — R$ 180,00
+20:27:13 [N1]     Parcelas geradas.
+20:27:14 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:27:14 [N1]     Salvando orçamento...
+
+20:27:18 ⏱  100/166 pacientes (60%) | ✔ 98 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:27:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:39:36 | término previsto: 06/10 21:06
+20:27:22 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.620,00).
+
+20:27:22 [N1] [102/166] ──────────────────────────────────────────────────
+20:27:22 [N1]   Paciente: Weverton Arruda Da Silva Santos (CPF: 04595814143, prontuário 17035) | 2 linha(s) na planilha
+20:27:22 [N1]         1x REAVALIAÇÃO — R$ 210,00 cada
+20:27:22 [N1]         1x ETAPA 1/24 - CORREÇÃO — R$ 210,00 cada
+20:27:22 [N1]       Total do orçamento: R$ 420,00
+20:27:28 [N1]     Paciente selecionado: Weverton arruda da silva santos
+20:27:28 [N1]     Item 1/2: 1x REAVALIAÇÃO — R$ 210,00
+20:27:34 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:27:37 [N1]     Item 2/2: 1x ETAPA 1/24 - CORREÇÃO — R$ 210,00
+20:27:49 [N1]     Parcelas geradas.
+20:27:50 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:27:50 [N1]     Salvando orçamento...
+20:27:58 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 420,00).
+
+20:27:58 [N1] [103/166] ──────────────────────────────────────────────────
+20:27:58 [N1]   Paciente: Sinomar Fernandes Da Silva Borges (CPF: 01552915131, prontuário 17036) | 3 linha(s) na planilha
+20:27:58 [N1]         2x ETAPA 1/24 - CORREÇÃO — R$ 210,00 cada
+20:27:58 [N1]         1x REAVALIAÇÃO — R$ 210,00 cada
+20:27:58 [N1]       Total do orçamento: R$ 630,00
+20:28:04 [N1]     Paciente selecionado: Sinomar Fernandes da Silva Borges
+20:28:04 [N1]     Item 1/2: 2x ETAPA 1/24 - CORREÇÃO — R$ 210,00
+20:28:13 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 210,00
+
+20:28:18 ⏱  102/166 pacientes (61%) | ✔ 100 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:28:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:38:16 | término previsto: 06/10 21:06
+20:28:18 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:28:25 [N1]     Parcelas geradas.
+20:28:26 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:28:26 [N1]     Salvando orçamento...
+20:28:34 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 630,00).
+
+20:28:34 [N1] [104/166] ──────────────────────────────────────────────────
+20:28:34 [N1]   Paciente: Renivaldo Barone (CPF: 06400976850, prontuário 17039) | 7 linha(s) na planilha
+20:28:34 [N1]         6x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00 cada
+20:28:34 [N1]         1x REAVALIAÇÃO — R$ 190,00 cada
+20:28:34 [N1]       Total do orçamento: R$ 1.330,00
+20:28:40 [N1]     Paciente selecionado: Renivaldo Barone
+20:28:40 [N1]     Item 1/2: 6x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00
+20:28:48 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 190,00
+20:28:54 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:29:01 [N1]     Parcelas geradas.
+20:29:02 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:29:02 [N1]     Salvando orçamento...
+20:29:10 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.330,00).
+
+20:29:10 [N1] [105/166] ──────────────────────────────────────────────────
+20:29:10 [N1]   Paciente: Oziel Santana Sousa (CPF: 01295191385, prontuário 17046) | 6 linha(s) na planilha
+20:29:10 [N1]         3x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 200,00 cada
+20:29:10 [N1]         3x REAVALIAÇÃO — R$ 200,00 cada
+20:29:10 [N1]       Total do orçamento: R$ 1.200,00
+20:29:16 [N1]     Paciente selecionado: Oziel Santana Sousa
+20:29:16 [N1]     Item 1/2: 3x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 200,00
+
+20:29:18 ⏱  104/166 pacientes (63%) | ✔ 102 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:29:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:36:57 | término previsto: 06/10 21:06
+20:29:24 [N1]     Item 2/2: 3x REAVALIAÇÃO — R$ 200,00
+20:29:30 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:29:37 [N1]     Parcelas geradas.
+20:29:38 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:29:38 [N1]     Salvando orçamento...
+20:29:46 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.200,00).
+
+20:29:46 [N1] [106/166] ──────────────────────────────────────────────────
+20:29:46 [N1]   Paciente: Rayssa Katriny Lopes (CPF: 70566928183, prontuário 17047) | 3 linha(s) na planilha
+20:29:46 [N1]         2x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 160,00 cada
+20:29:46 [N1]         1x REAVALIAÇÃO — R$ 160,00 cada
+20:29:46 [N1]       Total do orçamento: R$ 480,00
+20:29:52 [N1]     Paciente selecionado: Rayssa Katriny Lopes
+20:29:52 [N1]     Item 1/2: 2x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 160,00
+20:30:00 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 160,00
+20:30:06 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:30:13 [N1]     Parcelas geradas.
+20:30:14 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:30:14 [N1]     Salvando orçamento...
+
+20:30:18 ⏱  105/166 pacientes (63%) | ✔ 103 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:30:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:36:36 | término previsto: 06/10 21:06
+20:30:22 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 480,00).
+
+20:30:22 [N1] [107/166] ──────────────────────────────────────────────────
+20:30:22 [N1]   Paciente: Matheus Silva Rodrigues (CPF: 05577126100, prontuário 17052) | 5 linha(s) na planilha
+20:30:22 [N1]         5x SESSÃO INDIVIDUAL — R$ 250,00 cada
+20:30:22 [N1]       Total do orçamento: R$ 1.250,00
+20:30:28 [N1]     Paciente selecionado: Matheus Silva Rodrigues
+20:30:28 [N1]     Item 1/1: 5x SESSÃO INDIVIDUAL — R$ 250,00
+20:30:40 [N1]     Parcelas geradas.
+20:30:40 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:30:40 [N1]     Salvando orçamento...
+20:30:49 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 1.250,00).
+
+20:30:49 [N1] [108/166] ──────────────────────────────────────────────────
+20:30:49 [N1]   Paciente: Welison Ney José De Araújo (CPF: 00087090171, prontuário 17049) | 9 linha(s) na planilha
+20:30:49 [N1]         8x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:30:49 [N1]         1x REAVALIAÇÃO — R$ 190,00 cada
+20:30:49 [N1]       Total do orçamento: R$ 1.710,00
+20:30:54 [N1]     Paciente selecionado: Welison Ney José de Araújo
+20:30:54 [N1]     Item 1/2: 8x ETAPA 1/24 - CORREÇÃO — R$ 190,00
+20:31:03 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 190,00
+20:31:09 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:31:15 [N1]     Parcelas geradas.
+20:31:16 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:31:16 [N1]     Salvando orçamento...
+
+20:31:18 ⏱  107/166 pacientes (64%) | ✔ 105 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:31:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:35:17 | término previsto: 06/10 21:06
+20:31:24 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.710,00).
+
+20:31:24 [N1] [109/166] ──────────────────────────────────────────────────
+20:31:24 [N1]   Paciente: Vergina Maria Da Costa Soares (CPF: 37499866149, prontuário 17048) | 7 linha(s) na planilha
+20:31:24 [N1]         6x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00 cada
+20:31:24 [N1]         1x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:31:24 [N1]       Total do orçamento: R$ 1.330,00
+20:31:30 [N1]     Paciente selecionado: Vergina maria da Costa Soares
+20:31:30 [N1]     Item 1/2: 6x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00
+20:31:39 [N1]     Item 2/2: 1x ETAPA 1/24 - CORREÇÃO — R$ 190,00
+20:31:51 [N1]     Parcelas geradas.
+20:31:52 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:31:52 [N1]     Salvando orçamento...
+20:32:00 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.330,00).
+
+20:32:00 [N1] [110/166] ──────────────────────────────────────────────────
+20:32:00 [N1]   Paciente: Leonardo Gomes Do Carmo (CPF: 70254294146, prontuário 17095) | 11 linha(s) na planilha
+20:32:00 [N1]         9x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 210,00 cada
+20:32:00 [N1]         2x REAVALIAÇÃO — R$ 210,00 cada
+20:32:00 [N1]       Total do orçamento: R$ 2.310,00
+20:32:06 [N1]     Paciente selecionado: Leonardo Gomes do Carmo
+20:32:06 [N1]     Item 1/2: 9x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 210,00
+20:32:15 [N1]     Item 2/2: 2x REAVALIAÇÃO — R$ 210,00
+
+20:32:18 ⏱  109/166 pacientes (66%) | ✔ 107 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:32:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:33:59 | término previsto: 06/10 21:06
+20:32:21 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:32:27 [N1]     Parcelas geradas.
+20:32:28 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:32:28 [N1]     Salvando orçamento...
+20:32:36 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 2.310,00).
+
+20:32:36 [N1] [111/166] ──────────────────────────────────────────────────
+20:32:36 [N1]   Paciente: Miguel Teixeira Da Rocha (CPF: 90428056172, prontuário 17078) | 14 linha(s) na planilha
+20:32:36 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 200,00 cada
+20:32:36 [N1]         3x REAVALIAÇÃO — R$ 200,00 cada
+20:32:36 [N1]         1x ETAPA 1/24 - CORREÇÃO — R$ 200,00 cada
+20:32:36 [N1]       Total do orçamento: R$ 2.800,00
+20:32:42 [N1]     Paciente selecionado: Miguel Teixeira da Rocha
+20:32:42 [N1]     Item 1/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 200,00
+20:32:51 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 200,00
+20:32:57 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:32:59 [N1]     Item 3/3: 1x ETAPA 1/24 - CORREÇÃO — R$ 200,00
+20:33:11 [N1]     Parcelas geradas.
+20:33:12 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:33:12 [N1]     Salvando orçamento...
+
+20:33:18 ⏱  110/166 pacientes (66%) | ✔ 108 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:33:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:33:36 | término previsto: 06/10 21:06
+20:33:20 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 2.800,00).
+
+20:33:20 [N1] [112/166] ──────────────────────────────────────────────────
+20:33:20 [N1]   Paciente: Geraldo Antonio Dos Santos (CPF: 04403674410, prontuário 16965) | 1 linha(s) na planilha
+20:33:20 [N1]         1x SESSÃO INDIVIDUAL — R$ 190,00 cada
+20:33:20 [N1]       Total do orçamento: R$ 190,00
+20:33:26 [N1]     Paciente selecionado: Geraldo Antonio dos Santos
+20:33:26 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 190,00
+20:33:38 [N1]     Parcelas geradas.
+20:33:39 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:33:39 [N1]     Salvando orçamento...
+20:33:47 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 190,00).
+
+20:33:47 [N1] [113/166] ──────────────────────────────────────────────────
+20:33:47 [N1]   Paciente: Luiz Gustavo Carmo Morais (CPF: 03050594160, prontuário 16940) | 1 linha(s) na planilha
+20:33:47 [N1]         1x ETAPA 1/24 - CORREÇÃO — R$ 187,50 cada
+20:33:47 [N1]       Total do orçamento: R$ 187,50
+20:33:53 [N1]     Paciente selecionado: Luiz Gustavo Carmo Morais
+20:33:53 [N1]     Item 1/1: 1x ETAPA 1/24 - CORREÇÃO — R$ 187,50
+20:34:05 [N1]     Parcelas geradas.
+20:34:06 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:34:06 [N1]     Salvando orçamento...
+20:34:14 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 187,50).
+
+20:34:14 [N1] [114/166] ──────────────────────────────────────────────────
+20:34:14 [N1]   Paciente: Marcela Horbylon Carvalho (CPF: 07244492138, prontuário 16934) | 2 linha(s) na planilha
+20:34:14 [N1]         1x ETAPA 1/24 - CORREÇÃO — R$ 183,33 cada
+20:34:14 [N1]         1x SESSÃO INDIVIDUAL — R$ 183,37 cada
+20:34:14 [N1]       Total do orçamento: R$ 366,70
+
+20:34:18 ⏱  113/166 pacientes (68%) | ✔ 111 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:34:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:31:25 | término previsto: 06/10 21:05
+20:34:20 [N1]     Paciente selecionado: Marcela horbylon Carvalho
+20:34:20 [N1]     Item 1/2: 1x ETAPA 1/24 - CORREÇÃO — R$ 183,33
+20:34:29 [N1]     Item 2/2: 1x SESSÃO INDIVIDUAL — R$ 183,37
+20:34:41 [N1]     Parcelas geradas.
+20:34:42 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:34:42 [N1]     Salvando orçamento...
+20:34:50 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 366,70).
+
+20:34:50 [N1] [115/166] ──────────────────────────────────────────────────
+20:34:50 [N1]   Paciente: Valéria Rosa De Oliveira Fiuza (CPF: 00986582123, prontuário 17102) | 16 linha(s) na planilha
+20:34:50 [N1]         1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 166,78 cada
+20:34:50 [N1]         9x ETAPA 1/24 - CORREÇÃO — R$ 166,66 cada
+20:34:50 [N1]         5x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 166,66 cada
+20:34:50 [N1]         1x REAVALIAÇÃO — R$ 166,66 cada
+20:34:50 [N1]       Total do orçamento: R$ 2.666,68
+20:34:56 [N1]     Paciente selecionado: Valéria Rosa de Oliveira Fiuza
+20:34:56 [N1]     Item 1/4: 1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 166,78
+20:35:05 [N1]     Item 2/4: 9x ETAPA 1/24 - CORREÇÃO — R$ 166,66
+20:35:14 [N1]     Item 3/4: 5x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 166,66
+
+20:35:18 ⏱  114/166 pacientes (69%) | ✔ 112 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:35:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:31:01 | término previsto: 06/10 21:06
+20:35:23 [N1]     Item 4/4: 1x REAVALIAÇÃO — R$ 166,66
+20:35:28 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:35:35 [N1]     Parcelas geradas.
+20:35:36 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:35:36 [N1]     Salvando orçamento...
+20:35:44 [N1]   ✔ Orçamento cadastrado em 53s (4 item(ns), total R$ 2.666,68).
+
+20:35:44 [N1] [116/166] ──────────────────────────────────────────────────
+20:35:44 [N1]   Paciente: Marcia Lucia Fiuza (CPF: 82042934100, prontuário 17104) | 17 linha(s) na planilha
+20:35:44 [N1]        10x ETAPA 1/24 - CORREÇÃO — R$ 166,66 cada
+20:35:44 [N1]         1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 166,78 cada
+20:35:44 [N1]         5x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 166,66 cada
+20:35:44 [N1]         1x REAVALIAÇÃO — R$ 166,66 cada
+20:35:44 [N1]       Total do orçamento: R$ 2.833,34
+20:35:49 [N1]     Paciente selecionado: Marcia Lucia Fiuza
+20:35:50 [N1]     Item 1/4: 10x ETAPA 1/24 - CORREÇÃO — R$ 166,66
+20:35:58 [N1]     Item 2/4: 1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 166,78
+20:36:07 [N1]     Item 3/4: 5x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 166,66
+20:36:16 [N1]     Item 4/4: 1x REAVALIAÇÃO — R$ 166,66
+
+20:36:18 ⏱  115/166 pacientes (69%) | ✔ 113 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:36:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:30:36 | término previsto: 06/10 21:06
+20:36:21 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:36:28 [N1]     Parcelas geradas.
+20:36:29 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:36:29 [N1]     Salvando orçamento...
+20:36:37 [N1]   ✔ Orçamento cadastrado em 53s (4 item(ns), total R$ 2.833,34).
+
+20:36:37 [N1] [117/166] ──────────────────────────────────────────────────
+20:36:37 [N1]   Paciente: Eline Vieira Da Conceição (CPF: 62268801390, prontuário 17065) | 3 linha(s) na planilha
+20:36:37 [N1]         2x ETAPA 1/24 - CORREÇÃO — R$ 200,00 cada
+20:36:37 [N1]         1x REAVALIAÇÃO — R$ 200,00 cada
+20:36:37 [N1]       Total do orçamento: R$ 600,00
+20:36:43 [N1]     Paciente selecionado: Eline Vieira da Conceição
+20:36:43 [N1]     Item 1/2: 2x ETAPA 1/24 - CORREÇÃO — R$ 200,00
+20:36:52 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 200,00
+20:36:57 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:37:04 [N1]     Parcelas geradas.
+20:37:04 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:37:04 [N1]     Salvando orçamento...
+20:37:12 [N1]   ✔ Orçamento cadastrado em 35s (2 item(ns), total R$ 600,00).
+
+20:37:12 [N1] [118/166] ──────────────────────────────────────────────────
+20:37:12 [N1]   Paciente: Luzeni Da Silva Freitas Campos (CPF: 02987383177, prontuário 17115) | 2 linha(s) na planilha
+20:37:12 [N1]         1x ETAPA 1/24 - CORREÇÃO — R$ 166,66 cada
+20:37:12 [N1]         1x REAVALIAÇÃO — R$ 166,74 cada
+20:37:12 [N1]       Total do orçamento: R$ 333,40
+
+20:37:18 ⏱  117/166 pacientes (70%) | ✔ 115 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:37:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:29:19 | término previsto: 06/10 21:06
+20:37:18 [N1]     Paciente selecionado: Luzeni da Silva Freitas campos
+20:37:19 [N1]     Item 1/2: 1x ETAPA 1/24 - CORREÇÃO — R$ 166,66
+20:37:27 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 166,74
+20:37:33 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:37:39 [N1]     Parcelas geradas.
+20:37:40 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:37:40 [N1]     Salvando orçamento...
+20:37:48 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 333,40).
+
+20:37:48 [N1] [119/166] ──────────────────────────────────────────────────
+20:37:48 [N1]   Paciente: Leandro De Lima Chaves (CPF: 01578388112, prontuário 17121) | 5 linha(s) na planilha
+20:37:48 [N1]         4x ETAPA 1/24 - CORREÇÃO — R$ 210,00 cada
+20:37:48 [N1]         1x REAVALIAÇÃO — R$ 210,00 cada
+20:37:48 [N1]       Total do orçamento: R$ 1.050,00
+20:37:54 [N1]     Paciente selecionado: Leandro de Lima Chaves
+20:37:54 [N1]     Item 1/2: 4x ETAPA 1/24 - CORREÇÃO — R$ 210,00
+20:38:03 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 210,00
+20:38:09 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:38:15 [N1]     Parcelas geradas.
+20:38:16 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:38:16 [N1]     Salvando orçamento...
+
+20:38:18 ⏱  118/166 pacientes (71%) | ✔ 116 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:38:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:28:53 | término previsto: 06/10 21:07
+20:38:24 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.050,00).
+
+20:38:24 [N1] [120/166] ──────────────────────────────────────────────────
+20:38:24 [N1]   Paciente: Ubirajara Gomes Dos Santos Dias (CPF: 92258590159, prontuário 17109) | 5 linha(s) na planilha
+20:38:24 [N1]         1x REAVALIAÇÃO — R$ 190,00 cada
+20:38:24 [N1]         3x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00 cada
+20:38:24 [N1]         1x SESSÃO INDIVIDUAL — R$ 150,00 cada
+20:38:24 [N1]       Total do orçamento: R$ 910,00
+20:38:30 [N1]     Paciente selecionado: Ubirajara Gomes dos Santos Dias
+20:38:30 [N1]     Item 1/3: 1x REAVALIAÇÃO — R$ 190,00
+20:38:36 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:38:39 [N1]     Item 2/3: 3x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00
+20:38:47 [N1]     Item 3/3: 1x SESSÃO INDIVIDUAL — R$ 150,00
+20:38:59 [N1]     Parcelas geradas.
+20:39:00 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:39:00 [N1]     Salvando orçamento...
+20:39:08 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 910,00).
+
+20:39:08 [N1] [121/166] ──────────────────────────────────────────────────
+20:39:08 [N1]   Paciente: Thaylla Thamy Silva (CPF: 03143703156, prontuário 17107) | 22 linha(s) na planilha
+20:39:08 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 200,00 cada
+20:39:08 [N1]         9x ETAPA 1/24 - CORREÇÃO — R$ 200,00 cada
+20:39:08 [N1]         3x REAVALIAÇÃO — R$ 200,00 cada
+20:39:08 [N1]       Total do orçamento: R$ 4.400,00
+20:39:14 [N1]     Paciente selecionado: Thaylla Thamy Silva
+20:39:14 [N1]     Item 1/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 200,00
+
+20:39:18 ⏱  120/166 pacientes (72%) | ✔ 118 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:39:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:27:36 | término previsto: 06/10 21:06
+20:39:23 [N1]     Item 2/3: 9x ETAPA 1/24 - CORREÇÃO — R$ 200,00
+20:39:32 [N1]     Item 3/3: 3x REAVALIAÇÃO — R$ 200,00
+20:39:38 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:39:44 [N1]     Parcelas geradas.
+20:39:45 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:39:45 [N1]     Salvando orçamento...
+20:39:53 [N1]   ✔ Orçamento cadastrado em 45s (3 item(ns), total R$ 4.400,00).
+
+20:39:53 [N1] [122/166] ──────────────────────────────────────────────────
+20:39:53 [N1]   Paciente: Ivone Costa Silva (CPF: 54721822120, prontuário 16656) | 18 linha(s) na planilha
+20:39:53 [N1]        12x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 70,00 cada
+20:39:53 [N1]         6x ETAPA 1/24 - CORREÇÃO — R$ 70,00 cada
+20:39:53 [N1]       Total do orçamento: R$ 1.260,00
+20:39:59 [N1]     Paciente selecionado: Ivone Costa Silva
+20:39:59 [N1]     Item 1/2: 12x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 70,00
+20:40:08 [N1]     Item 2/2: 6x ETAPA 1/24 - CORREÇÃO — R$ 70,00
+
+20:40:18 ⏱  121/166 pacientes (73%) | ✔ 119 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:40:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:27:09 | término previsto: 06/10 21:07
+20:40:20 [N1]     Parcelas geradas.
+20:40:21 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:40:21 [N1]     Salvando orçamento...
+20:40:29 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.260,00).
+
+20:40:29 [N1] [123/166] ──────────────────────────────────────────────────
+20:40:29 [N1]   Paciente: Lucas Pedrialli (CPF: 41351067818, prontuário 16964) | 1 linha(s) na planilha
+20:40:29 [N1]         1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 210,00 cada
+20:40:29 [N1]       Total do orçamento: R$ 210,00
+20:40:35 [N1]     Paciente selecionado: Lucas Pedrialli
+20:40:35 [N1]     Item 1/1: 1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 210,00
+20:40:47 [N1]     Parcelas geradas.
+20:40:48 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:40:48 [N1]     Salvando orçamento...
+20:40:56 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 210,00).
+
+20:40:56 [N1] [124/166] ──────────────────────────────────────────────────
+20:40:56 [N1]   Paciente: Maria Dulce Araújo (CPF: 66450721120, prontuário 17118) | 3 linha(s) na planilha
+20:40:56 [N1]         1x REAVALIAÇÃO — R$ 178,33 cada
+20:40:56 [N1]         2x ETAPA 1/24 - CORREÇÃO — R$ 178,33 cada
+20:40:56 [N1]       Total do orçamento: R$ 534,99
+20:41:02 [N1]     Paciente selecionado: Maria Dulce Araújo
+20:41:02 [N1]     Item 1/2: 1x REAVALIAÇÃO — R$ 178,33
+20:41:08 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:41:11 [N1]     Item 2/2: 2x ETAPA 1/24 - CORREÇÃO — R$ 178,33
+
+20:41:18 ⏱  123/166 pacientes (74%) | ✔ 121 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:41:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:25:52 | término previsto: 06/10 21:07
+20:41:23 [N1]     Parcelas geradas.
+20:41:24 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:41:24 [N1]     Salvando orçamento...
+20:41:32 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 534,99).
+
+20:41:32 [N1] [125/166] ──────────────────────────────────────────────────
+20:41:32 [N1]   Paciente: Karla De Souza Matos (CPF: 78958407115, prontuário 16662) | 1 linha(s) na planilha
+20:41:32 [N1]         1x SESSÃO CORTESIA — R$ 0,00 cada
+20:41:32 [N1]       Total do orçamento: R$ 0,00
+20:41:38 [N1]     Paciente selecionado: Karla de Souza Matos
+20:41:38 [N1]     Item 1/1: 1x SESSÃO CORTESIA — R$ 0,00
+20:41:50 [N1]     Parcelas geradas.
+20:41:51 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:41:51 [N1]     Salvando orçamento...
+
+20:42:18 ⏱  124/166 pacientes (75%) | ✔ 122 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+20:42:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:25:24 | término previsto: 06/10 21:07
+20:42:23 [N1]   ✖ ERRO no orçamento de 'Karla De Souza Matos' (CPF: 78958407115): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+20:42:23 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/78958407115_orcamento.png
+20:42:24 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+20:42:24 [N1] [126/166] ──────────────────────────────────────────────────
+20:42:24 [N1]   Paciente: Vanderleia Bezerra De Andrade (CPF: 78429412115, prontuário 17123) | 2 linha(s) na planilha
+20:42:24 [N1]         1x REAVALIAÇÃO — R$ 190,00 cada
+20:42:24 [N1]         1x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:42:24 [N1]       Total do orçamento: R$ 380,00
+20:42:30 [N1]     Paciente selecionado: Vanderleia Bezerra de Andrade
+20:42:30 [N1]     Item 1/2: 1x REAVALIAÇÃO — R$ 190,00
+20:42:35 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:42:38 [N1]     Item 2/2: 1x ETAPA 1/24 - CORREÇÃO — R$ 190,00
+20:42:50 [N1]     Parcelas geradas.
+20:42:51 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:42:51 [N1]     Salvando orçamento...
+20:42:59 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 380,00).
+
+20:42:59 [N1] [127/166] ──────────────────────────────────────────────────
+20:42:59 [N1]   Paciente: Sebastião Paulo Borges (CPF: 04559226164, prontuário 17081) | 1 linha(s) na planilha
+20:42:59 [N1]         1x SESSÃO INDIVIDUAL — R$ 250,00 cada
+20:42:59 [N1]       Total do orçamento: R$ 250,00
+20:43:06 [N1]     Paciente selecionado: Sebastião Paulo Borges
+20:43:06 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 250,00
+20:43:18 [N1]     Parcelas geradas.
+
+20:43:18 ⏱  126/166 pacientes (76%) | ✔ 123 cadastrado(s) · ✖ 0 erro(s) · ⚠ 3 verificar
+20:43:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:24:07 | término previsto: 06/10 21:07
+20:43:19 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:43:19 [N1]     Salvando orçamento...
+20:43:27 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 250,00).
+
+20:43:27 [N1] [128/166] ──────────────────────────────────────────────────
+20:43:27 [N1]   Paciente: Amanda Cabral Mucelin (CPF: 03524377157, prontuário 17152) | 18 linha(s) na planilha
+20:43:27 [N1]         5x ETAPA 1/24 - CORREÇÃO — R$ 210,00 cada
+20:43:27 [N1]         3x REAVALIAÇÃO — R$ 210,00 cada
+20:43:27 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 210,00 cada
+20:43:27 [N1]       Total do orçamento: R$ 3.780,00
+20:43:32 [N1]     Paciente selecionado: Amanda Cabral Mucelin
+20:43:33 [N1]     Item 1/3: 5x ETAPA 1/24 - CORREÇÃO — R$ 210,00
+20:43:41 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 210,00
+20:43:47 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:43:49 [N1]     Item 3/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 210,00
+20:43:52 [N1]   ✖ ERRO no orçamento de 'Amanda Cabral Mucelin' (CPF: 03524377157): item 3/3 'ETAPA 2/24 - ESTABILIZAÇÃO': StaleElementReferenceException: stale element reference: stale element not found in the current frame
+20:43:53 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/03524377157_orcamento.png
+20:43:53 [N1]   Marcado como erro na planilha (nada foi salvo para este paciente).
+
+20:43:53 [N1] [129/166] ──────────────────────────────────────────────────
+20:43:53 [N1]   Paciente: Irisnaldo Soares Da Costa Ribeiro (CPF: 01997393158, prontuário 17135) | 7 linha(s) na planilha
+20:43:53 [N1]         6x ETAPA 1/24 - CORREÇÃO — R$ 210,00 cada
+20:43:53 [N1]         1x REAVALIAÇÃO — R$ 210,00 cada
+20:43:53 [N1]       Total do orçamento: R$ 1.470,00
+20:43:59 [N1]     Paciente selecionado: Irisnaldo Soares da Costa Ribeiro
+20:43:59 [N1]     Item 1/2: 6x ETAPA 1/24 - CORREÇÃO — R$ 210,00
+20:44:07 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 210,00
+20:44:13 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+
+20:44:18 ⏱  128/166 pacientes (77%) | ✔ 124 cadastrado(s) · ✖ 1 erro(s) · ⚠ 3 verificar
+20:44:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:22:51 | término previsto: 06/10 21:07
+20:44:19 [N1]     Parcelas geradas.
+20:44:20 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:44:20 [N1]     Salvando orçamento...
+20:44:28 [N1]   ✔ Orçamento cadastrado em 35s (2 item(ns), total R$ 1.470,00).
+
+20:44:28 [N1] [130/166] ──────────────────────────────────────────────────
+20:44:28 [N1]   Paciente: Andreia Alves Pereira Xavier (CPF: 02590442106, prontuário 17133) | 17 linha(s) na planilha
+20:44:28 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 200,00 cada
+20:44:28 [N1]         4x ETAPA 1/24 - CORREÇÃO — R$ 200,00 cada
+20:44:28 [N1]         3x REAVALIAÇÃO — R$ 200,00 cada
+20:44:28 [N1]       Total do orçamento: R$ 3.400,00
+20:44:34 [N1]     Paciente selecionado: Andreia Alves Pereira Xavier
+20:44:35 [N1]     Item 1/3: 10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 200,00
+20:44:43 [N1]     Item 2/3: 4x ETAPA 1/24 - CORREÇÃO — R$ 200,00
+20:44:51 [N1]     Item 3/3: 3x REAVALIAÇÃO — R$ 200,00
+20:44:57 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:45:03 [N1]     Parcelas geradas.
+20:45:04 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:45:04 [N1]     Salvando orçamento...
+20:45:12 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 3.400,00).
+
+20:45:12 [N1] [131/166] ──────────────────────────────────────────────────
+20:45:12 [N1]   Paciente: Bruno César Silva Pereira (CPF: 08810201680, prontuário 17151) | 16 linha(s) na planilha
+20:45:12 [N1]        10x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 210,00 cada
+20:45:12 [N1]         3x ETAPA 1/24 - CORREÇÃO — R$ 210,00 cada
+20:45:12 [N1]         3x REAVALIAÇÃO — R$ 210,00 cada
+20:45:12 [N1]       Total do orçamento: R$ 3.360,00
+20:45:16 [N1]   ✖ ERRO no orçamento de 'Bruno César Silva Pereira' (CPF: 08810201680): nenhum resultado para '08810201680' (opções: ['Criar "08810201680" ?'])
+20:45:16 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/08810201680_orcamento.png
+20:45:17 [N1]   Marcado como erro na planilha (nada foi salvo para este paciente).
+
+20:45:17 [N1] [132/166] ──────────────────────────────────────────────────
+20:45:17 [N1]   Paciente: Rosangela Alves De Matos (CPF: 22394592800, prontuário 16995) | 5 linha(s) na planilha
+20:45:17 [N1]         5x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:45:17 [N1]       Total do orçamento: R$ 950,00
+
+20:45:18 ⏱  131/166 pacientes (79%) | ✔ 126 cadastrado(s) · ✖ 2 erro(s) · ⚠ 3 verificar
+20:45:18 ⏱  média 36s/paciente (somando os navegadores) | restante: 00:20:50 | término previsto: 06/10 21:06
+20:45:22 [N1]     Paciente selecionado: Rosangela Alves de Matos
+20:45:23 [N1]     Item 1/1: 5x ETAPA 1/24 - CORREÇÃO — R$ 190,00
+20:45:35 [N1]     Parcelas geradas.
+20:45:36 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:45:36 [N1]     Salvando orçamento...
+20:45:44 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 950,00).
+
+20:45:44 [N1] [133/166] ──────────────────────────────────────────────────
+20:45:44 [N1]   Paciente: Celsi Maria Colina (CPF: 13229045106, prontuário 17149) | 8 linha(s) na planilha
+20:45:44 [N1]         7x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:45:44 [N1]         1x REAVALIAÇÃO — R$ 210,00 cada
+20:45:44 [N1]       Total do orçamento: R$ 1.540,00
+20:45:48 [N1]   ✖ ERRO no orçamento de 'Celsi Maria Colina' (CPF: 13229045106): nenhum resultado para '13229045106' (opções: ['Criar "13229045106" ?'])
+20:45:48 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/13229045106_orcamento.png
+20:45:48 [N1]   Marcado como erro na planilha (nada foi salvo para este paciente).
+
+20:45:48 [N1] [134/166] ──────────────────────────────────────────────────
+20:45:48 [N1]   Paciente: Lourival Americo Da Silva (CPF: 72839368820, prontuário 17155) | 3 linha(s) na planilha
+20:45:48 [N1]         3x SESSÃO INDIVIDUAL — R$ 190,00 cada
+20:45:48 [N1]       Total do orçamento: R$ 570,00
+20:45:54 [N1]     Paciente selecionado: Lourival Americo Da Silva
+20:45:54 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 190,00
+20:46:07 [N1]     Parcelas geradas.
+20:46:08 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:46:08 [N1]     Salvando orçamento...
+20:46:16 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 570,00).
+
+20:46:16 [N1] [135/166] ──────────────────────────────────────────────────
+20:46:16 [N1]   Paciente: José Narcizo Silva Resende (CPF: 04454605807, prontuário 17160) | 8 linha(s) na planilha
+20:46:16 [N1]         7x ETAPA 1/24 - CORREÇÃO — R$ 210,00 cada
+20:46:16 [N1]         1x REAVALIAÇÃO — R$ 210,00 cada
+20:46:16 [N1]       Total do orçamento: R$ 1.680,00
+
+20:46:18 ⏱  134/166 pacientes (81%) | ✔ 128 cadastrado(s) · ✖ 3 erro(s) · ⚠ 3 verificar
+20:46:18 ⏱  média 35s/paciente (somando os navegadores) | restante: 00:18:52 | término previsto: 06/10 21:05
+20:46:20 [N1]   ✖ ERRO no orçamento de 'José Narcizo Silva Resende' (CPF: 04454605807): nenhum resultado para '04454605807' (opções: ['Criar "04454605807" ?'])
+20:46:20 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/04454605807_orcamento.png
+20:46:21 [N1]   Marcado como erro na planilha (nada foi salvo para este paciente).
+
+20:46:21 [N1] [136/166] ──────────────────────────────────────────────────
+20:46:21 [N1]   Paciente: Coracy Mateus Dos Reis (CPF: 92402844191, prontuário 16959) | 2 linha(s) na planilha
+20:46:21 [N1]         1x SESSÃO INDIVIDUAL — R$ 166,70 cada
+20:46:21 [N1]         1x SESSÃO INDIVIDUAL — R$ 166,66 cada
+20:46:21 [N1]       Total do orçamento: R$ 333,36
+20:46:27 [N1]     Paciente selecionado: Coracy Mateus dos Reis
+20:46:27 [N1]     Item 1/2: 1x SESSÃO INDIVIDUAL — R$ 166,70
+20:46:35 [N1]     Item 2/2: 1x SESSÃO INDIVIDUAL — R$ 166,66
+20:46:47 [N1]     Parcelas geradas.
+20:46:48 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:46:48 [N1]     Salvando orçamento...
+20:46:56 [N1]   ✔ Orçamento cadastrado em 35s (2 item(ns), total R$ 333,36).
+
+20:46:56 [N1] [137/166] ──────────────────────────────────────────────────
+20:46:56 [N1]   Paciente: Kamilla Mariany De Sousa (CPF: 05513099110, prontuário 16433) | 1 linha(s) na planilha
+20:46:56 [N1]         1x REAVALIAÇÃO — R$ 165,55 cada
+20:46:56 [N1]       Total do orçamento: R$ 165,55
+20:47:02 [N1]     Paciente selecionado: Kamilla Mariany de Sousa
+20:47:02 [N1]     Item 1/1: 1x REAVALIAÇÃO — R$ 165,55
+20:47:08 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:47:14 [N1]     Parcelas geradas.
+20:47:15 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:47:15 [N1]     Salvando orçamento...
+
+20:47:18 ⏱  136/166 pacientes (82%) | ✔ 129 cadastrado(s) · ✖ 4 erro(s) · ⚠ 3 verificar
+20:47:18 ⏱  média 35s/paciente (somando os navegadores) | restante: 00:17:38 | término previsto: 06/10 21:04
+20:47:23 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 165,55).
+
+20:47:23 [N1] [138/166] ──────────────────────────────────────────────────
+20:47:23 [N1]   Paciente: Wilza Mary Saraiva Mourão (CPF: 26463911100, prontuário 17145) | 13 linha(s) na planilha
+20:47:23 [N1]         6x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:47:23 [N1]         6x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00 cada
+20:47:23 [N1]         1x REAVALIAÇÃO — R$ 190,00 cada
+20:47:23 [N1]       Total do orçamento: R$ 2.470,00
+20:47:27 [N1]   ✖ ERRO no orçamento de 'Wilza Mary Saraiva Mourão' (CPF: 26463911100): nenhum resultado para '26463911100' (opções: ['Criar "26463911100" ?'])
+20:47:27 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/26463911100_orcamento.png
+20:47:28 [N1]   Marcado como erro na planilha (nada foi salvo para este paciente).
+
+20:47:28 [N1] [139/166] ──────────────────────────────────────────────────
+20:47:28 [N1]   Paciente: Mara Rúbia De Souza Fortaleza (CPF: 76051331115, prontuário 16907) | 10 linha(s) na planilha
+20:47:28 [N1]        10x SESSÃO INDIVIDUAL — R$ 150,00 cada
+20:47:28 [N1]       Total do orçamento: R$ 1.500,00
+20:47:34 [N1]     Paciente selecionado: Mara Rúbia de Souza fortaleza
+20:47:34 [N1]     Item 1/1: 10x SESSÃO INDIVIDUAL — R$ 150,00
+20:47:46 [N1]     Parcelas geradas.
+20:47:47 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:47:47 [N1]     Salvando orçamento...
+20:47:55 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 1.500,00).
+
+20:47:55 [N1] [140/166] ──────────────────────────────────────────────────
+20:47:55 [N1]   Paciente: Neudair Ribeiro Souza (CPF: 84075546187, prontuário 17164) | 34 linha(s) na planilha
+20:47:55 [N1]         3x REAVALIAÇÃO — R$ 190,00 cada
+20:47:55 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00 cada
+20:47:55 [N1]        10x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:47:55 [N1]       Total do orçamento: R$ 6.460,00
+20:47:59 [N1]   ✖ ERRO no orçamento de 'Neudair Ribeiro Souza' (CPF: 84075546187): nenhum resultado para '84075546187' (opções: ['Criar "84075546187" ?'])
+20:47:59 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/84075546187_orcamento.png
+20:47:59 [N1]   Marcado como erro na planilha (nada foi salvo para este paciente).
+
+20:47:59 [N1] [141/166] ──────────────────────────────────────────────────
+20:47:59 [N1]   Paciente: Adão Da Silva Machado (CPF: 40151220034, prontuário 17166) | 6 linha(s) na planilha
+20:47:59 [N1]         5x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:47:59 [N1]         1x REAVALIAÇÃO — R$ 190,00 cada
+20:47:59 [N1]       Total do orçamento: R$ 1.140,00
+20:48:03 [N1]   ✖ ERRO no orçamento de 'Adão Da Silva Machado' (CPF: 40151220034): nenhum resultado para '40151220034' (opções: ['Criar "40151220034" ?'])
+20:48:03 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/40151220034_orcamento.png
+20:48:04 [N1]   Marcado como erro na planilha (nada foi salvo para este paciente).
+
+20:48:04 [N1] [142/166] ──────────────────────────────────────────────────
+20:48:04 [N1]   Paciente: Lucimar Aparecida Mendonça Silva (CPF: 62475207191, prontuário 17173) | 31 linha(s) na planilha
+20:48:04 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00 cada
+20:48:04 [N1]         3x REAVALIAÇÃO — R$ 190,00 cada
+20:48:04 [N1]         7x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:48:04 [N1]       Total do orçamento: R$ 5.890,00
+20:48:09 [N1]     Paciente selecionado: Lucimar Aparecida Mendonça Silva
+20:48:10 [N1]     Item 1/3: 21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 190,00
+
+20:48:18 ⏱  141/166 pacientes (85%) | ✔ 131 cadastrado(s) · ✖ 7 erro(s) · ⚠ 3 verificar
+20:48:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:14:21 | término previsto: 06/10 21:02
+20:48:18 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 190,00
+20:48:24 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:48:27 [N1]     Item 3/3: 7x ETAPA 1/24 - CORREÇÃO — R$ 190,00
+20:48:39 [N1]     Parcelas geradas.
+20:48:40 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:48:40 [N1]     Salvando orçamento...
+20:48:48 [N1]   ✔ Orçamento cadastrado em 44s (3 item(ns), total R$ 5.890,00).
+
+20:48:48 [N1] [143/166] ──────────────────────────────────────────────────
+20:48:48 [N1]   Paciente: Francisco Jesle Silva Macedo (CPF: 10424048361, prontuário 17157) | 8 linha(s) na planilha
+20:48:48 [N1]         8x SESSÃO INDIVIDUAL — R$ 210,00 cada
+20:48:48 [N1]       Total do orçamento: R$ 1.680,00
+20:48:54 [N1]     Paciente selecionado: Francisco jesle Silva Macedo
+20:48:54 [N1]     Item 1/1: 8x SESSÃO INDIVIDUAL — R$ 210,00
+20:49:06 [N1]     Parcelas geradas.
+20:49:07 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:49:07 [N1]     Salvando orçamento...
+20:49:15 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 1.680,00).
+
+20:49:15 [N1] [144/166] ──────────────────────────────────────────────────
+20:49:15 [N1]   Paciente: Cleiron Barros Leão (CPF: 43958630197, prontuário 17019) | 3 linha(s) na planilha
+20:49:15 [N1]         3x ETAPA 1/24 - CORREÇÃO — R$ 210,00 cada
+20:49:15 [N1]       Total do orçamento: R$ 630,00
+
+20:49:18 ⏱  143/166 pacientes (86%) | ✔ 133 cadastrado(s) · ✖ 7 erro(s) · ⚠ 3 verificar
+20:49:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:13:11 | término previsto: 06/10 21:02
+20:49:21 [N1]     Paciente selecionado: Cleiron Barros Leão
+20:49:21 [N1]     Item 1/1: 3x ETAPA 1/24 - CORREÇÃO — R$ 210,00
+20:49:34 [N1]     Parcelas geradas.
+20:49:34 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:49:34 [N1]     Salvando orçamento...
+20:49:42 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 630,00).
+
+20:49:42 [N1] [145/166] ──────────────────────────────────────────────────
+20:49:42 [N1]   Paciente: Merces Irias Dos Santos Resende (CPF: 34991689104, prontuário 17167) | 8 linha(s) na planilha
+20:49:42 [N1]         8x SESSÃO INDIVIDUAL — R$ 210,00 cada
+20:49:42 [N1]       Total do orçamento: R$ 1.680,00
+20:49:48 [N1]     Paciente selecionado: Merces Irias dos Santos Resende
+20:49:49 [N1]     Item 1/1: 8x SESSÃO INDIVIDUAL — R$ 210,00
+20:50:01 [N1]     Parcelas geradas.
+20:50:02 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:50:02 [N1]     Salvando orçamento...
+20:50:10 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 1.680,00).
+
+20:50:10 [N1] [146/166] ──────────────────────────────────────────────────
+20:50:10 [N1]   Paciente: Sebastiana Maria Porto (CPF: 24673587120, prontuário 16822) | 1 linha(s) na planilha
+20:50:10 [N1]         1x REAVALIAÇÃO — R$ 166,98 cada
+20:50:10 [N1]       Total do orçamento: R$ 166,98
+20:50:16 [N1]     Paciente selecionado: Sebastiana Maria Porto
+20:50:16 [N1]     Item 1/1: 1x REAVALIAÇÃO — R$ 166,98
+
+20:50:18 ⏱  145/166 pacientes (87%) | ✔ 135 cadastrado(s) · ✖ 7 erro(s) · ⚠ 3 verificar
+20:50:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:12:01 | término previsto: 06/10 21:02
+20:50:22 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:50:28 [N1]     Parcelas geradas.
+20:50:29 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:50:29 [N1]     Salvando orçamento...
+20:50:37 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 166,98).
+
+20:50:37 [N1] [147/166] ──────────────────────────────────────────────────
+20:50:37 [N1]   Paciente: Zenaidia Camargo Dos Santos (CPF: 30050308220, prontuário 17087) | 1 linha(s) na planilha
+20:50:37 [N1]         1x SESSÃO INDIVIDUAL — R$ 190,00 cada
+20:50:37 [N1]       Total do orçamento: R$ 190,00
+20:50:43 [N1]     Paciente selecionado: Zenaidia Camargo dos Santos
+20:50:43 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 190,00
+20:50:56 [N1]     Parcelas geradas.
+20:50:56 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:50:56 [N1]     Salvando orçamento...
+20:51:05 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 190,00).
+
+20:51:05 [N1] [148/166] ──────────────────────────────────────────────────
+20:51:05 [N1]   Paciente: Antonio Luiz Garofo (CPF: 49519280863, prontuário 17043) | 1 linha(s) na planilha
+20:51:05 [N1]         1x ETAPA 1/24 - CORREÇÃO — R$ 210,00 cada
+20:51:05 [N1]       Total do orçamento: R$ 210,00
+20:51:10 [N1]     Paciente selecionado: Antonio Luiz Garofo
+20:51:11 [N1]     Item 1/1: 1x ETAPA 1/24 - CORREÇÃO — R$ 210,00
+
+20:51:18 ⏱  147/166 pacientes (89%) | ✔ 137 cadastrado(s) · ✖ 7 erro(s) · ⚠ 3 verificar
+20:51:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:10:51 | término previsto: 06/10 21:02
+20:51:22 [N1]     Parcelas geradas.
+20:51:23 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:51:23 [N1]     Salvando orçamento...
+20:51:31 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 210,00).
+
+20:51:31 [N1] [149/166] ──────────────────────────────────────────────────
+20:51:31 [N1]   Paciente: Carlos Humberto Dias Barros Júnior (CPF: 02681959195, prontuário 17169) | 10 linha(s) na planilha
+20:51:31 [N1]         9x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:51:31 [N1]         1x REAVALIAÇÃO — R$ 190,00 cada
+20:51:31 [N1]       Total do orçamento: R$ 1.900,00
+20:51:37 [N1]     Paciente selecionado: Carlos Humberto Dias Barros Júnior
+20:51:37 [N1]     Item 1/2: 9x ETAPA 1/24 - CORREÇÃO — R$ 190,00
+20:51:46 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 190,00
+20:51:52 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:51:58 [N1]     Parcelas geradas.
+20:51:59 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:51:59 [N1]     Salvando orçamento...
+20:52:07 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.900,00).
+
+20:52:07 [N1] [150/166] ──────────────────────────────────────────────────
+20:52:07 [N1]   Paciente: João Fernandes Da Cerqueira (CPF: 51030241104, prontuário 17182) | 3 linha(s) na planilha
+20:52:07 [N1]         3x SESSÃO INDIVIDUAL — R$ 190,00 cada
+20:52:07 [N1]       Total do orçamento: R$ 570,00
+20:52:13 [N1]     Paciente selecionado: João Fernandes da Cerqueira
+20:52:13 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 190,00
+
+20:52:18 ⏱  149/166 pacientes (90%) | ✔ 139 cadastrado(s) · ✖ 7 erro(s) · ⚠ 3 verificar
+20:52:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:09:41 | término previsto: 06/10 21:02
+20:52:26 [N1]     Parcelas geradas.
+20:52:27 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:52:27 [N1]     Salvando orçamento...
+20:52:35 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 570,00).
+
+20:52:35 [N1] [151/166] ──────────────────────────────────────────────────
+20:52:35 [N1]   Paciente: Vivaldo Moreira Da Costa (CPF: 13271482187, prontuário 17068) | 1 linha(s) na planilha
+20:52:35 [N1]         1x SESSÃO INDIVIDUAL — R$ 150,00 cada
+20:52:35 [N1]       Total do orçamento: R$ 150,00
+20:52:41 [N1]     Paciente selecionado: Vivaldo Moreira da Costa
+20:52:41 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 150,00
+20:52:53 [N1]     Parcelas geradas.
+20:52:54 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:52:54 [N1]     Salvando orçamento...
+20:53:02 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 150,00).
+
+20:53:02 [N1] [152/166] ──────────────────────────────────────────────────
+20:53:02 [N1]   Paciente: Roseli Alves Ferreira (CPF: 97386030134, prontuário 17084) | 1 linha(s) na planilha
+20:53:02 [N1]         1x REAVALIAÇÃO — R$ 210,00 cada
+20:53:02 [N1]       Total do orçamento: R$ 210,00
+20:53:08 [N1]     Paciente selecionado: Roseli Alves Ferreira
+20:53:08 [N1]     Item 1/1: 1x REAVALIAÇÃO — R$ 210,00
+20:53:14 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+
+20:53:18 ⏱  151/166 pacientes (91%) | ✔ 141 cadastrado(s) · ✖ 7 erro(s) · ⚠ 3 verificar
+20:53:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:08:32 | término previsto: 06/10 21:01
+20:53:20 [N1]     Parcelas geradas.
+20:53:21 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:53:21 [N1]     Salvando orçamento...
+20:53:30 [N1]   ✔ Orçamento cadastrado em 28s (1 item(ns), total R$ 210,00).
+
+20:53:30 [N1] [153/166] ──────────────────────────────────────────────────
+20:53:30 [N1]   Paciente: Valdenilton Vieira Cardoso (CPF: 64477495153, prontuário 17186) | 9 linha(s) na planilha
+20:53:30 [N1]         8x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:53:30 [N1]         1x REAVALIAÇÃO — R$ 190,00 cada
+20:53:30 [N1]       Total do orçamento: R$ 1.710,00
+20:53:35 [N1]     Paciente selecionado: Valdenilton Vieira Cardoso
+20:53:35 [N1]     Item 1/2: 8x ETAPA 1/24 - CORREÇÃO — R$ 190,00
+20:53:44 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 190,00
+20:53:50 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:53:56 [N1]     Parcelas geradas.
+20:53:57 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:53:57 [N1]     Salvando orçamento...
+20:54:05 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 1.710,00).
+
+20:54:05 [N1] [154/166] ──────────────────────────────────────────────────
+20:54:05 [N1]   Paciente: Naianny Vito Da Cruz (CPF: 05658680395, prontuário 17184) | 12 linha(s) na planilha
+20:54:05 [N1]        11x ETAPA 1/24 - CORREÇÃO — R$ 190,00 cada
+20:54:05 [N1]         1x REAVALIAÇÃO — R$ 190,00 cada
+20:54:05 [N1]       Total do orçamento: R$ 2.280,00
+20:54:11 [N1]     Paciente selecionado: Naianny vito da Cruz
+20:54:11 [N1]     Item 1/2: 11x ETAPA 1/24 - CORREÇÃO — R$ 190,00
+
+20:54:18 ⏱  153/166 pacientes (92%) | ✔ 143 cadastrado(s) · ✖ 7 erro(s) · ⚠ 3 verificar
+20:54:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:07:23 | término previsto: 06/10 21:01
+20:54:20 [N1]     Item 2/2: 1x REAVALIAÇÃO — R$ 190,00
+20:54:26 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:54:32 [N1]     Parcelas geradas.
+20:54:33 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:54:33 [N1]     Salvando orçamento...
+20:54:41 [N1]   ✔ Orçamento cadastrado em 36s (2 item(ns), total R$ 2.280,00).
+
+20:54:41 [N1] [155/166] ──────────────────────────────────────────────────
+20:54:41 [N1]   Paciente: Pedro Lucas Nascimento Rocha (CPF: 70269496165, prontuário 17162) | 10 linha(s) na planilha
+20:54:41 [N1]        10x SESSÃO INDIVIDUAL — R$ 210,00 cada
+20:54:41 [N1]       Total do orçamento: R$ 2.100,00
+20:54:45 [N1]   ✖ ERRO no orçamento de 'Pedro Lucas Nascimento Rocha' (CPF: 70269496165): nenhum resultado para '70269496165' (opções: ['Criar "70269496165" ?'])
+20:54:45 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/70269496165_orcamento.png
+20:54:45 [N1]   Marcado como erro na planilha (nada foi salvo para este paciente).
+
+20:54:45 [N1] [156/166] ──────────────────────────────────────────────────
+20:54:45 [N1]   Paciente: Maria Eduarda Demenciano Tognini (CPF: 03920619102, prontuário 17179) | 17 linha(s) na planilha
+20:54:45 [N1]        10x ETAPA 1/24 - CORREÇÃO — R$ 210,00 cada
+20:54:45 [N1]         1x REAVALIAÇÃO — R$ 210,00 cada
+20:54:45 [N1]         6x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 210,00 cada
+20:54:45 [N1]       Total do orçamento: R$ 3.570,00
+20:54:50 [N1]   ✖ ERRO no orçamento de 'Maria Eduarda Demenciano Tognini' (CPF: 03920619102): nenhum resultado para '03920619102' (opções: ['Criar "03920619102" ?'])
+20:54:50 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/03920619102_orcamento.png
+20:54:50 [N1]   Marcado como erro na planilha (nada foi salvo para este paciente).
+
+20:54:50 [N1] [157/166] ──────────────────────────────────────────────────
+20:54:50 [N1]   Paciente: Adriano Santos Dos Anjos (CPF: 05450695560, prontuário 17076) | 3 linha(s) na planilha
+20:54:50 [N1]         3x SESSÃO INDIVIDUAL — R$ 210,00 cada
+20:54:50 [N1]       Total do orçamento: R$ 630,00
+20:54:56 [N1]     Paciente selecionado: Adriano Santos dos anjos
+20:54:56 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 210,00
+20:55:08 [N1]     Parcelas geradas.
+20:55:09 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:55:09 [N1]     Salvando orçamento...
+20:55:17 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 630,00).
+
+20:55:17 [N1] [158/166] ──────────────────────────────────────────────────
+20:55:17 [N1]   Paciente: Claudio Fontana (CPF: 47849177053, prontuário 17191) | 34 linha(s) na planilha
+20:55:17 [N1]        21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 180,00 cada
+20:55:17 [N1]         3x REAVALIAÇÃO — R$ 180,00 cada
+20:55:17 [N1]        10x ETAPA 1/24 - CORREÇÃO — R$ 180,00 cada
+20:55:17 [N1]       Total do orçamento: R$ 6.120,00
+
+20:55:18 ⏱  157/166 pacientes (95%) | ✔ 145 cadastrado(s) · ✖ 9 erro(s) · ⚠ 3 verificar
+20:55:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:05:02 | término previsto: 06/10 21:00
+20:55:23 [N1]     Paciente selecionado: Claudio Fontana
+20:55:23 [N1]     Item 1/3: 21x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 180,00
+20:55:31 [N1]     Item 2/3: 3x REAVALIAÇÃO — R$ 180,00
+20:55:37 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:55:40 [N1]     Item 3/3: 10x ETAPA 1/24 - CORREÇÃO — R$ 180,00
+20:55:52 [N1]     Parcelas geradas.
+20:55:53 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:55:53 [N1]     Salvando orçamento...
+20:56:02 [N1]   ✔ Orçamento cadastrado em 45s (3 item(ns), total R$ 6.120,00).
+
+20:56:02 [N1] [159/166] ──────────────────────────────────────────────────
+20:56:02 [N1]   Paciente: Hiury Correia De Oliveira (CPF: 70601521137, prontuário 16861) | 1 linha(s) na planilha
+20:56:02 [N1]         1x REAVALIAÇÃO — R$ 190,00 cada
+20:56:02 [N1]       Total do orçamento: R$ 190,00
+20:56:07 [N1]     Paciente selecionado: Hiury correia de oliveira
+20:56:08 [N1]     Item 1/1: 1x REAVALIAÇÃO — R$ 190,00
+20:56:13 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+
+20:56:18 ⏱  158/166 pacientes (95%) | ✔ 146 cadastrado(s) · ✖ 9 erro(s) · ⚠ 3 verificar
+20:56:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:04:30 | término previsto: 06/10 21:00
+20:56:20 [N1]     Parcelas geradas.
+20:56:21 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:56:21 [N1]     Salvando orçamento...
+20:56:29 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 190,00).
+
+20:56:29 [N1] [160/166] ──────────────────────────────────────────────────
+20:56:29 [N1]   Paciente: Claudineia Rodrigues De Souza (CPF: 07233073503, prontuário 17082) | 1 linha(s) na planilha
+20:56:29 [N1]         1x REAVALIAÇÃO — R$ 210,00 cada
+20:56:29 [N1]       Total do orçamento: R$ 210,00
+20:56:35 [N1]     Paciente selecionado: Claudineia Rodrigues de souza
+20:56:35 [N1]     Item 1/1: 1x REAVALIAÇÃO — R$ 210,00
+20:56:40 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+20:56:47 [N1]     Parcelas geradas.
+20:56:48 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:56:48 [N1]     Salvando orçamento...
+20:56:56 [N1]   ✔ Orçamento cadastrado em 27s (1 item(ns), total R$ 210,00).
+
+20:56:56 [N1] [161/166] ──────────────────────────────────────────────────
+20:56:56 [N1]   Paciente: Francisco Gomes Da Silva (CPF: 57784248172, prontuário 2657) | 3 linha(s) na planilha
+20:56:56 [N1]         3x SESSÃO INDIVIDUAL — R$ 0,00 cada
+20:56:56 [N1]       Total do orçamento: R$ 0,00
+20:57:02 [N1]     Paciente selecionado: FRANCISCO GOMES DA SILVA
+20:57:02 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 0,00
+20:57:14 [N1]     Parcelas geradas.
+20:57:15 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:57:15 [N1]     Salvando orçamento...
+
+20:57:18 ⏱  160/166 pacientes (96%) | ✔ 148 cadastrado(s) · ✖ 9 erro(s) · ⚠ 3 verificar
+20:57:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:03:22 | término previsto: 06/10 21:00
+20:57:47 [N1]   ✖ ERRO no orçamento de 'Francisco Gomes Da Silva' (CPF: 57784248172): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+20:57:47 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/57784248172_orcamento.png
+20:57:48 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+20:57:48 [N1] [162/166] ──────────────────────────────────────────────────
+20:57:48 [N1]   Paciente: Adriano Pereira Dos Santos (CPF: 95075810144, prontuário 2018) | 1 linha(s) na planilha
+20:57:48 [N1]         1x SESSÃO INDIVIDUAL — R$ 0,00 cada
+20:57:48 [N1]       Total do orçamento: R$ 0,00
+20:57:53 [N1]     Paciente selecionado: ADRIANO PEREIRA DOS SANTOS
+20:57:54 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 0,00
+20:58:06 [N1]     Parcelas geradas.
+20:58:07 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:58:07 [N1]     Salvando orçamento...
+
+20:58:18 ⏱  161/166 pacientes (97%) | ✔ 148 cadastrado(s) · ✖ 9 erro(s) · ⚠ 4 verificar
+20:58:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:02:49 | término previsto: 06/10 21:01
+20:58:39 [N1]   ✖ ERRO no orçamento de 'Adriano Pereira Dos Santos' (CPF: 95075810144): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+20:58:39 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/95075810144_orcamento.png
+20:58:39 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+20:58:39 [N1] [163/166] ──────────────────────────────────────────────────
+20:58:39 [N1]   Paciente: Elizamar Barboza Fernandes (CPF: 76103803187, prontuário 2781) | 1 linha(s) na planilha
+20:58:39 [N1]         1x SESSÃO INDIVIDUAL — R$ 0,00 cada
+20:58:39 [N1]       Total do orçamento: R$ 0,00
+20:58:45 [N1]     Paciente selecionado: ELIZAMAR BARBOZA FERNANDES
+20:58:46 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 0,00
+20:58:58 [N1]     Parcelas geradas.
+20:58:59 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:58:59 [N1]     Salvando orçamento...
+
+20:59:18 ⏱  162/166 pacientes (98%) | ✔ 148 cadastrado(s) · ✖ 9 erro(s) · ⚠ 5 verificar
+20:59:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:02:16 | término previsto: 06/10 21:01
+20:59:31 [N1]   ✖ ERRO no orçamento de 'Elizamar Barboza Fernandes' (CPF: 76103803187): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+20:59:32 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/76103803187_orcamento.png
+20:59:32 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+20:59:32 [N1] [164/166] ──────────────────────────────────────────────────
+20:59:32 [N1]   Paciente: John Herbert De Oliveira Amorim (CPF: 04633351125, prontuário 2893) | 1 linha(s) na planilha
+20:59:32 [N1]         1x SESSÃO INDIVIDUAL — R$ 0,00 cada
+20:59:32 [N1]       Total do orçamento: R$ 0,00
+20:59:38 [N1]     Paciente selecionado: JOHN HERBERT DE OLIVEIRA AMORIM
+20:59:38 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 0,00
+20:59:50 [N1]     Parcelas geradas.
+20:59:51 [N1]     Situação Aprovado, gera financeiro desmarcado.
+20:59:51 [N1]     Salvando orçamento...
+
+21:00:18 ⏱  163/166 pacientes (98%) | ✔ 148 cadastrado(s) · ✖ 9 erro(s) · ⚠ 6 verificar
+21:00:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:01:42 | término previsto: 06/10 21:02
+21:00:23 [N1]   ✖ ERRO no orçamento de 'John Herbert De Oliveira Amorim' (CPF: 04633351125): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+21:00:23 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/04633351125_orcamento.png
+21:00:24 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+21:00:24 [N1] [165/166] ──────────────────────────────────────────────────
+21:00:24 [N1]   Paciente: Jairo Moutinho (CPF: 34708383134, prontuário 2948) | 1 linha(s) na planilha
+21:00:24 [N1]         1x SESSÃO INDIVIDUAL — R$ 0,00 cada
+21:00:24 [N1]       Total do orçamento: R$ 0,00
+21:00:30 [N1]     Paciente selecionado: JAIRO MOUTINHO
+21:00:30 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 0,00
+21:00:42 [N1]     Parcelas geradas.
+21:00:43 [N1]     Situação Aprovado, gera financeiro desmarcado.
+21:00:43 [N1]     Salvando orçamento...
+21:01:15 [N1]   ✖ ERRO no orçamento de 'Jairo Moutinho' (CPF: 34708383134): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+21:01:15 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/34708383134_orcamento.png
+21:01:16 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+21:01:16 [N1] [166/166] ──────────────────────────────────────────────────
+21:01:16 [N1]   Paciente: Antonio Zart (CPF: 61425710972, prontuário 2950) | 1 linha(s) na planilha
+21:01:16 [N1]         1x SESSÃO INDIVIDUAL — R$ 0,00 cada
+21:01:16 [N1]       Total do orçamento: R$ 0,00
+
+21:01:18 ⏱  165/166 pacientes (99%) | ✔ 148 cadastrado(s) · ✖ 9 erro(s) · ⚠ 8 verificar
+21:01:18 ⏱  média 34s/paciente (somando os navegadores) | restante: 00:00:34 | término previsto: 06/10 21:01
+21:01:22 [N1]     Paciente selecionado: ANTONIO ZART
+21:01:22 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 0,00
+21:01:34 [N1]     Parcelas geradas.
+21:01:35 [N1]     Situação Aprovado, gera financeiro desmarcado.
+21:01:35 [N1]     Salvando orçamento...
+21:02:07 [N1]   ✖ ERRO no orçamento de 'Antonio Zart' (CPF: 61425710972): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+21:02:07 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/61425710972_orcamento.png
+21:02:08 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+21:02:08 Cadastro de orçamentos concluído!
+
+21:02:08 ══════════════════════════════════════════════════════════════════════
+21:02:08 RESUMO — 166 paciente(s) processado(s) em 01:34:50
+21:02:08 ✔ 148 cadastrado(s) · ✖ 9 erro(s) · ⚠ 9 verificar
+
+21:02:08 ERROS (nada foi salvo; apague o Status para tentar de novo):
+21:02:08   - Amanda Cabral Mucelin (CPF 03524377157, prontuário 17152): item 3/3 'ETAPA 2/24 - ESTABILIZAÇÃO': StaleElementReferenceException: stale element reference: stale element not found in the current frame
+21:02:08   - Bruno César Silva Pereira (CPF 08810201680, prontuário 17151): nenhum resultado para '08810201680' (opções: ['Criar "08810201680" ?'])
+21:02:08   - Celsi Maria Colina (CPF 13229045106, prontuário 17149): nenhum resultado para '13229045106' (opções: ['Criar "13229045106" ?'])
+21:02:08   - José Narcizo Silva Resende (CPF 04454605807, prontuário 17160): nenhum resultado para '04454605807' (opções: ['Criar "04454605807" ?'])
+21:02:08   - Wilza Mary Saraiva Mourão (CPF 26463911100, prontuário 17145): nenhum resultado para '26463911100' (opções: ['Criar "26463911100" ?'])
+21:02:08   - Neudair Ribeiro Souza (CPF 84075546187, prontuário 17164): nenhum resultado para '84075546187' (opções: ['Criar "84075546187" ?'])
+21:02:08   - Adão Da Silva Machado (CPF 40151220034, prontuário 17166): nenhum resultado para '40151220034' (opções: ['Criar "40151220034" ?'])
+21:02:08   - Pedro Lucas Nascimento Rocha (CPF 70269496165, prontuário 17162): nenhum resultado para '70269496165' (opções: ['Criar "70269496165" ?'])
+21:02:08   - Maria Eduarda Demenciano Tognini (CPF 03920619102, prontuário 17179): nenhum resultado para '03920619102' (opções: ['Criar "03920619102" ?'])
+
+21:02:08 VERIFICAR NO SISTEMA (o Salvar foi clicado mas não confirmou):
+21:02:08   - Thieiner Alves Cabral (CPF 03137470161, prontuário 6261): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+21:02:08   - Wenderson Francisco Dos Santos (CPF 92633757120, prontuário 14479): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+21:02:08   - Karla De Souza Matos (CPF 78958407115, prontuário 16662): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+21:02:08   - Francisco Gomes Da Silva (CPF 57784248172, prontuário 2657): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+21:02:08   - Adriano Pereira Dos Santos (CPF 95075810144, prontuário 2018): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+21:02:08   - Elizamar Barboza Fernandes (CPF 76103803187, prontuário 2781): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+21:02:08   - John Herbert De Oliveira Amorim (CPF 04633351125, prontuário 2893): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+21:02:08   - Jairo Moutinho (CPF 34708383134, prontuário 2948): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+21:02:08   - Antonio Zart (CPF 61425710972, prontuário 2950): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+
+21:02:08 Log completo:   /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/logs/orcamentos_20261006_192717.log
+21:02:08 Resultados CSV: /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/logs/resultados_20261006_192717.csv
+21:02:08 ══════════════════════════════════════════════════════════════════════

@@ -20,7 +20,7 @@ from selenium.webdriver.common.keys import Keys
 
 PASTA = Path(__file__).resolve().parent
 PASTA_ERROS = PASTA / "erros"
-ARQUIVO = PASTA / "Plano_Tratamento_Convertido_v3.xlsx"
+ARQUIVO = PASTA / "PlanosdeTratamentoVitória.xlsx"
 ABA = "Plano de Tratamento migrar"
 CLINICA = "GRANDE VITORIA - GRUPO MANDIC"
 URL_BASE = "https://app.clinicanasnuvens.com.br"

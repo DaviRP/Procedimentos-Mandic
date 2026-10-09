@@ -1,0 +1,1410 @@
+13:51:59 Início da execução | 241 paciente(s) | 1 navegador(es) | headless | clínica SOU COLUNA RIO VERDE - Clínica da Coluna AMS
+13:51:59 Abrindo 1 navegador(es).
+13:52:34 [N1] Clínica 'SOU COLUNA RIO VERDE - Clínica da Coluna AMS' já selecionada.
+13:52:34 [N1] Sessão aberta.
+
+13:52:34 [N1] [1/241] ──────────────────────────────────────────────────
+13:52:34 [N1]   Paciente: Thiago Vicente De Lima (CPF: 02463901152, prontuário 2249) | 16 linha(s) na planilha
+13:52:34 [N1]        16x SESSÃO INDIVIDUAL — R$ 185,00 cada
+13:52:34 [N1]       Total do orçamento: R$ 2.960,00
+
+13:52:59 ⏱  [00:01:00 decorrido] 0/241 | ✔ 0 cadastrado(s) · ✖ 0 erro(s) · ⚠ 0 verificar | calculando previsão...
+13:53:45 [N1]     Paciente selecionado: THIAGO VICENTE DE LIMA
+13:53:45 [N1]     Item 1/1: 16x SESSÃO INDIVIDUAL — R$ 185,00
+13:53:58 [N1]     Parcelas geradas.
+13:53:59 [N1]     Situação Aprovado, gera financeiro desmarcado.
+13:53:59 [N1]     Salvando orçamento...
+
+13:53:59 ⏱  [00:02:00 decorrido] 0/241 | ✔ 0 cadastrado(s) · ✖ 0 erro(s) · ⚠ 0 verificar | calculando previsão...
+13:54:38 [N1]   ✔ Orçamento cadastrado em 124s (1 item(ns), total R$ 2.960,00).
+
+13:54:38 [N1] [2/241] ──────────────────────────────────────────────────
+13:54:38 [N1]   Paciente: Marlene Pereira Machado (CPF: 00531246507, prontuário 1862) | 23 linha(s) na planilha
+13:54:38 [N1]        23x SESSÃO INDIVIDUAL — R$ 0,00 cada
+13:54:38 [N1]       Total do orçamento: R$ 0,00
+
+13:54:59 ⏱  1/241 pacientes (0%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 0 verificar
+13:54:59 ⏱  média 180s/paciente (somando os navegadores) | restante: 12:00:01 | término previsto: 07/10 01:55
+13:55:43 [N1]     Paciente selecionado: MARLENE PEREIRA MACHADO
+13:55:44 [N1]     Item 1/1: 23x SESSÃO INDIVIDUAL — R$ 0,00
+13:55:56 [N1]     Parcelas geradas.
+13:55:57 [N1]     Situação Aprovado, gera financeiro desmarcado.
+13:55:57 [N1]     Salvando orçamento...
+
+13:55:59 ⏱  1/241 pacientes (0%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 0 verificar
+13:55:59 ⏱  média 240s/paciente (somando os navegadores) | restante: 16:00:02 | término previsto: 07/10 05:56
+13:56:29 [N1]   ✖ ERRO no orçamento de 'Marlene Pereira Machado' (CPF: 00531246507): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+13:56:29 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/00531246507_orcamento.png
+13:56:30 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+13:56:30 [N1] [3/241] ──────────────────────────────────────────────────
+13:56:30 [N1]   Paciente: Sirley Rodrigues Da Costa Dias (CPF: 55467512900, prontuário 1820) | 22 linha(s) na planilha
+13:56:30 [N1]         1x AVALIAÇÃO CORTESIA — R$ 0,00 cada
+13:56:30 [N1]        21x SESSÃO INDIVIDUAL — R$ 0,00 cada
+13:56:30 [N1]       Total do orçamento: R$ 0,00
+
+13:56:59 ⏱  2/241 pacientes (1%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+13:56:59 ⏱  média 150s/paciente (somando os navegadores) | restante: 09:57:31 | término previsto: 06/10 23:54
+13:57:36 [N1]     Paciente selecionado: SIRLEY RODRIGUES DA COSTA DIAS
+13:57:36 [N1]     Item 1/2: 1x AVALIAÇÃO CORTESIA — R$ 0,00
+13:57:45 [N1]     Item 2/2: 21x SESSÃO INDIVIDUAL — R$ 0,00
+13:57:57 [N1]     Parcelas geradas.
+13:57:58 [N1]     Situação Aprovado, gera financeiro desmarcado.
+13:57:58 [N1]     Salvando orçamento...
+
+13:57:59 ⏱  2/241 pacientes (1%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 1 verificar
+13:57:59 ⏱  média 180s/paciente (somando os navegadores) | restante: 11:57:01 | término previsto: 07/10 01:55
+13:58:30 [N1]   ✖ ERRO no orçamento de 'Sirley Rodrigues Da Costa Dias' (CPF: 55467512900): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+13:58:30 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/55467512900_orcamento.png
+13:58:31 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+13:58:31 [N1] [4/241] ──────────────────────────────────────────────────
+13:58:31 [N1]   Paciente: Silverlau Da Silva Monteiro (CPF: 01103951319, prontuário 1889) | 17 linha(s) na planilha
+13:58:31 [N1]        17x SESSÃO INDIVIDUAL — R$ 0,00 cada
+13:58:31 [N1]       Total do orçamento: R$ 0,00
+
+13:58:59 ⏱  3/241 pacientes (1%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+13:58:59 ⏱  média 140s/paciente (somando os navegadores) | restante: 09:15:21 | término previsto: 06/10 23:14
+13:59:37 [N1]     Paciente selecionado: SILVERLAU DA SILVA MONTEIRO
+13:59:37 [N1]     Item 1/1: 17x SESSÃO INDIVIDUAL — R$ 0,00
+13:59:49 [N1]     Parcelas geradas.
+13:59:50 [N1]     Situação Aprovado, gera financeiro desmarcado.
+13:59:50 [N1]     Salvando orçamento...
+
+13:59:59 ⏱  3/241 pacientes (1%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 2 verificar
+13:59:59 ⏱  média 160s/paciente (somando os navegadores) | restante: 10:34:41 | término previsto: 07/10 00:34
+14:00:22 [N1]   ✖ ERRO no orçamento de 'Silverlau Da Silva Monteiro' (CPF: 01103951319): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:00:23 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/01103951319_orcamento.png
+14:00:23 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:00:23 [N1] [5/241] ──────────────────────────────────────────────────
+14:00:23 [N1]   Paciente: Edriany Martins Da Silva (CPF: 89288203168, prontuário 1929) | 14 linha(s) na planilha
+14:00:23 [N1]        14x SESSÃO CORTESIA — R$ 0,00 cada
+14:00:23 [N1]       Total do orçamento: R$ 0,00
+
+14:00:59 ⏱  4/241 pacientes (2%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 3 verificar
+14:00:59 ⏱  média 135s/paciente (somando os navegadores) | restante: 08:53:16 | término previsto: 06/10 22:54
+14:01:30 [N1]     Paciente selecionado: EDRIANY MARTINS DA SILVA
+14:01:30 [N1]     Item 1/1: 14x SESSÃO CORTESIA — R$ 0,00
+14:01:42 [N1]     Parcelas geradas.
+14:01:43 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:01:43 [N1]     Salvando orçamento...
+
+14:01:59 ⏱  4/241 pacientes (2%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 3 verificar
+14:01:59 ⏱  média 150s/paciente (somando os navegadores) | restante: 09:52:31 | término previsto: 06/10 23:54
+14:02:15 [N1]   ✖ ERRO no orçamento de 'Edriany Martins Da Silva' (CPF: 89288203168): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:02:15 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/89288203168_orcamento.png
+14:02:16 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:02:16 [N1] [6/241] ──────────────────────────────────────────────────
+14:02:16 [N1]   Paciente: Sonia Barros De Oliveira Da Silva (CPF: 00524852189, prontuário 1897) | 17 linha(s) na planilha
+14:02:16 [N1]        17x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:02:16 [N1]       Total do orçamento: R$ 0,00
+
+14:02:59 ⏱  5/241 pacientes (2%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 4 verificar
+14:02:59 ⏱  média 132s/paciente (somando os navegadores) | restante: 08:39:13 | término previsto: 06/10 22:42
+14:03:22 [N1]     Paciente selecionado: SONIA BARROS DE OLIVEIRA DA SILVA
+14:03:22 [N1]     Item 1/1: 17x SESSÃO INDIVIDUAL — R$ 0,00
+14:03:34 [N1]     Parcelas geradas.
+14:03:35 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:03:35 [N1]     Salvando orçamento...
+
+14:03:59 ⏱  5/241 pacientes (2%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 4 verificar
+14:03:59 ⏱  média 144s/paciente (somando os navegadores) | restante: 09:26:25 | término previsto: 06/10 23:30
+14:04:07 [N1]   ✖ ERRO no orçamento de 'Sonia Barros De Oliveira Da Silva' (CPF: 00524852189): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:04:07 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/00524852189_orcamento.png
+14:04:08 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:04:08 [N1] [7/241] ──────────────────────────────────────────────────
+14:04:08 [N1]   Paciente: Taciano Ferreira Dos Santos (CPF: 01231856106, prontuário 2184) | 29 linha(s) na planilha
+14:04:08 [N1]        29x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:04:08 [N1]       Total do orçamento: R$ 0,00
+
+14:04:59 ⏱  6/241 pacientes (2%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 5 verificar
+14:04:59 ⏱  média 130s/paciente (somando os navegadores) | restante: 08:29:11 | término previsto: 06/10 22:34
+14:05:17 [N1]     Paciente selecionado: TACIANO FERREIRA DOS SANTOS
+14:05:17 [N1]     Item 1/1: 29x SESSÃO INDIVIDUAL — R$ 0,00
+14:05:30 [N1]     Parcelas geradas.
+14:05:31 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:05:31 [N1]     Salvando orçamento...
+
+14:05:59 ⏱  6/241 pacientes (2%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 5 verificar
+14:05:59 ⏱  média 140s/paciente (somando os navegadores) | restante: 09:08:21 | término previsto: 06/10 23:14
+14:06:03 [N1]   ✖ ERRO no orçamento de 'Taciano Ferreira Dos Santos' (CPF: 01231856106): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:06:03 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/01231856106_orcamento.png
+14:06:04 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:06:04 [N1] [8/241] ──────────────────────────────────────────────────
+14:06:04 [N1]   Paciente: Iraci Maria Pazine (CPF: 23517182087, prontuário 1876) | 24 linha(s) na planilha
+14:06:04 [N1]        22x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:06:04 [N1]         2x SESSÃO INDIVIDUAL — R$ 175,75 cada
+14:06:04 [N1]       Total do orçamento: R$ 351,50
+
+14:06:59 ⏱  7/241 pacientes (3%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 6 verificar
+14:06:59 ⏱  média 129s/paciente (somando os navegadores) | restante: 08:21:27 | término previsto: 06/10 22:28
+14:07:10 [N1]     Paciente selecionado: IRACI MARIA PAZINE
+14:07:10 [N1]     Item 1/2: 22x SESSÃO INDIVIDUAL — R$ 0,00
+14:07:19 [N1]     Item 2/2: 2x SESSÃO INDIVIDUAL — R$ 175,75
+14:07:31 [N1]     Parcelas geradas.
+14:07:32 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:07:32 [N1]     Salvando orçamento...
+
+14:07:59 ⏱  7/241 pacientes (3%) | ✔ 1 cadastrado(s) · ✖ 0 erro(s) · ⚠ 6 verificar
+14:07:59 ⏱  média 137s/paciente (somando os navegadores) | restante: 08:54:53 | término previsto: 06/10 23:02
+14:08:11 [N1]   ✔ Orçamento cadastrado em 127s (2 item(ns), total R$ 351,50).
+
+14:08:11 [N1] [9/241] ──────────────────────────────────────────────────
+14:08:11 [N1]   Paciente: Vanessa Barbosa Silva (CPF: 70579254178, prontuário 1986) | 11 linha(s) na planilha
+14:08:11 [N1]        11x MANUTENÇÃO — R$ 0,00 cada
+14:08:11 [N1]       Total do orçamento: R$ 0,00
+
+14:08:59 ⏱  8/241 pacientes (3%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 6 verificar
+14:08:59 ⏱  média 128s/paciente (somando os navegadores) | restante: 08:15:09 | término previsto: 06/10 22:24
+14:09:19 [N1]     Paciente selecionado: VANESSA BARBOSA SILVA
+14:09:19 [N1]     Item 1/1: 11x MANUTENÇÃO — R$ 0,00
+14:09:31 [N1]     Parcelas geradas.
+14:09:32 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:09:32 [N1]     Salvando orçamento...
+
+14:09:59 ⏱  8/241 pacientes (3%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 6 verificar
+14:09:59 ⏱  média 135s/paciente (somando os navegadores) | restante: 08:44:17 | término previsto: 06/10 22:54
+14:10:04 [N1]   ✖ ERRO no orçamento de 'Vanessa Barbosa Silva' (CPF: 70579254178): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:10:04 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/70579254178_orcamento.png
+14:10:05 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:10:05 [N1] [10/241] ──────────────────────────────────────────────────
+14:10:05 [N1]   Paciente: Luiz Alfredo Maes Jr (CPF: 04039788664, prontuário 2069) | 36 linha(s) na planilha
+14:10:05 [N1]        36x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:10:05 [N1]       Total do orçamento: R$ 0,00
+
+14:10:59 ⏱  9/241 pacientes (4%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 7 verificar
+14:10:59 ⏱  média 127s/paciente (somando os navegadores) | restante: 08:09:48 | término previsto: 06/10 22:20
+14:11:11 [N1]     Paciente selecionado: LUIZ ALFREDO MAES JR
+14:11:11 [N1]     Item 1/1: 36x SESSÃO INDIVIDUAL — R$ 0,00
+14:11:23 [N1]     Parcelas geradas.
+14:11:24 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:11:24 [N1]     Salvando orçamento...
+14:11:56 [N1]   ✖ ERRO no orçamento de 'Luiz Alfredo Maes Jr' (CPF: 04039788664): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:11:57 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/04039788664_orcamento.png
+14:11:57 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:11:57 [N1] [11/241] ──────────────────────────────────────────────────
+14:11:57 [N1]   Paciente: Vilmar Francisco Tavares (CPF: 59115858120, prontuário 418) | 32 linha(s) na planilha
+14:11:57 [N1]        32x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:11:57 [N1]       Total do orçamento: R$ 0,00
+
+14:11:59 ⏱  10/241 pacientes (4%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 8 verificar
+14:11:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:42:02 | término previsto: 06/10 21:54
+
+14:12:59 ⏱  10/241 pacientes (4%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 8 verificar
+14:12:59 ⏱  média 126s/paciente (somando os navegadores) | restante: 08:05:08 | término previsto: 06/10 22:18
+14:13:06 [N1]     Paciente selecionado: VILMAR FRANCISCO TAVARES
+14:13:06 [N1]     Item 1/1: 32x SESSÃO INDIVIDUAL — R$ 0,00
+14:13:18 [N1]     Parcelas geradas.
+14:13:19 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:13:19 [N1]     Salvando orçamento...
+14:13:52 [N1]   ✖ ERRO no orçamento de 'Vilmar Francisco Tavares' (CPF: 59115858120): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:13:52 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/59115858120_orcamento.png
+14:13:52 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:13:52 [N1] [12/241] ──────────────────────────────────────────────────
+14:13:52 [N1]   Paciente: Jaime Schwaab (CPF: 02227140933, prontuário 1892) | 30 linha(s) na planilha
+14:13:52 [N1]        30x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:13:52 [N1]       Total do orçamento: R$ 0,00
+
+14:13:59 ⏱  11/241 pacientes (5%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 9 verificar
+14:13:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:40:02 | término previsto: 06/10 21:54
+
+14:14:59 ⏱  11/241 pacientes (5%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 9 verificar
+14:14:59 ⏱  média 125s/paciente (somando os navegadores) | restante: 08:00:56 | término previsto: 06/10 22:15
+14:14:59 [N1]     Paciente selecionado: JAIME SCHWAAB
+14:14:59 [N1]     Item 1/1: 30x SESSÃO INDIVIDUAL — R$ 0,00
+14:15:11 [N1]     Parcelas geradas.
+14:15:12 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:15:12 [N1]     Salvando orçamento...
+14:15:44 [N1]   ✖ ERRO no orçamento de 'Jaime Schwaab' (CPF: 02227140933): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:15:44 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/02227140933_orcamento.png
+14:15:45 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:15:45 [N1] [13/241] ──────────────────────────────────────────────────
+14:15:45 [N1]   Paciente: Domilton Alves De Oliveira (CPF: 26723816153, prontuário 1859) | 10 linha(s) na planilha
+14:15:45 [N1]        10x SESSÃO CORTESIA — R$ 0,00 cada
+14:15:45 [N1]       Total do orçamento: R$ 0,00
+
+14:15:59 ⏱  12/241 pacientes (5%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 10 verificar
+14:15:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:38:02 | término previsto: 06/10 21:54
+14:16:52 [N1]     Paciente selecionado: Domilton Alves De Oliveira
+14:16:52 [N1]     Item 1/1: 10x SESSÃO CORTESIA — R$ 0,00
+
+14:16:59 ⏱  12/241 pacientes (5%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 10 verificar
+14:16:59 ⏱  média 125s/paciente (somando os navegadores) | restante: 07:57:07 | término previsto: 06/10 22:14
+14:17:04 [N1]     Parcelas geradas.
+14:17:05 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:17:05 [N1]     Salvando orçamento...
+14:17:37 [N1]   ✖ ERRO no orçamento de 'Domilton Alves De Oliveira' (CPF: 26723816153): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:17:37 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/26723816153_orcamento.png
+14:17:38 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:17:38 [N1] [14/241] ──────────────────────────────────────────────────
+14:17:38 [N1]   Paciente: Claudemir Luis Scarini (CPF: 99897946934, prontuário 2031) | 19 linha(s) na planilha
+14:17:38 [N1]        19x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:17:38 [N1]       Total do orçamento: R$ 0,00
+
+14:17:59 ⏱  13/241 pacientes (5%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 11 verificar
+14:17:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:36:02 | término previsto: 06/10 21:54
+14:18:44 [N1]     Paciente selecionado: CLAUDEMIR LUIS SCARINI
+14:18:44 [N1]     Item 1/1: 19x SESSÃO INDIVIDUAL — R$ 0,00
+14:18:56 [N1]     Parcelas geradas.
+14:18:57 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:18:57 [N1]     Salvando orçamento...
+
+14:18:59 ⏱  13/241 pacientes (5%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 11 verificar
+14:18:59 ⏱  média 125s/paciente (somando os navegadores) | restante: 07:53:34 | término previsto: 06/10 22:12
+14:19:29 [N1]   ✖ ERRO no orçamento de 'Claudemir Luis Scarini' (CPF: 99897946934): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:19:29 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/99897946934_orcamento.png
+14:19:30 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:19:30 [N1] [15/241] ──────────────────────────────────────────────────
+14:19:30 [N1]   Paciente: Suélio P. Freitas (CPF: 12316474187, prontuário 1869) | 17 linha(s) na planilha
+14:19:30 [N1]        17x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:19:30 [N1]       Total do orçamento: R$ 0,00
+
+14:19:59 ⏱  14/241 pacientes (6%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 12 verificar
+14:19:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:34:02 | término previsto: 06/10 21:54
+14:20:36 [N1]     Paciente selecionado: SUÉLIO P. FREITAS
+14:20:36 [N1]     Item 1/1: 17x SESSÃO INDIVIDUAL — R$ 0,00
+14:20:49 [N1]     Parcelas geradas.
+14:20:49 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:20:49 [N1]     Salvando orçamento...
+
+14:20:59 ⏱  14/241 pacientes (6%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 12 verificar
+14:20:59 ⏱  média 124s/paciente (somando os navegadores) | restante: 07:50:15 | término previsto: 06/10 22:11
+14:21:22 [N1]   ✖ ERRO no orçamento de 'Suélio P. Freitas' (CPF: 12316474187): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:21:22 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/12316474187_orcamento.png
+14:21:22 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:21:22 [N1] [16/241] ──────────────────────────────────────────────────
+14:21:22 [N1]   Paciente: Ana Júlia Foletto (CPF: 04720257160, prontuário 2026) | 9 linha(s) na planilha
+14:21:22 [N1]         9x SESSÃO CORTESIA — R$ 0,00 cada
+14:21:22 [N1]       Total do orçamento: R$ 0,00
+
+14:21:59 ⏱  15/241 pacientes (6%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 13 verificar
+14:21:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:32:02 | término previsto: 06/10 21:54
+14:22:28 [N1]     Paciente selecionado: ANA JÚLIA FOLETTO
+14:22:29 [N1]     Item 1/1: 9x SESSÃO CORTESIA — R$ 0,00
+14:22:41 [N1]     Parcelas geradas.
+14:22:42 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:22:42 [N1]     Salvando orçamento...
+
+14:22:59 ⏱  15/241 pacientes (6%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 13 verificar
+14:22:59 ⏱  média 124s/paciente (somando os navegadores) | restante: 07:47:06 | término previsto: 06/10 22:10
+14:23:14 [N1]   ✖ ERRO no orçamento de 'Ana Júlia Foletto' (CPF: 04720257160): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:23:14 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/04720257160_orcamento.png
+14:23:15 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:23:15 [N1] [17/241] ──────────────────────────────────────────────────
+14:23:15 [N1]   Paciente: Marcos Tadeu Cavalet (CPF: 42078717053, prontuário 2154) | 14 linha(s) na planilha
+14:23:15 [N1]         1x SESSÃO INDIVIDUAL — R$ 0,01 cada
+14:23:15 [N1]        13x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:23:15 [N1]       Total do orçamento: R$ 0,01
+
+14:23:59 ⏱  16/241 pacientes (7%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 14 verificar
+14:23:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:30:02 | término previsto: 06/10 21:54
+14:24:21 [N1]     Paciente selecionado: MARCOS TADEU CAVALET
+14:24:21 [N1]     Item 1/2: 1x SESSÃO INDIVIDUAL — R$ 0,01
+14:24:30 [N1]     Item 2/2: 13x SESSÃO INDIVIDUAL — R$ 0,00
+14:24:43 [N1]     Parcelas geradas.
+14:24:43 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:24:43 [N1]     Salvando orçamento...
+
+14:24:59 ⏱  16/241 pacientes (7%) | ✔ 2 cadastrado(s) · ✖ 0 erro(s) · ⚠ 14 verificar
+14:24:59 ⏱  média 124s/paciente (somando os navegadores) | restante: 07:44:05 | término previsto: 06/10 22:09
+14:25:23 [N1]   ✔ Orçamento cadastrado em 128s (2 item(ns), total R$ 0,01).
+
+14:25:23 [N1] [18/241] ──────────────────────────────────────────────────
+14:25:23 [N1]   Paciente: Fernanda Silva Pereira (CPF: 01743985142, prontuário 1824) | 8 linha(s) na planilha
+14:25:23 [N1]         8x MANUTENÇÃO — R$ 0,00 cada
+14:25:23 [N1]       Total do orçamento: R$ 0,00
+
+14:25:59 ⏱  17/241 pacientes (7%) | ✔ 3 cadastrado(s) · ✖ 0 erro(s) · ⚠ 14 verificar
+14:25:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:28:02 | término previsto: 06/10 21:54
+14:26:29 [N1]     Paciente selecionado: FERNANDA SILVA PEREIRA
+14:26:29 [N1]     Item 1/1: 8x MANUTENÇÃO — R$ 0,00
+14:26:42 [N1]     Parcelas geradas.
+14:26:42 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:26:42 [N1]     Salvando orçamento...
+
+14:26:59 ⏱  17/241 pacientes (7%) | ✔ 3 cadastrado(s) · ✖ 0 erro(s) · ⚠ 14 verificar
+14:26:59 ⏱  média 124s/paciente (somando os navegadores) | restante: 07:41:12 | término previsto: 06/10 22:08
+14:27:15 [N1]   ✖ ERRO no orçamento de 'Fernanda Silva Pereira' (CPF: 01743985142): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:27:15 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/01743985142_orcamento.png
+14:27:16 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:27:16 [N1] [19/241] ──────────────────────────────────────────────────
+14:27:16 [N1]   Paciente: Cintia Cruz Siqueira Cavalet (CPF: 01729015107, prontuário 2434) | 18 linha(s) na planilha
+14:27:16 [N1]        18x SESSÃO CORTESIA — R$ 0,00 cada
+14:27:16 [N1]       Total do orçamento: R$ 0,00
+
+14:27:59 ⏱  18/241 pacientes (7%) | ✔ 3 cadastrado(s) · ✖ 0 erro(s) · ⚠ 15 verificar
+14:27:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:26:02 | término previsto: 06/10 21:54
+14:28:21 [N1]     Paciente selecionado: CINTIA CRUZ SIQUEIRA CAVALET
+14:28:22 [N1]     Item 1/1: 18x SESSÃO CORTESIA — R$ 0,00
+14:28:34 [N1]     Parcelas geradas.
+14:28:35 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:28:35 [N1]     Salvando orçamento...
+
+14:28:59 ⏱  18/241 pacientes (7%) | ✔ 3 cadastrado(s) · ✖ 0 erro(s) · ⚠ 15 verificar
+14:28:59 ⏱  média 123s/paciente (somando os navegadores) | restante: 07:38:25 | término previsto: 06/10 22:07
+14:29:07 [N1]   ✖ ERRO no orçamento de 'Cintia Cruz Siqueira Cavalet' (CPF: 01729015107): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:29:07 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/01729015107_orcamento.png
+14:29:08 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:29:08 [N1] [20/241] ──────────────────────────────────────────────────
+14:29:08 [N1]   Paciente: Estéfane Pereira Leite Morbeck Barros (CPF: 03591850101, prontuário 1867) | 15 linha(s) na planilha
+14:29:08 [N1]        15x SESSÃO CORTESIA — R$ 0,00 cada
+14:29:08 [N1]       Total do orçamento: R$ 0,00
+
+14:29:59 ⏱  19/241 pacientes (8%) | ✔ 3 cadastrado(s) · ✖ 0 erro(s) · ⚠ 16 verificar
+14:29:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:24:02 | término previsto: 06/10 21:54
+14:30:15 [N1]     Paciente selecionado: ESTÉFANE PEREIRA LEITE MORBECK BARROS
+14:30:15 [N1]     Item 1/1: 15x SESSÃO CORTESIA — R$ 0,00
+14:30:27 [N1]     Parcelas geradas.
+14:30:28 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:30:28 [N1]     Salvando orçamento...
+
+14:30:59 ⏱  19/241 pacientes (8%) | ✔ 3 cadastrado(s) · ✖ 0 erro(s) · ⚠ 16 verificar
+14:30:59 ⏱  média 123s/paciente (somando os navegadores) | restante: 07:35:43 | término previsto: 06/10 22:06
+14:31:00 [N1]   ✖ ERRO no orçamento de 'Estéfane Pereira Leite Morbeck Barros' (CPF: 03591850101): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:31:00 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/03591850101_orcamento.png
+14:31:01 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:31:01 [N1] [21/241] ──────────────────────────────────────────────────
+14:31:01 [N1]   Paciente: Helismar De Sousa Silva (CPF: 85074470153, prontuário 2062) | 22 linha(s) na planilha
+14:31:01 [N1]        22x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:31:01 [N1]       Total do orçamento: R$ 0,00
+
+14:31:59 ⏱  20/241 pacientes (8%) | ✔ 3 cadastrado(s) · ✖ 0 erro(s) · ⚠ 17 verificar
+14:31:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:22:02 | término previsto: 06/10 21:54
+14:32:07 [N1]     Paciente selecionado: HELISMAR DE SOUSA SILVA
+14:32:07 [N1]     Item 1/1: 22x SESSÃO INDIVIDUAL — R$ 0,00
+14:32:20 [N1]     Parcelas geradas.
+14:32:20 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:32:20 [N1]     Salvando orçamento...
+14:32:53 [N1]   ✖ ERRO no orçamento de 'Helismar De Sousa Silva' (CPF: 85074470153): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:32:53 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/85074470153_orcamento.png
+14:32:54 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:32:54 [N1] [22/241] ──────────────────────────────────────────────────
+14:32:54 [N1]   Paciente: Ivoneide De Paula E Silva (CPF: 42517958149, prontuário 2542) | 1 linha(s) na planilha
+14:32:54 [N1]         1x SESSÃO INDIVIDUAL — R$ 185,00 cada
+14:32:54 [N1]       Total do orçamento: R$ 185,00
+
+14:32:59 ⏱  21/241 pacientes (9%) | ✔ 3 cadastrado(s) · ✖ 0 erro(s) · ⚠ 18 verificar
+14:32:59 ⏱  média 117s/paciente (somando os navegadores) | restante: 07:09:33 | término previsto: 06/10 21:42
+
+14:33:59 ⏱  21/241 pacientes (9%) | ✔ 3 cadastrado(s) · ✖ 0 erro(s) · ⚠ 18 verificar
+14:33:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:20:02 | término previsto: 06/10 21:54
+14:34:01 [N1]     Paciente selecionado: IVONEIDE DE PAULA E SILVA
+14:34:01 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 185,00
+14:34:13 [N1]     Parcelas geradas.
+14:34:14 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:34:14 [N1]     Salvando orçamento...
+14:34:52 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 185,00).
+
+14:34:52 [N1] [23/241] ──────────────────────────────────────────────────
+14:34:52 [N1]   Paciente: Leandro De Toledo (CPF: 15303521850, prontuário 2563) | 11 linha(s) na planilha
+14:34:52 [N1]        11x MANUTENÇÃO — R$ 0,00 cada
+14:34:52 [N1]       Total do orçamento: R$ 0,00
+
+14:34:59 ⏱  22/241 pacientes (9%) | ✔ 4 cadastrado(s) · ✖ 0 erro(s) · ⚠ 18 verificar
+14:34:59 ⏱  média 117s/paciente (somando os navegadores) | restante: 07:08:04 | término previsto: 06/10 21:43
+14:35:59 [N1]     Paciente selecionado: LEANDRO DE TOLEDO
+14:35:59 [N1]     Item 1/1: 11x MANUTENÇÃO — R$ 0,00
+
+14:35:59 ⏱  22/241 pacientes (9%) | ✔ 4 cadastrado(s) · ✖ 0 erro(s) · ⚠ 18 verificar
+14:35:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:18:02 | término previsto: 06/10 21:54
+14:36:11 [N1]     Parcelas geradas.
+14:36:12 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:36:12 [N1]     Salvando orçamento...
+14:36:44 [N1]   ✖ ERRO no orçamento de 'Leandro De Toledo' (CPF: 15303521850): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:36:44 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/15303521850_orcamento.png
+14:36:45 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:36:45 [N1] [24/241] ──────────────────────────────────────────────────
+14:36:45 [N1]   Paciente: Ana Gabriela Da Silva Lopes (CPF: 03581422107, prontuário 2572) | 1 linha(s) na planilha
+14:36:45 [N1]         1x SESSÃO INDIVIDUAL — R$ 170,20 cada
+14:36:45 [N1]       Total do orçamento: R$ 170,20
+
+14:36:59 ⏱  23/241 pacientes (10%) | ✔ 4 cadastrado(s) · ✖ 0 erro(s) · ⚠ 19 verificar
+14:36:59 ⏱  média 117s/paciente (somando os navegadores) | restante: 07:06:33 | término previsto: 06/10 21:43
+14:37:51 [N1]     Paciente selecionado: ANA GABRIELA DA SILVA LOPES
+14:37:52 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 170,20
+
+14:37:59 ⏱  23/241 pacientes (10%) | ✔ 4 cadastrado(s) · ✖ 0 erro(s) · ⚠ 19 verificar
+14:37:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:16:02 | término previsto: 06/10 21:54
+14:38:04 [N1]     Parcelas geradas.
+14:38:05 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:38:05 [N1]     Salvando orçamento...
+14:38:43 [N1]   ✔ Orçamento cadastrado em 118s (1 item(ns), total R$ 170,20).
+
+14:38:43 [N1] [25/241] ──────────────────────────────────────────────────
+14:38:43 [N1]   Paciente: Rubia Martins (CPF: 00641929110, prontuário 2587) | 2 linha(s) na planilha
+14:38:43 [N1]         2x SESSÃO CORTESIA — R$ 0,00 cada
+14:38:43 [N1]       Total do orçamento: R$ 0,00
+
+14:38:59 ⏱  24/241 pacientes (10%) | ✔ 5 cadastrado(s) · ✖ 0 erro(s) · ⚠ 19 verificar
+14:38:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 07:04:59 | término previsto: 06/10 21:43
+14:39:49 [N1]     Paciente selecionado: RUBIA MARTINS
+14:39:49 [N1]     Item 1/1: 2x SESSÃO CORTESIA — R$ 0,00
+
+14:39:59 ⏱  24/241 pacientes (10%) | ✔ 5 cadastrado(s) · ✖ 0 erro(s) · ⚠ 19 verificar
+14:39:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:14:02 | término previsto: 06/10 21:54
+14:40:02 [N1]     Parcelas geradas.
+14:40:03 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:40:03 [N1]     Salvando orçamento...
+14:40:35 [N1]   ✖ ERRO no orçamento de 'Rubia Martins' (CPF: 00641929110): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:40:36 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/00641929110_orcamento.png
+14:40:36 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:40:36 [N1] [26/241] ──────────────────────────────────────────────────
+14:40:36 [N1]   Paciente: Rusley Pereira Dos Santos (CPF: 00106940643, prontuário 2192) | 23 linha(s) na planilha
+14:40:36 [N1]        23x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:40:36 [N1]       Total do orçamento: R$ 0,00
+
+14:40:59 ⏱  25/241 pacientes (10%) | ✔ 5 cadastrado(s) · ✖ 0 erro(s) · ⚠ 20 verificar
+14:40:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 07:03:23 | término previsto: 06/10 21:44
+14:41:43 [N1]     Paciente selecionado: RUSLEY PEREIRA DOS SANTOS
+14:41:43 [N1]     Item 1/1: 23x SESSÃO INDIVIDUAL — R$ 0,00
+14:41:56 [N1]     Parcelas geradas.
+14:41:56 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:41:56 [N1]     Salvando orçamento...
+
+14:41:59 ⏱  25/241 pacientes (10%) | ✔ 5 cadastrado(s) · ✖ 0 erro(s) · ⚠ 20 verificar
+14:41:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:12:02 | término previsto: 06/10 21:54
+14:42:29 [N1]   ✖ ERRO no orçamento de 'Rusley Pereira Dos Santos' (CPF: 00106940643): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:42:29 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/00106940643_orcamento.png
+14:42:30 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:42:30 [N1] [27/241] ──────────────────────────────────────────────────
+14:42:30 [N1]   Paciente: Mauro De Souza Oliveira (CPF: 65543009534, prontuário 2162) | 35 linha(s) na planilha
+14:42:30 [N1]        35x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:42:30 [N1]       Total do orçamento: R$ 0,00
+
+14:42:59 ⏱  26/241 pacientes (11%) | ✔ 5 cadastrado(s) · ✖ 0 erro(s) · ⚠ 21 verificar
+14:42:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 07:01:45 | término previsto: 06/10 21:44
+14:43:35 [N1]     Paciente selecionado: MAURO DE SOUZA OLIVEIRA
+14:43:36 [N1]     Item 1/1: 35x SESSÃO INDIVIDUAL — R$ 0,00
+14:43:48 [N1]     Parcelas geradas.
+14:43:49 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:43:49 [N1]     Salvando orçamento...
+
+14:43:59 ⏱  26/241 pacientes (11%) | ✔ 5 cadastrado(s) · ✖ 0 erro(s) · ⚠ 21 verificar
+14:43:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:10:01 | término previsto: 06/10 21:54
+14:44:21 [N1]   ✖ ERRO no orçamento de 'Mauro De Souza Oliveira' (CPF: 65543009534): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:44:21 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/65543009534_orcamento.png
+14:44:22 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:44:22 [N1] [28/241] ──────────────────────────────────────────────────
+14:44:22 [N1]   Paciente: Eliardo Rubens Martins De Jesus (CPF: 01764426185, prontuário 2803) | 12 linha(s) na planilha
+14:44:22 [N1]        12x SESSÃO INDIVIDUAL — R$ 185,00 cada
+14:44:22 [N1]       Total do orçamento: R$ 2.220,00
+
+14:44:59 ⏱  27/241 pacientes (11%) | ✔ 5 cadastrado(s) · ✖ 0 erro(s) · ⚠ 22 verificar
+14:44:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 07:00:06 | término previsto: 06/10 21:45
+14:45:28 [N1]     Paciente selecionado: ELIARDO RUBENS MARTINS DE JESUS
+14:45:29 [N1]     Item 1/1: 12x SESSÃO INDIVIDUAL — R$ 185,00
+14:45:41 [N1]     Parcelas geradas.
+14:45:42 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:45:42 [N1]     Salvando orçamento...
+
+14:45:59 ⏱  27/241 pacientes (11%) | ✔ 5 cadastrado(s) · ✖ 0 erro(s) · ⚠ 22 verificar
+14:45:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:08:01 | término previsto: 06/10 21:54
+14:46:22 [N1]   ✔ Orçamento cadastrado em 120s (1 item(ns), total R$ 2.220,00).
+
+14:46:22 [N1] [29/241] ──────────────────────────────────────────────────
+14:46:22 [N1]   Paciente: Aparecida De Sousa Silva (CPF: 01330572165, prontuário 2860) | 1 linha(s) na planilha
+14:46:22 [N1]         1x AVALIAÇÃO — R$ 350,00 cada
+14:46:22 [N1]       Total do orçamento: R$ 350,00
+
+14:46:59 ⏱  28/241 pacientes (12%) | ✔ 6 cadastrado(s) · ✖ 0 erro(s) · ⚠ 22 verificar
+14:46:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 06:58:25 | término previsto: 06/10 21:45
+14:47:28 [N1]     Paciente selecionado: APARECIDA DE SOUSA SILVA
+14:47:28 [N1]     Item 1/1: 1x AVALIAÇÃO — R$ 350,00
+14:47:34 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'AVALIAÇÃO'.
+14:47:41 [N1]     Parcelas geradas.
+14:47:42 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:47:42 [N1]     Salvando orçamento...
+
+14:47:59 ⏱  28/241 pacientes (12%) | ✔ 6 cadastrado(s) · ✖ 0 erro(s) · ⚠ 22 verificar
+14:47:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:06:01 | término previsto: 06/10 21:54
+14:48:20 [N1]   ✔ Orçamento cadastrado em 118s (1 item(ns), total R$ 350,00).
+
+14:48:20 [N1] [30/241] ──────────────────────────────────────────────────
+14:48:20 [N1]   Paciente: Douglas Barbosa Martins (CPF: 04871287106, prontuário 2935) | 1 linha(s) na planilha
+14:48:20 [N1]         1x SESSÃO INDIVIDUAL — R$ 185,00 cada
+14:48:20 [N1]       Total do orçamento: R$ 185,00
+
+14:48:59 ⏱  29/241 pacientes (12%) | ✔ 7 cadastrado(s) · ✖ 0 erro(s) · ⚠ 22 verificar
+14:48:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 06:56:43 | término previsto: 06/10 21:45
+14:49:37 [N1]     Paciente selecionado: DOUGLAS BARBOSA MARTINS
+14:49:37 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 185,00
+14:49:49 [N1]     Parcelas geradas.
+14:49:50 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:49:50 [N1]     Salvando orçamento...
+
+14:49:59 ⏱  29/241 pacientes (12%) | ✔ 7 cadastrado(s) · ✖ 0 erro(s) · ⚠ 22 verificar
+14:49:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:04:01 | término previsto: 06/10 21:54
+14:50:29 [N1]   ✔ Orçamento cadastrado em 129s (1 item(ns), total R$ 185,00).
+
+14:50:29 [N1] [31/241] ──────────────────────────────────────────────────
+14:50:29 [N1]   Paciente: Uelio Borges Arantes (CPF: 39349799120, prontuário 3013) | 6 linha(s) na planilha
+14:50:29 [N1]         6x SESSÃO INDIVIDUAL — R$ 166,50 cada
+14:50:29 [N1]       Total do orçamento: R$ 999,00
+
+14:50:59 ⏱  30/241 pacientes (12%) | ✔ 8 cadastrado(s) · ✖ 0 erro(s) · ⚠ 22 verificar
+14:50:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 06:54:59 | término previsto: 06/10 21:45
+14:51:36 [N1]     Paciente selecionado: UELIO BORGES ARANTES
+14:51:36 [N1]     Item 1/1: 6x SESSÃO INDIVIDUAL — R$ 166,50
+14:51:48 [N1]     Parcelas geradas.
+14:51:49 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:51:49 [N1]     Salvando orçamento...
+
+14:51:59 ⏱  30/241 pacientes (12%) | ✔ 8 cadastrado(s) · ✖ 0 erro(s) · ⚠ 22 verificar
+14:51:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:02:01 | término previsto: 06/10 21:54
+14:52:28 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 999,00).
+
+14:52:28 [N1] [32/241] ──────────────────────────────────────────────────
+14:52:28 [N1]   Paciente: Gracilda Mendonça Cabral (CPF: 92434762115, prontuário 2952) | 1 linha(s) na planilha
+14:52:28 [N1]         1x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:52:28 [N1]       Total do orçamento: R$ 0,00
+
+14:52:59 ⏱  31/241 pacientes (13%) | ✔ 9 cadastrado(s) · ✖ 0 erro(s) · ⚠ 22 verificar
+14:52:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 06:53:15 | término previsto: 06/10 21:46
+14:53:34 [N1]     Paciente selecionado: GRACILDA MENDONÇA CABRAL
+14:53:34 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 0,00
+14:53:46 [N1]     Parcelas geradas.
+14:53:47 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:53:47 [N1]     Salvando orçamento...
+
+14:53:59 ⏱  31/241 pacientes (13%) | ✔ 9 cadastrado(s) · ✖ 0 erro(s) · ⚠ 22 verificar
+14:53:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 07:00:01 | término previsto: 06/10 21:54
+14:54:19 [N1]   ✖ ERRO no orçamento de 'Gracilda Mendonça Cabral' (CPF: 92434762115): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:54:19 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/92434762115_orcamento.png
+14:54:20 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:54:20 [N1] [33/241] ──────────────────────────────────────────────────
+14:54:20 [N1]   Paciente: Gilliard Gonçalves Santos Pereira (CPF: 00208616136, prontuário 2060) | 1 linha(s) na planilha
+14:54:20 [N1]         1x SESSÃO INDIVIDUAL — R$ 250,00 cada
+14:54:20 [N1]       Total do orçamento: R$ 250,00
+
+14:54:59 ⏱  32/241 pacientes (13%) | ✔ 9 cadastrado(s) · ✖ 0 erro(s) · ⚠ 23 verificar
+14:54:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 06:51:29 | término previsto: 06/10 21:46
+14:55:26 [N1]     Paciente selecionado: GILLIARD GONÇALVES SANTOS PEREIRA
+14:55:27 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 250,00
+14:55:39 [N1]     Parcelas geradas.
+14:55:40 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:55:40 [N1]     Salvando orçamento...
+
+14:55:59 ⏱  32/241 pacientes (13%) | ✔ 9 cadastrado(s) · ✖ 0 erro(s) · ⚠ 23 verificar
+14:55:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:58:01 | término previsto: 06/10 21:54
+14:56:20 [N1]   ✔ Orçamento cadastrado em 121s (1 item(ns), total R$ 250,00).
+
+14:56:20 [N1] [34/241] ──────────────────────────────────────────────────
+14:56:20 [N1]   Paciente: Kamila Silva De Souza (CPF: 00128596139, prontuário 2132) | 27 linha(s) na planilha
+14:56:20 [N1]        26x SESSÃO CORTESIA — R$ 0,00 cada
+14:56:20 [N1]         1x SESSÃO INDIVIDUAL — R$ 0,00 cada
+14:56:20 [N1]       Total do orçamento: R$ 0,00
+
+14:56:59 ⏱  33/241 pacientes (14%) | ✔ 10 cadastrado(s) · ✖ 0 erro(s) · ⚠ 23 verificar
+14:56:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 06:49:43 | término previsto: 06/10 21:46
+14:57:27 [N1]     Paciente selecionado: KAMILA SILVA DE SOUZA
+14:57:27 [N1]     Item 1/2: 26x SESSÃO CORTESIA — R$ 0,00
+14:57:36 [N1]     Item 2/2: 1x SESSÃO INDIVIDUAL — R$ 0,00
+14:57:48 [N1]     Parcelas geradas.
+14:57:49 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:57:49 [N1]     Salvando orçamento...
+
+14:57:59 ⏱  33/241 pacientes (14%) | ✔ 10 cadastrado(s) · ✖ 0 erro(s) · ⚠ 23 verificar
+14:57:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:56:01 | término previsto: 06/10 21:54
+14:58:21 [N1]   ✖ ERRO no orçamento de 'Kamila Silva De Souza' (CPF: 00128596139): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+14:58:21 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/00128596139_orcamento.png
+14:58:22 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+14:58:22 [N1] [35/241] ──────────────────────────────────────────────────
+14:58:22 [N1]   Paciente: Fabrício Martins Ribeiro (CPF: 71081291168, prontuário 3189) | 36 linha(s) na planilha
+14:58:22 [N1]        35x SESSÃO INDIVIDUAL — R$ 194,44 cada
+14:58:22 [N1]         1x SESSÃO INDIVIDUAL — R$ 194,60 cada
+14:58:22 [N1]       Total do orçamento: R$ 7.000,00
+
+14:58:59 ⏱  34/241 pacientes (14%) | ✔ 10 cadastrado(s) · ✖ 0 erro(s) · ⚠ 24 verificar
+14:58:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 06:47:56 | término previsto: 06/10 21:46
+14:59:28 [N1]     Paciente selecionado: Fabrício Martins Ribeiro
+14:59:28 [N1]     Item 1/2: 35x SESSÃO INDIVIDUAL — R$ 194,44
+14:59:37 [N1]     Item 2/2: 1x SESSÃO INDIVIDUAL — R$ 194,60
+14:59:49 [N1]     Parcelas geradas.
+14:59:50 [N1]     Situação Aprovado, gera financeiro desmarcado.
+14:59:50 [N1]     Salvando orçamento...
+
+14:59:59 ⏱  34/241 pacientes (14%) | ✔ 10 cadastrado(s) · ✖ 0 erro(s) · ⚠ 24 verificar
+14:59:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:54:01 | término previsto: 06/10 21:54
+15:00:29 [N1]   ✔ Orçamento cadastrado em 127s (2 item(ns), total R$ 7.000,00).
+
+15:00:29 [N1] [36/241] ──────────────────────────────────────────────────
+15:00:29 [N1]   Paciente: Marlon Brando Geraldo Chaves (CPF: 04728555658, prontuário 3190) | 1 linha(s) na planilha
+15:00:29 [N1]         1x SESSÃO INDIVIDUAL — R$ 195,00 cada
+15:00:29 [N1]       Total do orçamento: R$ 195,00
+
+15:00:59 ⏱  35/241 pacientes (15%) | ✔ 11 cadastrado(s) · ✖ 0 erro(s) · ⚠ 24 verificar
+15:00:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 06:46:08 | término previsto: 06/10 21:47
+15:01:35 [N1]     Paciente selecionado: Marlon Brando Geraldo Chaves
+15:01:36 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 195,00
+15:01:48 [N1]     Parcelas geradas.
+15:01:49 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:01:49 [N1]     Salvando orçamento...
+
+15:01:59 ⏱  35/241 pacientes (15%) | ✔ 11 cadastrado(s) · ✖ 0 erro(s) · ⚠ 24 verificar
+15:01:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:52:01 | término previsto: 06/10 21:54
+15:02:27 [N1]   ✔ Orçamento cadastrado em 118s (1 item(ns), total R$ 195,00).
+
+15:02:27 [N1] [37/241] ──────────────────────────────────────────────────
+15:02:27 [N1]   Paciente: Andre Luiz Abreu Ferreira (CPF: 37922831153, prontuário 2287) | 26 linha(s) na planilha
+15:02:27 [N1]        26x SESSÃO INDIVIDUAL — R$ 185,00 cada
+15:02:27 [N1]       Total do orçamento: R$ 4.810,00
+
+15:02:59 ⏱  36/241 pacientes (15%) | ✔ 12 cadastrado(s) · ✖ 0 erro(s) · ⚠ 24 verificar
+15:02:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 06:44:20 | término previsto: 06/10 21:47
+15:03:33 [N1]     Paciente selecionado: Andre Luiz Abreu Ferreira
+15:03:34 [N1]     Item 1/1: 26x SESSÃO INDIVIDUAL — R$ 185,00
+15:03:46 [N1]     Parcelas geradas.
+15:03:47 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:03:47 [N1]     Salvando orçamento...
+
+15:03:59 ⏱  36/241 pacientes (15%) | ✔ 12 cadastrado(s) · ✖ 0 erro(s) · ⚠ 24 verificar
+15:03:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:50:01 | término previsto: 06/10 21:54
+15:04:26 [N1]   ✔ Orçamento cadastrado em 118s (1 item(ns), total R$ 4.810,00).
+
+15:04:26 [N1] [38/241] ──────────────────────────────────────────────────
+15:04:26 [N1]   Paciente: Adenilson Rodrigues Dias Filho (CPF: 70168116111, prontuário 3313) | 6 linha(s) na planilha
+15:04:26 [N1]         6x SESSÃO INDIVIDUAL — R$ 195,00 cada
+15:04:26 [N1]       Total do orçamento: R$ 1.170,00
+
+15:04:59 ⏱  37/241 pacientes (15%) | ✔ 13 cadastrado(s) · ✖ 0 erro(s) · ⚠ 24 verificar
+15:04:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 06:42:30 | término previsto: 06/10 21:47
+15:05:40 [N1]     Paciente selecionado: Adenilson Rodrigues Dias Filho
+15:05:40 [N1]     Item 1/1: 6x SESSÃO INDIVIDUAL — R$ 195,00
+15:05:52 [N1]     Parcelas geradas.
+15:05:53 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:05:53 [N1]     Salvando orçamento...
+
+15:05:59 ⏱  37/241 pacientes (15%) | ✔ 13 cadastrado(s) · ✖ 0 erro(s) · ⚠ 24 verificar
+15:05:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:48:01 | término previsto: 06/10 21:54
+15:06:31 [N1]   ✔ Orçamento cadastrado em 126s (1 item(ns), total R$ 1.170,00).
+
+15:06:31 [N1] [39/241] ──────────────────────────────────────────────────
+15:06:31 [N1]   Paciente: Renilton Dos Santos Fernandes (CPF: 24907618204, prontuário 3339) | 26 linha(s) na planilha
+15:06:31 [N1]        26x SESSÃO INDIVIDUAL — R$ 195,00 cada
+15:06:31 [N1]       Total do orçamento: R$ 5.070,00
+
+15:06:59 ⏱  38/241 pacientes (16%) | ✔ 14 cadastrado(s) · ✖ 0 erro(s) · ⚠ 24 verificar
+15:06:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 06:40:41 | término previsto: 06/10 21:47
+15:07:38 [N1]     Paciente selecionado: Renilton dos Santos Fernandes
+15:07:39 [N1]     Item 1/1: 26x SESSÃO INDIVIDUAL — R$ 195,00
+15:07:51 [N1]     Parcelas geradas.
+15:07:52 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:07:52 [N1]     Salvando orçamento...
+
+15:07:59 ⏱  38/241 pacientes (16%) | ✔ 14 cadastrado(s) · ✖ 0 erro(s) · ⚠ 24 verificar
+15:07:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:46:01 | término previsto: 06/10 21:54
+15:08:31 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 5.070,00).
+
+15:08:31 [N1] [40/241] ──────────────────────────────────────────────────
+15:08:31 [N1]   Paciente: Daniel Mesquita Guimarães (CPF: 90315901187, prontuário 2040) | 3 linha(s) na planilha
+15:08:31 [N1]         3x SESSÃO INDIVIDUAL — R$ 0,00 cada
+15:08:31 [N1]       Total do orçamento: R$ 0,00
+
+15:08:59 ⏱  39/241 pacientes (16%) | ✔ 15 cadastrado(s) · ✖ 0 erro(s) · ⚠ 24 verificar
+15:08:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 06:38:50 | término previsto: 06/10 21:47
+15:09:37 [N1]     Paciente selecionado: DANIEL MESQUITA GUIMARÃES
+15:09:37 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 0,00
+15:09:50 [N1]     Parcelas geradas.
+15:09:50 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:09:50 [N1]     Salvando orçamento...
+
+15:09:59 ⏱  39/241 pacientes (16%) | ✔ 15 cadastrado(s) · ✖ 0 erro(s) · ⚠ 24 verificar
+15:09:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:44:01 | término previsto: 06/10 21:54
+15:10:23 [N1]   ✖ ERRO no orçamento de 'Daniel Mesquita Guimarães' (CPF: 90315901187): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+15:10:23 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/90315901187_orcamento.png
+15:10:23 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+15:10:23 [N1] [41/241] ──────────────────────────────────────────────────
+15:10:23 [N1]   Paciente: Elisabeth Maria De Freitas Oliveira (CPF: 43033806104, prontuário 2633) | 1 linha(s) na planilha
+15:10:23 [N1]         1x SESSÃO INDIVIDUAL — R$ 195,00 cada
+15:10:23 [N1]       Total do orçamento: R$ 195,00
+
+15:10:59 ⏱  40/241 pacientes (17%) | ✔ 15 cadastrado(s) · ✖ 0 erro(s) · ⚠ 25 verificar
+15:10:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:37:00 | término previsto: 06/10 21:47
+15:11:30 [N1]     Paciente selecionado: ELISABETH MARIA DE FREITAS OLIVEIRA
+15:11:30 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 195,00
+15:11:42 [N1]     Parcelas geradas.
+15:11:43 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:11:43 [N1]     Salvando orçamento...
+
+15:11:59 ⏱  40/241 pacientes (17%) | ✔ 15 cadastrado(s) · ✖ 0 erro(s) · ⚠ 25 verificar
+15:11:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:42:01 | término previsto: 06/10 21:54
+15:12:23 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 195,00).
+
+15:12:23 [N1] [42/241] ──────────────────────────────────────────────────
+15:12:23 [N1]   Paciente: Elias Braga De Souza (CPF: 88836142168, prontuário 3512) | 1 linha(s) na planilha
+15:12:23 [N1]         1x SESSÃO INDIVIDUAL — R$ 200,00 cada
+15:12:23 [N1]       Total do orçamento: R$ 200,00
+
+15:12:59 ⏱  41/241 pacientes (17%) | ✔ 16 cadastrado(s) · ✖ 0 erro(s) · ⚠ 25 verificar
+15:12:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:35:09 | término previsto: 06/10 21:48
+15:13:29 [N1]     Paciente selecionado: Elias Braga de Souza
+15:13:29 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 200,00
+15:13:41 [N1]     Parcelas geradas.
+15:13:42 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:13:42 [N1]     Salvando orçamento...
+
+15:13:59 ⏱  41/241 pacientes (17%) | ✔ 16 cadastrado(s) · ✖ 0 erro(s) · ⚠ 25 verificar
+15:13:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:40:01 | término previsto: 06/10 21:54
+15:14:22 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 200,00).
+
+15:14:22 [N1] [43/241] ──────────────────────────────────────────────────
+15:14:22 [N1]   Paciente: Aurimar Miranda Lacerda Matias (CPF: 70026726653, prontuário 3837) | 2 linha(s) na planilha
+15:14:22 [N1]         1x RETORNO — R$ 0,00 cada
+15:14:22 [N1]         1x MANUTENÇÃO — R$ 195,00 cada
+15:14:22 [N1]       Total do orçamento: R$ 195,00
+
+15:14:59 ⏱  42/241 pacientes (17%) | ✔ 17 cadastrado(s) · ✖ 0 erro(s) · ⚠ 25 verificar
+15:14:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:33:17 | término previsto: 06/10 21:48
+15:15:28 [N1]     Paciente selecionado: Aurimar Miranda Lacerda Matias
+15:15:28 [N1]     Item 1/2: 1x RETORNO — R$ 0,00
+15:15:37 [N1]     Item 2/2: 1x MANUTENÇÃO — R$ 195,00
+15:15:49 [N1]     Parcelas geradas.
+15:15:50 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:15:50 [N1]     Salvando orçamento...
+
+15:15:59 ⏱  42/241 pacientes (17%) | ✔ 17 cadastrado(s) · ✖ 0 erro(s) · ⚠ 25 verificar
+15:15:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:38:01 | término previsto: 06/10 21:54
+15:16:30 [N1]   ✔ Orçamento cadastrado em 128s (2 item(ns), total R$ 195,00).
+
+15:16:30 [N1] [44/241] ──────────────────────────────────────────────────
+15:16:30 [N1]   Paciente: Ermenegildo Pereira De Lima (CPF: 80944620191, prontuário 3067) | 10 linha(s) na planilha
+15:16:30 [N1]         6x MANUTENÇÃO — R$ 180,00 cada
+15:16:30 [N1]         1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 206,25 cada
+15:16:30 [N1]         1x REAVALIAÇÃO — R$ 206,25 cada
+15:16:30 [N1]         2x SESSÃO INDIVIDUAL — R$ 0,00 cada
+15:16:30 [N1]       Total do orçamento: R$ 1.492,50
+
+15:16:59 ⏱  43/241 pacientes (18%) | ✔ 18 cadastrado(s) · ✖ 0 erro(s) · ⚠ 25 verificar
+15:16:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:31:25 | término previsto: 06/10 21:48
+15:17:46 [N1]     Paciente selecionado: Ermenegildo Pereira de lima
+15:17:46 [N1]     Item 1/4: 6x MANUTENÇÃO — R$ 180,00
+15:17:55 [N1]     Item 2/4: 1x ETAPA 2/24 - ESTABILIZAÇÃO — R$ 206,25
+
+15:17:59 ⏱  43/241 pacientes (18%) | ✔ 18 cadastrado(s) · ✖ 0 erro(s) · ⚠ 25 verificar
+15:17:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:36:01 | término previsto: 06/10 21:54
+15:18:04 [N1]     Item 3/4: 1x REAVALIAÇÃO — R$ 206,25
+15:18:10 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'REAVALIAÇÃO'.
+15:18:13 [N1]     Item 4/4: 2x SESSÃO INDIVIDUAL — R$ 0,00
+15:18:16 [N1]   ✖ ERRO no orçamento de 'Ermenegildo Pereira De Lima' (CPF: 80944620191): item 4/4 'SESSÃO INDIVIDUAL': StaleElementReferenceException: stale element reference: stale element not found in the current frame
+15:18:16 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/80944620191_orcamento.png
+15:18:17 [N1]   Marcado como erro na planilha (nada foi salvo para este paciente).
+
+15:18:17 [N1] [45/241] ──────────────────────────────────────────────────
+15:18:17 [N1]   Paciente: Carlos Valdeci Bender (CPF: 44878869100, prontuário 2742) | 15 linha(s) na planilha
+15:18:17 [N1]        15x SESSÃO INDIVIDUAL — R$ 185,00 cada
+15:18:17 [N1]       Total do orçamento: R$ 2.775,00
+
+15:18:59 ⏱  44/241 pacientes (18%) | ✔ 18 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:18:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:29:33 | término previsto: 06/10 21:48
+15:19:23 [N1]     Paciente selecionado: CARLOS VALDECI BENDER
+15:19:23 [N1]     Item 1/1: 15x SESSÃO INDIVIDUAL — R$ 185,00
+15:19:36 [N1]     Parcelas geradas.
+15:19:37 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:19:37 [N1]     Salvando orçamento...
+
+15:19:59 ⏱  44/241 pacientes (18%) | ✔ 18 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:19:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:34:01 | término previsto: 06/10 21:54
+15:20:15 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 2.775,00).
+
+15:20:15 [N1] [46/241] ──────────────────────────────────────────────────
+15:20:15 [N1]   Paciente: Meire Silveira Ferreira Muniz (CPF: 90896270149, prontuário 4075) | 24 linha(s) na planilha
+15:20:15 [N1]        24x SESSÃO INDIVIDUAL — R$ 185,00 cada
+15:20:15 [N1]       Total do orçamento: R$ 4.440,00
+
+15:20:59 ⏱  45/241 pacientes (19%) | ✔ 19 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:20:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:27:40 | término previsto: 06/10 21:48
+15:21:21 [N1]     Paciente selecionado: Meire Silveira Ferreira Muniz
+15:21:22 [N1]     Item 1/1: 24x SESSÃO INDIVIDUAL — R$ 185,00
+15:21:34 [N1]     Parcelas geradas.
+15:21:35 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:21:35 [N1]     Salvando orçamento...
+
+15:21:59 ⏱  45/241 pacientes (19%) | ✔ 19 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:21:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:32:01 | término previsto: 06/10 21:54
+15:22:13 [N1]   ✔ Orçamento cadastrado em 118s (1 item(ns), total R$ 4.440,00).
+
+15:22:13 [N1] [47/241] ──────────────────────────────────────────────────
+15:22:13 [N1]   Paciente: Rhafael Pereira Barros (CPF: 01851626140, prontuário 4071) | 16 linha(s) na planilha
+15:22:13 [N1]        16x SESSÃO INDIVIDUAL — R$ 195,00 cada
+15:22:13 [N1]       Total do orçamento: R$ 3.120,00
+
+15:22:59 ⏱  46/241 pacientes (19%) | ✔ 20 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:22:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:25:47 | término previsto: 06/10 21:48
+15:23:22 [N1]     Paciente selecionado: Rhafael Pereira Barros
+15:23:22 [N1]     Item 1/1: 16x SESSÃO INDIVIDUAL — R$ 195,00
+15:23:34 [N1]     Parcelas geradas.
+15:23:35 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:23:35 [N1]     Salvando orçamento...
+
+15:23:59 ⏱  46/241 pacientes (19%) | ✔ 20 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:23:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:30:01 | término previsto: 06/10 21:54
+15:24:14 [N1]   ✔ Orçamento cadastrado em 121s (1 item(ns), total R$ 3.120,00).
+
+15:24:14 [N1] [48/241] ──────────────────────────────────────────────────
+15:24:14 [N1]   Paciente: Ana Bete Ribeiro De Souza (CPF: 26946696115, prontuário 4135) | 7 linha(s) na planilha
+15:24:14 [N1]         6x SESSÃO INDIVIDUAL — R$ 181,80 cada
+15:24:14 [N1]         1x SESSÃO INDIVIDUAL — R$ 182,00 cada
+15:24:14 [N1]       Total do orçamento: R$ 1.272,80
+
+15:24:59 ⏱  47/241 pacientes (20%) | ✔ 21 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:24:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:23:53 | término previsto: 06/10 21:48
+15:25:22 [N1]     Paciente selecionado: Ana Bete Ribeiro de Souza
+15:25:22 [N1]     Item 1/2: 6x SESSÃO INDIVIDUAL — R$ 181,80
+15:25:30 [N1]     Item 2/2: 1x SESSÃO INDIVIDUAL — R$ 182,00
+15:25:43 [N1]     Parcelas geradas.
+15:25:44 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:25:44 [N1]     Salvando orçamento...
+
+15:25:59 ⏱  47/241 pacientes (20%) | ✔ 21 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:25:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:28:01 | término previsto: 06/10 21:54
+15:26:22 [N1]   ✔ Orçamento cadastrado em 128s (2 item(ns), total R$ 1.272,80).
+
+15:26:22 [N1] [49/241] ──────────────────────────────────────────────────
+15:26:22 [N1]   Paciente: Romeu Rocha Costa (CPF: 58750878115, prontuário 4134) | 2 linha(s) na planilha
+15:26:22 [N1]         2x MANUTENÇÃO — R$ 185,00 cada
+15:26:22 [N1]       Total do orçamento: R$ 370,00
+
+15:26:59 ⏱  48/241 pacientes (20%) | ✔ 22 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:26:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:22:00 | término previsto: 06/10 21:49
+15:27:29 [N1]     Paciente selecionado: Romeu Rocha Costa
+15:27:29 [N1]     Item 1/1: 2x MANUTENÇÃO — R$ 185,00
+15:27:42 [N1]     Parcelas geradas.
+15:27:43 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:27:43 [N1]     Salvando orçamento...
+
+15:27:59 ⏱  48/241 pacientes (20%) | ✔ 22 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:27:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:26:01 | término previsto: 06/10 21:54
+15:28:21 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 370,00).
+
+15:28:21 [N1] [50/241] ──────────────────────────────────────────────────
+15:28:21 [N1]   Paciente: Jose Ribamar Almeida Pereira (CPF: 03694084380, prontuário 4049) | 17 linha(s) na planilha
+15:28:21 [N1]        17x SESSÃO INDIVIDUAL — R$ 195,00 cada
+15:28:21 [N1]       Total do orçamento: R$ 3.315,00
+
+15:28:59 ⏱  49/241 pacientes (20%) | ✔ 23 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:28:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:20:06 | término previsto: 06/10 21:49
+15:29:27 [N1]     Paciente selecionado: Jose Ribamar Almeida Pereira
+15:29:27 [N1]     Item 1/1: 17x SESSÃO INDIVIDUAL — R$ 195,00
+15:29:39 [N1]     Parcelas geradas.
+15:29:40 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:29:40 [N1]     Salvando orçamento...
+
+15:29:59 ⏱  49/241 pacientes (20%) | ✔ 23 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:29:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:24:01 | término previsto: 06/10 21:54
+15:30:20 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 3.315,00).
+
+15:30:20 [N1] [51/241] ──────────────────────────────────────────────────
+15:30:20 [N1]   Paciente: Vladimir Caetano Dos Santos (CPF: 89795695134, prontuário 4409) | 1 linha(s) na planilha
+15:30:20 [N1]         1x SESSÃO INDIVIDUAL — R$ 180,00 cada
+15:30:20 [N1]       Total do orçamento: R$ 180,00
+
+15:30:59 ⏱  50/241 pacientes (21%) | ✔ 24 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:30:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:18:12 | término previsto: 06/10 21:49
+15:31:27 [N1]     Paciente selecionado: Vladimir Caetano dos Santos
+15:31:27 [N1]     Item 1/1: 1x SESSÃO INDIVIDUAL — R$ 180,00
+15:31:40 [N1]     Parcelas geradas.
+15:31:41 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:31:41 [N1]     Salvando orçamento...
+
+15:31:59 ⏱  50/241 pacientes (21%) | ✔ 24 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:31:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:22:01 | término previsto: 06/10 21:54
+15:32:20 [N1]   ✔ Orçamento cadastrado em 120s (1 item(ns), total R$ 180,00).
+
+15:32:20 [N1] [52/241] ──────────────────────────────────────────────────
+15:32:20 [N1]   Paciente: Marina Garcia De Pina Cabral (CPF: 05936538150, prontuário 4404) | 16 linha(s) na planilha
+15:32:20 [N1]        16x SESSÃO INDIVIDUAL — R$ 195,00 cada
+15:32:20 [N1]       Total do orçamento: R$ 3.120,00
+
+15:32:59 ⏱  51/241 pacientes (21%) | ✔ 25 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:32:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:16:18 | término previsto: 06/10 21:49
+15:33:26 [N1]     Paciente selecionado: Marina Garcia de Pina Cabral
+15:33:26 [N1]     Item 1/1: 16x SESSÃO INDIVIDUAL — R$ 195,00
+15:33:39 [N1]     Parcelas geradas.
+15:33:39 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:33:39 [N1]     Salvando orçamento...
+
+15:33:59 ⏱  51/241 pacientes (21%) | ✔ 25 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:33:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:20:01 | término previsto: 06/10 21:54
+15:34:19 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 3.120,00).
+
+15:34:19 [N1] [53/241] ──────────────────────────────────────────────────
+15:34:19 [N1]   Paciente: Jose Carlos Da Silva (CPF: 81642938572, prontuário 4374) | 1 linha(s) na planilha
+15:34:19 [N1]         1x MANUTENÇÃO — R$ 185,00 cada
+15:34:19 [N1]       Total do orçamento: R$ 185,00
+
+15:34:59 ⏱  52/241 pacientes (22%) | ✔ 26 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:34:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:14:23 | término previsto: 06/10 21:49
+15:35:25 [N1]     Paciente selecionado: Jose Carlos da Silva
+15:35:26 [N1]     Item 1/1: 1x MANUTENÇÃO — R$ 185,00
+15:35:38 [N1]     Parcelas geradas.
+15:35:39 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:35:39 [N1]     Salvando orçamento...
+
+15:35:59 ⏱  52/241 pacientes (22%) | ✔ 26 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:35:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:18:01 | término previsto: 06/10 21:54
+15:36:17 [N1]   ✔ Orçamento cadastrado em 118s (1 item(ns), total R$ 185,00).
+
+15:36:17 [N1] [54/241] ──────────────────────────────────────────────────
+15:36:17 [N1]   Paciente: Kassia Kristiny De Oliveira Bessa (CPF: 01251462138, prontuário 4549) | 20 linha(s) na planilha
+15:36:17 [N1]        20x SESSÃO INDIVIDUAL — R$ 195,00 cada
+15:36:17 [N1]       Total do orçamento: R$ 3.900,00
+
+15:36:59 ⏱  53/241 pacientes (22%) | ✔ 27 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:36:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:12:28 | término previsto: 06/10 21:49
+15:37:23 [N1]     Paciente selecionado: Kassia Kristiny de Oliveira Bessa
+15:37:24 [N1]     Item 1/1: 20x SESSÃO INDIVIDUAL — R$ 195,00
+15:37:36 [N1]     Parcelas geradas.
+15:37:37 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:37:37 [N1]     Salvando orçamento...
+
+15:37:59 ⏱  53/241 pacientes (22%) | ✔ 27 cadastrado(s) · ✖ 1 erro(s) · ⚠ 25 verificar
+15:37:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:16:01 | término previsto: 06/10 21:54
+15:38:09 [N1]   ✖ ERRO no orçamento de 'Kassia Kristiny De Oliveira Bessa' (CPF: 01251462138): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+15:38:09 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/01251462138_orcamento.png
+15:38:10 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+15:38:10 [N1] [55/241] ──────────────────────────────────────────────────
+15:38:10 [N1]   Paciente: Gustavo Henrique Luiz Fonseca (CPF: 03222615110, prontuário 4636) | 1 linha(s) na planilha
+15:38:10 [N1]         1x MANUTENÇÃO — R$ 185,00 cada
+15:38:10 [N1]       Total do orçamento: R$ 185,00
+
+15:38:59 ⏱  54/241 pacientes (22%) | ✔ 27 cadastrado(s) · ✖ 1 erro(s) · ⚠ 26 verificar
+15:38:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:10:33 | término previsto: 06/10 21:49
+15:39:16 [N1]     Paciente selecionado: Gustavo Henrique Luiz Fonseca
+15:39:16 [N1]     Item 1/1: 1x MANUTENÇÃO — R$ 185,00
+15:39:28 [N1]     Parcelas geradas.
+15:39:29 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:39:29 [N1]     Salvando orçamento...
+
+15:39:59 ⏱  54/241 pacientes (22%) | ✔ 27 cadastrado(s) · ✖ 1 erro(s) · ⚠ 26 verificar
+15:39:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:14:01 | término previsto: 06/10 21:54
+15:40:08 [N1]   ✔ Orçamento cadastrado em 118s (1 item(ns), total R$ 185,00).
+
+15:40:08 [N1] [56/241] ──────────────────────────────────────────────────
+15:40:08 [N1]   Paciente: Lucas Esteves Melo (CPF: 75420732149, prontuário 4651) | 3 linha(s) na planilha
+15:40:08 [N1]         3x SESSÃO INDIVIDUAL — R$ 185,00 cada
+15:40:08 [N1]       Total do orçamento: R$ 555,00
+
+15:40:59 ⏱  55/241 pacientes (23%) | ✔ 28 cadastrado(s) · ✖ 1 erro(s) · ⚠ 26 verificar
+15:40:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:08:38 | término previsto: 06/10 21:49
+15:41:14 [N1]     Paciente selecionado: Lucas Esteves Melo
+15:41:15 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 185,00
+15:41:28 [N1]     Parcelas geradas.
+15:41:28 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:41:28 [N1]     Salvando orçamento...
+
+15:41:59 ⏱  55/241 pacientes (23%) | ✔ 28 cadastrado(s) · ✖ 1 erro(s) · ⚠ 26 verificar
+15:41:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:12:01 | término previsto: 06/10 21:54
+15:42:01 [N1]   ✖ ERRO no orçamento de 'Lucas Esteves Melo' (CPF: 75420732149): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+15:42:01 [N1]   Screenshot salvo em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/erros/75420732149_orcamento.png
+15:42:02 [N1]   ⚠ Marcado como VERIFICAR: confira no sistema se o orçamento foi criado.
+
+15:42:02 [N1] [57/241] ──────────────────────────────────────────────────
+15:42:02 [N1]   Paciente: Fernando Roberto De Moraes Rodrigues (CPF: 94764824191, prontuário 4767) | 2 linha(s) na planilha
+15:42:02 [N1]         2x SESSÃO INDIVIDUAL — R$ 170,00 cada
+15:42:02 [N1]       Total do orçamento: R$ 340,00
+
+15:42:59 ⏱  56/241 pacientes (23%) | ✔ 28 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:42:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:06:43 | término previsto: 06/10 21:49
+15:43:08 [N1]     Paciente selecionado: Fernando Roberto de Moraes Rodrigues
+15:43:08 [N1]     Item 1/1: 2x SESSÃO INDIVIDUAL — R$ 170,00
+15:43:20 [N1]     Parcelas geradas.
+15:43:21 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:43:21 [N1]     Salvando orçamento...
+
+15:43:59 ⏱  56/241 pacientes (23%) | ✔ 28 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:43:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:10:01 | término previsto: 06/10 21:54
+15:44:00 [N1]   ✔ Orçamento cadastrado em 118s (1 item(ns), total R$ 340,00).
+
+15:44:00 [N1] [58/241] ──────────────────────────────────────────────────
+15:44:00 [N1]   Paciente: Gustavo Rueda Nascimento (CPF: 06797958121, prontuário 4856) | 18 linha(s) na planilha
+15:44:00 [N1]        18x SESSÃO INDIVIDUAL — R$ 195,00 cada
+15:44:00 [N1]       Total do orçamento: R$ 3.510,00
+
+15:44:59 ⏱  57/241 pacientes (24%) | ✔ 29 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:44:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:04:47 | término previsto: 06/10 21:49
+15:45:06 [N1]     Paciente selecionado: Gustavo Rueda Nascimento
+15:45:06 [N1]     Item 1/1: 18x SESSÃO INDIVIDUAL — R$ 195,00
+15:45:19 [N1]     Parcelas geradas.
+15:45:20 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:45:20 [N1]     Salvando orçamento...
+15:45:58 [N1]   ✔ Orçamento cadastrado em 118s (1 item(ns), total R$ 3.510,00).
+
+15:45:58 [N1] [59/241] ──────────────────────────────────────────────────
+15:45:58 [N1]   Paciente: Fausto Felix De Barros (CPF: 28490961808, prontuário 4943) | 2 linha(s) na planilha
+15:45:58 [N1]         1x AVALIAÇÃO — R$ 280,00 cada
+15:45:58 [N1]         1x AVALIAÇÃO — R$ 70,00 cada
+15:45:58 [N1]       Total do orçamento: R$ 350,00
+
+15:45:59 ⏱  58/241 pacientes (24%) | ✔ 30 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:45:59 ⏱  média 118s/paciente (somando os navegadores) | restante: 05:59:43 | término previsto: 06/10 21:45
+
+15:46:59 ⏱  58/241 pacientes (24%) | ✔ 30 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:46:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:02:52 | término previsto: 06/10 21:49
+15:47:05 [N1]     Paciente selecionado: Fausto Felix de Barros
+15:47:05 [N1]     Item 1/2: 1x AVALIAÇÃO — R$ 280,00
+15:47:11 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'AVALIAÇÃO'.
+15:47:14 [N1]     Item 2/2: 1x AVALIAÇÃO — R$ 70,00
+15:47:20 [N1]     Atenção: procedimento '1° REAVALIAÇÃO - FASE 1 (12)' selecionado para 'AVALIAÇÃO'.
+15:47:26 [N1]     Parcelas geradas.
+15:47:27 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:47:27 [N1]     Salvando orçamento...
+
+15:47:59 ⏱  58/241 pacientes (24%) | ✔ 30 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:47:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:06:01 | término previsto: 06/10 21:54
+15:48:06 [N1]   ✔ Orçamento cadastrado em 128s (2 item(ns), total R$ 350,00).
+
+15:48:06 [N1] [60/241] ──────────────────────────────────────────────────
+15:48:06 [N1]   Paciente: Flavio Carneiro De Souza (CPF: 83628568153, prontuário 5083) | 11 linha(s) na planilha
+15:48:06 [N1]        11x SESSÃO INDIVIDUAL — R$ 167,00 cada
+15:48:06 [N1]       Total do orçamento: R$ 1.837,00
+
+15:48:59 ⏱  59/241 pacientes (24%) | ✔ 31 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:48:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 06:00:56 | término previsto: 06/10 21:49
+15:49:13 [N1]     Paciente selecionado: Flavio Carneiro de Souza
+15:49:13 [N1]     Item 1/1: 11x SESSÃO INDIVIDUAL — R$ 167,00
+15:49:25 [N1]     Parcelas geradas.
+15:49:26 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:49:26 [N1]     Salvando orçamento...
+
+15:49:59 ⏱  59/241 pacientes (24%) | ✔ 31 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:49:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:04:01 | término previsto: 06/10 21:54
+15:50:04 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 1.837,00).
+
+15:50:04 [N1] [61/241] ──────────────────────────────────────────────────
+15:50:04 [N1]   Paciente: Carlos Dias Pereira (CPF: 86963945187, prontuário 4831) | 6 linha(s) na planilha
+15:50:04 [N1]         6x SESSÃO INDIVIDUAL — R$ 150,00 cada
+15:50:04 [N1]       Total do orçamento: R$ 900,00
+
+15:50:59 ⏱  60/241 pacientes (25%) | ✔ 32 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:50:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:59:00 | término previsto: 06/10 21:50
+15:51:10 [N1]     Paciente selecionado: Carlos Dias Pereira
+15:51:11 [N1]     Item 1/1: 6x SESSÃO INDIVIDUAL — R$ 150,00
+15:51:23 [N1]     Parcelas geradas.
+15:51:24 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:51:24 [N1]     Salvando orçamento...
+
+15:51:59 ⏱  60/241 pacientes (25%) | ✔ 32 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:51:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:02:01 | término previsto: 06/10 21:54
+15:52:03 [N1]   ✔ Orçamento cadastrado em 118s (1 item(ns), total R$ 900,00).
+
+15:52:03 [N1] [62/241] ──────────────────────────────────────────────────
+15:52:03 [N1]   Paciente: Luiz Antônio Pires Santos (CPF: 39141632168, prontuário 5522) | 4 linha(s) na planilha
+15:52:03 [N1]         4x SESSÃO INDIVIDUAL — R$ 185,00 cada
+15:52:03 [N1]       Total do orçamento: R$ 740,00
+
+15:52:59 ⏱  61/241 pacientes (25%) | ✔ 33 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:52:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:57:04 | término previsto: 06/10 21:50
+15:53:10 [N1]     Paciente selecionado: Luiz Antônio Pires Santos
+15:53:10 [N1]     Item 1/1: 4x SESSÃO INDIVIDUAL — R$ 185,00
+15:53:23 [N1]     Parcelas geradas.
+15:53:24 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:53:24 [N1]     Salvando orçamento...
+
+15:53:59 ⏱  61/241 pacientes (25%) | ✔ 33 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:53:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 06:00:01 | término previsto: 06/10 21:54
+15:54:02 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 740,00).
+
+15:54:02 [N1] [63/241] ──────────────────────────────────────────────────
+15:54:02 [N1]   Paciente: Jessica Evangelista Da Silva (CPF: 05480785133, prontuário 5497) | 6 linha(s) na planilha
+15:54:02 [N1]         6x SESSÃO INDIVIDUAL — R$ 190,00 cada
+15:54:02 [N1]       Total do orçamento: R$ 1.140,00
+
+15:54:59 ⏱  62/241 pacientes (26%) | ✔ 34 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:54:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:55:08 | término previsto: 06/10 21:50
+15:55:23 [N1]     Paciente selecionado: Jessica Evangelista da Silva
+15:55:24 [N1]     Item 1/1: 6x SESSÃO INDIVIDUAL — R$ 190,00
+15:55:36 [N1]     Parcelas geradas.
+15:55:37 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:55:37 [N1]     Salvando orçamento...
+
+15:55:59 ⏱  62/241 pacientes (26%) | ✔ 34 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:55:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:58:01 | término previsto: 06/10 21:54
+15:56:16 [N1]   ✔ Orçamento cadastrado em 134s (1 item(ns), total R$ 1.140,00).
+
+15:56:16 [N1] [64/241] ──────────────────────────────────────────────────
+15:56:16 [N1]   Paciente: Dinaldo Serafim De Lima (CPF: 21972176153, prontuário 5589) | 16 linha(s) na planilha
+15:56:16 [N1]         1x SESSÃO INDIVIDUAL — R$ 235,41 cada
+15:56:16 [N1]        15x SESSÃO INDIVIDUAL — R$ 234,99 cada
+15:56:16 [N1]       Total do orçamento: R$ 3.760,26
+
+15:56:59 ⏱  63/241 pacientes (26%) | ✔ 35 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:56:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:53:12 | término previsto: 06/10 21:50
+15:57:22 [N1]     Paciente selecionado: Dinaldo Serafim de Lima
+15:57:22 [N1]     Item 1/2: 1x SESSÃO INDIVIDUAL — R$ 235,41
+15:57:31 [N1]     Item 2/2: 15x SESSÃO INDIVIDUAL — R$ 234,99
+15:57:43 [N1]     Parcelas geradas.
+15:57:44 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:57:44 [N1]     Salvando orçamento...
+
+15:57:59 ⏱  63/241 pacientes (26%) | ✔ 35 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:57:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:56:01 | término previsto: 06/10 21:54
+15:58:22 [N1]   ✔ Orçamento cadastrado em 126s (2 item(ns), total R$ 3.760,26).
+
+15:58:22 [N1] [65/241] ──────────────────────────────────────────────────
+15:58:22 [N1]   Paciente: Regiani Barbarelli Dercoli Da Costa (CPF: 28769379807, prontuário 5652) | 6 linha(s) na planilha
+15:58:22 [N1]         6x SESSÃO INDIVIDUAL — R$ 245,00 cada
+15:58:22 [N1]       Total do orçamento: R$ 1.470,00
+
+15:58:59 ⏱  64/241 pacientes (27%) | ✔ 36 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:58:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:51:15 | término previsto: 06/10 21:50
+15:59:29 [N1]     Paciente selecionado: Regiani Barbarelli Dercoli da Costa
+15:59:29 [N1]     Item 1/1: 6x SESSÃO INDIVIDUAL — R$ 245,00
+15:59:42 [N1]     Parcelas geradas.
+15:59:43 [N1]     Situação Aprovado, gera financeiro desmarcado.
+15:59:43 [N1]     Salvando orçamento...
+
+15:59:59 ⏱  64/241 pacientes (27%) | ✔ 36 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+15:59:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:54:01 | término previsto: 06/10 21:54
+16:00:21 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 1.470,00).
+
+16:00:21 [N1] [66/241] ──────────────────────────────────────────────────
+16:00:21 [N1]   Paciente: Joelita Cardoso De Souza (CPF: 49104497104, prontuário 5721) | 5 linha(s) na planilha
+16:00:21 [N1]         5x SESSÃO INDIVIDUAL — R$ 235,00 cada
+16:00:21 [N1]       Total do orçamento: R$ 1.175,00
+
+16:00:59 ⏱  65/241 pacientes (27%) | ✔ 37 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:00:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:49:19 | término previsto: 06/10 21:50
+16:01:27 [N1]     Paciente selecionado: Joelita Cardoso de Souza
+16:01:28 [N1]     Item 1/1: 5x SESSÃO INDIVIDUAL — R$ 235,00
+16:01:40 [N1]     Parcelas geradas.
+16:01:41 [N1]     Situação Aprovado, gera financeiro desmarcado.
+16:01:41 [N1]     Salvando orçamento...
+
+16:01:59 ⏱  65/241 pacientes (27%) | ✔ 37 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:01:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:52:01 | término previsto: 06/10 21:54
+16:02:20 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 1.175,00).
+
+16:02:20 [N1] [67/241] ──────────────────────────────────────────────────
+16:02:20 [N1]   Paciente: Helio Alves De Araujo (CPF: 63448084115, prontuário 5831) | 28 linha(s) na planilha
+16:02:20 [N1]        28x SESSÃO INDIVIDUAL — R$ 180,00 cada
+16:02:20 [N1]       Total do orçamento: R$ 5.040,00
+
+16:02:59 ⏱  66/241 pacientes (27%) | ✔ 38 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:02:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:47:22 | término previsto: 06/10 21:50
+16:03:28 [N1]     Paciente selecionado: Helio Alves de Araujo
+16:03:28 [N1]     Item 1/1: 28x SESSÃO INDIVIDUAL — R$ 180,00
+16:03:41 [N1]     Parcelas geradas.
+16:03:42 [N1]     Situação Aprovado, gera financeiro desmarcado.
+16:03:42 [N1]     Salvando orçamento...
+
+16:03:59 ⏱  66/241 pacientes (27%) | ✔ 38 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:03:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:50:01 | término previsto: 06/10 21:54
+16:04:21 [N1]   ✔ Orçamento cadastrado em 120s (1 item(ns), total R$ 5.040,00).
+
+16:04:21 [N1] [68/241] ──────────────────────────────────────────────────
+16:04:21 [N1]   Paciente: Rosineide Romão Da Silva (CPF: 02013199260, prontuário 5894) | 2 linha(s) na planilha
+16:04:21 [N1]         2x SESSÃO INDIVIDUAL — R$ 180,00 cada
+16:04:21 [N1]       Total do orçamento: R$ 360,00
+
+16:04:59 ⏱  67/241 pacientes (28%) | ✔ 39 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:04:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:45:25 | término previsto: 06/10 21:50
+16:05:27 [N1]     Paciente selecionado: Rosineide Romão da Silva
+16:05:27 [N1]     Item 1/1: 2x SESSÃO INDIVIDUAL — R$ 180,00
+16:05:40 [N1]     Parcelas geradas.
+16:05:41 [N1]     Situação Aprovado, gera financeiro desmarcado.
+16:05:41 [N1]     Salvando orçamento...
+
+16:05:59 ⏱  67/241 pacientes (28%) | ✔ 39 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:05:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:48:01 | término previsto: 06/10 21:54
+16:06:20 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 360,00).
+
+16:06:20 [N1] [69/241] ──────────────────────────────────────────────────
+16:06:20 [N1]   Paciente: Fernando Teixeira (CPF: 06249796606, prontuário 2056) | 23 linha(s) na planilha
+16:06:20 [N1]        22x SESSÃO INDIVIDUAL — R$ 68,53 cada
+16:06:20 [N1]         1x SESSÃO INDIVIDUAL — R$ 68,97 cada
+16:06:20 [N1]       Total do orçamento: R$ 1.576,63
+
+16:06:59 ⏱  68/241 pacientes (28%) | ✔ 40 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:06:59 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:43:28 | término previsto: 06/10 21:50
+16:07:26 [N1]     Paciente selecionado: FERNANDO TEIXEIRA
+16:07:26 [N1]     Item 1/2: 22x SESSÃO INDIVIDUAL — R$ 68,53
+16:07:35 [N1]     Item 2/2: 1x SESSÃO INDIVIDUAL — R$ 68,97
+16:07:47 [N1]     Parcelas geradas.
+16:07:48 [N1]     Situação Aprovado, gera financeiro desmarcado.
+16:07:48 [N1]     Salvando orçamento...
+
+16:07:59 ⏱  68/241 pacientes (28%) | ✔ 40 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:07:59 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:46:01 | término previsto: 06/10 21:54
+16:08:27 [N1]   ✔ Orçamento cadastrado em 128s (2 item(ns), total R$ 1.576,63).
+
+16:08:27 [N1] [70/241] ──────────────────────────────────────────────────
+16:08:27 [N1]   Paciente: Maurício Alves Do Nascimento (CPF: 61894117115, prontuário 6410) | 4 linha(s) na planilha
+16:08:27 [N1]         4x SESSÃO INDIVIDUAL — R$ 235,00 cada
+16:08:27 [N1]       Total do orçamento: R$ 940,00
+
+16:09:00 ⏱  69/241 pacientes (29%) | ✔ 41 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:09:00 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:41:32 | término previsto: 06/10 21:50
+16:09:34 [N1]     Paciente selecionado: Maurício Alves do Nascimento
+16:09:34 [N1]     Item 1/1: 4x SESSÃO INDIVIDUAL — R$ 235,00
+16:09:47 [N1]     Parcelas geradas.
+16:09:48 [N1]     Situação Aprovado, gera financeiro desmarcado.
+16:09:48 [N1]     Salvando orçamento...
+
+16:10:00 ⏱  69/241 pacientes (29%) | ✔ 41 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:10:00 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:44:01 | término previsto: 06/10 21:54
+16:10:26 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 940,00).
+
+16:10:26 [N1] [71/241] ──────────────────────────────────────────────────
+16:10:26 [N1]   Paciente: Thaís Ferreira Melo Telles (CPF: 03561608159, prontuário 6442) | 21 linha(s) na planilha
+16:10:26 [N1]        21x SESSÃO INDIVIDUAL — R$ 245,00 cada
+16:10:26 [N1]       Total do orçamento: R$ 5.145,00
+
+16:11:00 ⏱  70/241 pacientes (29%) | ✔ 42 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:11:00 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:39:35 | término previsto: 06/10 21:50
+16:11:33 [N1]     Paciente selecionado: Thaís Ferreira Melo Telles
+16:11:33 [N1]     Item 1/1: 21x SESSÃO INDIVIDUAL — R$ 245,00
+16:11:45 [N1]     Parcelas geradas.
+16:11:46 [N1]     Situação Aprovado, gera financeiro desmarcado.
+16:11:46 [N1]     Salvando orçamento...
+
+16:12:00 ⏱  70/241 pacientes (29%) | ✔ 42 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:12:00 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:42:01 | término previsto: 06/10 21:54
+16:12:25 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 5.145,00).
+
+16:12:25 [N1] [72/241] ──────────────────────────────────────────────────
+16:12:25 [N1]   Paciente: Ana Karolayne Dutra Dos Santos (CPF: 62623752362, prontuário 6521) | 3 linha(s) na planilha
+16:12:25 [N1]         3x SESSÃO INDIVIDUAL — R$ 265,00 cada
+16:12:25 [N1]       Total do orçamento: R$ 795,00
+
+16:13:00 ⏱  71/241 pacientes (29%) | ✔ 43 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:13:00 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:37:37 | término previsto: 06/10 21:50
+16:13:32 [N1]     Paciente selecionado: Ana Karolayne Dutra dos Santos
+16:13:32 [N1]     Item 1/1: 3x SESSÃO INDIVIDUAL — R$ 265,00
+16:13:44 [N1]     Parcelas geradas.
+16:13:45 [N1]     Situação Aprovado, gera financeiro desmarcado.
+16:13:45 [N1]     Salvando orçamento...
+
+16:14:00 ⏱  71/241 pacientes (29%) | ✔ 43 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:14:00 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:40:01 | término previsto: 06/10 21:54
+16:14:24 [N1]   ✔ Orçamento cadastrado em 118s (1 item(ns), total R$ 795,00).
+
+16:14:24 [N1] [73/241] ──────────────────────────────────────────────────
+16:14:24 [N1]   Paciente: Thawinne Tavares De Azeveda (CPF: 08054138121, prontuário 3403) | 13 linha(s) na planilha
+16:14:24 [N1]        12x SESSÃO INDIVIDUAL — R$ 68,53 cada
+16:14:24 [N1]         1x SESSÃO INDIVIDUAL — R$ 68,97 cada
+16:14:24 [N1]       Total do orçamento: R$ 891,33
+
+16:15:00 ⏱  72/241 pacientes (30%) | ✔ 44 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:15:00 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:35:40 | término previsto: 06/10 21:50
+16:15:30 [N1]     Paciente selecionado: Thawinne Tavares de Azeveda
+16:15:30 [N1]     Item 1/2: 12x SESSÃO INDIVIDUAL — R$ 68,53
+16:15:39 [N1]     Item 2/2: 1x SESSÃO INDIVIDUAL — R$ 68,97
+16:15:52 [N1]     Parcelas geradas.
+16:15:53 [N1]     Situação Aprovado, gera financeiro desmarcado.
+16:15:53 [N1]     Salvando orçamento...
+
+16:16:00 ⏱  72/241 pacientes (30%) | ✔ 44 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:16:00 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:38:01 | término previsto: 06/10 21:54
+16:16:32 [N1]   ✔ Orçamento cadastrado em 128s (2 item(ns), total R$ 891,33).
+
+16:16:32 [N1] [74/241] ──────────────────────────────────────────────────
+16:16:32 [N1]   Paciente: Luiz Andre Martins Trentin (CPF: 71510940197, prontuário 7215) | 45 linha(s) na planilha
+16:16:32 [N1]        45x SESSÃO INDIVIDUAL — R$ 235,00 cada
+16:16:32 [N1]       Total do orçamento: R$ 10.575,00
+
+16:17:00 ⏱  73/241 pacientes (30%) | ✔ 45 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:17:00 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:33:43 | término previsto: 06/10 21:50
+16:17:38 [N1]     Paciente selecionado: Luiz Andre Martins Trentin
+16:17:38 [N1]     Item 1/1: 45x SESSÃO INDIVIDUAL — R$ 235,00
+16:17:51 [N1]     Parcelas geradas.
+16:17:52 [N1]     Situação Aprovado, gera financeiro desmarcado.
+16:17:52 [N1]     Salvando orçamento...
+
+16:18:00 ⏱  73/241 pacientes (30%) | ✔ 45 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:18:00 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:36:01 | término previsto: 06/10 21:54
+16:18:30 [N1]   ✔ Orçamento cadastrado em 119s (1 item(ns), total R$ 10.575,00).
+
+16:18:30 [N1] [75/241] ──────────────────────────────────────────────────
+16:18:30 [N1]   Paciente: Marcos Antonio Dewes (CPF: 55248063949, prontuário 7191) | 2 linha(s) na planilha
+16:18:30 [N1]         2x SESSÃO INDIVIDUAL — R$ 227,85 cada
+16:18:30 [N1]       Total do orçamento: R$ 455,70
+
+16:19:00 ⏱  74/241 pacientes (31%) | ✔ 46 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:19:00 ⏱  média 119s/paciente (somando os navegadores) | restante: 05:31:46 | término previsto: 06/10 21:50
+16:19:36 [N1]     Paciente selecionado: Marcos Antonio Dewes
+16:19:37 [N1]     Item 1/1: 2x SESSÃO INDIVIDUAL — R$ 227,85
+16:19:49 [N1]     Parcelas geradas.
+16:19:50 [N1]     Situação Aprovado, gera financeiro desmarcado.
+16:19:50 [N1]     Salvando orçamento...
+
+16:20:00 ⏱  74/241 pacientes (31%) | ✔ 46 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:20:00 ⏱  média 120s/paciente (somando os navegadores) | restante: 05:34:01 | término previsto: 06/10 21:54
+16:20:29 [N1]   ✔ Orçamento cadastrado em 118s (1 item(ns), total R$ 455,70).
+
+16:20:29 [N1] [76/241] ──────────────────────────────────────────────────
+16:20:29 [N1]   Paciente: Umberg Santana Dantas (CPF: 04765137589, prontuário 5447) | 27 linha(s) na planilha
+16:20:29 [N1]        26x SESSÃO INDIVIDUAL — R$ 68,53 cada
+16:20:29 [N1]         1x SESSÃO INDIVIDUAL — R$ 68,97 cada
+16:20:29 [N1]       Total do orçamento: R$ 1.850,75
+
+16:20:37 Interrompido: cada navegador termina o paciente atual e fecha (Ctrl+C de novo para sair na hora).
+16:20:37 [N1]   ✖ ERRO no orçamento de 'Umberg Santana Dantas' (CPF: 04765137589): ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+16:20:37 [N1] Sessão caiu no paciente 04765137589 (1/2): SessaoCaiu: ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+16:20:37 [N1]   Paciente devolvido à fila.
+16:20:37 [N1] Reabrindo o navegador em 10 segundos...
+
+16:20:37 ══════════════════════════════════════════════════════════════════════
+16:20:37 RESUMO — 75 paciente(s) processado(s) em 02:28:38
+16:20:37 ✔ 47 cadastrado(s) · ✖ 1 erro(s) · ⚠ 27 verificar
+16:20:37 Ainda na fila (não processados): 166 — rode de novo para continuar.
+
+16:20:37 ERROS (nada foi salvo; apague o Status para tentar de novo):
+16:20:37   - Ermenegildo Pereira De Lima (CPF 80944620191, prontuário 3067): item 4/4 'SESSÃO INDIVIDUAL': StaleElementReferenceException: stale element reference: stale element not found in the current frame
+
+16:20:37 VERIFICAR NO SISTEMA (o Salvar foi clicado mas não confirmou):
+16:20:37   - Marlene Pereira Machado (CPF 00531246507, prontuário 1862): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Sirley Rodrigues Da Costa Dias (CPF 55467512900, prontuário 1820): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Silverlau Da Silva Monteiro (CPF 01103951319, prontuário 1889): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Edriany Martins Da Silva (CPF 89288203168, prontuário 1929): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Sonia Barros De Oliveira Da Silva (CPF 00524852189, prontuário 1897): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Taciano Ferreira Dos Santos (CPF 01231856106, prontuário 2184): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Vanessa Barbosa Silva (CPF 70579254178, prontuário 1986): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Luiz Alfredo Maes Jr (CPF 04039788664, prontuário 2069): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Vilmar Francisco Tavares (CPF 59115858120, prontuário 418): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Jaime Schwaab (CPF 02227140933, prontuário 1892): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Domilton Alves De Oliveira (CPF 26723816153, prontuário 1859): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Claudemir Luis Scarini (CPF 99897946934, prontuário 2031): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Suélio P. Freitas (CPF 12316474187, prontuário 1869): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Ana Júlia Foletto (CPF 04720257160, prontuário 2026): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Fernanda Silva Pereira (CPF 01743985142, prontuário 1824): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Cintia Cruz Siqueira Cavalet (CPF 01729015107, prontuário 2434): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Estéfane Pereira Leite Morbeck Barros (CPF 03591850101, prontuário 1867): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Helismar De Sousa Silva (CPF 85074470153, prontuário 2062): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Leandro De Toledo (CPF 15303521850, prontuário 2563): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Rubia Martins (CPF 00641929110, prontuário 2587): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Rusley Pereira Dos Santos (CPF 00106940643, prontuário 2192): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Mauro De Souza Oliveira (CPF 65543009534, prontuário 2162): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Gracilda Mendonça Cabral (CPF 92434762115, prontuário 2952): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Kamila Silva De Souza (CPF 00128596139, prontuário 2132): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Daniel Mesquita Guimarães (CPF 90315901187, prontuário 2040): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Kassia Kristiny De Oliveira Bessa (CPF 01251462138, prontuário 4549): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+16:20:37   - Lucas Esteves Melo (CPF 75420732149, prontuário 4651): o orçamento não confirmou o salvamento (a página não saiu do cadastro)
+
+16:20:37 Log completo:   /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/logs/orcamentos_20261006_135159.log
+16:20:37 Resultados CSV: /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/07.Orcamentos/logs/resultados_20261006_135159.csv
+16:20:37 ══════════════════════════════════════════════════════════════════════
