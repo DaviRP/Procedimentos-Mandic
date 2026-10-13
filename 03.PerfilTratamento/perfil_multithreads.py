@@ -16,11 +16,11 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 
-ARQUIVO = "03.PerfilTratamento/LISTA_PERFIL_TRATAMENTO_PACIENTE_VITORIA.csv"
-CLINICA = "GRANDE VITORIA - GRUPO MANDIC"
+ARQUIVO = "03.PerfilTratamento/LISTA_PERFIL_TRATAMENTO_BRASILIA.csv"
+CLINICA = "BRASILIA - GRUPO MANDIC"
 
 # Quantos navegadores trabalham ao mesmo tempo (cada Chrome usa ~0,5–1 GB de RAM)
-NUM_NAVEGADORES = 4
+NUM_NAVEGADORES = 5
 # Segundos entre o login de um navegador e o do próximo
 INTERVALO_ENTRE_LOGINS = 30
 # True = roda sem abrir a janela do Chrome
@@ -348,6 +348,30 @@ def cadastrar_perfis(driver, wait, cpf, dados):
         print(f"  Perfil '{nome_perfil}' salvo com {marcados}/{len(subperfis_desejados)} subperfil(is).")
 
 
+PASTA_ERROS = "03.PerfilTratamento/erros"
+
+
+def onde_falhou(erro):
+    """Linha deste script onde o erro aconteceu (ex.: 'linha 318: campo_perfil.send_keys(...)')."""
+    for quadro in reversed(traceback.extract_tb(erro.__traceback__)):
+        if quadro.filename == os.path.abspath(__file__) or quadro.filename.endswith("perfil_multithreads.py"):
+            return f"linha {quadro.lineno} em {quadro.name}(): {quadro.line}"
+    return "desconhecido"
+
+
+def salvar_evidencia(driver, cpf):
+    """Salva print da tela e HTML da página em erros/<cpf>_<hora>.png/.html."""
+    try:
+        os.makedirs(PASTA_ERROS, exist_ok=True)
+        base = os.path.join(PASTA_ERROS, f"{cpf}_{datetime.now():%Y%m%d_%H%M%S}")
+        driver.save_screenshot(base + ".png")
+        with open(base + ".html", "w", encoding="utf-8") as f:
+            f.write(driver.page_source)
+        print(f"  Print salvo em {base}.png")
+    except Exception as erro:
+        print(f"  Não foi possível salvar o print: {erro}")
+
+
 def processar_paciente(driver, wait, cpf, dados):
     nome_paciente = dados["nomePaciente"]
     try:
@@ -356,7 +380,9 @@ def processar_paciente(driver, wait, cpf, dados):
         print("  Paciente migrado com sucesso.")
 
     except Exception as e:
-        print(f"  ERRO ao processar '{nome_paciente}' (CPF: {cpf}): {e}")
+        print(f"  ERRO ao processar '{nome_paciente}' (CPF: {cpf}): {type(e).__name__}: {e}")
+        print(f"  Onde: {onde_falhou(e)}")
+        salvar_evidencia(driver, cpf)
 
         try:
             marcar_migrado(cpf, "erro")

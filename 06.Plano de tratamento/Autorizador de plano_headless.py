@@ -20,6 +20,10 @@ ARQUIVO_LOG = PASTA / "autorizacoes_log.csv"
 CLINICA = "GRANDE VITORIA - GRUPO MANDIC"
 URL_BASE = "https://app.clinicanasnuvens.com.br"
 URL_LISTA = f"{URL_BASE}/plano-tratamento/solicitacao-autorizacao/lista"
+SELETOR_AUTORIZAR = "a[title='Autorizar'][href*='/plano-tratamento/negociacao/']"
+
+# Só autoriza os planos solicitados por esta pessoa (filtro "Solicitante" da lista)
+SOLICITANTE = "Davi Pegoraro"
 
 DESCONTO_PERCENTUAL = 100
 SENHA_DESCONTO = "23092601"
@@ -171,11 +175,53 @@ def preencher_valor(driver, campo, numero):
 
 # ── Passos na plataforma ───────────────────────────────────────────────────────
 
-def proximo_plano(driver):
-    """Abre a lista de solicitações e devolve (id, url, descrição) do 1º plano ainda não tentado."""
-    driver.get(URL_LISTA)
+def filtrar_por_solicitante(driver):
+    """Filtrar > Solicitante = SOLICITANTE (1ª opção do autocomplete) > Visualizar.
 
-    seletor = "a[title='Autorizar'][href*='/plano-tratamento/negociacao/']"
+    Se o filtro não for confirmado, levanta erro — sem ele, autorizaria planos de todo mundo.
+    """
+    clicar(driver, visivel(driver, "#btn-drawer-filtroform-pesquisa-autorizacao-plano"))
+    time.sleep(1)
+
+    campo = visivel(driver, "#pessoaSolicitante")
+    for _ in range(3):
+        campo.click()
+        driver.execute_script("arguments[0].select();", campo)
+        campo.send_keys(Keys.BACKSPACE)
+        campo.send_keys(SOLICITANTE)
+        try:
+            opcao = visivel(driver, "ul.ui-autocomplete li.ui-menu-item", timeout=8)
+        except TimeoutException:
+            continue
+        clicar(driver, opcao)
+        time.sleep(0.5)
+        if normalizar(SOLICITANTE) in normalizar(campo.get_attribute("value")):
+            break
+    else:
+        raise Exception(f"não foi possível selecionar o solicitante '{SOLICITANTE}' no filtro "
+                        f"(campo ficou '{campo.get_attribute('value')}')")
+    print(f"  Filtro: solicitante = {campo.get_attribute('value')}")
+
+    links_antes = driver.find_elements(By.CSS_SELECTOR, SELETOR_AUTORIZAR)
+    clicar(driver, botao_submit(driver, "Visualizar", perto_de=campo))
+
+    # Espera a lista recarregar com o filtro (os links antigos saem da página)
+    if links_antes:
+        try:
+            WebDriverWait(driver, 15).until(EC.staleness_of(links_antes[0]))
+        except TimeoutException:
+            raise Exception("a lista não recarregou depois de aplicar o filtro")
+    time.sleep(1.5)
+
+
+def proximo_plano(driver):
+    """Abre a lista de solicitações, filtra pelo solicitante e devolve (id, url, descrição)
+    do 1º plano ainda não tentado."""
+    driver.get(URL_LISTA)
+    time.sleep(1)
+    filtrar_por_solicitante(driver)
+
+    seletor = SELETOR_AUTORIZAR
     try:
         WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, seletor)))
     except TimeoutException:
@@ -198,8 +244,18 @@ def proximo_plano(driver):
 
 
 def aplicar_desconto(driver, wait):
-    """Adicionar desconto/acréscimo > marcar todos > % > 100 > Aplicar > senha > Salvar."""
-    clicar(driver, wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.adicionar-desconto-acrescimo"))))
+    """Adicionar desconto/acréscimo > marcar todos > % > 100 > Aplicar > senha > Salvar.
+
+    Nem todo plano tem a opção de desconto; se ela não aparecer, pula esta etapa.
+    """
+    try:
+        botao_desconto = WebDriverWait(driver, 5).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "a.adicionar-desconto-acrescimo"))
+        )
+    except TimeoutException:
+        print("  Sem opção de desconto neste plano — seguindo sem desconto")
+        return
+    clicar(driver, botao_desconto)
     time.sleep(1)
 
     marcar_todos = wait.until(EC.presence_of_element_located((By.ID, "check-desconto-acrescimo")))
@@ -213,19 +269,49 @@ def aplicar_desconto(driver, wait):
     Select(tipo_valor).select_by_value("RELATIVO")
     time.sleep(0.5)
 
-    preencher_valor(driver, visivel(driver, "input.rp-valor"), DESCONTO_PERCENTUAL)
+    campo_valor = visivel(driver, "input.rp-valor")
+    preencher_valor(driver, campo_valor, DESCONTO_PERCENTUAL)
 
     clicar(driver, visivel(driver, "a.aplicar-desconto-acrescimo"))
     time.sleep(1)
 
-    campo_senha = wait.until(EC.visibility_of_element_located((By.ID, "senha-desc-acresc")))
+    # A senha nem sempre é pedida: pode aparecer depois de Aplicar, depois de Salvar ou nunca
+    if not preencher_senha_se_pedida(driver):
+        clicar(driver, botao_salvar_modal(driver, campo_valor))
+        confirmar_alerta_se_houver(driver)
+        preencher_senha_se_pedida(driver)
+
+    esperar_sumir(driver, campo_valor, "o desconto não foi salvo (senha ou validação?)")
+    time.sleep(1.5)
+
+
+def preencher_senha_se_pedida(driver, timeout=3):
+    """Se o campo de senha do desconto aparecer, preenche e salva. Devolve True se fez isso."""
+    try:
+        campo_senha = visivel(driver, "#senha-desc-acresc", timeout=timeout)
+    except TimeoutException:
+        return False
+    print("  Senha de desconto solicitada")
     campo_senha.clear()
     campo_senha.send_keys(SENHA_DESCONTO)
-
     clicar(driver, botao_submit(driver, "Salvar", perto_de=campo_senha))
     confirmar_alerta_se_houver(driver)
-    esperar_sumir(driver, campo_senha, "o desconto não foi salvo (senha ou validação?)")
-    time.sleep(1.5)
+    esperar_sumir(driver, campo_senha, "a senha do desconto não foi aceita")
+    return True
+
+
+def botao_salvar_modal(driver, dentro_de, timeout=10):
+    """Botão/link visível 'Salvar' no mesmo modal do elemento `dentro_de`."""
+    modais = dentro_de.find_elements(By.XPATH, "./ancestor::*[contains(concat(' ', @class, ' '), ' modal ')][1]")
+    modal = modais[0] if modais else driver
+    try:
+        return WebDriverWait(driver, timeout).until(lambda d: next(
+            (b for b in modal.find_elements(By.CSS_SELECTOR, "button, a")
+             if b.is_displayed() and normalizar(b.text) == "salvar"),
+            False,
+        ))
+    except TimeoutException:
+        raise Exception("botão 'Salvar' do desconto não encontrado")
 
 
 def limpar_condicoes_pagamento(driver, wait):
