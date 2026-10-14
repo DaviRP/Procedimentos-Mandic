@@ -3,9 +3,12 @@ import csv
 import os
 import queue
 import re
+import shutil
+import sys
 import time
 import threading
 import traceback
+from collections import deque
 from datetime import datetime, timedelta
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -20,26 +23,73 @@ ARQUIVO = "03.PerfilTratamento/LISTA_PERFIL_TRATAMENTO_BRASILIA.csv"
 CLINICA = "BRASILIA - GRUPO MANDIC"
 
 # Quantos navegadores trabalham ao mesmo tempo (cada Chrome usa ~0,5–1 GB de RAM)
-NUM_NAVEGADORES = 5
+NUM_NAVEGADORES =  4
 # Segundos entre o login de um navegador e o do próximo
 INTERVALO_ENTRE_LOGINS = 30
 # True = roda sem abrir a janela do Chrome
 HEADLESS = True
+# True = painel atualizado no terminal; o log detalhado vai para PASTA_LOGS.
+# False = log corrido no terminal, como antes.
+PAINEL = True
+# True = salva print (.png) e HTML da tela de cada paciente com erro em PASTA_ERROS
+SALVAR_PRINTS_ERRO = False
+# True = grava o log detalhado da execução em PASTA_LOGS
+GERAR_LOG = False
+PASTA_LOGS = "03.PerfilTratamento/logs"
 
 # Só um navegador por vez grava o CSV; e as linhas do terminal não se misturam
 trava_arquivo = threading.Lock()
 trava_print = threading.Lock()
 trava_progresso = threading.Lock()
 
+# Estado mostrado no painel (protegido por trava_progresso)
+navegadores = {}           # "N1" -> {status, paciente, etapa, desde, feitos}
+eventos = deque(maxlen=12)  # últimos sucessos/erros: (hora, navegador, cor, texto)
+erros_execucao = []        # (nome, cpf, motivo) de todos os erros desta execução
+
+painel_ativo = False
+log_arquivo = None
+
 
 def print(*args, sep=" ", end="\n", **kwargs):
-    """print com o nome do navegador ([N1], [N2]...) no começo de cada linha."""
+    """print com o nome do navegador ([N1], [N2]...) no começo de cada linha.
+
+    Tudo vai para o arquivo de log; no terminal só aparece quando o painel está desligado.
+    """
     nome = threading.current_thread().name
     mensagem = sep.join(str(a) for a in args)
     if re.fullmatch(r"N\d+", nome):
         mensagem = "\n".join(f"[{nome}] {linha}" if linha else linha for linha in mensagem.split("\n"))
     with trava_print:
-        builtins.print(mensagem, end=end, **kwargs)
+        if log_arquivo:
+            hora = f"{datetime.now():%H:%M:%S}"
+            for linha in mensagem.split("\n"):
+                if linha:
+                    log_arquivo.write(f"{hora} {re.sub(r'\033\[[0-9;?]*[A-Za-z]', '', linha)}\n")
+            log_arquivo.flush()
+        if not painel_ativo:
+            builtins.print(mensagem, end=end, **kwargs)
+
+
+def atualizar(**campos):
+    """Atualiza a linha do navegador atual no painel."""
+    nome = threading.current_thread().name
+    with trava_progresso:
+        navegadores.setdefault(nome, {"status": "", "paciente": "", "etapa": "", "desde": time.time(), "feitos": 0})
+        navegadores[nome].update(campos)
+
+
+def etapa(texto):
+    """Registra no log e mostra no painel o passo em que o navegador está."""
+    print(f"  {texto}")
+    atualizar(etapa=texto)
+
+
+def registrar_evento(cor, texto):
+    """Linha que aparece em 'Últimos eventos' no painel (e no log)."""
+    print(f"  {texto}")
+    with trava_progresso:
+        eventos.append((f"{datetime.now():%H:%M:%S}", threading.current_thread().name, cor, texto))
 
 
 def normalizar_cpf(cpf):
@@ -161,6 +211,116 @@ def relogio_previsao(progresso, parar, intervalo=60):
         )
 
 
+# ── Painel ─────────────────────────────────────────────────────────────────────
+VERDE, VERMELHO, AMARELO, AZUL, CINZA, NEGRITO = "\033[32m", "\033[31m", "\033[33m", "\033[36m", "\033[2m", "\033[1m"
+FIM = "\033[0m"
+
+ESTILO_STATUS = {
+    "trabalhando": (VERDE, "●"),
+    "logando": (AZUL, "◐"),
+    "aguardando": (CINZA, "○"),
+    "caiu": (VERMELHO, "✖"),
+    "finalizado": (CINZA, "✔"),
+}
+
+
+def montar_linha(largura, *partes):
+    """Junta pedaços (texto, cor) cortando no limite visível do terminal."""
+    saida, usado = "", 0
+    for texto, cor in partes:
+        texto = texto[:max(0, largura - usado)]
+        usado += len(texto)
+        saida += f"{cor}{texto}{FIM}" if cor else texto
+    return saida
+
+
+def montar_painel(progresso, parar):
+    largura, altura = shutil.get_terminal_size((110, 40))
+    largura -= 1
+    agora = time.time()
+
+    with trava_progresso:
+        concluidos, total = progresso["concluidos"], progresso["total"]
+        sucesso, erro = progresso["sucesso"], progresso["erro"]
+        navs = {nome: dict(info) for nome, info in navegadores.items()}
+        ultimos = list(eventos)
+        ultimos_erros = erros_execucao[-5:]
+
+    decorrido = agora - progresso["inicio"]
+    if concluidos:
+        media = decorrido / concluidos
+        restante = media * (total - concluidos)
+        termino = datetime.now() + timedelta(seconds=restante)
+        previsao = f"média {media:.1f}s/paciente   restante {formatar_duracao(restante)}   término {termino:%d/%m %H:%M}"
+    else:
+        previsao = "calculando previsão..."
+
+    tamanho_barra = max(10, min(50, largura - 30))
+    cheio = int(tamanho_barra * concluidos / total) if total else 0
+    percentual = 100 * concluidos / total if total else 0
+
+    tela = [
+        montar_linha(largura, (" Perfis de tratamento ", NEGRITO), (f"· {CLINICA}", ""),
+                     (f"   {datetime.now():%d/%m %H:%M:%S}", CINZA)),
+        montar_linha(largura, (" " + "─" * (largura - 2), CINZA)),
+        montar_linha(largura, (" Progresso  ", ""), ("█" * cheio, VERDE), ("░" * (tamanho_barra - cheio), CINZA),
+                     (f"  {concluidos}/{total}  {percentual:.1f}%", NEGRITO)),
+        montar_linha(largura, ("            ✔ migrados ", ""), (str(sucesso), VERDE),
+                     ("   ✖ erros ", ""), (str(erro), VERMELHO if erro else ""),
+                     (f"   decorrido {formatar_duracao(decorrido)}", "")),
+        montar_linha(largura, ("            " + previsao, CINZA)),
+    ]
+    if parar.is_set():
+        tela.append(montar_linha(largura, (" ⏸ Parando: cada navegador termina o paciente atual "
+                                           "(Ctrl+C de novo sai na hora)", AMARELO)))
+
+    tela += ["", montar_linha(largura, (" Navegadores", NEGRITO))]
+    for nome, info in navs.items():
+        cor, icone = ESTILO_STATUS.get(info["status"], ("", "·"))
+        segundos = int(agora - info["desde"])
+        paciente = info["paciente"][:28]
+        tela.append(montar_linha(
+            largura,
+            (f"  {nome:<3} ", NEGRITO),
+            (f"{icone} {info['status']:<11}", cor),
+            (f" {info['feitos']:>4} feitos  ", CINZA),
+            (f"{paciente:<28}  ", ""),
+            (info["etapa"], ""),
+            (f"  {segundos}s" if info["status"] in ("trabalhando", "logando") else "", CINZA),
+        ))
+
+    if ultimos_erros:
+        tela += ["", montar_linha(largura, (f" Últimos erros ({erro} no total" + (f" — prints em {PASTA_ERROS})" if SALVAR_PRINTS_ERRO else ")"), NEGRITO))]
+        for nome_paciente, cpf, motivo in ultimos_erros:
+            tela.append(montar_linha(largura, (f"  ✖ {nome_paciente} ", VERMELHO), (f"CPF {cpf}  ", CINZA), (motivo, "")))
+
+    tela += ["", montar_linha(largura, (" Últimos eventos", NEGRITO))]
+    espaco = max(1, altura - len(tela) - 2)
+    for hora, nome, cor, texto in ultimos[-espaco:]:
+        tela.append(montar_linha(largura, (f"  {hora} ", CINZA), (f"{nome:<3} ", NEGRITO), (texto, cor)))
+
+    tela.append("")
+    tela.append(montar_linha(largura, (f" Log completo: {log_arquivo.name}" if log_arquivo else " Log em arquivo desligado (GERAR_LOG = False)", CINZA)))
+    return tela[:altura - 1]
+
+
+def desenhar_painel(progresso, parar, parar_painel):
+    """Redesenha o painel a cada segundo numa tela separada do terminal."""
+    builtins.print("\033[?1049h\033[?25l", end="", flush=True)  # tela alternativa + esconde cursor
+    try:
+        while True:
+            try:
+                tela = montar_painel(progresso, parar)
+                builtins.print("\033[H" + "\n".join(linha + "\033[K" for linha in tela) + "\033[J",
+                               end="", flush=True)
+            except Exception as e:
+                print(f"Falha ao desenhar o painel: {e}")
+            if parar_painel.wait(1):
+                break
+    finally:
+        builtins.print("\033[?25h\033[?1049l", end="", flush=True)  # volta ao terminal normal
+
+
 def abrir_sessao():
     """Abre um Chrome, faz login e seleciona a clínica. Devolve (driver, wait)."""
     opcoes = webdriver.ChromeOptions()
@@ -224,6 +384,7 @@ def abrir_sessao():
 def cadastrar_perfis(driver, wait, cpf, dados):
     """Localiza o paciente pelo CPF e cadastra os perfis de tratamento dele."""
     # 1. Vai para a lista de pacientes
+    etapa("Buscando paciente pelo CPF")
     driver.get("https://app.clinicanasnuvens.com.br/pacientes")
     time.sleep(2)
 
@@ -252,6 +413,7 @@ def cadastrar_perfis(driver, wait, cpf, dados):
     print("  Paciente localizado.")
 
     # 6. Abre o menu Documentos
+    etapa("Abrindo perfis de tratamento")
     botao_documentos = wait.until(EC.element_to_be_clickable(
         (By.CSS_SELECTOR, "button.nav-link.documentos")
     ))
@@ -268,7 +430,9 @@ def cadastrar_perfis(driver, wait, cpf, dados):
     print("  Aba de perfis de tratamento aberta.")
 
     # 8. Cadastra cada perfil de tratamento do paciente
-    for nome_perfil, perfil_info in dados["perfis"].items():
+    total_perfis = len(dados["perfis"])
+    for indice, (nome_perfil, perfil_info) in enumerate(dados["perfis"].items(), start=1):
+        etapa(f"Perfil {indice}/{total_perfis}: {nome_perfil}")
         # Abre o modal para adicionar um novo perfil de tratamento
         botao_novo_perfil = wait.until(EC.element_to_be_clickable((By.ID, "novoPerfilTratamento")))
         driver.execute_script("arguments[0].click();", botao_novo_perfil)
@@ -361,6 +525,8 @@ def onde_falhou(erro):
 
 def salvar_evidencia(driver, cpf):
     """Salva print da tela e HTML da página em erros/<cpf>_<hora>.png/.html."""
+    if not SALVAR_PRINTS_ERRO:
+        return
     try:
         os.makedirs(PASTA_ERROS, exist_ok=True)
         base = os.path.join(PASTA_ERROS, f"{cpf}_{datetime.now():%Y%m%d_%H%M%S}")
@@ -372,16 +538,26 @@ def salvar_evidencia(driver, cpf):
         print(f"  Não foi possível salvar o print: {erro}")
 
 
-def processar_paciente(driver, wait, cpf, dados):
+def processar_paciente(driver, wait, cpf, dados, progresso):
     nome_paciente = dados["nomePaciente"]
     try:
         cadastrar_perfis(driver, wait, cpf, dados)
         marcar_migrado(cpf, "sim")
-        print("  Paciente migrado com sucesso.")
+        with trava_progresso:
+            progresso["sucesso"] += 1
+        registrar_evento(VERDE, f"✔ {nome_paciente} — {len(dados['perfis'])} perfil(is)")
 
     except Exception as e:
         print(f"  ERRO ao processar '{nome_paciente}' (CPF: {cpf}): {type(e).__name__}: {e}")
-        print(f"  Onde: {onde_falhou(e)}")
+        onde = onde_falhou(e)
+        print(f"  Onde: {onde}")
+        detalhe = re.sub(r"^Message:\s*(None)?", "", str(e).strip().split("\n")[0]).strip()[:60]
+        motivo = f"{type(e).__name__}{': ' + detalhe if detalhe else ''} ({' '.join(onde.split()[:2])})"
+        with trava_progresso:
+            progresso["erro"] += 1
+            erros_execucao.append((nome_paciente, cpf, motivo))
+        registrar_evento(VERMELHO, f"✖ {nome_paciente} — {motivo}")
+        atualizar(etapa="Erro — salvando print e voltando à lista")
         salvar_evidencia(driver, cpf)
 
         try:
@@ -404,6 +580,16 @@ def navegador(fila, progresso, parar, atraso):
     Se a sessão cair (login, Chrome fechado...), abre outra em 10s e devolve
     à fila o paciente que estava no meio.
     """
+    try:
+        _navegador(fila, progresso, parar, atraso)
+    finally:
+        atualizar(status="finalizado", paciente="", etapa="", desde=time.time())
+
+
+def _navegador(fila, progresso, parar, atraso):
+    nome = threading.current_thread().name
+    inicio_login = datetime.now() + timedelta(seconds=atraso)
+    atualizar(status="aguardando", etapa=f"login às {inicio_login:%H:%M:%S}")
     if parar.wait(atraso):  # escalona os logins para não entrarem todos juntos
         return
 
@@ -411,8 +597,10 @@ def navegador(fila, progresso, parar, atraso):
         driver = None
         atual = None
         try:
+            atualizar(status="logando", paciente="", etapa="Login e seleção da clínica", desde=time.time())
             driver, wait = abrir_sessao()
             print("Sessão aberta.")
+            atualizar(status="aguardando", etapa="Sessão aberta", desde=time.time())
 
             while not parar.is_set():
                 try:
@@ -425,17 +613,20 @@ def navegador(fila, progresso, parar, atraso):
                     progresso["iniciados"] += 1
                     numero = progresso["iniciados"]
                 print(f"\n[{numero}/{progresso['total']}] Localizando: {dados['nomePaciente']} (CPF: {cpf})")
+                atualizar(status="trabalhando", paciente=dados["nomePaciente"], etapa="", desde=time.time())
 
-                processar_paciente(driver, wait, cpf, dados)
+                processar_paciente(driver, wait, cpf, dados, progresso)
                 atual = None
                 with trava_progresso:
                     progresso["concluidos"] += 1
+                    navegadores[nome]["feitos"] += 1
 
         except Exception as e:
             print(f"\nERRO na sessão: {type(e).__name__}: {e}")
-            if driver:
+            registrar_evento(AMARELO, f"⚠ Sessão caiu ({type(e).__name__}) — reabrindo em 10s")
+            atualizar(status="caiu", etapa="Reabrindo em 10s", desde=time.time())
+            if driver and SALVAR_PRINTS_ERRO:
                 try:
-                    nome = threading.current_thread().name
                     driver.save_screenshot(f"03.PerfilTratamento/erro_{nome}.png")
                     print(f"Screenshot salvo em 03.PerfilTratamento/erro_{nome}.png")
                 except Exception:
@@ -456,6 +647,8 @@ def navegador(fila, progresso, parar, atraso):
 
 
 def executar():
+    global painel_ativo, log_arquivo
+
     pacientes = carregar_pacientes()
 
     if not pacientes:
@@ -469,12 +662,29 @@ def executar():
 
     total = len(pacientes)
     quantidade = min(NUM_NAVEGADORES, total)
+
+    if GERAR_LOG:
+        os.makedirs(PASTA_LOGS, exist_ok=True)
+        log_arquivo = open(os.path.join(PASTA_LOGS, f"execucao_{datetime.now():%Y%m%d_%H%M%S}.log"),
+                           "w", encoding="utf-8")
     print(f"{total} paciente(s) pendente(s). Abrindo {quantidade} navegador(es).")
 
-    progresso = {"concluidos": 0, "iniciados": 0, "total": total, "inicio": time.time()}
+    progresso = {"concluidos": 0, "iniciados": 0, "sucesso": 0, "erro": 0,
+                 "total": total, "inicio": time.time()}
     parar = threading.Event()
     parar_relogio = threading.Event()
-    threading.Thread(target=relogio_previsao, args=(progresso, parar_relogio), daemon=True).start()
+
+    for i in range(quantidade):
+        navegadores[f"N{i + 1}"] = {"status": "aguardando", "paciente": "", "etapa": "",
+                                    "desde": time.time(), "feitos": 0}
+
+    # Painel só faz sentido num terminal de verdade (não em saída redirecionada para arquivo)
+    painel_ativo = PAINEL and sys.stdout.isatty()
+    if painel_ativo:
+        thread_painel = threading.Thread(target=desenhar_painel, args=(progresso, parar, parar_relogio), daemon=True)
+    else:
+        thread_painel = threading.Thread(target=relogio_previsao, args=(progresso, parar_relogio), daemon=True)
+    thread_painel.start()
 
     threads = [
         threading.Thread(
@@ -499,9 +709,32 @@ def executar():
             t.join()
     finally:
         parar_relogio.set()
+        thread_painel.join(timeout=3)
+        painel_ativo = False
+        imprimir_resumo(progresso)
 
     if fila.empty() and not parar.is_set():
         print(f"\nBusca de pacientes concluída! Tempo total: {formatar_duracao(time.time() - progresso['inicio'])}")
+    if log_arquivo:
+        log_arquivo.close()
+        log_arquivo = None
+
+
+def imprimir_resumo(progresso):
+    """Resumo final no terminal (fica visível depois que o painel fecha)."""
+    print(f"\n{NEGRITO}Resumo da execução{FIM}")
+    print(f"  {VERDE}✔ migrados: {progresso['sucesso']}{FIM}    "
+          f"{VERMELHO if progresso['erro'] else ''}✖ erros: {progresso['erro']}{FIM}    "
+          f"pendentes: {progresso['total'] - progresso['concluidos']}    "
+          f"tempo: {formatar_duracao(time.time() - progresso['inicio'])}")
+    if erros_execucao:
+        print(f"\n  Pacientes com erro" + (f" (prints em {PASTA_ERROS}):" if SALVAR_PRINTS_ERRO else ":"))
+        for nome_paciente, cpf, motivo in erros_execucao[:30]:
+            print(f"   - {nome_paciente} (CPF {cpf}): {motivo}")
+        if len(erros_execucao) > 30:
+            print(f"   ... e mais {len(erros_execucao) - 30}" + (" (ver log)" if log_arquivo else ""))
+    if log_arquivo:
+        print(f"\n  Log completo: {log_arquivo.name}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,89 @@
+perfil,Subperfil,Status
+CIRURGIA,3º Molar,cadastrado
+CIRURGIA,Exodontia Incluso/Complexo,cadastrado
+CIRURGIA,Exodontia Por Razões Ortodônticas,cadastrado
+CIRURGIA,Exodontia Semi-Incluso,cadastrado
+CIRURGIA,Exodontia Simples,cadastrado
+CIRURGIA,Ortognática,cadastrado
+CIRURGIA,Patologias,cadastrado
+CIRURGIA,Raízes Residuais,cadastrado
+CIRURGIA,Supranumerário/Ectópico,cadastrado
+CIRURGIA,Trauma,cadastrado
+CLAREAMENTO,A Laser,cadastrado
+CLAREAMENTO,Caseiro,cadastrado
+CLAREAMENTO,Interno,cadastrado
+CLAREAMENTO,Laboratorial,cadastrado
+DENTÍSTICA,Estética E Diastemas,cadastrado
+DENTÍSTICA,Facetas/Lentes,cadastrado
+DENTÍSTICA,Restaurações Diretas,cadastrado
+DENTÍSTICA,Restaurações Indiretas,cadastrado
+DTM,Apneia Do Sono,cadastrado
+DTM,Bruxismo,cadastrado
+DTM,Disfunção,cadastrado
+ENDODONTIA,Anterior,cadastrado
+ENDODONTIA,Molar,cadastrado
+ENDODONTIA,Pré-Molar,cadastrado
+ENDODONTIA,Remoção De Pinos/Limas,cadastrado
+ENDODONTIA,Retratamento,cadastrado
+ENDODONTIA,Trauma Dentário,cadastrado
+ESTOMATOLOGIA,Biópsias/Patologias,cadastrado
+ESTOMATOLOGIA,Lesões,cadastrado
+HARMONIZAÇÃO OROFACIAL,Bichectomia,cadastrado
+HARMONIZAÇÃO OROFACIAL,Bioestimuladores De Colágeno,cadastrado
+HARMONIZAÇÃO OROFACIAL,Fios De PDO,cadastrado
+HARMONIZAÇÃO OROFACIAL,Microagulhamento E Peeling,cadastrado
+HARMONIZAÇÃO OROFACIAL,Papada,cadastrado
+HARMONIZAÇÃO OROFACIAL,Preenchimento,cadastrado
+HARMONIZAÇÃO OROFACIAL,Toxina Botulínica Estética,cadastrado
+IMPLANTE,MÚLTIPLOS,cadastrado
+IMPLANTE,PROTOCOLO,cadastrado
+IMPLANTE,UNITÁRIOS,cadastrado
+IMPLANTE COM TOMOGRAFIA,Implante Zigomático,cadastrado
+IMPLANTE COM TOMOGRAFIA,MÚLTIPLOS,cadastrado
+IMPLANTE COM TOMOGRAFIA,PROTOCOLO,cadastrado
+IMPLANTE COM TOMOGRAFIA,UNITÁRIOS,cadastrado
+LASER,Cirúrgico,cadastrado
+LASER,Oncológico,cadastrado
+LASER,Oncológico,cadastrado
+LASER,Oncológico,cadastrado
+ODONTOLOGIA LEGAL,PERÍCIA CLÍNICA,cadastrado
+ODONTOPEDIATRIA,CIRURGIAS,cadastrado
+ODONTOPEDIATRIA,ENDODONTIA,cadastrado
+ODONTOPEDIATRIA,FRENECTOMIA,cadastrado
+ODONTOPEDIATRIA,PREVENÇÃO,cadastrado
+ODONTOPEDIATRIA,PRÓTESE INFANTIL,cadastrado
+ODONTOPEDIATRIA,RESTAURAÇÕES,cadastrado
+ORTODONTIA,Classe II,cadastrado
+ORTODONTIA,Classe III,cadastrado
+ORTODONTIA,DENTES DECÍDUOS,cadastrado
+ORTODONTIA,DENTES ECTÓPICOS,cadastrado
+ORTODONTIA,Dentes Permanentes,cadastrado
+ORTODONTIA,Dentição Mista,cadastrado
+ORTODONTIA,MORDIDA ABERTA ANTERIOR/POSTERIOR,cadastrado
+ORTODONTIA,MORDIDA CRUZADA ANTERIOR/POSTERIOR,cadastrado
+ORTODONTIA,Sucção De Chupeta Ou Polegar,cadastrado
+PACIENTES ESPECIAIS,Autismo,cadastrado
+PACIENTES ESPECIAIS,Déficit Intelectual,cadastrado
+PACIENTES ESPECIAIS,Oncológicos,cadastrado
+PACIENTES ESPECIAIS,Paralisia Cerebral,cadastrado
+PACIENTES ESPECIAIS,Sindromes,cadastrado
+PACIENTES ESPECIAIS,Sistêmicos,cadastrado
+PERIODONTIA,Aumento De Coroa,cadastrado
+PERIODONTIA,AVANÇADA,cadastrado
+PERIODONTIA,BASICA,cadastrado
+PERIODONTIA,Cirurgia Plastica,cadastrado
+PERIODONTIA,Frenotomia E Britonomia,cadastrado
+PERIODONTIA,Hiperplasias,cadastrado
+PERIODONTIA,Hiperplasias,cadastrado
+PERIODONTIA,MODERADA,cadastrado
+PERIODONTIA,Recessão Gengival,cadastrado
+PERIODONTIA,Sorriso Gengival,cadastrado
+PROFILAXIA,Profilaxia,cadastrado
+PROTESE,Coroas Unitárias,cadastrado
+PROTESE,FIXA MÚLTIPLAS COROAS,cadastrado
+PROTESE,PARCIAL REMOVIVEL,cadastrado
+PROTESE,SOBRE IMPLANTES,cadastrado
+PROTESE,TOTAL,cadastrado
+PROTESE,Total Inferior,cadastrado
+PROTESE,Total Superior,cadastrado
+REABILITAÇÃO ORAL,REABILITAÇÃO ORAL,cadastrado

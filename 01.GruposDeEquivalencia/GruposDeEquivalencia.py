@@ -14,7 +14,7 @@ from selenium.webdriver.common.keys import Keys
 # Planilha única com uma aba por script (ver Template Procedimentos, Grupos e Produtos.xlsx)
 ARQUIVO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Template Procedimentos, Grupos e Produtos.xlsx")
 ABA = "Grupos de equivalencia"
-CLINICA = "GRANDE VITORIA - GRUPO MANDIC"
+CLINICA = "BRASILIA - GRUPO MANDIC"
 
 
 def _salvar_planilha(wb):
