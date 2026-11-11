@@ -4,3 +4,19 @@ Integração lake Mandic/*.csv
 Integração lake Mandic/saida_parquet/
 Integração lake Mandic/.venv/
 Integração lake Mandic/dados_csv/
+
+# App de Planos de Tratamento: cópias dos arquivos importados, relatórios e config local
+06.Plano de tratamento/dados/importados/
+06.Plano de tratamento/dados/conversoes/
+06.Plano de tratamento/dados/app_config.json
+06.Plano de tratamento/dados/catalogos/
+06.Plano de tratamento/dados/erros/
+06.Plano de tratamento/dados/logs/
+06.Plano de tratamento/dados/backups/
+06.Plano de tratamento/dados/Banco de Agendamentos.xlsx
+06.Plano de tratamento/.venv/
+06.Plano de tratamento/dist/
+
+# Cache do Python (recriado sozinho)
+__pycache__/
+*.pyc

@@ -19,15 +19,16 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 
-ARQUIVO = "03.PerfilTratamento/LISTA_PERFIL_TRATAMENTO_BRASILIA.csv"
-CLINICA = "BRASILIA - GRUPO MANDIC"
+ARQUIVO = "03.PerfilTratamento/LISTA_PERFIL_TRATAMENTO_CAMPINAS.csv"
+CLINICA = "CAMPINAS - GRUPO MANDIC"
 
 # Quantos navegadores trabalham ao mesmo tempo (cada Chrome usa ~0,5–1 GB de RAM)
-NUM_NAVEGADORES =  4
+NUM_NAVEGADORES =  1
 # Segundos entre o login de um navegador e o do próximo
 INTERVALO_ENTRE_LOGINS = 30
 # True = roda sem abrir a janela do Chrome
-HEADLESS = True
+HEADLESS = False
+
 # True = painel atualizado no terminal; o log detalhado vai para PASTA_LOGS.
 # False = log corrido no terminal, como antes.
 PAINEL = True

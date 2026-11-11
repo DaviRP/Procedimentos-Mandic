@@ -33,16 +33,23 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill
 from openpyxl.utils import get_column_letter
 
-# Caminhos relativos à pasta do script, independente de onde ele é executado
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+# Planilhas de entrada e saída em ../dados/planilhas, independente de onde o script é executado
+PASTA_PLANILHAS = os.path.join(os.environ.get("PLANOS_DADOS") or
+                               os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "dados"), "planilhas")
 
-ARQ_PLANOS = "Planos de tratamento - Brasília.xlsx"
+ARQ_PLANOS = os.path.join(PASTA_PLANILHAS, "Planos de tratamento - Brasília.xlsx")
 ABA_PLANOS = "Planos de tratamento"
-ARQ_TEMPLATE = "Template Procedimentos, Grupos e Produtos.xlsx"
+ARQ_TEMPLATE = os.path.join(PASTA_PLANILHAS, "Template Procedimentos, Grupos e Produtos_Brasilia.xlsx")
 ABA_PROCEDIMENTOS = "Procedimentos"
 ABA_FICHA = "Procedimentos e Grupos"
 ABA_GRUPOS = "Grupos de equivalencia"
-ARQ_SAIDA = "Plano_Tratamento_Convertido.xlsx"
+ARQ_SAIDA = os.path.join(PASTA_PLANILHAS, "Plano_Tratamento_Convertido.xlsx")
+
+# Colunas da planilha de origem usadas na conversão (o template dos colaboradores tem só estas)
+COLS_ORIGEM = [
+    "ORCAMENTO_REAL", "PG", "Nome_Paciente", "Data_Criacao", "Perfil_Tratamento", "Nome_Especialidade",
+    "Coordenador", "Aluno_Associado", "tipo_item", "codigo_produto", "descricao_produto", "quantidade_produto",
+]
 
 # Nomes aceitos para cada coluna do template (comparados sem acento/maiúscula/pontuação)
 COLS_PROCEDIMENTOS = {"nome": ["Nome do procedimento"]}
@@ -62,17 +69,17 @@ GRUPOS_INATIVOS = {"Inativar", "inativar"}
 # Procedimento antigo -> (procedimento novo | None, observação).
 # None = não existe equivalente seguro -> vai para "Revisar" com os candidatos listados na observação.
 DEPARA_PROCEDIMENTOS = {
-    "COROA EM E-MAX (DISSILICATO DE LITIO)": ("Coroa em dissilicato de Litio", ""),
+    "COROA EM E-MAX (DISSILICATO DE LITIO)": ("Coroa em Dissilicato de Lítio", ""),
     "COROA PROVISORIA SOBRE IMPLANTE ACRILICA POR ELEMENTO (SOLICITAR CILINDRO E PARAFUSO SEPARADAMENTE)":
-        ("Coroa Provisória Sobre Implante (Solicitar Cilindro e Parafuso Separadamente)", ""),
+        ("Coroa Provisória sobre Implante (Solicitar Cilindro e Parafuso Separadamente)", ""),
     "COROA PROVISÓRIA ACRÍLICA (POR ELEMENTO)": ("Coroa Provisória", ""),
     "COROA PROVISÓRIA POR ELEMENTO": ("Coroa Provisória", ""),
-    "PERIO - AUMENTO DE COROA CLÍNICA": ("Aumento de Coroa Clínica ", ""),
-    "PERIO - ENXERTO GENGIVAL LIVRE": ("Enxerto gengival Livre", ""),
-    "FACETA LAMINADA EM E-MAX": ("Faceta laminada em dissilicato de litio", ""),
+    "PERIO - AUMENTO DE COROA CLÍNICA": ("Aumento de Coroa Clínica", ""),
+    "PERIO - ENXERTO GENGIVAL LIVRE": ("Enxerto Gengival Livre", ""),
+    "FACETA LAMINADA EM E-MAX": ("Faceta Laminada em Dissilicato de Lítio", ""),
     "INLAY/ONLAY E-MAX": ("Inlay/Onlay em Dissilicato de Lítio", ""),
-    "KIT PRF TERCEIRIZADO": ("PRF – Serviço Terceirizado", ""),
-    "PLANEJAMENTO SELF -ADITEK": ("Planejamento - Aditek ", ""),
+    "KIT PRF TERCEIRIZADO": ("PRF - Serviço Terceirizado", ""),
+    "PLANEJAMENTO SELF -ADITEK": ("Planejamento Self - Aditek", ""),
     "PROFILAXIA E POLIMENTO CORONARIO": ("Profilaxia", ""),
     "PROFILAXIA (LIMPEZA) - ULTRASSOM": ("Profilaxia", ""),
     "PROTESE PARCIAL REMOVIVEL COM DENTES BIOLUX - INCLUINDO ARMACAO, MONTAGEM, ACRILIZACAO E CARACTERIZACAO)":
@@ -87,21 +94,21 @@ DEPARA_PROCEDIMENTOS = {
     "PROTESE TOTAL COMPLETA COM DENTES PREMIUM OU IVOCLAIR (COM CARACTERIZACAO)": ("Prótese Total", ""),
     "PROTESE TOTAL COMPLETA COM DENTES TRILUX (COM CARACTERIZACAO)": ("Prótese Total", ""),
     "FASE PROTETICA DE PROTESE PROTOCOLO COM DENTES PREMIUM OU IVOCLAIR (INCLUINDO BARRA, SOLDAS E ACRILIZACAO) (SOLICITAR CILINDROS E PARAFUSOS)":
-        ("Protocolo (Solicitar Cilindros e Parafusos a Parte)", ""),
+        ("Protocolo (Solicitar Cilindros e Parafusos à Parte)", ""),
     "FASE PROTETICA DE PROTESE PROTOCOLO COM DENTES TRILUX (INCLUINDO BARRA, SOLDAS E ACRILIZACAO) (SOLICITAR CILINDROS E PARAFUSOS)":
-        ("Protocolo (Solicitar Cilindros e Parafusos a Parte)", ""),
+        ("Protocolo (Solicitar Cilindros e Parafusos à Parte)", ""),
     # Sem equivalente seguro -> Revisar
     "COROA METALOCERAMICA UNITARIA": (None, "Não há coroa metalocerâmica no sistema novo. Candidatos: Coroa em Zircônia | Coroa em cerâmica personalizada"),
     "COROA PARAFUSADA METALO-CERAMICA SOBRE IMPLANTE (SOLICITAR PILAR SEPARADAMENTE)":
         (None, "Não há metalocerâmica sobre implante. Candidatos: Coroa Parafusada sobre implante em Zircônia"),
     "PÔNTICO EM METALOCERÂMICA": (None, "Sem pôntico no sistema novo. Candidatos: Coroa em Zircônia | Coroa em cerâmica personalizada"),
     "NÚCLEO ESTÉTICO": (None, "Candidatos: Núcleo | Retentor Intrarradicular em Fibra de Vidro | Pino de Fibra de Vidro"),
-    "PERIO - ENXERTO CONJUNTIVO": (None, "Candidatos: Recobrimento Radicular (Por Hemi-Arco) | Enxerto gengival Livre"),
+    "PERIO - ENXERTO CONJUNTIVO": (None, "Candidatos: Recobrimento Radicular (Por Hemiarco) | Enxerto Gengival Livre"),
     "PERIO - FRENECTOMIA": (None, "Candidatos: Frenectomia Labial | Frenectomia Lingual"),
     "PERIO - EXODONTIA (POR ELEMENTO)": (None, "Candidatos: Exodontia Simples | Exodontia Cirúrgica (Dente Incluso, Impactado, Supranumerário ou Raiz Residual)"),
     "PERIO - PLASTIA DE REBORDO (REMOÇÃO DE TORUS OU TUBER)":
         (None, "Candidatos: Cirurgia de Tórus Palatino e/ou Mandibular (Unilateral ou Bilateral) | Alveoloplastia e/ou Alveolotomia Cirúrgica"),
-    "PERIO - INSTALAÇÃO DE IMPLANTE (IMPLANTE NÃO INCLUSO)": (None, "Candidatos: Implante Unitário – Básico | Implante Unitário – Premium"),
+    "PERIO - INSTALAÇÃO DE IMPLANTE (IMPLANTE NÃO INCLUSO)": (None, "Candidatos: Implante Unitário - Básico | Implante Unitário - Premium"),
     "CIRURGIA AVANÇADA": (None, "Sem equivalente direto. Verificar qual cirurgia foi feita"),
     "LEVANTAMENTO DE SEIO MAXILAR (NÃO INCLUI BIOMATERIAL)": (None, "Sem levantamento de seio no sistema novo. Candidatos: Enxerto Ósseo Convencional | Intermediário | Avançado"),
     "BARRA 3X3 RETA": (None, "Candidatos: Barra 3x3 Higiênica"),
@@ -113,21 +120,21 @@ DEPARA_PROCEDIMENTOS = {
 
 # Grupos de implante / componentes por linha (Básico x Premium)
 LINHAS = ("Básico", "Premium")
-G_IMPLANTE = {"Básico": "Implante Básico", "Premium": "Implante - Premium"}
-G_CICATRIZADOR = {"Básico": "Cicatrizador - Básico", "Premium": "Cicatrizador Premium"}
+G_IMPLANTE = {"Básico": "Implante - Básico", "Premium": "Implante - Premium"}
+G_CICATRIZADOR = {"Básico": "Cicatrizador - Básico", "Premium": "Cicatrizador - Premium"}
 G_CICAT_REABERTURA = {"Básico": "Cicatrizador - Reabertura - Básico", "Premium": "Cicatrizador - Reabertura - Premium"}
 G_ANALOGO = {"Básico": "Análogo Básico", "Premium": "Análogo Premium"}
 G_TRANSFERENTE = {"Básico": "Transferente Básico", "Premium": "Transferente Premium"}
 G_PILAR = {"Básico": "Pilar Básico", "Premium": "Pilar Premium"}
-G_COPING = {"Básico": "Coping/Cilindro/Ucla/Tampa Proteção Básico", "Premium": "Cilindro/Coping/Ucla Premium"}
-G_PARAFUSO = {"Básico": "Parafusos Protéticos Básico", "Premium": "Parafuso Premium"}
-G_PILAR_PROV = {"Básico": "Pilar provisório Basico", "Premium": "Pilar provisório Premium"}
+G_COPING = {"Básico": "Coping/Cilindro/Ucla/Tampa Proteção Básico", "Premium": "coping Premium"}
+G_PARAFUSO = {"Básico": "Parafuso Básico", "Premium": "Parafusos Protéticos Premium"}
+G_PILAR_PROV = {"Básico": "Pilar Provisório Básico", "Premium": "Pilar Provisório Premium"}
 
-P_IMPL_UNIT = {"Básico": "Implante Unitário – Básico", "Premium": "Implante Unitário – Premium"}
-P_IMPL_PROT = {"Básico": "Implantes para Protocolo - Básico", "Premium": "Implantes para protocolo - Premium"}
-P_IMPL_EXTRA = {"Básico": "Extra - Implante para Protocolo – Básico", "Premium": "Extra - Implante para Protocolo – Premium"}
-P_COMP_UNIT = {"Básico": "Componentes para Coroa Unitária – Básico", "Premium": "Componentes para Coroa Unitária – Premium"}
-P_COMP_PROV = {"Básico": "Componentes para Coroa Provisória Unitária – Básico", "Premium": "Componentes para Coroa Provisória Unitária – Premium"}
+P_IMPL_UNIT = {"Básico": "Implante Unitário - Básico", "Premium": "Implante Unitário - Premium"}
+P_IMPL_PROT = {"Básico": "Implantes para Protocolo - Básico", "Premium": "Implantes para Protocolo - Premium"}
+P_IMPL_EXTRA = {"Básico": "Extra - Implante para Protocolo - Básico", "Premium": "Extra - Implante para Protocolo - Premium"}
+P_COMP_UNIT = {"Básico": "Componentes para Coroa Unitária - Básico", "Premium": "Componentes para Coroa Unitária - Premium"}
+P_COMP_PROV = {"Básico": "Componentes para Coroa Provisória Unitária - Básico", "Premium": "Componentes para Coroa Provisória Unitária - Premium"}
 P_COMP_PROT = {"Básico": "Componentes para Protocolo - Básico", "Premium": "Componentes para Protocolo - Premium"}
 P_COMP_EXTRA = {"Básico": "Extra - Componentes para Protocolo - Básico", "Premium": None}
 
@@ -137,9 +144,9 @@ for d in (G_IMPLANTE, G_CICATRIZADOR, G_ANALOGO, G_TRANSFERENTE, G_PILAR, G_COPI
 
 # Grupos "acessórios": já estão embutidos em outro procedimento; só geram procedimento próprio se estiverem sozinhos
 GRUPOS_KIT = {
-    "Kits Compostos Cirúrgicos", "Kits Compostos Cirurgia", "Kits compostos Reabertura",
-    "Kits HOF - Bioestimulador", "Kits HOF - Preenchimento", "Kits HOF - Toxina",
-    "Kit Fios", "Kit Microagulhamento", "Ativo Basico",
+    "Kit Composto Cirúrgico", "Kit Composto Reabertura",
+    "Kit HOF - Bioestimulador", "Kit HOF - Preenchimento", "Kit HOF - Toxina",
+    "Kit Fios", "Kit Microagulhamento", "Ativo Básico",
 }
 
 
@@ -205,11 +212,25 @@ def ler_aba(arq, aba, colunas, obrigatorias):
         achou = next((cab.index(chave(n)) for n in nomes if chave(n) in cab), None)
         if achou is None:
             if k in obrigatorias:
-                raise SystemExit(f'Coluna "{nomes[0]}" não encontrada na aba "{aba}" de {arq}. Cabeçalho: {linhas[0]}')
+                raise ValueError(f'Coluna "{nomes[0]}" não encontrada na aba "{aba}" de {arq}. Cabeçalho: {linhas[0]}')
             faltando.append(k)
         pos[k] = achou
     dados = [{k: (r[p] if p is not None and p < len(r) else None) for k, p in pos.items()} for r in linhas[1:]]
     return dados, faltando
+
+
+def ler_planos(arq):
+    """Lê a planilha de origem: aba ABA_PLANOS (ou a 1ª aba, se não existir) e confere as colunas."""
+    wb = openpyxl.load_workbook(arq, read_only=True)
+    aba = ABA_PLANOS if ABA_PLANOS in wb.sheetnames else wb.sheetnames[0]
+    wb.close()
+    planos = ler(arq, aba, 30)
+    if not planos:
+        raise ValueError(f'A aba "{aba}" de {os.path.basename(arq)} está vazia.')
+    faltando = [c for c in COLS_ORIGEM if c not in planos[0]]
+    if faltando:
+        raise ValueError(f'Coluna(s) não encontrada(s) na aba "{aba}" de {os.path.basename(arq)}: {", ".join(faltando)}')
+    return planos
 
 
 def num(v, padrao=1.0):
@@ -224,25 +245,25 @@ def fmt_qtd(q):
 
 
 # ---------------------------------------------------------------- cargas
-def carregar_ficha():
+def carregar_ficha(arq_template=ARQ_TEMPLATE):
     grupo_procs = collections.defaultdict(list)   # grupo -> [procedimentos]
     grupo_qtd = {}                                 # (proc, grupo) -> qtd na ficha
     procs = {}                                     # nome normalizado -> nome
 
     # Catálogo completo do sistema novo (inclui procedimentos sem grupo de equivalência)
-    catalogo_procs, _ = ler_aba(ARQ_TEMPLATE, ABA_PROCEDIMENTOS, COLS_PROCEDIMENTOS, {"nome"})
+    catalogo_procs, _ = ler_aba(arq_template, ABA_PROCEDIMENTOS, COLS_PROCEDIMENTOS, {"nome"})
     for linha in catalogo_procs:
         if linha["nome"]:
             procs[norm(linha["nome"])] = str(linha["nome"])
 
-    ficha, _ = ler_aba(ARQ_TEMPLATE, ABA_FICHA, COLS_FICHA, {"nome", "grupo", "qtd"})
+    ficha, _ = ler_aba(arq_template, ABA_FICHA, COLS_FICHA, {"nome", "grupo", "qtd"})
     for linha in ficha:
         nome, grupo, qtd = linha["nome"], linha["grupo"], linha["qtd"]
         if not nome:
             continue
         nome = str(nome)
         procs.setdefault(norm(nome), nome)
-        if grupo and str(grupo).strip() != SEM_GRUPO:
+        if grupo and norm(grupo) != norm(SEM_GRUPO):
             grupo = str(grupo).strip()
             if nome not in grupo_procs[grupo]:
                 grupo_procs[grupo].append(nome)
@@ -250,8 +271,8 @@ def carregar_ficha():
     return grupo_procs, grupo_qtd, procs
 
 
-def carregar_grupos():
-    linhas, faltando = ler_aba(ARQ_TEMPLATE, ABA_GRUPOS, COLS_GRUPOS, {"grupo", "nome"})
+def carregar_grupos(arq_template=ARQ_TEMPLATE):
+    linhas, faltando = ler_aba(arq_template, ABA_GRUPOS, COLS_GRUPOS, {"grupo", "nome"})
     if faltando:
         nomes = {"codigo": '"Código" (TOTVS)', "cod_fab": '"Numero Fabricante"'}
         print(f'Atenção: aba "{ABA_GRUPOS}" sem a(s) coluna(s) {", ".join(nomes[k] for k in faltando)} — '
@@ -302,13 +323,36 @@ def grupo_por_similaridade(desc, catalogo):
     return grupo, min(melhor, concordancia)
 
 
-# ---------------------------------------------------------------- principal
-def main():
-    grupo_procs, grupo_qtd, procs_novos = carregar_ficha()
-    grupos_validos = set(grupo_procs)
-    por_codigo, por_cod_fab, por_nome, catalogo = carregar_grupos()
+def validar_nomes(grupo_procs, procs_novos):
+    """Avisa quando um nome fixo no código não existe no template (ex.: grupo ou procedimento renomeado)."""
+    grupos = [g for d in (G_IMPLANTE, G_CICATRIZADOR, G_CICAT_REABERTURA, G_ANALOGO, G_TRANSFERENTE,
+                          G_PILAR, G_COPING, G_PARAFUSO, G_PILAR_PROV) for g in d.values()] + sorted(GRUPOS_KIT)
+    procs = [p for d in (P_IMPL_UNIT, P_IMPL_PROT, P_IMPL_EXTRA, P_COMP_UNIT, P_COMP_PROV, P_COMP_PROT, P_COMP_EXTRA)
+             for p in d.values() if p]
+    procs += [novo for novo, _ in DEPARA_PROCEDIMENTOS.values() if novo]
+    nomes_procs = set(procs_novos.values())
+    faltando = [f'grupo "{g}"' for g in grupos if g not in grupo_procs]
+    faltando += [f'procedimento "{p}"' for p in dict.fromkeys(procs) if p not in nomes_procs]
+    if faltando:
+        print(f"Atenção: {len(faltando)} nome(s) fixo(s) no código não existem no template "
+              f"(as regras que dependem deles não vão funcionar):")
+        for f in faltando:
+            print(f"  - {f}")
 
-    planos = ler(ARQ_PLANOS, ABA_PLANOS, 30)
+
+# ---------------------------------------------------------------- principal
+def converter(arq_planos=ARQ_PLANOS, arq_template=ARQ_TEMPLATE):
+    """Converte a planilha de origem usando o catálogo `arq_template`.
+
+    Devolve um dict com as listas itens, plano, revisar, sem_eq e os totais
+    duplicadas e orcamentos. Não grava nada (ver salvar()).
+    """
+    grupo_procs, grupo_qtd, procs_novos = carregar_ficha(arq_template)
+    validar_nomes(grupo_procs, procs_novos)
+    grupos_validos = set(grupo_procs)
+    por_codigo, por_cod_fab, por_nome, catalogo = carregar_grupos(arq_template)
+
+    planos = ler_planos(arq_planos)
     cab = planos[0]
     idx = {c: i for i, c in enumerate(cab) if c}
     itens = []
@@ -581,13 +625,19 @@ def main():
                 add_revisar("", it["qtd"], " | ".join(cands),
                             f'Kit sem procedimento principal no orçamento ({", ".join(sorted(gs))})', [it])
 
-    salvar(itens, plano, revisar, sem_eq)
+    return {"itens": itens, "plano": plano, "revisar": revisar, "sem_eq": sem_eq,
+            "duplicadas": duplicadas, "orcamentos": len(por_orc)}
 
-    print(f"Itens lidos: {len(itens)} em {len(por_orc)} orçamentos ({duplicadas} linhas duplicadas ignoradas)")
-    print(f"Plano de Tratamento: {len(plano)} linhas")
-    print(f"Revisar: {len(revisar)} linhas")
-    print(f"Sem equivalência: {len(sem_eq)} linhas")
-    print(f"Destinos: {collections.Counter(i['destino'].split(':')[0] for i in itens)}")
+
+def main():
+    r = converter()
+    salvar(r["itens"], r["plano"], r["revisar"], r["sem_eq"])
+
+    print(f"Itens lidos: {len(r['itens'])} em {r['orcamentos']} orçamentos ({r['duplicadas']} linhas duplicadas ignoradas)")
+    print(f"Plano de Tratamento: {len(r['plano'])} linhas")
+    print(f"Revisar: {len(r['revisar'])} linhas")
+    print(f"Sem equivalência: {len(r['sem_eq'])} linhas")
+    print(f"Destinos: {collections.Counter(i['destino'].split(':')[0] for i in r['itens'])}")
     print(f"Arquivo gerado: {ARQ_SAIDA}")
 
 
@@ -607,7 +657,7 @@ def escrever_aba(wb, titulo, colunas, linhas, cor):
     ws.auto_filter.ref = ws.dimensions
 
 
-def salvar(itens, plano, revisar, sem_eq):
+def salvar(itens, plano, revisar, sem_eq, arq_saida=ARQ_SAIDA):
     wb = openpyxl.Workbook()
     wb.remove(wb.active)
     cab = [("Orçamento", "orc"), ("PG", "pg"), ("Paciente", "paciente"), ("Data Criação", "data"),
@@ -632,7 +682,7 @@ def salvar(itens, plano, revisar, sem_eq):
     dp = [{"antigo": k, "novo": v[0] or "(revisar)", "obs": v[1]} for k, v in DEPARA_PROCEDIMENTOS.items()]
     escrever_aba(wb, "De-Para Procedimentos",
                  [("Procedimento antigo", "antigo"), ("Procedimento novo", "novo"), ("Observação", "obs")], dp, "455A64")
-    wb.save(ARQ_SAIDA)
+    wb.save(arq_saida)
 
 
 if __name__ == "__main__":

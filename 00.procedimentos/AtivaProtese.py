@@ -10,13 +10,17 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
 
 
-# Marca a opção "Prótese" (controla-protese) em todo procedimento com Protese = "Sim"
-ARQUIVO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Template Procedimentos, Grupos e Produtos.xlsx")
+# Em TODOS os procedimentos da planilha: grava a coluna de observação em "Observações"
+# e em "Orientações pré e pós-procedimento" (CKEditor), marca "Prótese" (controla-protese)
+# quando Protese = "Sim" e salva
+ARQUIVO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Template Procedimentos, Grupos e Produtos(CAMPINAS).xlsx")
 ABA = "Procedimentos"
-COLUNA_STATUS = "Status Protese"
-CLINICA = "BRASILIA - GRUPO MANDIC"
+COLUNA_STATUS = "Status Atualizacao"
+COLUNA_OBSERVACAO = "Observação (Máx. 500 caracteres)"
+CLINICA = "CAMPINAS - GRUPO MANDIC"
 
 URL_BASE = "https://app.clinicanasnuvens.com.br"
 URL_LISTA = f"{URL_BASE}/procedimentos"
@@ -68,13 +72,14 @@ def normalizar(valor):
 
 
 def carregar_procedimentos():
-    """Devolve (col_status, {nome: [linhas]}) dos procedimentos com Protese = Sim ainda não processados."""
+    """Devolve (col_status, {nome: {"linhas", "observacao", "protese"}}) dos procedimentos ainda não processados."""
     wb = openpyxl.load_workbook(ARQUIVO)
     ws = wb[ABA]
     cabecalho = [cell.value for cell in ws[1]]
 
     col_procedimento = _idx_coluna(cabecalho, "Nome do procedimento")
     col_protese      = _idx_coluna(cabecalho, "Protese")
+    col_observacao   = _idx_coluna(cabecalho, COLUNA_OBSERVACAO)
 
     col_status = _idx_coluna(cabecalho, COLUNA_STATUS, obrigatoria=False)
     if col_status is None:
@@ -87,11 +92,19 @@ def carregar_procedimentos():
         num_row = row[0].row
         procedimento = _texto(ws.cell(row=num_row, column=col_procedimento).value)
         protese      = normalizar(ws.cell(row=num_row, column=col_protese).value)
+        observacao   = _texto(ws.cell(row=num_row, column=col_observacao).value)
         status       = normalizar(ws.cell(row=num_row, column=col_status).value)
 
-        if not procedimento or protese != "sim" or status in ("ativado", "erro"):
+        if not procedimento or status in ("atualizado", "erro"):
             continue
-        procedimentos.setdefault(procedimento, []).append(num_row)
+        dados = procedimentos.setdefault(procedimento, {"linhas": [], "observacao": observacao, "protese": False})
+        dados["linhas"].append(num_row)
+        dados["protese"] = dados["protese"] or protese == "sim"
+        if observacao and observacao != dados["observacao"]:
+            if dados["observacao"]:
+                print(f"Aviso: '{procedimento}' aparece com observações diferentes na planilha; usando a da 1ª linha.")
+            else:
+                dados["observacao"] = observacao
 
     return col_status, procedimentos
 
@@ -108,7 +121,7 @@ def salvar_print_erro(driver, nome):
     try:
         os.makedirs(PASTA_ERROS, exist_ok=True)
         nome = re.sub(r"[^\w\-]+", "_", nome)[:60]
-        base = os.path.join(PASTA_ERROS, f"protese_{nome}_{datetime.now():%Y%m%d_%H%M%S}")
+        base = os.path.join(PASTA_ERROS, f"procedimento_{nome}_{datetime.now():%Y%m%d_%H%M%S}")
         driver.save_screenshot(base + ".png")
         with open(base + ".html", "w", encoding="utf-8") as f:
             f.write(driver.page_source)
@@ -164,17 +177,76 @@ def abrir_procedimento(driver, nome_proc):
     raise Exception(f"{len(links)} resultados na pesquisa e nenhum com o nome exato")
 
 
-def ativar_protese(driver):
-    """Marca 'controla-protese' e salva. Devolve False se já estava marcado (nada a salvar)."""
+XPATH_EDITOR_ORIENTACOES = ("//textarea[@id='editor_orientacoes']/following-sibling::div[contains(@class,'ck-editor')]"
+                            "//div[contains(@class,'ck-editor__editable')]")
+
+
+def _editor_orientacoes(driver):
+    """Área editável do CKEditor de 'Orientações pré e pós-procedimento'."""
+    editores = driver.find_elements(By.XPATH, XPATH_EDITOR_ORIENTACOES) \
+        or driver.find_elements(By.CSS_SELECTOR, "div.ck-editor__editable")
+    if not editores:
+        raise Exception("editor de 'Orientações pré e pós-procedimento' não encontrado")
+    return editores[0]
+
+
+def preencher_observacao(driver, texto):
+    """Troca o conteúdo do textarea 'Observações' pelo texto."""
+    campo = WebDriverWait(driver, ESPERA).until(EC.presence_of_element_located((By.ID, "tipoProcedimento-observacao")))
+    driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", campo)
+    campo.clear()
+    if texto:
+        campo.send_keys(texto)
+    if campo.get_attribute("value").strip() != texto.strip():
+        raise Exception("o campo 'Observações' não ficou com o texto da planilha")
+
+
+def preencher_orientacoes(driver, texto):
+    """Troca o conteúdo do CKEditor pelo texto: pela API do editor (setData) e,
+    se ela não estiver acessível, clicando, selecionando tudo e digitando."""
+    editavel = _editor_orientacoes(driver)
+    pela_api = driver.execute_script("""
+        const editor = arguments[0].ckeditorInstance;
+        if (!editor) return false;
+        const p = document.createElement('p');
+        p.textContent = arguments[1];
+        editor.setData(arguments[1] ? p.outerHTML : '');
+        if (editor.updateSourceElement) editor.updateSourceElement();
+        return true;
+    """, editavel, texto)
+    if not pela_api:
+        clicar(driver, editavel)
+        editavel.send_keys(Keys.COMMAND, "a")
+        editavel.send_keys(Keys.CONTROL, "a")
+        editavel.send_keys(Keys.DELETE)
+        if texto:
+            editavel.send_keys(texto)
+    time.sleep(0.5)
+    if normalizar(editavel.text) != normalizar(texto):
+        raise Exception("o editor de 'Orientações pré e pós-procedimento' não ficou com o texto da planilha")
+
+
+def marcar_protese(driver):
+    """Marca 'controla-protese'. Devolve False se já estava marcado."""
     checkbox = WebDriverWait(driver, ESPERA).until(EC.presence_of_element_located((By.ID, "controla-protese")))
-    time.sleep(1)
     if checkbox.is_selected():
         return False
-
     clicar(driver, checkbox)
     time.sleep(0.5)
     if not checkbox.is_selected():
         raise Exception("não foi possível marcar a opção Prótese")
+    return True
+
+
+def atualizar_procedimento(driver, observacao, protese):
+    """Preenche Observações + Orientações com a observação, marca Prótese (se for o caso),
+    salva e confere reabrindo o procedimento. Devolve se a Prótese foi marcada agora."""
+    WebDriverWait(driver, ESPERA).until(EC.presence_of_element_located((By.ID, "tipoProcedimento-observacao")))
+    time.sleep(1)
+
+    preencher_observacao(driver, observacao)
+    preencher_orientacoes(driver, observacao)
+    protese_marcada = marcar_protese(driver) if protese else False
 
     botao_salvar = next(
         (b for b in driver.find_elements(By.CSS_SELECTOR, "button[type='submit'][name='_method'][value='post']")
@@ -188,21 +260,27 @@ def ativar_protese(driver):
     clicar(driver, botao_salvar)
     time.sleep(2)
 
-    # Confere: reabre o procedimento e vê se a opção ficou salva
+    # Confere: reabre o procedimento e vê se tudo ficou salvo
     driver.get(url_procedimento)
-    checkbox = WebDriverWait(driver, ESPERA).until(EC.presence_of_element_located((By.ID, "controla-protese")))
-    if not checkbox.is_selected():
-        raise Exception("salvou, mas a opção Prótese não ficou marcada (o sistema recusou o Salvar?)")
-    return True
+    campo = WebDriverWait(driver, ESPERA).until(EC.presence_of_element_located((By.ID, "tipoProcedimento-observacao")))
+    time.sleep(1)
+    if normalizar(campo.get_attribute("value")) != normalizar(observacao):
+        raise Exception("salvou, mas 'Observações' não ficou com o texto (o sistema recusou o Salvar?)")
+    if normalizar(_editor_orientacoes(driver).text) != normalizar(observacao):
+        raise Exception("salvou, mas 'Orientações pré e pós-procedimento' não ficou com o texto")
+    if protese and not driver.find_element(By.ID, "controla-protese").is_selected():
+        raise Exception("salvou, mas a opção Prótese não ficou marcada")
+    return protese_marcada
 
 
 def executar():
     col_status, procedimentos = carregar_procedimentos()
 
     if not procedimentos:
-        print("Nenhum procedimento pendente com Protese = Sim.")
+        print("Nenhum procedimento pendente.")
         return
-    print(f"{len(procedimentos)} procedimento(s) com Protese = Sim pendente(s).")
+    com_protese = sum(1 for d in procedimentos.values() if d["protese"])
+    print(f"{len(procedimentos)} procedimento(s) pendente(s), {com_protese} com Protese = Sim.")
 
     opcoes = webdriver.ChromeOptions()
     if HEADLESS:
@@ -254,22 +332,25 @@ def executar():
         # ── Loop principal ─────────────────────────────────────────────────────
         total = len(procedimentos)
         inicio = time.time()
-        ativados = ja_estavam = erros = 0
+        atualizados = proteses_marcadas = erros = 0
 
-        for idx, (nome_proc, linhas) in enumerate(procedimentos.items(), start=1):
+        for idx, (nome_proc, dados) in enumerate(procedimentos.items(), start=1):
+            linhas = dados["linhas"]
             if LIMITE is not None and idx > LIMITE:
                 break
-            print(f"\n[{idx}/{total}] {nome_proc}")
+            print(f"\n[{idx}/{total}] {nome_proc}" + ("  (prótese)" if dados["protese"] else ""))
 
             try:
                 abrir_procedimento(driver, nome_proc)
-                if ativar_protese(driver):
-                    ativados += 1
-                    print("  Prótese ativada e salva.")
+                if not dados["observacao"]:
+                    print("  Aviso: observação vazia na planilha — os campos vão ficar em branco.")
+                if atualizar_procedimento(driver, dados["observacao"], dados["protese"]):
+                    proteses_marcadas += 1
+                    print("  Observação salva e Prótese ativada.")
                 else:
-                    ja_estavam += 1
-                    print("  Prótese já estava ativada — nada a salvar.")
-                marcar_status(linhas, col_status, "ativado")
+                    print("  Observação salva" + (" (Prótese já estava ativada)." if dados["protese"] else "."))
+                atualizados += 1
+                marcar_status(linhas, col_status, "atualizado")
 
             except Exception as e:
                 erros += 1
@@ -280,7 +361,7 @@ def executar():
             media = (time.time() - inicio) / idx
             print(f"  Média {media:.1f}s/procedimento | restantes: {total - idx}")
 
-        print(f"\nFim! {ativados} ativado(s), {ja_estavam} já estavam ativados, {erros} erro(s). "
+        print(f"\nFim! {atualizados} atualizado(s), {proteses_marcadas} prótese(s) ativada(s), {erros} erro(s). "
               f"Tempo total: {time.time() - inicio:.0f}s")
 
     except Exception:

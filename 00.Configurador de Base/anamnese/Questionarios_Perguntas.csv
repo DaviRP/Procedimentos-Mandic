@@ -1,0 +1,300 @@
+﻿Questionario,Pergunta,Ordem,Cadastro
+Anamnese Prótese,Qual a queixa principal ou motivo da consulta?,1,cadastrado
+Anamnese Prótese,"Possui alguma doença atualmente? Se sim, qual(is)?",2,cadastrado
+Anamnese Prótese,É acompanhado(a) atualmente por algum médico ou especialista?,3,cadastrado
+Anamnese Prótese,Já esteve internado / operado?,4,cadastrado
+Anamnese Prótese,"Está grávida? Se sim, qual o tempo de gestação?",5,cadastrado
+Anamnese Prótese,"Faz uso de anticoncepcionais? Se sim, qual?",6,cadastrado
+Anamnese Prótese,Você faz uso de cigarro ou outros produtos derivados do tabaco?,7,cadastrado
+Anamnese Prótese,"Possui alguma alergia? Se sim, a que é alérgico(a)?",8,cadastrado
+Anamnese Prótese,Tem ou teve hemorragia?,9,cadastrado
+Anamnese Prótese,Você usa ou já usou algum tipo de droga ou substância ilícita?,10,cadastrado
+Anamnese Prótese,"Já teve algum problema de cicatrização? Se sim, em qual situação?",11,cadastrado
+Anamnese Prótese,Já foi submetido(a) à anestesia geral?,12,cadastrado
+Anamnese Prótese,"É alérgico a algum medicamento, cosmético, alimento ou anestesia?",13,cadastrado
+Anamnese Prótese,Já teve alguma das seguintes doenças?,14,cadastrado
+Anamnese Prótese,Quando foi a última visita ao dentista e por qual motivo?,15,cadastrado
+Anamnese Prótese,Concluiu o tratamento odontológico anterior?,16,cadastrado
+Anamnese Prótese,Aperta ou range os dentes?,17,cadastrado
+Anamnese Prótese,Sente dores ou dificuldades durante a mastigação?,18,cadastrado
+Anamnese Prótese,Sente dor de dente?,19,cadastrado
+Anamnese Prótese,Sente dor ou dificuldade ao abrir a boca?,20,cadastrado
+Anamnese Prótese,Acorda com dor de cabeça?,21,cadastrado
+Anamnese Prótese,"Possui o hábito de morder os lábios, bochechas, unhas ou objetos?",22,cadastrado
+Anamnese Prótese,Quantas vezes ao dia escova os dentes?,23,cadastrado
+Anamnese Prótese,Já foi submetido(a) à anestesia local para tratamento odontológico?,24,cadastrado
+Anamnese Prótese,Já teve algum problema na gengiva,25,cadastrado
+Anamnese Prótese,Há sangramento gengival frequente?,26,cadastrado
+Anamnese Prótese,Outras observações sobre o histórico médico?,27,cadastrado
+Anamnese Endodontia,"Possui alguma doença atualmente? Se sim, qual(is)?",1,cadastrado
+Anamnese Endodontia,Algum problema de saúde para o qual faz acompanhamento médico?,2,cadastrado
+Anamnese Endodontia,É acompanhado(a) atualmente por algum médico ou especialista?,3,cadastrado
+Anamnese Endodontia,Está fazendo uso de alguma medicação?,4,cadastrado
+Anamnese Endodontia,Já esteve internado / operado?,5,cadastrado
+Anamnese Endodontia,"Está grávida? Se sim, qual o tempo de gestação?",6,cadastrado
+Anamnese Endodontia,"Faz uso de anticoncepcionais? Se sim, qual?",7,cadastrado
+Anamnese Endodontia,Você faz uso de cigarro ou outros produtos derivados do tabaco?,8,cadastrado
+Anamnese Endodontia,"É alérgico a algum medicamento, cosmético, alimento ou anestesia?",9,cadastrado
+Anamnese Endodontia,"Possui alguma alergia? Se sim, a que é alérgico(a)?",10,cadastrado
+Anamnese Endodontia,Tem ou teve hemorragia?,11,cadastrado
+Anamnese Endodontia,Você usa ou já usou algum tipo de droga ou substância ilícita?,12,cadastrado
+Anamnese Endodontia,"Já teve algum problema de cicatrização? Se sim, em qual situação?",13,cadastrado
+Anamnese Endodontia,Já foi submetido(a) à anestesia local para tratamento odontológico?,14,cadastrado
+Anamnese Endodontia,Já foi submetido(a) à anestesia geral?,15,cadastrado
+Anamnese Endodontia,Já teve alguma das seguintes doenças?,16,cadastrado
+Anamnese Endodontia,Qual o seu tipo sanguíneo?,17,cadastrado
+Anamnese Harmonização Orofacial,Algum problema de saúde para o qual faz acompanhamento médico?,1,cadastrado
+Anamnese Harmonização Orofacial,É acompanhado(a) atualmente por algum médico ou especialista?,2,cadastrado
+Anamnese Harmonização Orofacial,"Está tomando algum medicamento (anti-inflamatório, corticoide, etc.)?",3,cadastrado
+Anamnese Harmonização Orofacial,"Possui alguma alergia? Se sim, a que é alérgico(a)?",4,cadastrado
+Anamnese Harmonização Orofacial,Tem alergia a lactose?,5,cadastrado
+Anamnese Harmonização Orofacial,Já tomou antibiótico?,6,cadastrado
+Anamnese Harmonização Orofacial,Tem sopro ou outra doença no coração?,7,cadastrado
+Anamnese Harmonização Orofacial,Doença dos rins?,8,cadastrado
+Anamnese Harmonização Orofacial,Problemas de tireoide?,9,cadastrado
+Anamnese Harmonização Orofacial,Teve ou tem alguma doença no fígado?,10,cadastrado
+Anamnese Harmonização Orofacial,Bronquite ou asma?,11,cadastrado
+Anamnese Harmonização Orofacial,Teve ou tem tuberculose?,12,cadastrado
+Anamnese Harmonização Orofacial,Tem febre com frequência?,13,cadastrado
+Anamnese Harmonização Orofacial,Tem ou teve diabetes?,14,cadastrado
+Anamnese Harmonização Orofacial,Anemia ?,15,cadastrado
+Anamnese Harmonização Orofacial,Epilepsia ou convulsões?,16,cadastrado
+Anamnese Harmonização Orofacial,"Tem ou teve alguma doença infecciosa e/ou contagiosa? (Hepatite, AIDS, DSTs, tuberculose, HPV...)?",17,cadastrado
+Anamnese Harmonização Orofacial,Reumatismo ou Febre Reumática?,18,cadastrado
+Anamnese Harmonização Orofacial,Tem alergias a ovo?,19,cadastrado
+Anamnese Harmonização Orofacial,É portador de marca-passo?,20,cadastrado
+Anamnese Harmonização Orofacial,Tem problemas de pressão arterial?,21,cadastrado
+Anamnese Harmonização Orofacial,Você usa ou já usou algum tipo de droga ou substância ilícita?,22,cadastrado
+Anamnese Harmonização Orofacial,Já foi submetido(a) à anestesia local para tratamento odontológico?,23,cadastrado
+Anamnese Harmonização Orofacial,Você faz uso de cigarro ou outros produtos derivados do tabaco?,24,cadastrado
+Anamnese Harmonização Orofacial,Toma bebida alcoólica?,25,cadastrado
+Anamnese Harmonização Orofacial,Com que frequência você consome bebidas alcoólicas?,26,cadastrado
+Anamnese Harmonização Orofacial,Toma antidepressivo?,27,cadastrado
+Anamnese Harmonização Orofacial,Já fez tratamento psicológico ou psiquiátrico?,28,cadastrado
+Anamnese Harmonização Orofacial,Faz uso de remédios para dormir?,29,cadastrado
+Anamnese Harmonização Orofacial,"Está grávida? Se sim, qual o tempo de gestação?",30,cadastrado
+Anamnese Harmonização Orofacial,"Você já fez algum tipo de preenchimento facial, aplicação de toxina botulínica ou enxerto?",31,cadastrado
+Anamnese Harmonização Orofacial,Pratica esportes?,32,cadastrado
+Anamnese Harmonização Orofacial,Usa ou já usou ácido na pele?,33,cadastrado
+Anamnese Harmonização Orofacial,Costuma tomar sol?,34,cadastrado
+Anamnese Harmonização Orofacial,Possui alguma doença autoimune?,35,cadastrado
+Anamnese Harmonização Orofacial,"Já teve algum problema de cicatrização? Se sim, em qual situação?",36,cadastrado
+Anamnese Harmonização Orofacial,Possui algum queloide?,37,cadastrado
+Anamnese Harmonização Orofacial,Facilidade em formar hematoma?,38,cadastrado
+Anamnese Harmonização Orofacial,Possui alguma disfunção hormonal?,39,cadastrado
+Anamnese Harmonização Orofacial,Cuidados estéticos diários?,40,cadastrado
+Anamnese Harmonização Orofacial,Fez uso de Roacutan nos últimos seis meses?,41,cadastrado
+Anamnese Harmonização Orofacial,"Você costuma apresentar aftas, herpes ou feridas na boca?",42,cadastrado
+Anamnese Harmonização Orofacial,Qual a queixa principal ou motivo da consulta?,43,cadastrado
+Anamnese Dentística,"Possui alguma doença atualmente? Se sim, qual(is)?",1,cadastrado
+Anamnese Dentística,Algum problema de saúde para o qual faz acompanhamento médico?,2,cadastrado
+Anamnese Dentística,Outras observações sobre o histórico médico?,3,cadastrado
+Anamnese Dentística,Já sofreu alguma cirurgia hospitalar?,4,cadastrado
+Anamnese Dentística,"Está grávida? Se sim, qual o tempo de gestação?",5,cadastrado
+Anamnese Dentística,"Durante a gestação, teve aumento ou queda de pressão?",6,cadastrado
+Anamnese Dentística,"Faz uso de anticoncepcionais? Se sim, qual?",7,cadastrado
+Anamnese Dentística,Você faz uso de cigarro ou outros produtos derivados do tabaco?,8,cadastrado
+Anamnese Dentística,"É alérgico a algum medicamento, cosmético, alimento ou anestesia?",9,cadastrado
+Anamnese Dentística,"Possui alguma alergia? Se sim, a que é alérgico(a)?",10,cadastrado
+Anamnese Dentística,Tem ou teve hemorragia?,11,cadastrado
+Anamnese Dentística,Você usa ou já usou algum tipo de droga ou substância ilícita?,12,cadastrado
+Anamnese Dentística,"Já teve algum problema de cicatrização? Se sim, em qual situação?",13,cadastrado
+Anamnese Dentística,Já foi submetido(a) à anestesia geral?,14,cadastrado
+Anamnese Dentística,Já foi submetido(a) à anestesia local para tratamento odontológico?,15,cadastrado
+Anamnese Dentística,Já teve alguma das seguintes doenças ou condições?,16,cadastrado
+Anamnese Dentística,Qual o seu tipo sanguíneo?,17,cadastrado
+Anamnese Dentística,Quando foi a última visita ao dentista e por qual motivo?,18,cadastrado
+Anamnese Dentística,Concluiu o tratamento odontológico anterior?,19,cadastrado
+Anamnese Dentística,Aperta ou range os dentes?,20,cadastrado
+Anamnese Dentística,Acorda com dor de cabeça?,21,cadastrado
+Anamnese Dentística,Sente dores ou dificuldades durante a mastigação?,22,cadastrado
+Anamnese Dentística,Sente dor de dente?,23,cadastrado
+Anamnese Dentística,Sente dor ou dificuldade ao abrir a boca?,24,cadastrado
+Anamnese Dentística,"Sente dor nas áreas temporais, face, ATM, sinusite?",25,pergunta não encontrada
+Anamnese Dentística,Prática algum dos hábitos baixo:,26,cadastrado
+Anamnese Dentística,Quantas vezes ao dia escova os dentes?,27,cadastrado
+Anamnese Dentística,Já sofreu alguma cirurgia na boca?,28,cadastrado
+Anamnese Dentística,Já teve algum problema na gengiva,29,cadastrado
+Anamnese Odontopediatria,Algum problema de saúde para o qual faz acompanhamento médico?,1,cadastrado
+Anamnese Odontopediatria,É acompanhado(a) atualmente por algum médico ou especialista?,2,cadastrado
+Anamnese Odontopediatria,Outras observações sobre o histórico médico?,3,cadastrado
+Anamnese Odontopediatria,"Possui alguma doença atualmente? Se sim, qual(is)?",4,cadastrado
+Anamnese Odontopediatria,"Possui histórico familiar de doenças sistêmicas? Se sim, qual doença e qual o grau de parentesco?",5,cadastrado
+Anamnese Odontopediatria,"Tem ou teve alguma doença infecciosa e/ou contagiosa? (Hepatite, AIDS, DSTs, tuberculose, HPV...)?",6,cadastrado
+Anamnese Odontopediatria,Já teve alguma das seguintes doenças?,7,cadastrado
+Anamnese Odontopediatria,Tem ou teve hemorragia?,8,cadastrado
+Anamnese Odontopediatria,A vacinação está em dia?,9,cadastrado
+Anamnese Odontopediatria,"Foi realizado pré-natal? Se sim, a partir de que mês foi realizado o pré-natal?",10,cadastrado
+Anamnese Odontopediatria,"Durante a gestação, teve aumento ou queda de pressão?",11,cadastrado
+Anamnese Odontopediatria,"Durante a gestação, teve ameaça de aborto? Se sim, em que mês ocorreu?",12,cadastrado
+Anamnese Odontopediatria,"Durante a gestação, teve alguma doença infecciosa? Se sim, qual doença e em que mês ocorreu?",13,cadastrado
+Anamnese Odontopediatria,"Durante a gestação, ingeriu algum medicamento? Se sim, qual medicamento e em que mês foi utilizado?",14,cadastrado
+Anamnese Odontopediatria,Quando foi a última visita ao dentista e por qual motivo?,15,cadastrado
+Anamnese Odontopediatria,Aperta ou range os dentes?,16,cadastrado
+Anamnese Odontopediatria,Ardência/queimação em boca?,17,cadastrado
+Anamnese Odontopediatria,Quando apareceu o primeiro dente?,18,cadastrado
+Anamnese Odontopediatria,Sente dor de dente?,19,cadastrado
+Anamnese Odontopediatria,Sofreu trauma na região de face?,20,cadastrado
+Anamnese Odontopediatria,"Possui histórico familiar de anomalias? Se sim, qual anomalia e qual o grau de parentesco?",21,cadastrado
+Anamnese Odontopediatria,Quantas vezes ao dia escova os dentes?,22,cadastrado
+Anamnese Odontopediatria,Utiliza pasta de dente?,23,cadastrado
+Anamnese Odontopediatria,"O paciente utiliza algum destes hábitos: chupeta, mamadeira ou chupa o dedo?",24,cadastrado
+Anamnese Odontopediatria,A criança já foi ou está sendo amamentada?,25,cadastrado
+Anamnese Odontopediatria,"Toma bebidas açucaradas (Ex.:achocolatado, refrigerante, suco de caixa)",26,cadastrado
+Anamnese Odontopediatria,Consumiu açúcar antes dos 2 anos de idade?,27,cadastrado
+Anamnese Odontopediatria,Outras observações sobre hábitos?,28,cadastrado
+Anamnese Odontopediatria,Já foi submetido(a) à anestesia local para tratamento odontológico?,29,cadastrado
+Anamnese Odontopediatria,Apresenta comportamento de autoagressão?,30,cadastrado
+Anamnese Odontopediatria,Come sozinho(a)?,31,cadastrado
+Anamnese Odontopediatria,Sabe engolir?,32,cadastrado
+Anamnese Odontopediatria,Permitiu o tratamento odontológico anterior?,33,cadastrado
+Anamnese Periodontia,"Possui alguma doença atualmente? Se sim, qual(is)?",1,cadastrado
+Anamnese Periodontia,Algum problema de saúde para o qual faz acompanhamento médico?,2,cadastrado
+Anamnese Periodontia,É acompanhado(a) atualmente por algum médico ou especialista?,3,cadastrado
+Anamnese Periodontia,Outras observações sobre o histórico médico?,4,cadastrado
+Anamnese Periodontia,Já sofreu alguma cirurgia hospitalar?,5,cadastrado
+Anamnese Periodontia,"Está grávida? Se sim, qual o tempo de gestação?",6,cadastrado
+Anamnese Periodontia,"Faz uso de anticoncepcionais? Se sim, qual?",7,cadastrado
+Anamnese Periodontia,Está tomando algum medicamento para afinar o sangue (anticoagulante)?,8,cadastrado
+Anamnese Periodontia,Você faz uso de cigarro ou outros produtos derivados do tabaco?,9,cadastrado
+Anamnese Periodontia,"Possui alguma alergia? Se sim, a que é alérgico(a)?",10,cadastrado
+Anamnese Periodontia,"É alérgico a algum medicamento, cosmético, alimento ou anestesia?",11,cadastrado
+Anamnese Periodontia,"Toma algum medicamento para os ossos? (Cálcio, Alendronato, Forteo, etc.)",12,cadastrado
+Anamnese Periodontia,Toma algum medicamento (seja com receita ou sem receita médica)?,13,cadastrado
+Anamnese Periodontia,Tem ou teve hemorragia?,14,cadastrado
+Anamnese Periodontia,"Já teve algum problema de cicatrização? Se sim, em qual situação?",15,cadastrado
+Anamnese Periodontia,Já foi submetido(a) à anestesia local para tratamento odontológico?,16,cadastrado
+Anamnese Periodontia,Já foi submetido(a) à anestesia geral?,17,cadastrado
+Anamnese Periodontia,Já teve alguma das seguintes doenças?,18,cadastrado
+Anamnese Periodontia,Qual o seu tipo sanguíneo?,19,cadastrado
+Anamnese de Implantodontia,"Possui alguma doença atualmente? Se sim, qual(is)?",1,cadastrado
+Anamnese de Implantodontia,É acompanhado(a) atualmente por algum médico ou especialista?,2,cadastrado
+Anamnese de Implantodontia,Algum problema de saúde para o qual faz acompanhamento médico?,3,cadastrado
+Anamnese de Implantodontia,Outras observações sobre o histórico médico?,4,cadastrado
+Anamnese de Implantodontia,Toma algum medicamento (seja com receita ou sem receita médica)?,5,cadastrado
+Anamnese de Implantodontia,Está tomando algum medicamento para afinar o sangue (anticoagulante)?,6,cadastrado
+Anamnese de Implantodontia,"Toma algum medicamento para os ossos? (Cálcio, Alendronato, Forteo, etc.)",7,cadastrado
+Anamnese de Implantodontia,"É alérgico a algum medicamento, cosmético, alimento ou anestesia?",8,cadastrado
+Anamnese de Implantodontia,Já sofreu alguma cirurgia hospitalar?,9,cadastrado
+Anamnese de Implantodontia,"Está grávida? Se sim, qual o tempo de gestação?",10,cadastrado
+Anamnese de Implantodontia,"Faz uso de anticoncepcionais? Se sim, qual?",11,cadastrado
+Anamnese de Implantodontia,Você faz uso de cigarro ou outros produtos derivados do tabaco?,12,cadastrado
+Anamnese de Implantodontia,"Possui alguma alergia? Se sim, a que é alérgico(a)?",13,cadastrado
+Anamnese de Implantodontia,Tem ou teve hemorragia?,14,cadastrado
+Anamnese de Implantodontia,Você usa ou já usou algum tipo de droga ou substância ilícita?,15,cadastrado
+Anamnese de Implantodontia,"Já teve algum problema de cicatrização? Se sim, em qual situação?",16,cadastrado
+Anamnese de Implantodontia,Já foi submetido(a) à anestesia local para tratamento odontológico?,17,cadastrado
+Anamnese de Implantodontia,Já foi submetido(a) à anestesia geral?,18,cadastrado
+Anamnese de Implantodontia,"Possui histórico familiar de doenças sistêmicas? Se sim, qual doença e qual o grau de parentesco?",19,cadastrado
+Anamnese de Implantodontia,Já teve alguma das seguintes doenças ou condições?,20,cadastrado
+Anamnese Pacientes Especiais (PNE),Qual a queixa principal ou motivo da consulta?,1,cadastrado
+Anamnese Pacientes Especiais (PNE),"Possui histórico familiar de anomalias? Se sim, qual anomalia e qual o grau de parentesco?",2,cadastrado
+Anamnese Pacientes Especiais (PNE),"Possui histórico familiar de doenças sistêmicas? Se sim, qual doença e qual o grau de parentesco?",3,cadastrado
+Anamnese Pacientes Especiais (PNE),A gestação foi planejada?,4,cadastrado
+Anamnese Pacientes Especiais (PNE),A gestação foi aceita?,5,cadastrado
+Anamnese Pacientes Especiais (PNE),"Foi realizado pré-natal? Se sim, a partir de que mês foi realizado o pré-natal?",6,cadastrado
+Anamnese Pacientes Especiais (PNE),"Durante a gestação, teve alguma doença infecciosa? Se sim, qual doença e em que mês ocorreu?",7,cadastrado
+Anamnese Pacientes Especiais (PNE),"Durante a gestação, teve aumento ou queda de pressão?",8,cadastrado
+Anamnese Pacientes Especiais (PNE),"Durante a gestação, ingeriu algum medicamento? Se sim, qual medicamento e em que mês foi utilizado?",9,cadastrado
+Anamnese Pacientes Especiais (PNE),"Durante a gestação, teve sangramento anormal? Se sim, em que mês ocorreu?",10,cadastrado
+Anamnese Pacientes Especiais (PNE),"Durante a gestação, teve ameaça de aborto? Se sim, em que mês ocorreu?",11,cadastrado
+Anamnese Pacientes Especiais (PNE),Qual foi o tipo de parto?,12,cadastrado
+Anamnese Pacientes Especiais (PNE),O bebê chorou logo ao nascer?,13,cadastrado
+Anamnese Pacientes Especiais (PNE),O bebê teve falta de oxigênio ao nascer?,14,cadastrado
+Anamnese Pacientes Especiais (PNE),Qual era o peso e a estatura ao nascer?,15,cadastrado
+Anamnese Pacientes Especiais (PNE),Qual era o perímetro cefálico ao nascer?,16,cadastrado
+Anamnese Pacientes Especiais (PNE),Qual foi o parecer do pediatra ao nascer?,17,cadastrado
+Anamnese Pacientes Especiais (PNE),Foi realizado o teste do Pezinho?,18,cadastrado
+Anamnese Pacientes Especiais (PNE),Foi realizado teste audiométrico?,19,cadastrado
+Anamnese Pacientes Especiais (PNE),Quando sustentou a cabeça?,20,cadastrado
+Anamnese Pacientes Especiais (PNE),Quando engatinhou?,21,cadastrado
+Anamnese Pacientes Especiais (PNE),Quando andou?,22,cadastrado
+Anamnese Pacientes Especiais (PNE),Foi realizado o teste da Orelhinha?,23,cadastrado
+Anamnese Pacientes Especiais (PNE),Foi realizado teste visual?,24,cadastrado
+Anamnese Pacientes Especiais (PNE),Quando se sentou sem apoio?,25,cadastrado
+Anamnese Pacientes Especiais (PNE),Quando ficou em pé sozinho?,26,cadastrado
+Anamnese Pacientes Especiais (PNE),Quando falou?,27,cadastrado
+Anamnese Pacientes Especiais (PNE),Quando apareceu o primeiro dente?,28,cadastrado
+Anamnese Pacientes Especiais (PNE),A locomoção é normal?,29,cadastrado
+Anamnese Pacientes Especiais (PNE),Os membros superiores e inferiores são normais?,30,cadastrado
+Anamnese Pacientes Especiais (PNE),"Faz uso de aparelhos, como próteses ou muletas?",31,cadastrado
+Anamnese Pacientes Especiais (PNE),Outras observações sobre o desenvolvimento infantil?,32,cadastrado
+Anamnese Pacientes Especiais (PNE),"Atualmente tem algum problema de saúde? (Pressão alta, diabete, osteoporose, problemas de coração, ou do sangue, anemia, etc.)?",33,cadastrado
+Anamnese Pacientes Especiais (PNE),Algum problema de saúde para o qual faz acompanhamento médico?,34,cadastrado
+Anamnese Pacientes Especiais (PNE),É acompanhado(a) atualmente por algum médico ou especialista?,35,cadastrado
+Anamnese Pacientes Especiais (PNE),Já sofreu alguma cirurgia hospitalar?,36,cadastrado
+Anamnese Pacientes Especiais (PNE),Já foi submetido(a) à anestesia geral?,37,cadastrado
+Anamnese Pacientes Especiais (PNE),Toma algum medicamento (seja com receita ou sem receita médica)?,38,cadastrado
+Anamnese Pacientes Especiais (PNE),"Possui alguma alergia? Se sim, a que é alérgico(a)?",39,cadastrado
+Anamnese Pacientes Especiais (PNE),Tem ou teve hemorragia?,40,cadastrado
+Anamnese Pacientes Especiais (PNE),Tem ou teve convulsão?,41,cadastrado
+Anamnese Pacientes Especiais (PNE),Tem ou teve desmaio?,42,cadastrado
+Anamnese Pacientes Especiais (PNE),Tem ou teve algum problema cardíaco?,43,cadastrado
+Anamnese Pacientes Especiais (PNE),Tem ou teve diabetes?,44,cadastrado
+Anamnese Pacientes Especiais (PNE),Tem ou teve febre reumática?,45,cadastrado
+Anamnese Pacientes Especiais (PNE),Outras observações sobre o histórico médico?,46,cadastrado
+Anamnese Pacientes Especiais (PNE),Quantas horas dorme por dia?,47,cadastrado
+Anamnese Pacientes Especiais (PNE),Tem sono “interrompido”?,48,cadastrado
+Anamnese Pacientes Especiais (PNE),Tem enurese?,49,cadastrado
+Anamnese Pacientes Especiais (PNE),Tem sonambulismo?,50,cadastrado
+Anamnese Pacientes Especiais (PNE),Aperta ou range os dentes?,51,cadastrado
+Anamnese Pacientes Especiais (PNE),Acorda com dor de cabeça?,52,cadastrado
+Anamnese Pacientes Especiais (PNE),Outras observações sobre o sono?,53,cadastrado
+Anamnese Pacientes Especiais (PNE),Quais comportamentos estão presentes no(a) paciente?,54,cadastrado
+Anamnese Pacientes Especiais (PNE),Com quem o(a) paciente fica mais tempo?,55,cadastrado
+Anamnese Pacientes Especiais (PNE),Com quem o(a) paciente se dá melhor?,56,cadastrado
+Anamnese Pacientes Especiais (PNE),O que o(a) paciente mais gosta de fazer?,57,cadastrado
+Anamnese Pacientes Especiais (PNE),O que o(a) paciente menos gosta de fazer?,58,cadastrado
+Anamnese Pacientes Especiais (PNE),O que deixa o(a) paciente irritado(a)?,59,cadastrado
+Anamnese Pacientes Especiais (PNE),O que deixa o(a) paciente tranquilo(a)?,60,cadastrado
+Anamnese Pacientes Especiais (PNE),Qual é a brincadeira preferida?,61,cadastrado
+Anamnese Pacientes Especiais (PNE),Gosta de música?,62,cadastrado
+Anamnese Pacientes Especiais (PNE),Outras observações sobre o perfil psicológico?,63,cadastrado
+Anamnese Pacientes Especiais (PNE),"O paciente utiliza algum destes hábitos: chupeta, mamadeira ou chupa o dedo?",64,cadastrado
+Anamnese Pacientes Especiais (PNE),Morde objetos?,65,cadastrado
+Anamnese Pacientes Especiais (PNE),Rói unhas?,66,cadastrado
+Anamnese Pacientes Especiais (PNE),Apresenta comportamento de autoagressão?,67,cadastrado
+Anamnese Pacientes Especiais (PNE),Vomita constantemente?,68,cadastrado
+Anamnese Pacientes Especiais (PNE),Sabe mastigar?,69,cadastrado
+Anamnese Pacientes Especiais (PNE),Come sozinho(a)?,70,cadastrado
+Anamnese Pacientes Especiais (PNE),Prefere alimentos doces ou salgados?,71,cadastrado
+Anamnese Pacientes Especiais (PNE),Outras observações sobre hábitos?,72,cadastrado
+Anamnese Pacientes Especiais (PNE),Sabe engolir?,73,cadastrado
+Anamnese Pacientes Especiais (PNE),Qual a consistência dos alimentos ingeridos?,74,cadastrado
+Anamnese Pacientes Especiais (PNE),Ingere líquidos com frequência?,75,cadastrado
+Anamnese Pacientes Especiais (PNE),Outras observações sobre a dieta?,76,cadastrado
+Anamnese Pacientes Especiais (PNE),Quando foi a última visita ao dentista e por qual motivo?,77,cadastrado
+Anamnese Pacientes Especiais (PNE),Permitiu o tratamento odontológico anterior?,78,cadastrado
+Anamnese Pacientes Especiais (PNE),Concluiu o tratamento odontológico anterior?,79,cadastrado
+Anamnese Pacientes Especiais (PNE),Já foi submetido(a) à anestesia local para tratamento odontológico?,80,cadastrado
+Anamnese Triagem Inicial,"Atualmente tem algum problema de saúde? (Pressão alta, diabete, osteoporose, problemas de coração, ou do sangue, anemia, etc.)?",1,cadastrado
+Anamnese Triagem Inicial,Algum problema de saúde para o qual faz acompanhamento médico?,2,cadastrado
+Anamnese Triagem Inicial,Toma algum medicamento (seja com receita ou sem receita médica)?,3,cadastrado
+Anamnese Triagem Inicial,Está tomando algum medicamento para afinar o sangue (anticoagulante)?,4,cadastrado
+Anamnese Triagem Inicial,"Toma algum medicamento para os ossos? (Cálcio, Alendronato, Forteo, etc.)",5,cadastrado
+Anamnese Triagem Inicial,"É alérgico a algum medicamento, cosmético, alimento ou anestesia?",6,cadastrado
+Anamnese Triagem Inicial,Já sofreu alguma cirurgia hospitalar?,7,cadastrado
+Anamnese Triagem Inicial,Tem ou já teve algum tipo de câncer?,8,cadastrado
+Anamnese Triagem Inicial,"Tem ou teve alguma doença infecciosa e/ou contagiosa? (Hepatite, AIDS, DSTs, tuberculose, HPV...)?",9,cadastrado
+Anamnese Triagem Inicial,É portador (a) de necessidades especiais?,10,cadastrado
+Anamnese Triagem Inicial,Você faz uso de cigarro ou outros produtos derivados do tabaco?,11,cadastrado
+Anamnese Triagem Inicial,Com que frequência você consome bebidas alcoólicas?,12,cadastrado
+Anamnese Triagem Inicial,Você usa ou já usou algum tipo de droga ou substância ilícita?,13,cadastrado
+Anamnese Triagem Inicial,Aperta ou range os dentes?,14,cadastrado
+Anamnese Triagem Inicial,"Possui o hábito de morder os lábios, bochechas, unhas ou objetos?",15,cadastrado
+Anamnese Triagem Inicial,Sente dor ou dificuldade ao abrir a boca?,16,cadastrado
+Anamnese Triagem Inicial,Sente dores ou dificuldades durante a mastigação?,17,cadastrado
+Anamnese Triagem Inicial,"Sente dor nas áreas temporais, face, ATM, sinusite?",18,cadastrado
+Anamnese Triagem Inicial,Há sangramento gengival frequente?,19,cadastrado
+Anamnese Triagem Inicial,"Você costuma apresentar aftas, herpes ou feridas na boca?",20,cadastrado
+Anamnese Triagem Inicial,Sente dor de dente?,21,cadastrado
+Anamnese Triagem Inicial,Tem sensibilidade a alimentos quentes?,22,cadastrado
+Anamnese Triagem Inicial,Tem sensibilidade a alimentos gelados?,23,cadastrado
+Anamnese Triagem Inicial,Sofreu trauma na região de face?,24,cadastrado
+Anamnese Triagem Inicial,"Lesões bucais (mucosa, óssea, cárie, etc...)?",25,cadastrado
+Anamnese Triagem Inicial,"Freio labial, lingual e bridas:",26,cadastrado
+Anamnese Triagem Inicial,Saúde Periodontal:,27,cadastrado
+Anamnese Triagem Inicial,Cálculo/retração gengival visível?,28,cadastrado
+Anamnese Triagem Inicial,Ardência/queimação em boca?,29,cadastrado
+Anamnese Triagem Inicial,Boca Seca?,30,cadastrado
+Anamnese Triagem Inicial,Há alguma informação importante que você gostaria de acrescentar?,31,cadastrado

@@ -16,7 +16,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 PASTA = Path(__file__).resolve().parent
 PASTA_ERROS = PASTA / "erros"
 ARQUIVO = PASTA / "perfis de tratamento.csv"
-CLINICA = "BRASILIA - GRUPO MANDIC"
+CLINICA = "CAMPINAS - GRUPO MANDIC"
 
 URL_BASE = "https://app.clinicanasnuvens.com.br"
 URL_LISTA = f"{URL_BASE}/perfil-tratamento/lista"

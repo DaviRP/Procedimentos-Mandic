@@ -18,11 +18,11 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 
-PASTA = Path(__file__).resolve().parent
+PASTA = Path(__file__).resolve().parent.parent / "dados"
 PASTA_ERROS = PASTA / "erros"
-ARQUIVO = PASTA / "PlanosdeTratamentoVitória.xlsx"
+ARQUIVO = PASTA / "planilhas" / "PlanosdeTratamentoVitória.xlsx"
 ABA = "Plano de Tratamento migrar"
-CLINICA = "GRANDE VITORIA - GRUPO MANDIC"
+CLINICA = "BRASILIA - GRUPO MANDIC"
 URL_BASE = "https://app.clinicanasnuvens.com.br"
 
 COL_STATUS = "Status"

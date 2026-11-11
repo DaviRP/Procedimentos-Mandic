@@ -1,0 +1,320 @@
+20:59:55 8 questionário(s) a cadastrar na clínica 'CAMPINAS - GRUPO MANDIC'.
+20:59:55 Modo headless: o Chrome roda sem abrir janela.
+20:59:56 Abrindo página de login...
+20:59:59 E-mail preenchido, avançando para senha...
+21:00:04 Login realizado com sucesso.
+21:00:14 Clínica 'CAMPINAS - GRUPO MANDIC' selecionada.
+21:00:17 
+[1/8] Anamnese Endodontia (17 perguntas)
+21:00:19   Nome do modelo preenchido.
+21:00:21     (1/17) + Possui alguma doença atualmente? Se sim, qual(is)?
+21:00:23     (2/17) + Algum problema de saúde para o qual faz acompanhamento médico?
+21:00:25     (3/17) + É acompanhado(a) atualmente por algum médico ou especialista?
+21:00:26     (4/17) + Está fazendo uso de alguma medicação?
+21:00:28     (5/17) + Já esteve internado / operado?
+21:00:30     (6/17) + Está grávida? Se sim, qual o tempo de gestação?
+21:00:32     (7/17) + Faz uso de anticoncepcionais? Se sim, qual?
+21:00:34     (8/17) + Você faz uso de cigarro ou outros produtos derivados do tabaco?
+21:00:36     (9/17) + É alérgico a algum medicamento, cosmético, alimento ou anestesia?
+21:00:38     (10/17) + Possui alguma alergia? Se sim, a que é alérgico(a)?
+21:00:40     (11/17) + Tem ou teve hemorragia?
+21:00:42     (12/17) + Você usa ou já usou algum tipo de droga ou substância ilícita?
+21:00:44     (13/17) + Já teve algum problema de cicatrização? Se sim, em qual situação?
+21:00:46     (14/17) + Já foi submetido(a) à anestesia local para tratamento odontológico?
+21:00:48     (15/17) + Já foi submetido(a) à anestesia geral?
+21:00:50     (16/17) + Já teve alguma das seguintes doenças?
+21:00:52     (17/17) + Qual o seu tipo sanguíneo?
+21:00:59   Salvo com 17 pergunta(s). (https://app.clinicanasnuvens.com.br/anamnese)
+21:00:59   Média 41.8s/questionário — ETA 4.9 min
+21:00:59 
+[2/8] Anamnese Harmonização Orofacial (43 perguntas)
+21:01:01   Nome do modelo preenchido.
+21:01:02     (1/43) + Algum problema de saúde para o qual faz acompanhamento médico?
+21:01:04     (2/43) + É acompanhado(a) atualmente por algum médico ou especialista?
+21:01:06     (3/43) + Está tomando algum medicamento (anti-inflamatório, corticoide, etc.)?
+21:01:08     (4/43) + Possui alguma alergia? Se sim, a que é alérgico(a)?
+21:01:10     (5/43) + Tem alergia a lactose?
+21:01:12     (6/43) + Já tomou antibiótico?
+21:01:14     (7/43) + Tem sopro ou outra doença no coração?
+21:01:16     (8/43) + Doença dos rins?
+21:01:18     (9/43) + Problemas de tireoide?
+21:01:20     (10/43) + Teve ou tem alguma doença no fígado?
+21:01:22     (11/43) + Bronquite ou asma?
+21:01:24     (12/43) + Teve ou tem tuberculose?
+21:01:26     (13/43) + Tem febre com frequência?
+21:01:28     (14/43) + Tem ou teve diabetes?
+21:01:29     (15/43) + Anemia ?
+21:01:31     (16/43) + Epilepsia ou convulsões?
+21:01:33     (17/43) + Tem ou teve alguma doença infecciosa e/ou contagiosa? (Hepatite, AIDS, DSTs, tuberculose, HPV...)?
+21:01:35     (18/43) + Reumatismo ou Febre Reumática?
+21:01:37     (19/43) + Tem alergias a ovo?
+21:01:39     (20/43) + É portador de marca-passo?
+21:01:41     (21/43) + Tem problemas de pressão arterial?
+21:01:43     (22/43) + Você usa ou já usou algum tipo de droga ou substância ilícita?
+21:01:45     (23/43) + Já foi submetido(a) à anestesia local para tratamento odontológico?
+21:01:47     (24/43) + Você faz uso de cigarro ou outros produtos derivados do tabaco?
+21:01:49     (25/43) + Toma bebida alcoólica?
+21:01:51     (26/43) + Com que frequência você consome bebidas alcoólicas?
+21:01:53     (27/43) + Toma antidepressivo?
+21:01:55     (28/43) + Já fez tratamento psicológico ou psiquiátrico?
+21:01:57     (29/43) + Faz uso de remédios para dormir?
+21:01:59     (30/43) + Está grávida? Se sim, qual o tempo de gestação?
+21:02:00     (31/43) + Você já fez algum tipo de preenchimento facial, aplicação de toxina botulínica ou enxerto?
+21:02:02     (32/43) + Pratica esportes?
+21:02:04     (33/43) + Usa ou já usou ácido na pele?
+21:02:06     (34/43) + Costuma tomar sol?
+21:02:08     (35/43) + Possui alguma doença autoimune?
+21:02:10     (36/43) + Já teve algum problema de cicatrização? Se sim, em qual situação?
+21:02:12     (37/43) + Possui algum queloide?
+21:02:14     (38/43) + Facilidade em formar hematoma?
+21:02:16     (39/43) + Possui alguma disfunção hormonal?
+21:02:18     (40/43) + Cuidados estéticos diários?
+21:02:20     (41/43) + Fez uso de Roacutan nos últimos seis meses?
+21:02:22     (42/43) + Você costuma apresentar aftas, herpes ou feridas na boca?
+21:02:24     (43/43) + Qual a queixa principal ou motivo da consulta?
+21:02:31   Salvo com 43 pergunta(s). (https://app.clinicanasnuvens.com.br/anamnese)
+21:02:31   Média 67.0s/questionário — ETA 6.7 min
+21:02:31 
+[3/8] Anamnese Dentística (29 perguntas)
+21:02:33   Nome do modelo preenchido.
+21:02:35     (1/29) + Possui alguma doença atualmente? Se sim, qual(is)?
+21:02:37     (2/29) + Algum problema de saúde para o qual faz acompanhamento médico?
+21:02:39     (3/29) + Outras observações sobre o histórico médico?
+21:02:41     (4/29) + Já sofreu alguma cirurgia hospitalar?
+21:02:43     (5/29) + Está grávida? Se sim, qual o tempo de gestação?
+21:02:44     (6/29) + Durante a gestação, teve aumento ou queda de pressão?
+21:02:46     (7/29) + Faz uso de anticoncepcionais? Se sim, qual?
+21:02:48     (8/29) + Você faz uso de cigarro ou outros produtos derivados do tabaco?
+21:02:50     (9/29) + É alérgico a algum medicamento, cosmético, alimento ou anestesia?
+21:02:52     (10/29) + Possui alguma alergia? Se sim, a que é alérgico(a)?
+21:02:54     (11/29) + Tem ou teve hemorragia?
+21:02:56     (12/29) + Você usa ou já usou algum tipo de droga ou substância ilícita?
+21:02:58     (13/29) + Já teve algum problema de cicatrização? Se sim, em qual situação?
+21:03:00     (14/29) + Já foi submetido(a) à anestesia geral?
+21:03:02     (15/29) + Já foi submetido(a) à anestesia local para tratamento odontológico?
+21:03:04     (16/29) + Já teve alguma das seguintes doenças ou condições?
+21:03:06     (17/29) + Qual o seu tipo sanguíneo?
+21:03:08     (18/29) + Quando foi a última visita ao dentista e por qual motivo?
+21:03:10     (19/29) + Concluiu o tratamento odontológico anterior?
+21:03:12     (20/29) + Aperta ou range os dentes?
+21:03:13     (21/29) + Acorda com dor de cabeça?
+21:03:15     (22/29) + Sente dores ou dificuldades durante a mastigação?
+21:03:17     (23/29) + Sente dor de dente?
+21:03:20     (24/29) + Sente dor ou dificuldade ao abrir a boca?
+21:03:31     (25/29) NÃO ENCONTRADA: Sente dor nas áreas temporais, face, ATM, sinusite?
+21:03:32     (26/29) + Prática algum dos hábitos baixo:
+21:03:34     (27/29) + Quantas vezes ao dia escova os dentes?
+21:03:36     (28/29) + Já sofreu alguma cirurgia na boca?
+21:03:38     (29/29) + Já teve algum problema na gengiva
+21:03:45   Salvo com 28 pergunta(s). (https://app.clinicanasnuvens.com.br/anamnese)
+21:03:45   Média 69.3s/questionário — ETA 5.8 min
+21:03:45 
+[4/8] Anamnese Odontopediatria (33 perguntas)
+21:03:46   Nome do modelo preenchido.
+21:03:48     (1/33) + Algum problema de saúde para o qual faz acompanhamento médico?
+21:03:50     (2/33) + É acompanhado(a) atualmente por algum médico ou especialista?
+21:03:52     (3/33) + Outras observações sobre o histórico médico?
+21:03:54     (4/33) + Possui alguma doença atualmente? Se sim, qual(is)?
+21:03:56     (5/33) + Possui histórico familiar de doenças sistêmicas? Se sim, qual doença e qual o grau de parentesco?
+21:03:58     (6/33) + Tem ou teve alguma doença infecciosa e/ou contagiosa? (Hepatite, AIDS, DSTs, tuberculose, HPV...)?
+21:04:00     (7/33) + Já teve alguma das seguintes doenças?
+21:04:02     (8/33) + Tem ou teve hemorragia?
+21:04:04     (9/33) + A vacinação está em dia?
+21:04:06     (10/33) + Foi realizado pré-natal? Se sim, a partir de que mês foi realizado o pré-natal?
+21:04:08     (11/33) + Durante a gestação, teve aumento ou queda de pressão?
+21:04:10     (12/33) + Durante a gestação, teve ameaça de aborto? Se sim, em que mês ocorreu?
+21:04:12     (13/33) + Durante a gestação, teve alguma doença infecciosa? Se sim, qual doença e em que mês ocorreu?
+21:04:14     (14/33) + Durante a gestação, ingeriu algum medicamento? Se sim, qual medicamento e em que mês foi utilizado?
+21:04:16     (15/33) + Quando foi a última visita ao dentista e por qual motivo?
+21:04:18     (16/33) + Aperta ou range os dentes?
+21:04:20     (17/33) + Ardência/queimação em boca?
+21:04:22     (18/33) + Quando apareceu o primeiro dente?
+21:04:24     (19/33) + Sente dor de dente?
+21:04:26     (20/33) + Sofreu trauma na região de face?
+21:04:28     (21/33) + Possui histórico familiar de anomalias? Se sim, qual anomalia e qual o grau de parentesco?
+21:04:30     (22/33) + Quantas vezes ao dia escova os dentes?
+21:04:32     (23/33) + Utiliza pasta de dente?
+21:04:34     (24/33) + O paciente utiliza algum destes hábitos: chupeta, mamadeira ou chupa o dedo?
+21:04:36     (25/33) + A criança já foi ou está sendo amamentada?
+21:04:38     (26/33) + Toma bebidas açucaradas (Ex.:achocolatado, refrigerante, suco de caixa)
+21:04:40     (27/33) + Consumiu açúcar antes dos 2 anos de idade?
+21:04:42     (28/33) + Outras observações sobre hábitos?
+21:04:44     (29/33) + Já foi submetido(a) à anestesia local para tratamento odontológico?
+21:04:46     (30/33) + Apresenta comportamento de autoagressão?
+21:04:48     (31/33) + Come sozinho(a)?
+21:04:50     (32/33) + Sabe engolir?
+21:04:52     (33/33) + Permitiu o tratamento odontológico anterior?
+21:04:58   Salvo com 33 pergunta(s). (https://app.clinicanasnuvens.com.br/anamnese)
+21:04:58   Média 70.4s/questionário — ETA 4.7 min
+21:04:58 
+[5/8] Anamnese Periodontia (19 perguntas)
+21:05:00   Nome do modelo preenchido.
+21:05:02     (1/19) + Possui alguma doença atualmente? Se sim, qual(is)?
+21:05:04     (2/19) + Algum problema de saúde para o qual faz acompanhamento médico?
+21:05:06     (3/19) + É acompanhado(a) atualmente por algum médico ou especialista?
+21:05:08     (4/19) + Outras observações sobre o histórico médico?
+21:05:10     (5/19) + Já sofreu alguma cirurgia hospitalar?
+21:05:12     (6/19) + Está grávida? Se sim, qual o tempo de gestação?
+21:05:14     (7/19) + Faz uso de anticoncepcionais? Se sim, qual?
+21:05:16     (8/19) + Está tomando algum medicamento para afinar o sangue (anticoagulante)?
+21:05:18     (9/19) + Você faz uso de cigarro ou outros produtos derivados do tabaco?
+21:05:20     (10/19) + Possui alguma alergia? Se sim, a que é alérgico(a)?
+21:05:22     (11/19) + É alérgico a algum medicamento, cosmético, alimento ou anestesia?
+21:05:24     (12/19) + Toma algum medicamento para os ossos? (Cálcio, Alendronato, Forteo, etc.)
+21:05:26     (13/19) + Toma algum medicamento (seja com receita ou sem receita médica)?
+21:05:28     (14/19) + Tem ou teve hemorragia?
+21:05:30     (15/19) + Já teve algum problema de cicatrização? Se sim, em qual situação?
+21:05:32     (16/19) + Já foi submetido(a) à anestesia local para tratamento odontológico?
+21:05:34     (17/19) + Já foi submetido(a) à anestesia geral?
+21:05:36     (18/19) + Já teve alguma das seguintes doenças?
+21:05:38     (19/19) + Qual o seu tipo sanguíneo?
+21:05:45   Salvo com 19 pergunta(s). (https://app.clinicanasnuvens.com.br/anamnese)
+21:05:45   Média 65.6s/questionário — ETA 3.3 min
+21:05:45 
+[6/8] Anamnese de Implantodontia (20 perguntas)
+21:05:47   Nome do modelo preenchido.
+21:05:48     (1/20) + Possui alguma doença atualmente? Se sim, qual(is)?
+21:05:50     (2/20) + É acompanhado(a) atualmente por algum médico ou especialista?
+21:05:52     (3/20) + Algum problema de saúde para o qual faz acompanhamento médico?
+21:05:54     (4/20) + Outras observações sobre o histórico médico?
+21:05:56     (5/20) + Toma algum medicamento (seja com receita ou sem receita médica)?
+21:05:58     (6/20) + Está tomando algum medicamento para afinar o sangue (anticoagulante)?
+21:06:00     (7/20) + Toma algum medicamento para os ossos? (Cálcio, Alendronato, Forteo, etc.)
+21:06:02     (8/20) + É alérgico a algum medicamento, cosmético, alimento ou anestesia?
+21:06:04     (9/20) + Já sofreu alguma cirurgia hospitalar?
+21:06:06     (10/20) + Está grávida? Se sim, qual o tempo de gestação?
+21:06:08     (11/20) + Faz uso de anticoncepcionais? Se sim, qual?
+21:06:10     (12/20) + Você faz uso de cigarro ou outros produtos derivados do tabaco?
+21:06:12     (13/20) + Possui alguma alergia? Se sim, a que é alérgico(a)?
+21:06:14     (14/20) + Tem ou teve hemorragia?
+21:06:16     (15/20) + Você usa ou já usou algum tipo de droga ou substância ilícita?
+21:06:18     (16/20) + Já teve algum problema de cicatrização? Se sim, em qual situação?
+21:06:20     (17/20) + Já foi submetido(a) à anestesia local para tratamento odontológico?
+21:06:22     (18/20) + Já foi submetido(a) à anestesia geral?
+21:06:24     (19/20) + Possui histórico familiar de doenças sistêmicas? Se sim, qual doença e qual o grau de parentesco?
+21:06:26     (20/20) + Já teve alguma das seguintes doenças ou condições?
+21:06:33   Salvo com 20 pergunta(s). (https://app.clinicanasnuvens.com.br/anamnese)
+21:06:33   Média 62.6s/questionário — ETA 2.1 min
+21:06:33 
+[7/8] Anamnese Pacientes Especiais (PNE) (80 perguntas)
+21:06:34   Nome do modelo preenchido.
+21:06:36     (1/80) + Qual a queixa principal ou motivo da consulta?
+21:06:38     (2/80) + Possui histórico familiar de anomalias? Se sim, qual anomalia e qual o grau de parentesco?
+21:06:40     (3/80) + Possui histórico familiar de doenças sistêmicas? Se sim, qual doença e qual o grau de parentesco?
+21:06:42     (4/80) + A gestação foi planejada?
+21:06:44     (5/80) + A gestação foi aceita?
+21:06:46     (6/80) + Foi realizado pré-natal? Se sim, a partir de que mês foi realizado o pré-natal?
+21:06:48     (7/80) + Durante a gestação, teve alguma doença infecciosa? Se sim, qual doença e em que mês ocorreu?
+21:06:50     (8/80) + Durante a gestação, teve aumento ou queda de pressão?
+21:06:52     (9/80) + Durante a gestação, ingeriu algum medicamento? Se sim, qual medicamento e em que mês foi utilizado?
+21:06:54     (10/80) + Durante a gestação, teve sangramento anormal? Se sim, em que mês ocorreu?
+21:06:56     (11/80) + Durante a gestação, teve ameaça de aborto? Se sim, em que mês ocorreu?
+21:06:58     (12/80) + Qual foi o tipo de parto?
+21:07:00     (13/80) + O bebê chorou logo ao nascer?
+21:07:02     (14/80) + O bebê teve falta de oxigênio ao nascer?
+21:07:04     (15/80) + Qual era o peso e a estatura ao nascer?
+21:07:06     (16/80) + Qual era o perímetro cefálico ao nascer?
+21:07:08     (17/80) + Qual foi o parecer do pediatra ao nascer?
+21:07:10     (18/80) + Foi realizado o teste do Pezinho?
+21:07:12     (19/80) + Foi realizado teste audiométrico?
+21:07:14     (20/80) + Quando sustentou a cabeça?
+21:07:16     (21/80) + Quando engatinhou?
+21:07:18     (22/80) + Quando andou?
+21:07:20     (23/80) + Foi realizado o teste da Orelhinha?
+21:07:22     (24/80) + Foi realizado teste visual?
+21:07:24     (25/80) + Quando se sentou sem apoio?
+21:07:26     (26/80) + Quando ficou em pé sozinho?
+21:07:28     (27/80) + Quando falou?
+21:07:30     (28/80) + Quando apareceu o primeiro dente?
+21:07:32     (29/80) + A locomoção é normal?
+21:07:34     (30/80) + Os membros superiores e inferiores são normais?
+21:07:36     (31/80) + Faz uso de aparelhos, como próteses ou muletas?
+21:07:38     (32/80) + Outras observações sobre o desenvolvimento infantil?
+21:07:40     (33/80) + Atualmente tem algum problema de saúde? (Pressão alta, diabete, osteoporose, problemas de coração, ou do sangue, anemia, etc.)?
+21:07:42     (34/80) + Algum problema de saúde para o qual faz acompanhamento médico?
+21:07:43     (35/80) + É acompanhado(a) atualmente por algum médico ou especialista?
+21:07:45     (36/80) + Já sofreu alguma cirurgia hospitalar?
+21:07:47     (37/80) + Já foi submetido(a) à anestesia geral?
+21:07:49     (38/80) + Toma algum medicamento (seja com receita ou sem receita médica)?
+21:07:51     (39/80) + Possui alguma alergia? Se sim, a que é alérgico(a)?
+21:07:53     (40/80) + Tem ou teve hemorragia?
+21:07:55     (41/80) + Tem ou teve convulsão?
+21:07:57     (42/80) + Tem ou teve desmaio?
+21:07:59     (43/80) + Tem ou teve algum problema cardíaco?
+21:08:01     (44/80) + Tem ou teve diabetes?
+21:08:03     (45/80) + Tem ou teve febre reumática?
+21:08:05     (46/80) + Outras observações sobre o histórico médico?
+21:08:07     (47/80) + Quantas horas dorme por dia?
+21:08:09     (48/80) + Tem sono “interrompido”?
+21:08:11     (49/80) + Tem enurese?
+21:08:13     (50/80) + Tem sonambulismo?
+21:08:16     (51/80) + Aperta ou range os dentes?
+21:08:18     (52/80) + Acorda com dor de cabeça?
+21:08:20     (53/80) + Outras observações sobre o sono?
+21:08:22     (54/80) + Quais comportamentos estão presentes no(a) paciente?
+21:08:24     (55/80) + Com quem o(a) paciente fica mais tempo?
+21:08:26     (56/80) + Com quem o(a) paciente se dá melhor?
+21:08:28     (57/80) + O que o(a) paciente mais gosta de fazer?
+21:08:30     (58/80) + O que o(a) paciente menos gosta de fazer?
+21:08:32     (59/80) + O que deixa o(a) paciente irritado(a)?
+21:08:34     (60/80) + O que deixa o(a) paciente tranquilo(a)?
+21:08:36     (61/80) + Qual é a brincadeira preferida?
+21:08:38     (62/80) + Gosta de música?
+21:08:40     (63/80) + Outras observações sobre o perfil psicológico?
+21:08:42     (64/80) + O paciente utiliza algum destes hábitos: chupeta, mamadeira ou chupa o dedo?
+21:08:44     (65/80) + Morde objetos?
+21:08:46     (66/80) + Rói unhas?
+21:08:48     (67/80) + Apresenta comportamento de autoagressão?
+21:08:50     (68/80) + Vomita constantemente?
+21:08:52     (69/80) + Sabe mastigar?
+21:08:54     (70/80) + Come sozinho(a)?
+21:08:56     (71/80) + Prefere alimentos doces ou salgados?
+21:08:58     (72/80) + Outras observações sobre hábitos?
+21:09:00     (73/80) + Sabe engolir?
+21:09:02     (74/80) + Qual a consistência dos alimentos ingeridos?
+21:09:04     (75/80) + Ingere líquidos com frequência?
+21:09:06     (76/80) + Outras observações sobre a dieta?
+21:09:08     (77/80) + Quando foi a última visita ao dentista e por qual motivo?
+21:09:10     (78/80) + Permitiu o tratamento odontológico anterior?
+21:09:12     (79/80) + Concluiu o tratamento odontológico anterior?
+21:09:14     (80/80) + Já foi submetido(a) à anestesia local para tratamento odontológico?
+21:09:21   Salvo com 80 pergunta(s). (https://app.clinicanasnuvens.com.br/anamnese)
+21:09:21   Média 77.7s/questionário — ETA 1.3 min
+21:09:21 
+[8/8] Anamnese Triagem Inicial (31 perguntas)
+21:09:23   Nome do modelo preenchido.
+21:09:25     (1/31) + Atualmente tem algum problema de saúde? (Pressão alta, diabete, osteoporose, problemas de coração, ou do sangue, anemia, etc.)?
+21:09:27     (2/31) + Algum problema de saúde para o qual faz acompanhamento médico?
+21:09:29     (3/31) + Toma algum medicamento (seja com receita ou sem receita médica)?
+21:09:31     (4/31) + Está tomando algum medicamento para afinar o sangue (anticoagulante)?
+21:09:33     (5/31) + Toma algum medicamento para os ossos? (Cálcio, Alendronato, Forteo, etc.)
+21:09:35     (6/31) + É alérgico a algum medicamento, cosmético, alimento ou anestesia?
+21:09:37     (7/31) + Já sofreu alguma cirurgia hospitalar?
+21:09:39     (8/31) + Tem ou já teve algum tipo de câncer?
+21:09:41     (9/31) + Tem ou teve alguma doença infecciosa e/ou contagiosa? (Hepatite, AIDS, DSTs, tuberculose, HPV...)?
+21:09:43     (10/31) + É portador (a) de necessidades especiais?
+21:09:45     (11/31) + Você faz uso de cigarro ou outros produtos derivados do tabaco?
+21:09:46     (12/31) + Com que frequência você consome bebidas alcoólicas?
+21:09:48     (13/31) + Você usa ou já usou algum tipo de droga ou substância ilícita?
+21:09:50     (14/31) + Aperta ou range os dentes?
+21:09:52     (15/31) + Possui o hábito de morder os lábios, bochechas, unhas ou objetos?
+21:09:54     (16/31) + Sente dor ou dificuldade ao abrir a boca?
+21:09:56     (17/31) + Sente dores ou dificuldades durante a mastigação?
+21:09:58     (18/31) + Sente dor nas áreas temporais, face, ATM, sinusite?
+21:10:00     (19/31) + Há sangramento gengival frequente?
+21:10:02     (20/31) + Você costuma apresentar aftas, herpes ou feridas na boca?
+21:10:04     (21/31) + Sente dor de dente?
+21:10:06     (22/31) + Tem sensibilidade a alimentos quentes?
+21:10:08     (23/31) + Tem sensibilidade a alimentos gelados?
+21:10:10     (24/31) + Sofreu trauma na região de face?
+21:10:12     (25/31) + Lesões bucais (mucosa, óssea, cárie, etc...)?
+21:10:14     (26/31) + Freio labial, lingual e bridas:
+21:10:16     (27/31) + Saúde Periodontal:
+21:10:18     (28/31) + Cálculo/retração gengival visível?
+21:10:20     (29/31) + Ardência/queimação em boca?
+21:10:22     (30/31) + Boca Seca?
+21:10:24     (31/31) + Há alguma informação importante que você gostaria de acrescentar?
+21:10:31   Salvo com 31 pergunta(s). (https://app.clinicanasnuvens.com.br/anamnese)
+21:10:31   Média 76.7s/questionário — ETA 0.0 min
+21:10:31 
+Cadastro concluído!

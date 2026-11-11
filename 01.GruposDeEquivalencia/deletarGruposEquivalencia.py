@@ -41,9 +41,9 @@ HEADLESS = True
 # False = log corrido no terminal, como antes.
 PAINEL = True
 # True = salva print (.png) e HTML da tela de cada grupo com erro em PASTA_ERROS
-SALVAR_PRINTS_ERRO = True
+SALVAR_PRINTS_ERRO = False
 # True = grava o log detalhado da execução em PASTA_LOGS
-GERAR_LOG = True
+GERAR_LOG = False
 
 # ── Internet lenta ─────────────────────────────────────────────────────────────
 ESPERA = 60            # segundos que cada espera aguarda a página/botão aparecer

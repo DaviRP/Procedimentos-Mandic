@@ -11,9 +11,9 @@ from selenium.webdriver.common.keys import Keys
 
 
 # Planilha única com uma aba por script (ver Template Procedimentos, Grupos e Produtos.xlsx)
-ARQUIVO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Template Procedimentos, Grupos e Produtos.xlsx")
-ABA = "Procedimentos e Produtos"
-CLINICA = "BRASILIA - GRUPO MANDIC"
+ARQUIVO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Template Procedimentos, Grupos e Produtos(CAMPINAS).xlsx")
+ABA = "Prodecimentos e Produtos"
+CLINICA = "CAMPINAS - GRUPO MANDIC"
 
 
 def _salvar_planilha(wb):
@@ -49,6 +49,17 @@ def _texto(valor):
     if isinstance(valor, float) and valor.is_integer():
         return str(int(valor))
     return str(valor).strip()
+
+
+def _quantidade(valor):
+    """Quantidade do produto: vazia, 0 ou menor que 1 -> '1' (mínimo aceito)."""
+    texto = _texto(valor)
+    try:
+        if float(texto.replace(",", ".")) < 1:
+            return "1"
+    except ValueError:
+        return "1"
+    return texto
 
 
 def carregar_procedimentos():
@@ -107,8 +118,12 @@ def carregar_procedimentos():
             procedimentos[procedimento]["produtos"].append({
                 "numero": numero_str,
                 "nome": nome_str,
-                "quantidade": _texto(quantidade) or "1",
+                "quantidade": _quantidade(quantidade),
             })
+
+    # Processa primeiro os procedimentos com menos produtos e deixa os mais
+    # pesados pro final (empate mantém a ordem da planilha).
+    procedimentos = dict(sorted(procedimentos.items(), key=lambda item: len(item[1]["produtos"])))
 
     return col_status, procedimentos
 
@@ -243,7 +258,7 @@ def executar():
                 campo_produto.send_keys(Keys.RETURN)
                 time.sleep(0.5)
 
-                # 7. Preenche a quantidade (coluna "Quantidade"; vazia = 1)
+                # 7. Preenche a quantidade (coluna "Quantidade"; vazia ou 0 = 1)
                 campo_qtd = wait.until(EC.element_to_be_clickable((By.ID, "quantidade")))
                 campo_qtd.clear()
                 campo_qtd.send_keys(produto["quantidade"])

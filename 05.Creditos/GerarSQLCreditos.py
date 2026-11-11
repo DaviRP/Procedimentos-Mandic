@@ -40,12 +40,12 @@ from pathlib import Path
 # CONFIGURAÇÃO — ajustar antes de rodar
 # =============================================================================
 
-ARQUIVO_ENTRADA = "Modelo_Creditos_GrandeVitoria.xlsx"  # .xlsx do modelo ou .csv
-ARQUIVO_SAIDA = "Creditos_Insert.sql"
+ARQUIVO_ENTRADA = "Creditos_Campinas_DVV_V1.xlsx"  # .xlsx do modelo ou .csv
+ARQUIVO_SAIDA = "Creditos_Insert_Campinas.sql"
 
 # Usados para .csv, ou quando a aba Configuração do .xlsx estiver vazia
-TENANT_ID = 14551
-CODCONTA = 25740
+TENANT_ID = 0
+CODCONTA = 0
 TIPODOCUMENTO = "CARTEIRA"
 NUMERODOCUMENTO = "31232"
 CODCATEGORIA = 616956
@@ -120,7 +120,13 @@ def ler_csv(caminho: Path):
     separador = ";" if primeira_linha.count(";") > primeira_linha.count(",") else ","
 
     leitor = csv.DictReader(texto.splitlines(), delimiter=separador)
-    linhas = [{(k or "").strip(): (v or "") for k, v in linha.items()} for linha in leitor]
+    linhas = []
+    for linha in leitor:
+        linha = {(k or "").strip(): (v or "") for k, v in linha.items()}
+        if not any(v.strip() for v in linha.values()):
+            continue  # linha vazia (ex.: ",,,," que o Excel exporta)
+        linha["_LINHA"] = leitor.line_num
+        linhas.append(linha)
     return linhas, config_padrao()
 
 
@@ -146,10 +152,11 @@ def ler_xlsx(caminho: Path):
     indices = {c: cabecalho.index(c) for c in COLUNAS}
 
     linhas = []
-    for valores in aba.iter_rows(min_row=2, values_only=True):
+    for numero, valores in enumerate(aba.iter_rows(min_row=2, values_only=True), start=2):
         linha = {c: _texto_celula(valores[i]) for c, i in indices.items()}
         if not any(linha.values()):
             continue  # linha vazia do modelo
+        linha["_LINHA"] = numero
         linhas.append(linha)
     wb.close()
     return linhas, config
@@ -218,7 +225,8 @@ def main():
     ignoradas = []
     idlans_vistos = {}
 
-    for i, linha in enumerate(linhas, start=2):  # linha 1 = cabeçalho
+    for linha in linhas:
+        i = linha["_LINHA"]  # número real da linha no arquivo (1 = cabeçalho)
         pg = (linha.get("PG") or "").strip()
         valor = (linha.get("VALOR") or "").strip()
         data = (linha.get("DATAEMISSAO") or "").strip()

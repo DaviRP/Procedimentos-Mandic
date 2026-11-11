@@ -33,13 +33,13 @@ from pathlib import Path
 # CONFIGURAÇÃO — ajustar antes de rodar
 # =============================================================================
 
-ARQUIVO_ENTRADA = "Modelo_ContasReceber.xlsx"  # .xlsx do modelo ou .csv
-ARQUIVO_SAIDA = "ContasReceber_Insert.sql"
+ARQUIVO_ENTRADA = "ContasReceber_Campinas_V2.xlsx"  # .xlsx do modelo ou .csv
+ARQUIVO_SAIDA = "ContasReceber_Insert_Campinas.sql"
 ENCODING_CSV = "latin-1"  # só para .csv (o arquivo original não é UTF-8)
 
 # Usados para .csv, ou quando a aba Configuração do .xlsx estiver vazia
-TENANT_ID = 14570
-CODCONTA = 25746
+TENANT_ID = 0
+CODCONTA = 0
 NUMERODOCUMENTO = "31232"
 CODCATEGORIA = 616956
 IDCOLIGADATOTVS = "1"
