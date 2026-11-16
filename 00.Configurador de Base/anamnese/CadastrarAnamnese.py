@@ -17,7 +17,7 @@ from selenium.common.exceptions import TimeoutException
 # ── Configuração ──────────────────────────────────────────────────────────────
 PASTA = os.path.dirname(os.path.abspath(__file__))
 ARQUIVO = os.path.join(PASTA, "Questionarios_Perguntas.csv")
-CLINICA = "CAMPINAS - GRUPO MANDIC"   # clínica ONDE os questionários serão cadastrados
+CLINICA = "BELO HORIZONTE - GRUPO MANDIC"   # clínica ONDE os questionários serão cadastrados
 HEADLESS = True             # True = sem janela; pode trocar na hora com --headless / --visivel
 LIMITE_QUESTIONARIOS = 100    # teste com 1; depois None = todos
 CHECAR_EXISTENTE = True     # pula questionários cujo nome já existe na lista de modelos

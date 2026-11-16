@@ -1,0 +1,185 @@
+14:51:44 9 questionário(s) a cadastrar na clínica 'CURITIBA - GRUPO MANDIC'.
+14:51:44 Modo headless: o Chrome roda sem abrir janela.
+14:51:46 Abrindo página de login...
+14:52:18 E-mail preenchido, avançando para senha...
+14:52:56 Login realizado com sucesso.
+14:53:36 Clínica 'CURITIBA - GRUPO MANDIC' selecionada.
+14:54:08 
+[1/9] Anamnese Prótese (27 perguntas)
+14:54:41   Nome do modelo preenchido.
+14:54:43     (1/27) + Qual a queixa principal ou motivo da consulta?
+14:54:44     (2/27) + Possui alguma doença atualmente? Se sim, qual(is)?
+14:54:46     (3/27) + É acompanhado(a) atualmente por algum médico ou especialista?
+14:54:48     (4/27) + Já esteve internado / operado?
+14:54:50     (5/27) + Está grávida? Se sim, qual o tempo de gestação?
+14:54:52     (6/27) + Faz uso de anticoncepcionais? Se sim, qual?
+14:54:54     (7/27) + Você faz uso de cigarro ou outros produtos derivados do tabaco?
+14:54:56     (8/27) + Possui alguma alergia? Se sim, a que é alérgico(a)?
+14:54:58     (9/27) + Tem ou teve hemorragia?
+14:55:00     (10/27) + Você usa ou já usou algum tipo de droga ou substância ilícita?
+14:55:02     (11/27) + Já teve algum problema de cicatrização? Se sim, em qual situação?
+14:55:05     (12/27) + Já foi submetido(a) à anestesia geral?
+14:55:07     (13/27) + É alérgico a algum medicamento, cosmético, alimento ou anestesia?
+14:55:09     (14/27) + Já teve alguma das seguintes doenças?
+14:55:11     (15/27) + Quando foi a última visita ao dentista e por qual motivo?
+14:55:13     (16/27) + Concluiu o tratamento odontológico anterior?
+14:55:15     (17/27) + Aperta ou range os dentes?
+14:55:26     (18/27) NÃO ENCONTRADA: Sente dores ou dificuldades durante a mastigação?
+14:55:27     (19/27) + Sente dor de dente?
+14:55:29     (20/27) + Sente dor ou dificuldade ao abrir a boca?
+14:55:31     (21/27) + Acorda com dor de cabeça?
+14:55:33     (22/27) + Possui o hábito de morder os lábios, bochechas, unhas ou objetos?
+14:55:35     (23/27) + Quantas vezes ao dia escova os dentes?
+14:55:37     (24/27) + Já foi submetido(a) à anestesia local para tratamento odontológico?
+14:55:39     (25/27) + Já teve algum problema na gengiva
+14:55:42     (26/27) + Há sangramento gengival frequente?
+14:55:44     (27/27) + Outras observações sobre o histórico médico?
+14:55:51   Salvo com 26 pergunta(s). (https://app.clinicanasnuvens.com.br/anamnese)
+14:55:51   Média 102.9s/questionário — ETA 13.7 min
+14:55:51 
+[2/9] Anamnese Endodontia (17 perguntas)
+14:55:53   Nome do modelo preenchido.
+14:55:55     (1/17) + Possui alguma doença atualmente? Se sim, qual(is)?
+14:55:57     (2/17) + Algum problema de saúde para o qual faz acompanhamento médico?
+14:55:59     (3/17) + É acompanhado(a) atualmente por algum médico ou especialista?
+14:56:01     (4/17) + Está fazendo uso de alguma medicação?
+14:56:02     (5/17) + Já esteve internado / operado?
+14:56:04     (6/17) + Está grávida? Se sim, qual o tempo de gestação?
+14:56:06     (7/17) + Faz uso de anticoncepcionais? Se sim, qual?
+14:56:08     (8/17) + Você faz uso de cigarro ou outros produtos derivados do tabaco?
+14:56:10     (9/17) + É alérgico a algum medicamento, cosmético, alimento ou anestesia?
+14:56:12     (10/17) + Possui alguma alergia? Se sim, a que é alérgico(a)?
+14:56:14     (11/17) + Tem ou teve hemorragia?
+14:56:17     (12/17) + Você usa ou já usou algum tipo de droga ou substância ilícita?
+14:56:17   ERRO: Message: stale element reference: stale element not found in the current frame
+14:56:18   Evidência salva em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/00.Configurador de Base/anamnese/erros/20261111_145617_Anamnese_Endodontia.png
+14:56:18   Média 64.9s/questionário — ETA 7.6 min
+14:56:18 
+[3/9] Anamnese Harmonização Orofacial (43 perguntas)
+14:56:22   Nome do modelo preenchido.
+14:56:24   ERRO: Message: stale element reference: stale element not found in the current frame
+14:56:24   Evidência salva em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/00.Configurador de Base/anamnese/erros/20261111_145624_Anamnese_Harmonização_Orofacial.png
+14:56:24   Média 45.5s/questionário — ETA 4.6 min
+14:56:24 
+[4/9] Anamnese Dentística (29 perguntas)
+14:56:29   Nome do modelo preenchido.
+14:56:31     (1/29) + Possui alguma doença atualmente? Se sim, qual(is)?
+14:56:33     (2/29) + Algum problema de saúde para o qual faz acompanhamento médico?
+14:56:35     (3/29) + Outras observações sobre o histórico médico?
+14:56:36   ERRO: Message: stale element reference: stale element not found in the current frame
+14:56:36   Evidência salva em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/00.Configurador de Base/anamnese/erros/20261111_145636_Anamnese_Dentística.png
+14:56:36   Média 37.1s/questionário — ETA 3.1 min
+14:56:36 
+[5/9] Anamnese Odontopediatria (33 perguntas)
+14:56:39   Nome do modelo preenchido.
+14:56:41     (1/33) + Algum problema de saúde para o qual faz acompanhamento médico?
+14:56:43     (2/33) + É acompanhado(a) atualmente por algum médico ou especialista?
+14:56:45     (3/33) + Outras observações sobre o histórico médico?
+14:56:47     (4/33) + Possui alguma doença atualmente? Se sim, qual(is)?
+14:56:49     (5/33) + Possui histórico familiar de doenças sistêmicas? Se sim, qual doença e qual o grau de parentesco?
+14:56:51     (6/33) + Tem ou teve alguma doença infecciosa e/ou contagiosa? (Hepatite, AIDS, DSTs, tuberculose, HPV...)?
+14:56:53     (7/33) + Já teve alguma das seguintes doenças?
+14:56:55     (8/33) + Tem ou teve hemorragia?
+14:56:57     (9/33) + A vacinação está em dia?
+14:56:59     (10/33) + Foi realizado pré-natal? Se sim, a partir de que mês foi realizado o pré-natal?
+14:57:01     (11/33) + Durante a gestação, teve aumento ou queda de pressão?
+14:57:03     (12/33) + Durante a gestação, teve ameaça de aborto? Se sim, em que mês ocorreu?
+14:57:05     (13/33) + Durante a gestação, teve alguma doença infecciosa? Se sim, qual doença e em que mês ocorreu?
+14:57:07     (14/33) + Durante a gestação, ingeriu algum medicamento? Se sim, qual medicamento e em que mês foi utilizado?
+14:57:09     (15/33) + Quando foi a última visita ao dentista e por qual motivo?
+14:57:11     (16/33) + Aperta ou range os dentes?
+14:57:13     (17/33) + Ardência/queimação em boca?
+14:57:15     (18/33) + Quando apareceu o primeiro dente?
+14:57:17     (19/33) + Sente dor de dente?
+14:57:19     (20/33) + Sofreu trauma na região de face?
+14:57:21     (21/33) + Possui histórico familiar de anomalias? Se sim, qual anomalia e qual o grau de parentesco?
+14:57:23     (22/33) + Quantas vezes ao dia escova os dentes?
+14:57:25     (23/33) + Utiliza pasta de dente?
+14:57:26   ERRO: Message: stale element reference: stale element not found in the current frame
+14:57:26   Evidência salva em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/00.Configurador de Base/anamnese/erros/20261111_145726_Anamnese_Odontopediatria.png
+14:57:26   Média 39.7s/questionário — ETA 2.6 min
+14:57:26 
+[6/9] Anamnese Periodontia (19 perguntas)
+14:57:28   Nome do modelo preenchido.
+14:57:30     (1/19) + Possui alguma doença atualmente? Se sim, qual(is)?
+14:57:32     (2/19) + Algum problema de saúde para o qual faz acompanhamento médico?
+14:57:34     (3/19) + É acompanhado(a) atualmente por algum médico ou especialista?
+14:57:36     (4/19) + Outras observações sobre o histórico médico?
+14:57:38     (5/19) + Já sofreu alguma cirurgia hospitalar?
+14:57:40     (6/19) + Está grávida? Se sim, qual o tempo de gestação?
+14:57:42     (7/19) + Faz uso de anticoncepcionais? Se sim, qual?
+14:57:44     (8/19) + Está tomando algum medicamento para afinar o sangue (anticoagulante)?
+14:57:47     (9/19) + Você faz uso de cigarro ou outros produtos derivados do tabaco?
+14:57:49     (10/19) + Possui alguma alergia? Se sim, a que é alérgico(a)?
+14:57:50   ERRO: Message: stale element reference: stale element not found in the current frame
+14:57:50   Evidência salva em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/00.Configurador de Base/anamnese/erros/20261111_145750_Anamnese_Periodontia.png
+14:57:50   Média 37.1s/questionário — ETA 1.9 min
+14:57:50 
+[7/9] Anamnese de Implantodontia (20 perguntas)
+14:57:53   Nome do modelo preenchido.
+14:57:55     (1/20) + Possui alguma doença atualmente? Se sim, qual(is)?
+14:57:57     (2/20) + É acompanhado(a) atualmente por algum médico ou especialista?
+14:57:58     (3/20) + Algum problema de saúde para o qual faz acompanhamento médico?
+14:58:00     (4/20) + Outras observações sobre o histórico médico?
+14:58:02     (5/20) + Toma algum medicamento (seja com receita ou sem receita médica)?
+14:58:04     (6/20) + Está tomando algum medicamento para afinar o sangue (anticoagulante)?
+14:58:06     (7/20) + Toma algum medicamento para os ossos? (Cálcio, Alendronato, Forteo, etc.)
+14:58:08     (8/20) + É alérgico a algum medicamento, cosmético, alimento ou anestesia?
+14:58:10     (9/20) + Já sofreu alguma cirurgia hospitalar?
+14:58:12     (10/20) + Está grávida? Se sim, qual o tempo de gestação?
+14:58:14     (11/20) + Faz uso de anticoncepcionais? Se sim, qual?
+14:58:16     (12/20) + Você faz uso de cigarro ou outros produtos derivados do tabaco?
+14:58:18     (13/20) + Possui alguma alergia? Se sim, a que é alérgico(a)?
+14:58:20     (14/20) + Tem ou teve hemorragia?
+14:58:22     (15/20) + Você usa ou já usou algum tipo de droga ou substância ilícita?
+14:58:25     (16/20) + Já teve algum problema de cicatrização? Se sim, em qual situação?
+14:58:28     (17/20) + Já foi submetido(a) à anestesia local para tratamento odontológico?
+14:58:29     (18/20) + Já foi submetido(a) à anestesia geral?
+14:58:31     (19/20) + Possui histórico familiar de doenças sistêmicas? Se sim, qual doença e qual o grau de parentesco?
+14:58:33     (20/20) + Já teve alguma das seguintes doenças ou condições?
+14:58:40   Salvo com 20 pergunta(s). (https://app.clinicanasnuvens.com.br/anamnese)
+14:58:40   Média 38.9s/questionário — ETA 1.3 min
+14:58:40 
+[8/9] Anamnese Pacientes Especiais (PNE) (80 perguntas)
+14:58:42   Nome do modelo preenchido.
+14:58:44     (1/80) + Qual a queixa principal ou motivo da consulta?
+14:58:46     (2/80) + Possui histórico familiar de anomalias? Se sim, qual anomalia e qual o grau de parentesco?
+14:58:48     (3/80) + Possui histórico familiar de doenças sistêmicas? Se sim, qual doença e qual o grau de parentesco?
+14:58:50     (4/80) + A gestação foi planejada?
+14:58:52     (5/80) + A gestação foi aceita?
+14:58:54     (6/80) + Foi realizado pré-natal? Se sim, a partir de que mês foi realizado o pré-natal?
+14:58:56     (7/80) + Durante a gestação, teve alguma doença infecciosa? Se sim, qual doença e em que mês ocorreu?
+14:58:58     (8/80) + Durante a gestação, teve aumento ou queda de pressão?
+14:59:00     (9/80) + Durante a gestação, ingeriu algum medicamento? Se sim, qual medicamento e em que mês foi utilizado?
+14:59:02     (10/80) + Durante a gestação, teve sangramento anormal? Se sim, em que mês ocorreu?
+14:59:04     (11/80) + Durante a gestação, teve ameaça de aborto? Se sim, em que mês ocorreu?
+14:59:06     (12/80) + Qual foi o tipo de parto?
+14:59:08     (13/80) + O bebê chorou logo ao nascer?
+14:59:10     (14/80) + O bebê teve falta de oxigênio ao nascer?
+14:59:12     (15/80) + Qual era o peso e a estatura ao nascer?
+14:59:14     (16/80) + Qual era o perímetro cefálico ao nascer?
+14:59:16     (17/80) + Qual foi o parecer do pediatra ao nascer?
+14:59:18     (18/80) + Foi realizado o teste do Pezinho?
+14:59:20     (19/80) + Foi realizado teste audiométrico?
+14:59:22     (20/80) + Quando sustentou a cabeça?
+14:59:24     (21/80) + Quando engatinhou?
+14:59:27     (22/80) + Quando andou?
+14:59:29     (23/80) + Foi realizado o teste da Orelhinha?
+14:59:31     (24/80) + Foi realizado teste visual?
+14:59:33     (25/80) + Quando se sentou sem apoio?
+14:59:35   ERRO: Message: stale element reference: stale element not found in the current frame
+14:59:35   Evidência salva em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/00.Configurador de Base/anamnese/erros/20261111_145935_Anamnese_Pacientes_Especiais_PNE_.png
+14:59:35   Média 40.9s/questionário — ETA 0.7 min
+14:59:35 
+[9/9] Anamnese Triagem Inicial (31 perguntas)
+14:59:37   Nome do modelo preenchido.
+14:59:39     (1/31) + Atualmente tem algum problema de saúde? (Pressão alta, diabete, osteoporose, problemas de coração, ou do sangue, anemia, etc.)?
+14:59:41     (2/31) + Algum problema de saúde para o qual faz acompanhamento médico?
+14:59:43     (3/31) + Toma algum medicamento (seja com receita ou sem receita médica)?
+14:59:45     (4/31) + Está tomando algum medicamento para afinar o sangue (anticoagulante)?
+14:59:47     (5/31) + Toma algum medicamento para os ossos? (Cálcio, Alendronato, Forteo, etc.)
+14:59:49   ERRO: Message: stale element reference: stale element not found in the current frame
+14:59:49   Evidência salva em /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/00.Configurador de Base/anamnese/erros/20261111_145949_Anamnese_Triagem_Inicial.png
+14:59:49   Média 37.9s/questionário — ETA 0.0 min
+14:59:49 
+Cadastro concluído!

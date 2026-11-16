@@ -1,155 +1,323 @@
-Questionario,Pergunta,Tipo,Possui observação?,Campo obrigatório?,Respostas
-,Já esteve internado / operado?,Objetiva, ,,
-,Está fazendo uso de alguma medicação?,Objetiva, ,,
-,Fez uso de Roacutan nos últimos seis meses?,Objetiva, ,,
-,Cuidados estéticos diários?,Objetiva, ,,
-,Possui alguma disfunção hormonal?,Objetiva, ,,
-,Facilidade em formar hematoma?,Objetiva, ,,
-,Possui algum queloide?,Objetiva, ,,
-,Possui alguma doença autoimune?,Objetiva, ,,
-,Costuma tomar sol?,Objetiva, ,,
-,Usa ou já usou ácido na pele?,Objetiva,,,
-,Pratica esportes?,Objetiva, ,,
-,"Você já fez algum tipo de preenchimento facial, aplicação de toxina botulínica ou enxerto?",Objetiva, ,,
-,Faz uso de remédios para dormir?,Objetiva, ,,
-,Já fez tratamento psicológico ou psiquiátrico?,Objetiva, ,,
-,Toma antidepressivo?,Objetiva, ,,
-,Tem problemas de pressão arterial?,Objetiva, ,,
-,É portador de marca-passo?,Objetiva, ,,
-,Tem alergias a ovo?,Objetiva, ,,
-,Reumatismo ou Febre Reumática?,Objetiva, ,,
-,Epilepsia ou convulsões?,Objetiva,,,
-,Anemia ?,Objetiva, ,,
-,Tem febre com frequência?,Múltipla escolha, ,,
-,Teve ou tem tuberculose?,Objetiva, ,,
-,Bronquite ou asma?,Objetiva, ,,
-,Teve ou tem alguma doença no fígado?,Objetiva, ,,
-,Problemas de tireoide?,Múltipla escolha, ,,
-,Doença dos rins?,Múltipla escolha, ,,
-,Tem sopro ou outra doença no coração?,Objetiva, ,,
-,Já tomou antibiótico?,Múltipla escolha, ,,
-,Tem alergia a lactose?,Objetiva, ,,
-,"Está tomando algum medicamento (anti-inflamatório, corticoide, etc.)?",Objetiva, ,,
-,Já teve algum problema na gengiva,Objetiva, ,,
-,Já sofreu alguma cirurgia na boca?,Objetiva, ,,
-,Prática algum dos hábitos baixo:,Múltipla escolha, ,,
-,Consumiu açúcar antes dos 2 anos de idade?,Objetiva, ,,
-,"Toma bebidas açucaradas (Ex.:achocolatado, refrigerante, suco de caixa)",Objetiva, ,,
-,A criança já foi ou está sendo amamentada?,Objetiva, ,,
-,Utiliza pasta de dente?,Objetiva, ,,
-,Quantas vezes ao dia escova os dentes?,Objetiva, ,,
-,A vacinação está em dia?,Objetiva,,,
-,Qual o seu tipo sanguíneo?,Múltipla escolha, ,,
-,Já teve alguma das seguintes doenças?,Múltipla escolha, ,,
-,Já teve alguma das seguintes doenças ou condições?,Múltipla escolha, ,,
-,"Já teve algum problema de cicatrização? Se sim, em qual situação?",Objetiva, ,,
-,"Faz uso de anticoncepcionais? Se sim, qual?",Objetiva, ,,
-,"Está grávida? Se sim, qual o tempo de gestação?",Objetiva, ,,
-,"Possui alguma doença atualmente? Se sim, qual(is)?",Objetiva, ,,
-,Já foi submetido(a) à anestesia local para tratamento odontológico?,Objetiva, ,,
-,Concluiu o tratamento odontológico anterior?,Objetiva, ,,
-,Permitiu o tratamento odontológico anterior?,Objetiva,,,
-,Quando foi a última visita ao dentista e por qual motivo?,Descritiva curta, ,,
-,Outras observações sobre a dieta?,Descritiva curta, ,,
-,Apresenta comportamento de autoagressão?,Objetiva, ,,
-,Ingere líquidos com frequência?,Objetiva, ,,
-,Prefere alimentos doces ou salgados?,Objetiva, ,,
-,Qual a consistência dos alimentos ingeridos?,Descritiva curta, ,,
-,Come sozinho(a)?,Objetiva, ,,
-,Sabe engolir?,Objetiva, ,,
-,Sabe mastigar?,Objetiva, ,,
-,Outras observações sobre hábitos?,Descritiva curta,,,
-,Vomita constantemente?,Objetiva, ,,
-,Rói unhas?,Objetiva, ,,
-,Morde objetos?,Objetiva, ,,
-,"O paciente utiliza algum destes hábitos: chupeta, mamadeira ou chupa o dedo?",Múltipla escolha, ,,
-,Outras observações sobre o perfil psicológico?,Descritiva curta, ,,
-,Gosta de música?,Objetiva, ,,
-,Qual é a brincadeira preferida?,Descritiva curta, ,,
-,O que deixa o(a) paciente tranquilo(a)?,Descritiva curta, ,,
-,O que deixa o(a) paciente irritado(a)?,Descritiva curta, ,,
-,O que o(a) paciente menos gosta de fazer?,Descritiva curta, ,,
-,O que o(a) paciente mais gosta de fazer?,Descritiva curta, ,,
-,Com quem o(a) paciente se dá melhor?,Descritiva curta, ,,
-,Com quem o(a) paciente fica mais tempo?,Descritiva curta, ,,
-,Quais comportamentos estão presentes no(a) paciente?,Múltipla escolha, ,,
-,Outras observações sobre o sono?,Descritiva curta, ,,
-,Acorda com dor de cabeça?,Objetiva, ,,
-,Tem sonambulismo?,Objetiva, ,,
-,Tem enurese?,Objetiva, ,,
-,Tem sono “interrompido”?,Objetiva, ,,
-,Quantas horas dorme por dia?,Descritiva curta,,,
-,Outras observações sobre o histórico médico?,Descritiva curta, ,,
-,Tem ou teve febre reumática?,Objetiva, ,,
-,Tem ou teve diabetes?,Objetiva, ,,
-,Tem ou teve algum problema cardíaco?,Objetiva, ,,
-,Tem ou teve desmaio?,Objetiva, ,,
-,Tem ou teve convulsão?,Objetiva, ,,
-,Tem ou teve hemorragia?,Objetiva, ,,
-,"Possui alguma alergia? Se sim, a que é alérgico(a)?",Objetiva, ,,
-,Já foi submetido(a) à anestesia geral?,Objetiva, ,,
-,É acompanhado(a) atualmente por algum médico ou especialista?,Descritiva curta, ,,
-,Outras observações sobre o desenvolvimento infantil?,Descritiva curta, ,,
-,"Faz uso de aparelhos, como próteses ou muletas?",Objetiva, ,,
-,Os membros superiores e inferiores são normais?,Objetiva, ,,
-,A locomoção é normal?,Objetiva, ,,
-,Quando apareceu o primeiro dente?,Descritiva curta, ,,
-,Quando falou?,Descritiva curta, ,,
-,Quando andou?,Descritiva curta, ,,
-,Quando ficou em pé sozinho?,Descritiva curta, ,,
-,Quando engatinhou?,Descritiva curta, ,,
-,Quando se sentou sem apoio?,Descritiva curta,,,
-,Quando sustentou a cabeça?,Descritiva curta, ,,
-,Foi realizado teste visual?,Objetiva, ,,
-,Foi realizado teste audiométrico?,Objetiva, ,,
-,Foi realizado o teste da Orelhinha?,Objetiva, ,,
-,Foi realizado o teste do Pezinho?,Objetiva, ,,
-,Qual foi o parecer do pediatra ao nascer?,Descritiva curta, ,,
-,Qual era o perímetro cefálico ao nascer?,Descritiva curta, ,,
-,Qual era o peso e a estatura ao nascer?,Descritiva curta, ,,
-,O bebê teve falta de oxigênio ao nascer?,Objetiva, ,,
-,O bebê chorou logo ao nascer?,Objetiva, ,,
-,Qual foi o tipo de parto?,Objetiva, ,,
-,"Durante a gestação, teve ameaça de aborto? Se sim, em que mês ocorreu?",Objetiva, ,,
-,"Durante a gestação, teve sangramento anormal? Se sim, em que mês ocorreu?",Objetiva, ,,
-,"Durante a gestação, ingeriu algum medicamento? Se sim, qual medicamento e em que mês foi utilizado?",Objetiva, ,,
-,"Durante a gestação, teve aumento ou queda de pressão?",Objetiva, ,,
-,"Durante a gestação, teve alguma doença infecciosa? Se sim, qual doença e em que mês ocorreu?",Objetiva, ,,
-,"Foi realizado pré-natal? Se sim, a partir de que mês foi realizado o pré-natal?",Objetiva, ,,
-,A gestação foi aceita?,Múltipla escolha, ,,
-,A gestação foi planejada?,Objetiva, ,,
-,"Possui histórico familiar de doenças sistêmicas? Se sim, qual doença e qual o grau de parentesco?",Objetiva,,,
-,"Possui histórico familiar de anomalias? Se sim, qual anomalia e qual o grau de parentesco?",Objetiva, ,,
-,Qual a queixa principal ou motivo da consulta?,Descritiva curta, ,,
-,Há alguma informação importante que você gostaria de acrescentar?,Descritiva curta, ,,
-,Boca Seca?,Objetiva, ,,
-,Ardência/queimação em boca?,Objetiva, ,,
-,Cálculo/retração gengival visível?,Objetiva, ,,
-,Saúde Periodontal:,Objetiva, ,,
-,"Freio labial, lingual e bridas:",Objetiva, ,,
-,"Lesões bucais (mucosa, óssea, cárie, etc...)?",Objetiva, ,,
-,Sofreu trauma na região de face?,Objetiva,,,
-,Tem sensibilidade a alimentos gelados?,Objetiva, ,,
-,Tem sensibilidade a alimentos quentes?,Objetiva, ,,
-,Sente dor de dente?,Objetiva, ,,
-,"Você costuma apresentar aftas, herpes ou feridas na boca?",Objetiva, ,,
-,Há sangramento gengival frequente?,Objetiva, ,,
-,"Sente dor nas áreas temporais, face, ATM, sinusite?",Objetiva, ,,
-,Sente dores ou dificuldades durante a mastigação?,Objetiva, ,,
-,Sente dor ou dificuldade ao abrir a boca?,Objetiva, ,,
-,"Possui o hábito de morder os lábios, bochechas, unhas ou objetos?",Objetiva, ,,
-,Aperta ou range os dentes?,Objetiva,,,
-,Você usa ou já usou algum tipo de droga ou substância ilícita?,Objetiva, ,,
-,Com que frequência você consome bebidas alcoólicas?,Objetiva, ,,
-,Toma bebida alcoólica?,Objetiva, ,,
-,Você faz uso de cigarro ou outros produtos derivados do tabaco?,Objetiva, ,,
-,É portador (a) de necessidades especiais?,Objetiva, ,,
-,"Tem ou teve alguma doença infecciosa e/ou contagiosa? (Hepatite, AIDS, DSTs, tuberculose, HPV...)?",Objetiva, ,,
-,Tem ou já teve algum tipo de câncer?,Objetiva, ,,
-,Já sofreu alguma cirurgia hospitalar?,Objetiva, ,,
-,"É alérgico a algum medicamento, cosmético, alimento ou anestesia?",Objetiva, ,,
-,"Toma algum medicamento para os ossos? (Cálcio, Alendronato, Forteo, etc.)",Objetiva, ,,
-,Está tomando algum medicamento para afinar o sangue (anticoagulante)?,Objetiva, ,,
-,Toma algum medicamento (seja com receita ou sem receita médica)?,Objetiva, ,,
-,Algum problema de saúde para o qual faz acompanhamento médico?,Objetiva, ,,
-,"Atualmente tem algum problema de saúde? (Pressão alta, diabete, osteoporose, problemas de coração, ou do sangue, anemia, etc.)?",Objetiva, ,,
+﻿Pergunta,Tipo,Link
+Condultas terapêuticas:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395835
+"Hipóteses diagnóstica (sindrômica, topográfica, fatores de risco)",Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395834
+Padrão de Abertura-Fechamento (Complementar; Escolha todos que se aplicarem),Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395833
+Localização da Cefaléia: Últimos 30 Dias (Marque tudo o que se aplica),Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395832
+Local da Dor: Últimos 30 dias (Marque tudo o que se aplica) - Lado Esquerdo,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395831
+Local da Dor: Últimos 30 dias (Marque tudo o que se aplica) - Lado Direito,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395830
+"História Pregressa da Moléstia Atual (HPMA)- (Caracterize os fatos que se relacionam a ( queixa(s) atual ( em ordem cronológica de ocorrência, detalhando cada aspecto diretamente relacionado à queixa.",Descritiva longa,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395829
+O paciente foi encaminhado por:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395828
+O que deixou de fazer por causa dessa queixa?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395827
+Quantos tratamentos você foi submetido?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395826
+Prognóstico:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395238
+Diagnóstico final:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395237
+Resultados de exames:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395236
+Exames complementares:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395235
+Hipóteses de diagnósticos:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395234
+"Lesão Fundamental, forma, limites, cor, tamanho, base, consistência, textura, contorno, bordas, número, localização:",Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395233
+"Estado geral: (biótipo, Peso x Altura, ambulação, postura, respiração:",Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395232
+Hábitos e vícios:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395231
+Antecedentes mórbidos:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395230
+Antecedentes familiares:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395229
+História da doença atual:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/395228
+OBSERVAÇÕES DE ENFERMAGEM:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394956
+"Medicações pré-operatórias: informe o medicamento, a dose e o horário.",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394955
+Glicemia capilar mg/dL,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394954
+Temperatura °C,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394953
+Saturação de oxigênio (SpO₂) %,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394952
+Frequência cardíaca (FC) - bpm,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394951
+Pressão arterial (PA)- mmHg,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394950
+Procedimento cirúrgico:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394949
+Exame Clínico - Natureza da dor:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394948
+Exame Clínico - Teste de sensibilidade:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394947
+Exame Clínico - Percussão horizontal:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394946
+Exame Clínico - Percussão vertical:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394945
+Exame Clínico - Condição periodontal:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394944
+Exame Clínico - Características da gengiva e mucosa:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394943
+Exame Clínico - Mobilidade dental:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394942
+Exame Clínico - Palpação apical:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394941
+Exame Clínico - Palpação coronária:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394940
+Exame Clínico - Coloração da coroa:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394939
+Exame Clínico - Condição da coroa:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394938
+Sente dor de cabeça constante?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394937
+Avaliação Bucal - Outras observações:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394936
+Avaliação Bucal - Condição da musculatura orofacial:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394935
+Condição dos freios (labial e lingual):,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394934
+Avaliação Bucal - Condição do palato duro:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394933
+Avaliação Bucal - Condição da língua:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394932
+Avaliação Bucal - Classificação da oclusão:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394931
+Avaliação Bucal - Estado geral da mucosa oral:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394930
+Avaliação Bucal - Tipo de respiração:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394929
+Presença de mobilidade dental?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394928
+Presença de tártaro?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394927
+Avaliação Bucal - Condição da higiene oral:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394926
+Avaliação Bucal - Presença de halitose?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394925
+Avaliação Bucal - Tipo de dentição:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394924
+Avaliação Bucal - Presença de agenesia dental (ausência congênita de dente)?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394923
+Avaliação Bucal - Presença de dente supranumerário?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394922
+Avaliação Bucal - Presença de prótese dental?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394921
+Avaliação Bucal - Presença de aparelho ortodôntico?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394920
+Avaliação Bucal - Diastemas (espaços entre os dentes)?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394919
+Quem é o responsável pela higiene bucal?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394918
+Necessita de ajuda para realizar a higiene bucal?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394917
+Com que frequência utiliza fio dental?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394916
+História Odontológica - O que dificulta a escovação?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394915
+Com que frequência realiza a escovação dental?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394914
+Quando foi sua última visita ao dentista?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394913
+"História Odontológica - Sofreu algum trauma nos dentes anteriores? Se sim, quando?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394912
+História Odontológica - Possui herpes frequente?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394911
+História Odontológica - Possui aftas frequentes?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394910
+Recebeu aplicação tópica de flúor?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394909
+História Odontológica - Já foi submetido a tratamento odontológico com anestesia geral? Quando? Onde? Por quê?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394908
+História Odontológica - Teve alguma reação à anestesia? Qual?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394907
+História Odontológica - Foi submetido à anestesia local para tratamento odontológico?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394906
+História Odontológica - Concluiu o tratamento?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394905
+História Odontológica - Permitiu o tratamento?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394904
+História Odontológica - Quando foi sua última visita ao dentista? Por quê?,Data,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394903
+História Odontológica - Queixa principal,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394902
+"Dieta – O(a) paciente acorda durante a noite para se alimentar? Se sim, o que costuma comer?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394901
+"Dieta – O(a) paciente ingere líquidos com frequência? Se sim, quais?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394900
+Dieta – O(a) paciente prefere alimentos doces ou salgados?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394899
+Dieta – Qual é o alimento mais consumido pelo(a) paciente?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394898
+Dieta – Qual é a consistência dos alimentos ingeridos pelo(a) paciente?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394897
+Dieta – O(a) paciente consegue se alimentar sozinho(a)?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394896
+Dieta – O(a) paciente consegue engolir os alimentos?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394895
+Dieta – O(a) paciente consegue mastigar os alimentos?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394894
+Hábitos nocivos – O(a) paciente range os dentes frequentemente?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394893
+Hábitos nocivos – O(a) paciente apresenta episódios frequentes de vômito?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394892
+"Hábitos nocivos – O(a) paciente apresenta comportamentos de autoagressão? Se sim, quais?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394891
+Hábitos nocivos – O(a) paciente tem o hábito de roer as unhas?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394890
+"Hábitos nocivos – O(a) paciente tem o hábito de morder objetos? Se sim, quais?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394889
+Hábitos nocivos – O(a) paciente faz uso de:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394888
+Algum problema de saúde para o qual faz acompanhamento médico?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394887
+"Tem ou teve alguma doença infecciosa e/ou contagiosa? (Hepatite, AIDS, DSTs, tuberculose, HPV...)?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394886
+Com que frequência você consome bebidas alcoólicas?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394885
+Você usa ou já usou algum tipo de droga ou substância ilícita?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394884
+"Você costuma apresentar aftas, herpes ou feridas na boca?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394883
+Há alguma informação importante que você gostaria de acrescentar?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394882
+Qual a queixa principal ou motivo da consulta?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394881
+"Possui histórico familiar de anomalias? Se sim, qual anomalia e qual o grau de parentesco?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394880
+"Possui histórico familiar de doenças sistêmicas? Se sim, qual doença e qual o grau de parentesco?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394879
+A gestação foi planejada?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394878
+A gestação foi aceita?,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394877
+"Foi realizado pré-natal? Se sim, a partir de que mês foi realizado o pré-natal?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394876
+"Durante a gestação, teve alguma doença infecciosa? Se sim, qual doença e em que mês ocorreu?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394875
+"Durante a gestação, teve aumento ou queda de pressão?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394874
+"Durante a gestação, ingeriu algum medicamento? Se sim, qual medicamento e em que mês foi utilizado?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394873
+"Durante a gestação, teve sangramento anormal? Se sim, em que mês ocorreu?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394872
+"Durante a gestação, teve ameaça de aborto? Se sim, em que mês ocorreu?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394871
+Qual foi o tipo de parto?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394870
+O bebê chorou logo ao nascer?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394869
+O bebê teve falta de oxigênio ao nascer?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394868
+Qual era o peso e a estatura ao nascer?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394867
+Qual era o perímetro cefálico ao nascer?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394866
+Qual foi o parecer do pediatra ao nascer?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394865
+Foi realizado o teste do Pezinho?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394864
+Foi realizado o teste da Orelhinha?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394863
+Foi realizado teste audiométrico?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394862
+Foi realizado teste visual?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394861
+Quando sustentou a cabeça?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394860
+Quando se sentou sem apoio?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394859
+Quando engatinhou?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394858
+Quando ficou em pé sozinho?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394857
+Quando andou?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394856
+Quando falou?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394855
+Quando apareceu o primeiro dente?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394854
+A locomoção é normal?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394853
+Os membros superiores e inferiores são normais?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394852
+"Faz uso de aparelhos, como próteses ou muletas?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394851
+Outras observações sobre o desenvolvimento infantil?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394850
+É acompanhado(a) atualmente por algum médico ou especialista?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394849
+Já foi submetido(a) à anestesia geral?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394848
+"Possui alguma alergia? Se sim, a que é alérgico(a)?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394847
+Tem ou teve hemorragia?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394846
+Tem ou teve convulsão?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394845
+Tem ou teve desmaio?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394844
+Tem ou teve algum problema cardíaco?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394843
+Tem ou teve diabetes?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394842
+Tem ou teve febre reumática?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394841
+Outras observações sobre o histórico médico?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394840
+Quantas horas dorme por dia?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394839
+Tem sono “interrompido”?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394838
+Tem enurese?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394837
+Tem sonambulismo?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394836
+Acorda com dor de cabeça?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394835
+Outras observações sobre o sono?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394834
+Quais comportamentos estão presentes no(a) paciente?,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394833
+Com quem o(a) paciente fica mais tempo?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394832
+Com quem o(a) paciente se dá melhor?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394831
+O que o(a) paciente mais gosta de fazer?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394830
+O que o(a) paciente menos gosta de fazer?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394829
+O que deixa o(a) paciente irritado(a)?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394828
+O que deixa o(a) paciente tranquilo(a)?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394827
+Qual é a brincadeira preferida?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394826
+Gosta de música?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394825
+Outras observações sobre o perfil psicológico?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394824
+"O paciente utiliza algum destes hábitos: chupeta, mamadeira ou chupa o dedo?",Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394823
+Morde objetos?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394822
+Rói unhas?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394821
+Vomita constantemente?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394820
+Outras observações sobre hábitos?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394819
+Sabe mastigar?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394818
+Sabe engolir?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394817
+Come sozinho(a)?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394816
+Qual a consistência dos alimentos ingeridos?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394815
+Prefere alimentos doces ou salgados?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394814
+Ingere líquidos com frequência?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394813
+Apresenta comportamento de autoagressão?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394812
+Outras observações sobre a dieta?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394811
+Quando foi a última visita ao dentista e por qual motivo?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394810
+Permitiu o tratamento odontológico anterior?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394809
+Concluiu o tratamento odontológico anterior?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394808
+Já foi submetido(a) à anestesia local para tratamento odontológico?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394807
+"Possui alguma doença atualmente? Se sim, qual(is)?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394806
+"Está grávida? Se sim, qual o tempo de gestação?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394805
+"Faz uso de anticoncepcionais? Se sim, qual?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394804
+"Já teve algum problema de cicatrização? Se sim, em qual situação?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394803
+Já teve alguma das seguintes doenças ou condições?,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394802
+Já teve alguma das seguintes doenças?,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394801
+Qual o seu tipo sanguíneo?,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394800
+A vacinação está em dia?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394799
+Quantas vezes ao dia escova os dentes?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394798
+Utiliza pasta de dente?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394797
+A criança já foi ou está sendo amamentada?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394796
+"Toma bebidas açucaradas (Ex.:achocolatado, refrigerante, suco de caixa)",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394795
+Consumiu açúcar antes dos 2 anos de idade?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394794
+Prática algum dos hábitos baixo:,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394793
+Já sofreu alguma cirurgia na boca?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394792
+Já teve algum problema na gengiva,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394791
+"Está tomando algum medicamento (anti-inflamatório, corticoide, etc.)?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394790
+Tem alergia a lactose?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394789
+Já tomou antibiótico?,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394788
+Tem sopro ou outra doença no coração?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394787
+Doença dos rins?,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394786
+Problemas de tireoide?,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394785
+Teve ou tem alguma doença no fígado?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394784
+Bronquite ou asma?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394783
+Teve ou tem tuberculose?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394782
+Tem febre com frequência?,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394781
+Anemia ?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394780
+Epilepsia ou convulsões?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394779
+Reumatismo ou Febre Reumática?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394778
+Tem alergias a ovo?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394777
+É portador de marca-passo?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394776
+Tem problemas de pressão arterial?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394775
+Toma antidepressivo?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394774
+Já fez tratamento psicológico ou psiquiátrico?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394773
+Faz uso de remédios para dormir?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394772
+"Você já fez algum tipo de preenchimento facial, aplicação de toxina botulínica ou enxerto?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394771
+Pratica esportes?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394770
+Usa ou já usou ácido na pele?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394769
+Costuma tomar sol?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394768
+Possui alguma doença autoimune?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394767
+Possui algum queloide?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394766
+Facilidade em formar hematoma?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394765
+Possui alguma disfunção hormonal?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394764
+Cuidados estéticos diários?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394763
+Fez uso de Roacutan nos últimos seis meses?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394762
+Está fazendo uso de alguma medicação?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394761
+Já esteve internado / operado?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394760
+Comportamento – Como o(a) paciente reage diante de situações novas?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394605
+"Comportamento – O(a) paciente gosta de música? Se sim, qual estilo e música preferidos?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394604
+Comportamento – Qual é a brincadeira ou atividade preferida do(a) paciente?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394603
+Comportamento – Quais situações ou atitudes deixam o(a) paciente tranquilo(a)?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394602
+Comportamento – Quais situações ou atitudes deixam o(a) paciente irritado(a)?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394601
+Comportamento – O que o(a) paciente menos gosta de fazer?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394600
+Comportamento – O que o(a) paciente mais gosta de fazer?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394599
+Comportamento – Com quem o(a) paciente tem mais dificuldade de relacionamento?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394598
+Comportamento – Com quem o(a) paciente tem melhor relacionamento?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394597
+Comportamento – Com quem o(a) paciente permanece a maior parte do tempo?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394596
+Comportamento – Qual é a conduta dos responsáveis legais diante desses comportamentos?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394595
+Comportamento – Quais dos seguintes comportamentos o(a) paciente apresenta?,Múltipla escolha,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394594
+Sono – Como você descreveria o perfil do sono do(a) paciente?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394571
+"Sono – Há outras observações relevantes sobre o sono? Se sim, quais?",Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394570
+Sono – Acorda com dor de cabeça?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394569
+Sono – Range os dentes durante o sono?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394568
+Sono – Apresenta episódios de sonambulismo?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394567
+Sono – Apresenta episódios de enurese (perda involuntária de urina durante o sono)?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394566
+Sono – Apresenta sono interrompido durante a noite?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394565
+"Sono – Possui algum ritual ou hábito específico antes de dormir? Se sim, qual?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394564
+"Sono – Dorme bem? Se sim, quantas horas por dia?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394563
+Histórico médico – Tem ou já teve febre reumática?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394562
+Histórico médico – Tem ou já teve diabetes?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394561
+"Histórico médico – Tem ou já teve algum problema cardíaco? Se sim, qual?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394560
+Histórico médico – Tem ou já teve episódios de desmaio?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394559
+Histórico médico – Tem ou já teve episódios de convulsão?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394558
+Histórico médico – Tem ou já teve algum episódio de hemorragia?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394557
+"Histórico médico – Apresenta alguma alergia? Se sim, a quê?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394556
+"Medicamentos em uso – Faz uso de alguma medicação? Se sim, informe o nome, a finalidade, os horários, a dosagem e a apresentação (líquido ou comprimido).",Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394555
+"Histórico médico – Já foi submetido(a) à anestesia geral? Se sim, quando e por qual motivo?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394554
+"Histórico médico – Já realizou alguma cirurgia? Se sim, qual(is)?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394553
+Histórico médico – Quais médicos especialistas acompanham o(a) paciente atualmente?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394552
+"Histórico médico – Está realizando ou já realizou algum tratamento médico? Se sim, qual(is)?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394551
+"Histórico médico – Apresenta algum problema de saúde? Se sim, qual(is)?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394550
+Desenvolvimento infantil – Apresenta formato da cabeça dentro da normalidade?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394549
+"Desenvolvimento infantil – Faz uso de algum aparelho ou dispositivo de apoio (próteses, muletas etc.)? Se sim, qual e há quanto tempo?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394548
+Desenvolvimento infantil – Apresenta desenvolvimento normal dos membros superiores e inferiores?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394547
+Desenvolvimento infantil – Apresenta locomoção normal?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394546
+Desenvolvimento infantil – Com quantos meses adquiriu o controle dos esfíncteres?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394545
+Desenvolvimento infantil – Com quantos meses nasceu o primeiro dente?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394544
+Desenvolvimento infantil – Com quantos meses falou as primeiras palavras?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394543
+Desenvolvimento infantil – Com quantos meses começou a balbuciar?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394542
+Desenvolvimento infantil – Com quantos meses começou a andar?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394541
+Desenvolvimento infantil – Com quantos meses ficou em pé sozinho?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394539
+Desenvolvimento infantil – Com quantos meses começou a engatinhar?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394538
+Desenvolvimento infantil – Com quantos meses começou a rastejar?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394537
+Desenvolvimento infantil – Com quantos meses sentou-se sem apoio?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394536
+Desenvolvimento infantil – Com quantos meses sustentou a cabeça?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394535
+Desenvolvimento infantil – O bebê sugou nas primeiras 24 horas após o nascimento?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394534
+Gestação e nascimento (exclusivo para pacientes neurológicos) – O bebê realizou o teste do olhinho (avaliação visual)?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394533
+Gestação e nascimento (exclusivo para pacientes neurológicos) – O bebê realizou o teste de audiometria?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394532
+Gestação e nascimento (exclusivo para pacientes neurológicos) – O bebê realizou o teste da orelhinha?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394531
+Gestação e nascimento (exclusivo para pacientes neurológicos) – O bebê realizou o teste do pezinho?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394530
+Gestação e nascimento (exclusivo para pacientes neurológicos) – Qual foi o parecer do pediatra ao nascimento?,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394529
+Quais foram os dados do nascimento? Informe: Peso; Estatura; Perímetro cefálico; Índice de Apgar,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394528
+Gestação e nascimento (exclusivo para pacientes neurológicos) – O bebê apresentou falta de oxigênio ao nascer?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394527
+Gestação e nascimento (exclusivo para pacientes neurológicos) – O bebê chorou logo após o nascimento?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394526
+"Gestação e nascimento (exclusivo para pacientes neurológicos) – Apresentou algum sangramento anormal durante a gestação? Se sim, em que mês?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394524
+Gestação e nascimento (exclusivo para pacientes neurológicos) – Qual foi o tipo de parto?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394523
+"Gestação e nascimento (exclusivo para pacientes neurológicos) – Teve ameaça de aborto? Se sim, em que mês?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394522
+"Gestação e nascimento (exclusivo para pacientes neurológicos) – Apresentou algum sangramento anormal durante a gestação? Se sim, em que mês?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394521
+"Gestação e nascimento (exclusivo para pacientes neurológicos) – Fez uso de algum medicamento durante a gestação? Se sim, qual e em que mês?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394520
+Gestação e nascimento (exclusivo para pacientes neurológicos) – Apresentou aumento ou queda da pressão arterial durante a gestação?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394519
+"Gestação e nascimento (exclusivo para pacientes neurológicos) – Apresentou alguma doença infecciosa durante a gestação? Se sim, qual e em que mês?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394518
+"Gestação e nascimento (exclusivo para pacientes neurológicos) – Realizou acompanhamento pré-natal? Se sim, a partir de qual mês?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394517
+Gestação e nascimento (exclusivo para pacientes neurológicos) – A gestação foi aceita pela família?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394516
+Gestação e nascimento (exclusivo para pacientes neurológicos) – A gestação foi planejada?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394515
+"Antecedentes familiares – Presença de doenças sistêmicas? Se sim, quais?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394514
+"Antecedentes familiares – Presença de anomalias? Se sim, quais?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394513
+Boca Seca?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394483
+Ardência/queimação em boca?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394482
+Mobilidade dentária:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394481
+Cálculo/retração gengival visível?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394480
+Saúde Periodontal:,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394479
+"Freio labial, lingual e bridas:",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394478
+"Lesões bucais (mucosa, óssea, cárie, etc...)?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394477
+Sofreu trauma na região de face?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394476
+Tem sensibilidade a alimentos gelados?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394475
+Tem sensibilidade a alimentos quentes?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394474
+Sente dor de dente?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394473
+"Há manifestações frequentes de afta, herpes ou feridas na boca?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394472
+Há sangramento gengival frequente?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394471
+"Sente dor nas áreas temporais, face, ATM, sinusite?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394470
+Sente dores ou dificuldades durante a mastigação?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394469
+Sente dor ou dificuldade ao abrir a boca?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394468
+"Possui o hábito de morder os lábios, bochechas, unhas ou objetos?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394467
+Aperta ou range os dentes?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394466
+Queixa principal:,Descritiva curta,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394465
+Usa drogas?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394464
+Quantas vezes por semana bebe?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394463
+"qual (is) tipo (s)? (Cerveja, cachaça, vinho, etc.)",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394462
+Toma bebida alcoólica?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394461
+Já fumou alguma vez na vida?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394460
+Você faz uso de cigarro ou outros produtos derivados do tabaco?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394459
+Algum outro problema de saúde para o qual faz acompanhamento médico? Sim Não,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394458
+É portador (a) de necessidades especiais?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394457
+"Tem ou teve alguma doença infecciosa e/ou contagiosa? (Hepatite, AIDS, DSTs, tuberculose, HPV ...)?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394456
+Tem ou já teve algum tipo de câncer?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394455
+Já sofreu alguma cirurgia hospitalar?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394454
+"É alérgico a algum medicamento, cosmético, alimento ou anestesia?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394453
+"Toma algum medicamento para os ossos? (Cálcio, Alendronato, Forteo, etc.)",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394452
+Está tomando algum medicamento para afinar o sangue (anticoagulante)?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394451
+Toma algum medicamento (seja com receita ou sem receita médica)?,Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394450
+"Atualmente tem algum problema de saúde? (Pressão alta, diabete, osteoporose, problemas de coração, ou do sangue, anemia, etc.)?",Objetiva,https://app.clinicanasnuvens.com.br/anamnese/pergunta/394449

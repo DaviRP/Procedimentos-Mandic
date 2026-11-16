@@ -1,0 +1,1736 @@
+12:49:17 321 pergunta(s) a cadastrar na clínica 'CURITIBA - GRUPO MANDIC'.
+12:49:17 Modo headless: o Chrome roda sem abrir janela.
+12:49:18 Abrindo página de login...
+12:49:27 E-mail preenchido, avançando para senha...
+12:49:33 Login realizado com sucesso.
+12:49:42 Clínica 'CURITIBA - GRUPO MANDIC' selecionada.
+12:49:42 
+[1/321] Condultas terapêuticas:
+12:49:49   Nome e tipo (Descritiva curta) preenchidos.
+12:49:49   Observação: Não | Obrigatória: Não
+12:49:55   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:49:55   Média 13.5s/pergunta — ETA 71.8 min
+12:49:55 
+[2/321] Hipóteses diagnóstica (sindrômica, topográfica, fatores de risco)
+12:50:02   Nome e tipo (Descritiva curta) preenchidos.
+12:50:02   Observação: Não | Obrigatória: Não
+12:50:09   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:50:09   Média 13.4s/pergunta — ETA 71.1 min
+12:50:09 
+[3/321] Padrão de Abertura-Fechamento (Complementar; Escolha todos que se aplicarem)
+12:50:16   Nome e tipo (Múltipla escolha) preenchidos.
+12:50:16   Observação: Não | Obrigatória: Não
+12:50:16   Alternativas: Reto, Desvio Corrigido, Direita, Esquerda
+12:50:23   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:50:23   Média 13.7s/pergunta — ETA 72.7 min
+12:50:23 
+[4/321] Localização da Cefaléia: Últimos 30 Dias (Marque tudo o que se aplica)
+12:50:30   Nome e tipo (Múltipla escolha) preenchidos.
+12:50:30   Observação: Sim | Obrigatória: Não
+12:50:30   Alternativas: Nenhuma, Temporal, Outras
+12:50:37   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:50:37   Média 13.8s/pergunta — ETA 72.8 min
+12:50:37 
+[5/321] Local da Dor: Últimos 30 dias (Marque tudo o que se aplica) - Lado Esquerdo
+12:50:44   Nome e tipo (Múltipla escolha) preenchidos.
+12:50:44   Observação: Não | Obrigatória: Não
+12:50:45   Alternativas: Nenhuma, Temporal, Outro M. Mast., Estruturas, Masséter, ATM, Não Mast.
+12:50:52   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:50:52   Média 13.9s/pergunta — ETA 73.4 min
+12:50:52 
+[6/321] Local da Dor: Últimos 30 dias (Marque tudo o que se aplica) - Lado Direito
+12:50:59   Nome e tipo (Múltipla escolha) preenchidos.
+12:50:59   Observação: Não | Obrigatória: Não
+12:51:01   Alternativas: Nenhuma, Temporal, Outro M. Mast., Estruturas, Masséter, ATM, Não Mast.
+12:51:07   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:51:07   Média 14.2s/pergunta — ETA 74.7 min
+12:51:07 
+[7/321] História Pregressa da Moléstia Atual (HPMA)- (Caracterize os fatos que se relacionam a ( queixa(s) atual ( em ordem cronológica de ocorrência, detalhando cada aspecto diretamente relacionado à queixa.
+12:51:14   Nome e tipo (Descritiva longa) preenchidos.
+12:51:14   Observação: Não | Obrigatória: Não
+12:51:20   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:51:20   Média 14.1s/pergunta — ETA 73.6 min
+12:51:20 
+[8/321] O paciente foi encaminhado por:
+12:51:27   Nome e tipo (Descritiva curta) preenchidos.
+12:51:27   Observação: Não | Obrigatória: Não
+12:51:33   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:51:34   Média 13.9s/pergunta — ETA 72.8 min
+12:51:34 
+[9/321] O que deixou de fazer por causa dessa queixa?
+12:51:40   Nome e tipo (Descritiva curta) preenchidos.
+12:51:40   Observação: Não | Obrigatória: Não
+12:51:47   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:51:47   Média 13.9s/pergunta — ETA 72.2 min
+12:51:47 
+[10/321] Quantos tratamentos você foi submetido?
+12:51:54   Nome e tipo (Descritiva curta) preenchidos.
+12:51:54   Observação: Não | Obrigatória: Não
+12:52:00   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:52:00   Média 13.8s/pergunta — ETA 71.8 min
+12:52:00 
+[11/321] Prognóstico:
+12:52:07   Nome e tipo (Descritiva curta) preenchidos.
+12:52:07   Observação: Não | Obrigatória: Não
+12:52:13   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:52:14   Média 13.8s/pergunta — ETA 71.2 min
+12:52:14 
+[12/321] Diagnóstico final:
+12:52:20   Nome e tipo (Descritiva curta) preenchidos.
+12:52:20   Observação: Não | Obrigatória: Não
+12:52:27   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:52:27   Média 13.7s/pergunta — ETA 70.8 min
+12:52:27 
+[13/321] Resultados de exames:
+12:52:34   Nome e tipo (Descritiva curta) preenchidos.
+12:52:34   Observação: Não | Obrigatória: Não
+12:52:40   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:52:40   Média 13.7s/pergunta — ETA 70.4 min
+12:52:40 
+[14/321] Exames complementares:
+12:52:47   Nome e tipo (Descritiva curta) preenchidos.
+12:52:47   Observação: Não | Obrigatória: Não
+12:52:53   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:52:53   Média 13.7s/pergunta — ETA 70.0 min
+12:52:53 
+[15/321] Hipóteses de diagnósticos:
+12:53:00   Nome e tipo (Descritiva curta) preenchidos.
+12:53:00   Observação: Não | Obrigatória: Não
+12:53:06   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:53:06   Média 13.6s/pergunta — ETA 69.5 min
+12:53:06 
+[16/321] Lesão Fundamental, forma, limites, cor, tamanho, base, consistência, textura, contorno, bordas, número, localização:
+12:53:13   Nome e tipo (Descritiva curta) preenchidos.
+12:53:13   Observação: Não | Obrigatória: Não
+12:53:20   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:53:20   Média 13.6s/pergunta — ETA 69.1 min
+12:53:20 
+[17/321] Estado geral: (biótipo, Peso x Altura, ambulação, postura, respiração:
+12:53:26   Nome e tipo (Descritiva curta) preenchidos.
+12:53:26   Observação: Não | Obrigatória: Não
+12:53:33   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:53:33   Média 13.6s/pergunta — ETA 68.8 min
+12:53:33 
+[18/321] Hábitos e vícios:
+12:53:39   Nome e tipo (Descritiva curta) preenchidos.
+12:53:39   Observação: Não | Obrigatória: Não
+12:53:46   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:53:46   Média 13.5s/pergunta — ETA 68.4 min
+12:53:46 
+[19/321] Antecedentes mórbidos:
+12:53:53   Nome e tipo (Descritiva curta) preenchidos.
+12:53:53   Observação: Não | Obrigatória: Não
+12:53:59   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:53:59   Média 13.5s/pergunta — ETA 68.2 min
+12:53:59 
+[20/321] Antecedentes familiares:
+12:54:06   Nome e tipo (Descritiva curta) preenchidos.
+12:54:06   Observação: Não | Obrigatória: Não
+12:54:13   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:54:13   Média 13.5s/pergunta — ETA 67.9 min
+12:54:13 
+[21/321] História da doença atual:
+12:54:19   Nome e tipo (Descritiva curta) preenchidos.
+12:54:19   Observação: Não | Obrigatória: Não
+12:54:26   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:54:26   Média 13.5s/pergunta — ETA 67.6 min
+12:54:26 
+[22/321] OBSERVAÇÕES DE ENFERMAGEM:
+12:54:32   Nome e tipo (Descritiva curta) preenchidos.
+12:54:32   Observação: Não | Obrigatória: Não
+12:54:39   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:54:39   Média 13.5s/pergunta — ETA 67.2 min
+12:54:39 
+[23/321] Medicações pré-operatórias: informe o medicamento, a dose e o horário.
+12:54:45   Nome e tipo (Objetiva) preenchidos.
+12:54:46   Observação: Sim | Obrigatória: Não
+12:54:47   Alternativas: Administrado, Não administrado
+12:54:54   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:54:54   Média 13.5s/pergunta — ETA 67.3 min
+12:54:54 
+[24/321] Glicemia capilar mg/dL
+12:55:00   Nome e tipo (Descritiva curta) preenchidos.
+12:55:00   Observação: Não | Obrigatória: Não
+12:55:07   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:55:07   Média 13.5s/pergunta — ETA 67.1 min
+12:55:07 
+[25/321] Temperatura °C
+12:55:14   Nome e tipo (Descritiva curta) preenchidos.
+12:55:14   Observação: Não | Obrigatória: Não
+12:55:20   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:55:20   Média 13.5s/pergunta — ETA 66.8 min
+12:55:20 
+[26/321] Saturação de oxigênio (SpO₂) %
+12:55:27   Nome e tipo (Descritiva curta) preenchidos.
+12:55:27   Observação: Não | Obrigatória: Não
+12:55:33   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:55:33   Média 13.5s/pergunta — ETA 66.4 min
+12:55:33 
+[27/321] Frequência cardíaca (FC) - bpm
+12:55:39   Nome e tipo (Descritiva curta) preenchidos.
+12:55:40   Observação: Não | Obrigatória: Não
+12:55:46   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:55:46   Média 13.5s/pergunta — ETA 66.1 min
+12:55:46 
+[28/321] Pressão arterial (PA)- mmHg
+12:55:53   Nome e tipo (Descritiva curta) preenchidos.
+12:55:53   Observação: Não | Obrigatória: Não
+12:55:59   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:56:00   Média 13.5s/pergunta — ETA 65.8 min
+12:56:00 
+[29/321] Procedimento cirúrgico:
+12:56:06   Nome e tipo (Descritiva curta) preenchidos.
+12:56:06   Observação: Não | Obrigatória: Não
+12:56:13   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:56:13   Média 13.5s/pergunta — ETA 65.6 min
+12:56:13 
+[30/321] Exame Clínico - Natureza da dor:
+12:56:19   Nome e tipo (Objetiva) preenchidos.
+12:56:20   Observação: Sim | Obrigatória: Não
+12:56:20   Alternativas: Espontânea, Provocada, Irradiada
+12:56:27   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:56:27   Média 13.5s/pergunta — ETA 65.4 min
+12:56:27 
+[31/321] Exame Clínico - Teste de sensibilidade:
+12:56:33   Nome e tipo (Objetiva) preenchidos.
+12:56:34   Observação: Sim | Obrigatória: Não
+12:56:35   Alternativas: Negativo, Positivo, Exacerbado, Aliviado
+12:56:41   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:56:41   Média 13.5s/pergunta — ETA 65.4 min
+12:56:41 
+[32/321] Exame Clínico - Percussão horizontal:
+12:56:48   Nome e tipo (Objetiva) preenchidos.
+12:56:48   Observação: Sim | Obrigatória: Não
+12:56:48   Alternativas: Negativa, Positiva
+12:56:55   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:56:55   Média 13.5s/pergunta — ETA 65.2 min
+12:56:55 
+[33/321] Exame Clínico - Percussão vertical:
+12:57:02   Nome e tipo (Objetiva) preenchidos.
+12:57:02   Observação: Sim | Obrigatória: Não
+12:57:02   Alternativas: Negativa, Positiva
+12:57:09   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:57:09   Média 13.5s/pergunta — ETA 65.0 min
+12:57:09 
+[34/321] Exame Clínico - Condição periodontal:
+12:57:15   Nome e tipo (Objetiva) preenchidos.
+12:57:16   Observação: Sim | Obrigatória: Não
+12:57:16   Alternativas: Ausência de bolsa periodontal, Presença de bolsa periodontal
+12:57:22   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:57:22   Média 13.5s/pergunta — ETA 64.8 min
+12:57:22 
+[35/321] Exame Clínico - Características da gengiva e mucosa:
+12:57:29   Nome e tipo (Objetiva) preenchidos.
+12:57:29   Observação: Sim | Obrigatória: Não
+12:57:32   Alternativas: Normal, Modificada, Edema localizado, Edema difuso, Fístula intraoral, Fístula extraoral
+12:57:39   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:57:39   Média 13.6s/pergunta — ETA 64.9 min
+12:57:39 
+[36/321] Exame Clínico - Mobilidade dental:
+12:57:45   Nome e tipo (Objetiva) preenchidos.
+12:57:46   Observação: Sim | Obrigatória: Não
+12:57:47   Alternativas: Ausente, Presente
+12:57:53   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:57:54   Média 13.7s/pergunta — ETA 64.9 min
+12:57:54 
+[37/321] Exame Clínico - Palpação apical:
+12:58:00   Nome e tipo (Objetiva) preenchidos.
+12:58:01   Observação: Sim | Obrigatória: Não
+12:58:01   Alternativas: Negativa, Positiva
+12:58:07   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:58:07   Média 13.7s/pergunta — ETA 64.7 min
+12:58:07 
+[38/321] Exame Clínico - Palpação coronária:
+12:58:14   Nome e tipo (Objetiva) preenchidos.
+12:58:14   Observação: Sim | Obrigatória: Não
+12:58:15   Alternativas: Negativa, Positiva
+12:58:21   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:58:21   Média 13.7s/pergunta — ETA 64.5 min
+12:58:21 
+[39/321] Exame Clínico - Coloração da coroa:
+12:58:28   Nome e tipo (Objetiva) preenchidos.
+12:58:28   Observação: Sim | Obrigatória: Não
+12:58:29   Alternativas: Normal, Modificada
+12:58:35   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:58:35   Média 13.7s/pergunta — ETA 64.3 min
+12:58:35 
+[40/321] Exame Clínico - Condição da coroa:
+12:58:42   Nome e tipo (Objetiva) preenchidos.
+12:58:42   Observação: Sim | Obrigatória: Não
+12:58:43   Alternativas: Íntegra, Ponte fixa, Restauração em resina, Coroa provisória, Restauração em amálgama, IRM, Onlay/Inlay, Fratura de coroa, Fratura de raiz
+12:58:50   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:58:50   Média 13.7s/pergunta — ETA 64.2 min
+12:58:50 
+[41/321] Sente dor de cabeça constante?
+12:58:56   Nome e tipo (Objetiva) preenchidos.
+12:58:57   Observação: Sim | Obrigatória: Sim
+12:58:58   Alternativas: Sim, Não
+12:59:05   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:59:05   Média 13.7s/pergunta — ETA 64.1 min
+12:59:05 
+[42/321] Avaliação Bucal - Outras observações:
+12:59:11   Nome e tipo (Descritiva curta) preenchidos.
+12:59:11   Observação: Não | Obrigatória: Não
+12:59:18   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:59:18   Média 13.7s/pergunta — ETA 63.7 min
+12:59:18 
+[43/321] Avaliação Bucal - Condição da musculatura orofacial:
+12:59:24   Nome e tipo (Objetiva) preenchidos.
+12:59:25   Observação: Sim | Obrigatória: Sim
+12:59:26   Alternativas: Normal, Hipertônica, Hipotônica
+12:59:32   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:59:33   Média 13.7s/pergunta — ETA 63.6 min
+12:59:33 
+[44/321] Condição dos freios (labial e lingual):
+12:59:39   Nome e tipo (Objetiva) preenchidos.
+12:59:40   Observação: Sim | Obrigatória: Sim
+12:59:41   Alternativas: Normal, Curto, Alterado, Não avaliado
+12:59:48   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+12:59:48   Média 13.8s/pergunta — ETA 63.6 min
+12:59:48 
+[45/321] Avaliação Bucal - Condição do palato duro:
+12:59:55   Nome e tipo (Objetiva) preenchidos.
+12:59:55   Observação: Sim | Obrigatória: Sim
+12:59:57   Alternativas: Normal, Alto, Raso, Fissura
+13:00:03   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:00:03   Média 13.8s/pergunta — ETA 63.5 min
+13:00:03 
+[46/321] Avaliação Bucal - Condição da língua:
+13:00:10   Nome e tipo (Objetiva) preenchidos.
+13:00:11   Observação: Sim | Obrigatória: Sim
+13:00:11   Alternativas: Normal, Macroglossia, Microglossia, Outras alterações
+13:00:18   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:00:18   Média 13.8s/pergunta — ETA 63.4 min
+13:00:18 
+[47/321] Avaliação Bucal - Classificação da oclusão:
+13:00:25   Nome e tipo (Objetiva) preenchidos.
+13:00:25   Observação: Sim | Obrigatória: Sim
+13:00:27   Alternativas: Classe I, Classe II, Classe III, Não avaliada
+13:00:33   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:00:33   Média 13.9s/pergunta — ETA 63.3 min
+13:00:33 
+[48/321] Avaliação Bucal - Estado geral da mucosa oral:
+13:00:40   Nome e tipo (Objetiva) preenchidos.
+13:00:40   Observação: Sim | Obrigatória: Sim
+13:00:41   Alternativas: Normal, Alterada
+13:00:47   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:00:48   Média 13.9s/pergunta — ETA 63.1 min
+13:00:48 
+[49/321] Avaliação Bucal - Tipo de respiração:
+13:00:54   Nome e tipo (Objetiva) preenchidos.
+13:00:55   Observação: Sim | Obrigatória: Sim
+13:00:56   Alternativas: Nasal, Bucal, Mista
+13:01:03   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:01:03   Média 13.9s/pergunta — ETA 63.0 min
+13:01:03 
+[50/321] Presença de mobilidade dental?
+13:01:09   Nome e tipo (Objetiva) preenchidos.
+13:01:10   Observação: Sim | Obrigatória: Sim
+13:01:10   Alternativas: Sim, Não
+13:01:17   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:01:17   Média 13.9s/pergunta — ETA 62.8 min
+13:01:17 
+[51/321] Presença de tártaro?
+13:01:24   Nome e tipo (Objetiva) preenchidos.
+13:01:24   Observação: Sim | Obrigatória: Sim
+13:01:25   Alternativas: Sim, Não
+13:01:32   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:01:32   Média 13.9s/pergunta — ETA 62.6 min
+13:01:32 
+[52/321] Avaliação Bucal - Condição da higiene oral:
+13:01:38   Nome e tipo (Objetiva) preenchidos.
+13:01:39   Observação: Sim | Obrigatória: Sim
+13:01:40   Alternativas: Ótima, Boa, Regular, Ruim, Péssima
+13:01:47   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:01:47   Média 13.9s/pergunta — ETA 62.5 min
+13:01:47 
+[53/321] Avaliação Bucal - Presença de halitose?
+13:01:54   Nome e tipo (Objetiva) preenchidos.
+13:01:54   Observação: Sim | Obrigatória: Sim
+13:01:56   Alternativas: Sim, Não
+13:02:02   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:02:02   Média 14.0s/pergunta — ETA 62.4 min
+13:02:02 
+[54/321] Avaliação Bucal - Tipo de dentição:
+13:02:10   Nome e tipo (Objetiva) preenchidos.
+13:02:11   Observação: Sim | Obrigatória: Sim
+13:02:12   Alternativas: Decídua, Mista, Permanente
+13:02:19   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:02:19   Média 14.0s/pergunta — ETA 62.4 min
+13:02:19 
+[55/321] Avaliação Bucal - Presença de agenesia dental (ausência congênita de dente)?
+13:02:25   Nome e tipo (Objetiva) preenchidos.
+13:02:26   Observação: Sim | Obrigatória: Sim
+13:02:27   Alternativas: Sim, Não
+13:02:33   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:02:33   Média 14.0s/pergunta — ETA 62.2 min
+13:02:33 
+[56/321] Avaliação Bucal - Presença de dente supranumerário?
+13:02:40   Nome e tipo (Objetiva) preenchidos.
+13:02:41   Observação: Sim | Obrigatória: Sim
+13:02:41   Alternativas: Sim, Não
+13:02:47   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:02:48   Média 14.0s/pergunta — ETA 62.0 min
+13:02:48 
+[57/321] Avaliação Bucal - Presença de prótese dental?
+13:02:54   Nome e tipo (Objetiva) preenchidos.
+13:02:54   Observação: Não | Obrigatória: Sim
+13:02:55   Alternativas: Sim, Não
+13:03:02   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:03:02   Média 14.0s/pergunta — ETA 61.7 min
+13:03:02 
+[58/321] Avaliação Bucal - Presença de aparelho ortodôntico?
+13:03:09   Nome e tipo (Objetiva) preenchidos.
+13:03:09   Observação: Sim | Obrigatória: Sim
+13:03:10   Alternativas: Sim, Não
+13:03:16   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:03:17   Média 14.0s/pergunta — ETA 61.6 min
+13:03:17 
+[59/321] Avaliação Bucal - Diastemas (espaços entre os dentes)?
+13:03:24   Nome e tipo (Objetiva) preenchidos.
+13:03:24   Observação: Sim | Obrigatória: Sim
+13:03:25   Alternativas: Sim, Não
+13:03:32   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:03:32   Média 14.1s/pergunta — ETA 61.4 min
+13:03:32 
+[60/321] Quem é o responsável pela higiene bucal?
+13:03:39   Nome e tipo (Objetiva) preenchidos.
+13:03:39   Observação: Sim | Obrigatória: Sim
+13:03:40   Alternativas: O próprio paciente, Pais, Responsável legal, Cuidador, Outra pessoa
+13:03:47   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:03:47   Média 14.1s/pergunta — ETA 61.3 min
+13:03:47 
+[61/321] Necessita de ajuda para realizar a higiene bucal?
+13:03:54   Nome e tipo (Objetiva) preenchidos.
+13:03:55   Observação: Sim | Obrigatória: Sim
+13:03:56   Alternativas: Não necessita, Necessita de supervisão, Necessita de ajuda parcial, Necessita de ajuda total
+13:04:03   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:04:03   Média 14.1s/pergunta — ETA 61.2 min
+13:04:03 
+[62/321] Com que frequência utiliza fio dental?
+13:04:10   Nome e tipo (Objetiva) preenchidos.
+13:04:10   Observação: Sim | Obrigatória: Sim
+13:04:11   Alternativas: Não utiliza, Diariamente, Algumas vezes por semana, Raramente
+13:04:18   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:04:18   Média 14.1s/pergunta — ETA 61.0 min
+13:04:18 
+[63/321] História Odontológica - O que dificulta a escovação?
+13:04:25   Nome e tipo (Descritiva curta) preenchidos.
+13:04:25   Observação: Não | Obrigatória: Não
+13:04:31   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:04:31   Média 14.1s/pergunta — ETA 60.7 min
+13:04:31 
+[64/321] Com que frequência realiza a escovação dental?
+13:04:38   Nome e tipo (Objetiva) preenchidos.
+13:04:38   Observação: Sim | Obrigatória: Sim
+13:04:40   Alternativas: Não realiza, 1 vez ao dia, 2 vezes ao dia, 3 vezes ao dia, 4 ou mais vezes ao dia
+13:04:47   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:04:47   Média 14.1s/pergunta — ETA 60.6 min
+13:04:47 
+[65/321] Quando foi sua última visita ao dentista?
+13:04:54   Nome e tipo (Objetiva) preenchidos.
+13:04:54   Observação: Sim | Obrigatória: Sim
+13:04:56   Alternativas: Há menos de 6 meses, Entre 6 meses e 1 ano, Entre 1 e 2 anos, Há mais de 2 anos, Nunca foi ao dentista
+13:05:03   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:05:03   Média 14.2s/pergunta — ETA 60.4 min
+13:05:03 
+[66/321] História Odontológica - Sofreu algum trauma nos dentes anteriores? Se sim, quando?
+13:05:09   Nome e tipo (Objetiva) preenchidos.
+13:05:10   Observação: Sim | Obrigatória: Sim
+13:05:10   Alternativas: Sim, Não, Não se aplica
+13:05:17   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:05:17   Média 14.2s/pergunta — ETA 60.2 min
+13:05:17 
+[67/321] História Odontológica - Possui herpes frequente?
+13:05:24   Nome e tipo (Objetiva) preenchidos.
+13:05:25   Observação: Sim | Obrigatória: Sim
+13:05:25   Alternativas: Sim, Não, Não sei
+13:05:31   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:05:31   Média 14.2s/pergunta — ETA 60.0 min
+13:05:31 
+[68/321] História Odontológica - Possui aftas frequentes?
+13:05:38   Nome e tipo (Objetiva) preenchidos.
+13:05:39   Observação: Sim | Obrigatória: Sim
+13:05:39   Alternativas: Sim, Não, Não sei
+13:05:46   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:05:46   Média 14.2s/pergunta — ETA 59.8 min
+13:05:46 
+[69/321] Recebeu aplicação tópica de flúor?
+13:05:53   Nome e tipo (Objetiva) preenchidos.
+13:05:54   Observação: Sim | Obrigatória: Sim
+13:05:54   Alternativas: Sim, Não, Não sei
+13:06:00   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:06:01   Média 14.2s/pergunta — ETA 59.6 min
+13:06:01 
+[70/321] História Odontológica - Já foi submetido a tratamento odontológico com anestesia geral? Quando? Onde? Por quê?
+13:06:07   Nome e tipo (Objetiva) preenchidos.
+13:06:08   Observação: Sim | Obrigatória: Sim
+13:06:08   Alternativas: Sim, Não, Não se aplica
+13:06:15   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:06:15   Média 14.2s/pergunta — ETA 59.3 min
+13:06:15 
+[71/321] História Odontológica - Teve alguma reação à anestesia? Qual?
+13:06:21   Nome e tipo (Objetiva) preenchidos.
+13:06:22   Observação: Sim | Obrigatória: Sim
+13:06:23   Alternativas: Sim, Não, Não se aplica
+13:06:30   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:06:30   Média 14.2s/pergunta — ETA 59.2 min
+13:06:30 
+[72/321] História Odontológica - Foi submetido à anestesia local para tratamento odontológico?
+13:06:37   Nome e tipo (Objetiva) preenchidos.
+13:06:37   Observação: Sim | Obrigatória: Sim
+13:06:39   Alternativas: Sim, Não, Não se aplica
+13:06:46   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:06:46   Média 14.2s/pergunta — ETA 59.0 min
+13:06:46 
+[73/321] História Odontológica - Concluiu o tratamento?
+13:06:53   Nome e tipo (Objetiva) preenchidos.
+13:06:53   Observação: Sim | Obrigatória: Sim
+13:06:54   Alternativas: Sim, Não, Não se aplica
+13:07:01   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:07:01   Média 14.2s/pergunta — ETA 58.8 min
+13:07:01 
+[74/321] História Odontológica - Permitiu o tratamento?
+13:07:07   Nome e tipo (Objetiva) preenchidos.
+13:07:07   Observação: Não | Obrigatória: Sim
+13:07:09   Alternativas: Sim, Não, Parcialmente
+13:07:16   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:07:16   Média 14.2s/pergunta — ETA 58.6 min
+13:07:16 
+[75/321] História Odontológica - Quando foi sua última visita ao dentista? Por quê?
+13:07:22   Nome e tipo (Data) preenchidos.
+13:07:23   Observação: Sim | Obrigatória: Sim
+13:07:30   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:07:30   Média 14.2s/pergunta — ETA 58.4 min
+13:07:30 
+[76/321] História Odontológica - Queixa principal
+13:07:37   Nome e tipo (Descritiva curta) preenchidos.
+13:07:37   Observação: Não | Obrigatória: Sim
+13:07:44   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:07:44   Média 14.2s/pergunta — ETA 58.1 min
+13:07:44 
+[77/321] Dieta – O(a) paciente acorda durante a noite para se alimentar? Se sim, o que costuma comer?
+13:07:51   Nome e tipo (Objetiva) preenchidos.
+13:07:51   Observação: Sim | Obrigatória: Sim
+13:07:52   Alternativas: Sim, Não
+13:07:59   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:07:59   Média 14.2s/pergunta — ETA 57.9 min
+13:07:59 
+[78/321] Dieta – O(a) paciente ingere líquidos com frequência? Se sim, quais?
+13:08:05   Nome e tipo (Objetiva) preenchidos.
+13:08:06   Observação: Sim | Obrigatória: Sim
+13:08:07   Alternativas: Sim, Não, Não sei
+13:08:14   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:08:14   Média 14.3s/pergunta — ETA 57.7 min
+13:08:14 
+[79/321] Dieta – O(a) paciente prefere alimentos doces ou salgados?
+13:08:20   Nome e tipo (Objetiva) preenchidos.
+13:08:21   Observação: Sim | Obrigatória: Sim
+13:08:22   Alternativas: Doce, Salgado
+13:08:29   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:08:29   Média 14.3s/pergunta — ETA 57.5 min
+13:08:29 
+[80/321] Dieta – Qual é o alimento mais consumido pelo(a) paciente?
+13:08:36   Nome e tipo (Descritiva curta) preenchidos.
+13:08:36   Observação: Não | Obrigatória: Sim
+13:08:43   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:08:43   Média 14.3s/pergunta — ETA 57.3 min
+13:08:43 
+[81/321] Dieta – Qual é a consistência dos alimentos ingeridos pelo(a) paciente?
+13:08:49   Nome e tipo (Descritiva curta) preenchidos.
+13:08:50   Observação: Não | Obrigatória: Sim
+13:08:56   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:08:56   Média 14.2s/pergunta — ETA 57.0 min
+13:08:56 
+[82/321] Dieta – O(a) paciente consegue se alimentar sozinho(a)?
+13:09:03   Nome e tipo (Objetiva) preenchidos.
+13:09:03   Observação: Sim | Obrigatória: Sim
+13:09:05   Alternativas: Sim, Não, Não sei
+13:09:11   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:09:11   Média 14.3s/pergunta — ETA 56.8 min
+13:09:11 
+[83/321] Dieta – O(a) paciente consegue engolir os alimentos?
+13:09:17   Nome e tipo (Objetiva) preenchidos.
+13:09:18   Observação: Sim | Obrigatória: Sim
+13:09:19   Alternativas: Sim, Não, Não sei
+13:09:25   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:09:25   Média 14.3s/pergunta — ETA 56.6 min
+13:09:25 
+[84/321] Dieta – O(a) paciente consegue mastigar os alimentos?
+13:09:32   Nome e tipo (Objetiva) preenchidos.
+13:09:33   Observação: Sim | Obrigatória: Sim
+13:09:33   Alternativas: Sim, Não, Não sei
+13:09:40   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:09:40   Média 14.3s/pergunta — ETA 56.3 min
+13:09:40 
+[85/321] Hábitos nocivos – O(a) paciente range os dentes frequentemente?
+13:09:46   Nome e tipo (Objetiva) preenchidos.
+13:09:47   Observação: Sim | Obrigatória: Sim
+13:09:48   Alternativas: Sim, Não, Não sei
+13:09:54   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:09:55   Média 14.3s/pergunta — ETA 56.1 min
+13:09:55 
+[86/321] Hábitos nocivos – O(a) paciente apresenta episódios frequentes de vômito?
+13:10:01   Nome e tipo (Objetiva) preenchidos.
+13:10:02   Observação: Sim | Obrigatória: Sim
+13:10:03   Alternativas: Sim, Não
+13:10:09   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:10:09   Média 14.3s/pergunta — ETA 55.9 min
+13:10:09 
+[87/321] Hábitos nocivos – O(a) paciente apresenta comportamentos de autoagressão? Se sim, quais?
+13:10:16   Nome e tipo (Objetiva) preenchidos.
+13:10:16   Observação: Sim | Obrigatória: Sim
+13:10:17   Alternativas: Sim, Não, Não se aplica
+13:10:24   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:10:24   Média 14.3s/pergunta — ETA 55.7 min
+13:10:24 
+[88/321] Hábitos nocivos – O(a) paciente tem o hábito de roer as unhas?
+13:10:30   Nome e tipo (Objetiva) preenchidos.
+13:10:31   Observação: Sim | Obrigatória: Sim
+13:10:31   Alternativas: Sim, Não
+13:10:38   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:10:38   Média 14.3s/pergunta — ETA 55.4 min
+13:10:38 
+[89/321] Hábitos nocivos – O(a) paciente tem o hábito de morder objetos? Se sim, quais?
+13:10:45   Nome e tipo (Objetiva) preenchidos.
+13:10:45   Observação: Sim | Obrigatória: Sim
+13:10:45   Alternativas: Sim, Não, Não sei
+13:10:52   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:10:52   Média 14.3s/pergunta — ETA 55.2 min
+13:10:52 
+[90/321] Hábitos nocivos – O(a) paciente faz uso de:
+13:10:59   Nome e tipo (Objetiva) preenchidos.
+13:11:00   Observação: Sim | Obrigatória: Sim
+13:11:01   Alternativas: Chupeta, Mamadeira, Chupa o dedo
+13:11:08   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:11:08   Média 14.3s/pergunta — ETA 55.0 min
+13:11:08 
+[91/321] Algum problema de saúde para o qual faz acompanhamento médico?
+13:11:13   Já existe uma pergunta com esse nome — pulando.
+13:11:13   Média 14.2s/pergunta — ETA 54.4 min
+13:11:13 
+[92/321] Tem ou teve alguma doença infecciosa e/ou contagiosa? (Hepatite, AIDS, DSTs, tuberculose, HPV...)?
+13:11:17   Já existe uma pergunta com esse nome — pulando.
+13:11:17   Média 14.1s/pergunta — ETA 53.7 min
+13:11:17 
+[93/321] Com que frequência você consome bebidas alcoólicas?
+13:11:22   Já existe uma pergunta com esse nome — pulando.
+13:11:22   Média 14.0s/pergunta — ETA 53.1 min
+13:11:22 
+[94/321] Você usa ou já usou algum tipo de droga ou substância ilícita?
+13:11:26   Já existe uma pergunta com esse nome — pulando.
+13:11:26   Média 13.9s/pergunta — ETA 52.5 min
+13:11:26 
+[95/321] Você costuma apresentar aftas, herpes ou feridas na boca?
+13:11:31   Já existe uma pergunta com esse nome — pulando.
+13:11:31   Média 13.8s/pergunta — ETA 51.9 min
+13:11:31 
+[96/321] Há alguma informação importante que você gostaria de acrescentar?
+13:11:35   Já existe uma pergunta com esse nome — pulando.
+13:11:35   Média 13.7s/pergunta — ETA 51.3 min
+13:11:35 
+[97/321] Qual a queixa principal ou motivo da consulta?
+13:11:40   Já existe uma pergunta com esse nome — pulando.
+13:11:40   Média 13.6s/pergunta — ETA 50.7 min
+13:11:40 
+[98/321] Possui histórico familiar de anomalias? Se sim, qual anomalia e qual o grau de parentesco?
+13:11:44   Já existe uma pergunta com esse nome — pulando.
+13:11:44   Média 13.5s/pergunta — ETA 50.1 min
+13:11:44 
+[99/321] Possui histórico familiar de doenças sistêmicas? Se sim, qual doença e qual o grau de parentesco?
+13:11:49   Já existe uma pergunta com esse nome — pulando.
+13:11:49   Média 13.4s/pergunta — ETA 49.6 min
+13:11:49 
+[100/321] A gestação foi planejada?
+13:11:53   Já existe uma pergunta com esse nome — pulando.
+13:11:53   Média 13.3s/pergunta — ETA 49.0 min
+13:11:53 
+[101/321] A gestação foi aceita?
+13:11:58   Já existe uma pergunta com esse nome — pulando.
+13:11:58   Média 13.2s/pergunta — ETA 48.5 min
+13:11:58 
+[102/321] Foi realizado pré-natal? Se sim, a partir de que mês foi realizado o pré-natal?
+13:12:02   Já existe uma pergunta com esse nome — pulando.
+13:12:02   Média 13.1s/pergunta — ETA 48.0 min
+13:12:02 
+[103/321] Durante a gestação, teve alguma doença infecciosa? Se sim, qual doença e em que mês ocorreu?
+13:12:07   Já existe uma pergunta com esse nome — pulando.
+13:12:07   Média 13.1s/pergunta — ETA 47.4 min
+13:12:07 
+[104/321] Durante a gestação, teve aumento ou queda de pressão?
+13:12:11   Já existe uma pergunta com esse nome — pulando.
+13:12:11   Média 13.0s/pergunta — ETA 46.9 min
+13:12:11 
+[105/321] Durante a gestação, ingeriu algum medicamento? Se sim, qual medicamento e em que mês foi utilizado?
+13:12:16   Já existe uma pergunta com esse nome — pulando.
+13:12:16   Média 12.9s/pergunta — ETA 46.4 min
+13:12:16 
+[106/321] Durante a gestação, teve sangramento anormal? Se sim, em que mês ocorreu?
+13:12:20   Já existe uma pergunta com esse nome — pulando.
+13:12:20   Média 12.8s/pergunta — ETA 45.9 min
+13:12:20 
+[107/321] Durante a gestação, teve ameaça de aborto? Se sim, em que mês ocorreu?
+13:12:25   Já existe uma pergunta com esse nome — pulando.
+13:12:25   Média 12.7s/pergunta — ETA 45.4 min
+13:12:25 
+[108/321] Qual foi o tipo de parto?
+13:12:29   Já existe uma pergunta com esse nome — pulando.
+13:12:29   Média 12.7s/pergunta — ETA 44.9 min
+13:12:29 
+[109/321] O bebê chorou logo ao nascer?
+13:12:34   Já existe uma pergunta com esse nome — pulando.
+13:12:34   Média 12.6s/pergunta — ETA 44.5 min
+13:12:34 
+[110/321] O bebê teve falta de oxigênio ao nascer?
+13:12:39   Já existe uma pergunta com esse nome — pulando.
+13:12:39   Média 12.5s/pergunta — ETA 44.0 min
+13:12:39 
+[111/321] Qual era o peso e a estatura ao nascer?
+13:12:43   Já existe uma pergunta com esse nome — pulando.
+13:12:43   Média 12.4s/pergunta — ETA 43.5 min
+13:12:43 
+[112/321] Qual era o perímetro cefálico ao nascer?
+13:12:48   Já existe uma pergunta com esse nome — pulando.
+13:12:48   Média 12.4s/pergunta — ETA 43.1 min
+13:12:48 
+[113/321] Qual foi o parecer do pediatra ao nascer?
+13:12:52   Já existe uma pergunta com esse nome — pulando.
+13:12:52   Média 12.3s/pergunta — ETA 42.6 min
+13:12:52 
+[114/321] Foi realizado o teste do Pezinho?
+13:12:57   Já existe uma pergunta com esse nome — pulando.
+13:12:57   Média 12.2s/pergunta — ETA 42.2 min
+13:12:57 
+[115/321] Foi realizado o teste da Orelhinha?
+13:13:01   Já existe uma pergunta com esse nome — pulando.
+13:13:01   Média 12.2s/pergunta — ETA 41.8 min
+13:13:01 
+[116/321] Foi realizado teste audiométrico?
+13:13:05   Já existe uma pergunta com esse nome — pulando.
+13:13:06   Média 12.1s/pergunta — ETA 41.3 min
+13:13:06 
+[117/321] Foi realizado teste visual?
+13:13:10   Já existe uma pergunta com esse nome — pulando.
+13:13:10   Média 12.0s/pergunta — ETA 40.9 min
+13:13:10 
+[118/321] Quando sustentou a cabeça?
+13:13:14   Já existe uma pergunta com esse nome — pulando.
+13:13:15   Média 12.0s/pergunta — ETA 40.5 min
+13:13:15 
+[119/321] Quando se sentou sem apoio?
+13:13:19   Já existe uma pergunta com esse nome — pulando.
+13:13:19   Média 11.9s/pergunta — ETA 40.1 min
+13:13:19 
+[120/321] Quando engatinhou?
+13:13:24   Já existe uma pergunta com esse nome — pulando.
+13:13:24   Média 11.8s/pergunta — ETA 39.7 min
+13:13:24 
+[121/321] Quando ficou em pé sozinho?
+13:13:28   Já existe uma pergunta com esse nome — pulando.
+13:13:28   Média 11.8s/pergunta — ETA 39.3 min
+13:13:28 
+[122/321] Quando andou?
+13:13:33   Já existe uma pergunta com esse nome — pulando.
+13:13:33   Média 11.7s/pergunta — ETA 38.9 min
+13:13:33 
+[123/321] Quando falou?
+13:13:38   Já existe uma pergunta com esse nome — pulando.
+13:13:38   Média 11.7s/pergunta — ETA 38.5 min
+13:13:38 
+[124/321] Quando apareceu o primeiro dente?
+13:13:42   Já existe uma pergunta com esse nome — pulando.
+13:13:42   Média 11.6s/pergunta — ETA 38.1 min
+13:13:42 
+[125/321] A locomoção é normal?
+13:13:47   Já existe uma pergunta com esse nome — pulando.
+13:13:47   Média 11.6s/pergunta — ETA 37.8 min
+13:13:47 
+[126/321] Os membros superiores e inferiores são normais?
+13:13:51   Já existe uma pergunta com esse nome — pulando.
+13:13:51   Média 11.5s/pergunta — ETA 37.4 min
+13:13:51 
+[127/321] Faz uso de aparelhos, como próteses ou muletas?
+13:13:55   Já existe uma pergunta com esse nome — pulando.
+13:13:56   Média 11.4s/pergunta — ETA 37.0 min
+13:13:56 
+[128/321] Outras observações sobre o desenvolvimento infantil?
+13:14:00   Já existe uma pergunta com esse nome — pulando.
+13:14:00   Média 11.4s/pergunta — ETA 36.6 min
+13:14:00 
+[129/321] É acompanhado(a) atualmente por algum médico ou especialista?
+13:14:05   Já existe uma pergunta com esse nome — pulando.
+13:14:05   Média 11.3s/pergunta — ETA 36.3 min
+13:14:05 
+[130/321] Já foi submetido(a) à anestesia geral?
+13:14:09   Já existe uma pergunta com esse nome — pulando.
+13:14:09   Média 11.3s/pergunta — ETA 35.9 min
+13:14:09 
+[131/321] Possui alguma alergia? Se sim, a que é alérgico(a)?
+13:14:13   Já existe uma pergunta com esse nome — pulando.
+13:14:14   Média 11.2s/pergunta — ETA 35.6 min
+13:14:14 
+[132/321] Tem ou teve hemorragia?
+13:14:18   Já existe uma pergunta com esse nome — pulando.
+13:14:18   Média 11.2s/pergunta — ETA 35.2 min
+13:14:18 
+[133/321] Tem ou teve convulsão?
+13:14:23   Já existe uma pergunta com esse nome — pulando.
+13:14:23   Média 11.1s/pergunta — ETA 34.9 min
+13:14:23 
+[134/321] Tem ou teve desmaio?
+13:14:28   Já existe uma pergunta com esse nome — pulando.
+13:14:28   Média 11.1s/pergunta — ETA 34.6 min
+13:14:28 
+[135/321] Tem ou teve algum problema cardíaco?
+13:14:32   Já existe uma pergunta com esse nome — pulando.
+13:14:32   Média 11.0s/pergunta — ETA 34.2 min
+13:14:32 
+[136/321] Tem ou teve diabetes?
+13:14:37   Já existe uma pergunta com esse nome — pulando.
+13:14:37   Média 11.0s/pergunta — ETA 33.9 min
+13:14:37 
+[137/321] Tem ou teve febre reumática?
+13:14:42   Já existe uma pergunta com esse nome — pulando.
+13:14:42   Média 10.9s/pergunta — ETA 33.6 min
+13:14:42 
+[138/321] Outras observações sobre o histórico médico?
+13:14:46   Já existe uma pergunta com esse nome — pulando.
+13:14:46   Média 10.9s/pergunta — ETA 33.2 min
+13:14:46 
+[139/321] Quantas horas dorme por dia?
+13:14:50   Já existe uma pergunta com esse nome — pulando.
+13:14:51   Média 10.9s/pergunta — ETA 32.9 min
+13:14:51 
+[140/321] Tem sono “interrompido”?
+13:14:55   Já existe uma pergunta com esse nome — pulando.
+13:14:55   Média 10.8s/pergunta — ETA 32.6 min
+13:14:55 
+[141/321] Tem enurese?
+13:14:59   Já existe uma pergunta com esse nome — pulando.
+13:14:59   Média 10.8s/pergunta — ETA 32.3 min
+13:14:59 
+[142/321] Tem sonambulismo?
+13:15:04   Já existe uma pergunta com esse nome — pulando.
+13:15:04   Média 10.7s/pergunta — ETA 32.0 min
+13:15:04 
+[143/321] Acorda com dor de cabeça?
+13:15:09   Já existe uma pergunta com esse nome — pulando.
+13:15:09   Média 10.7s/pergunta — ETA 31.7 min
+13:15:09 
+[144/321] Outras observações sobre o sono?
+13:15:13   Já existe uma pergunta com esse nome — pulando.
+13:15:13   Média 10.6s/pergunta — ETA 31.4 min
+13:15:13 
+[145/321] Quais comportamentos estão presentes no(a) paciente?
+13:15:18   Já existe uma pergunta com esse nome — pulando.
+13:15:18   Média 10.6s/pergunta — ETA 31.1 min
+13:15:18 
+[146/321] Com quem o(a) paciente fica mais tempo?
+13:15:22   Já existe uma pergunta com esse nome — pulando.
+13:15:22   Média 10.6s/pergunta — ETA 30.8 min
+13:15:22 
+[147/321] Com quem o(a) paciente se dá melhor?
+13:15:27   Já existe uma pergunta com esse nome — pulando.
+13:15:27   Média 10.5s/pergunta — ETA 30.5 min
+13:15:27 
+[148/321] O que o(a) paciente mais gosta de fazer?
+13:15:32   Já existe uma pergunta com esse nome — pulando.
+13:15:32   Média 10.5s/pergunta — ETA 30.2 min
+13:15:32 
+[149/321] O que o(a) paciente menos gosta de fazer?
+13:15:36   Já existe uma pergunta com esse nome — pulando.
+13:15:36   Média 10.4s/pergunta — ETA 29.9 min
+13:15:36 
+[150/321] O que deixa o(a) paciente irritado(a)?
+13:15:41   Já existe uma pergunta com esse nome — pulando.
+13:15:41   Média 10.4s/pergunta — ETA 29.6 min
+13:15:41 
+[151/321] O que deixa o(a) paciente tranquilo(a)?
+13:15:45   Já existe uma pergunta com esse nome — pulando.
+13:15:45   Média 10.4s/pergunta — ETA 29.3 min
+13:15:45 
+[152/321] Qual é a brincadeira preferida?
+13:15:50   Já existe uma pergunta com esse nome — pulando.
+13:15:50   Média 10.3s/pergunta — ETA 29.0 min
+13:15:50 
+[153/321] Gosta de música?
+13:15:54   Já existe uma pergunta com esse nome — pulando.
+13:15:54   Média 10.3s/pergunta — ETA 28.8 min
+13:15:54 
+[154/321] Outras observações sobre o perfil psicológico?
+13:15:58   Já existe uma pergunta com esse nome — pulando.
+13:15:58   Média 10.2s/pergunta — ETA 28.5 min
+13:15:58 
+[155/321] O paciente utiliza algum destes hábitos: chupeta, mamadeira ou chupa o dedo?
+13:16:03   Já existe uma pergunta com esse nome — pulando.
+13:16:03   Média 10.2s/pergunta — ETA 28.2 min
+13:16:03 
+[156/321] Morde objetos?
+13:16:07   Já existe uma pergunta com esse nome — pulando.
+13:16:07   Média 10.2s/pergunta — ETA 27.9 min
+13:16:07 
+[157/321] Rói unhas?
+13:16:12   Já existe uma pergunta com esse nome — pulando.
+13:16:12   Média 10.1s/pergunta — ETA 27.7 min
+13:16:12 
+[158/321] Vomita constantemente?
+13:16:16   Já existe uma pergunta com esse nome — pulando.
+13:16:17   Média 10.1s/pergunta — ETA 27.4 min
+13:16:17 
+[159/321] Outras observações sobre hábitos?
+13:16:21   Já existe uma pergunta com esse nome — pulando.
+13:16:21   Média 10.1s/pergunta — ETA 27.2 min
+13:16:21 
+[160/321] Sabe mastigar?
+13:16:25   Já existe uma pergunta com esse nome — pulando.
+13:16:26   Média 10.0s/pergunta — ETA 26.9 min
+13:16:26 
+[161/321] Sabe engolir?
+13:16:30   Já existe uma pergunta com esse nome — pulando.
+13:16:30   Média 10.0s/pergunta — ETA 26.6 min
+13:16:30 
+[162/321] Come sozinho(a)?
+13:16:34   Já existe uma pergunta com esse nome — pulando.
+13:16:34   Média 10.0s/pergunta — ETA 26.4 min
+13:16:34 
+[163/321] Qual a consistência dos alimentos ingeridos?
+13:16:39   Já existe uma pergunta com esse nome — pulando.
+13:16:39   Média 9.9s/pergunta — ETA 26.1 min
+13:16:39 
+[164/321] Prefere alimentos doces ou salgados?
+13:16:43   Já existe uma pergunta com esse nome — pulando.
+13:16:43   Média 9.9s/pergunta — ETA 25.9 min
+13:16:43 
+[165/321] Ingere líquidos com frequência?
+13:16:48   Já existe uma pergunta com esse nome — pulando.
+13:16:48   Média 9.9s/pergunta — ETA 25.6 min
+13:16:48 
+[166/321] Apresenta comportamento de autoagressão?
+13:16:52   Já existe uma pergunta com esse nome — pulando.
+13:16:52   Média 9.8s/pergunta — ETA 25.4 min
+13:16:52 
+[167/321] Outras observações sobre a dieta?
+13:16:57   Já existe uma pergunta com esse nome — pulando.
+13:16:57   Média 9.8s/pergunta — ETA 25.1 min
+13:16:57 
+[168/321] Quando foi a última visita ao dentista e por qual motivo?
+13:17:01   Já existe uma pergunta com esse nome — pulando.
+13:17:01   Média 9.8s/pergunta — ETA 24.9 min
+13:17:01 
+[169/321] Permitiu o tratamento odontológico anterior?
+13:17:06   Já existe uma pergunta com esse nome — pulando.
+13:17:06   Média 9.7s/pergunta — ETA 24.6 min
+13:17:06 
+[170/321] Concluiu o tratamento odontológico anterior?
+13:17:10   Já existe uma pergunta com esse nome — pulando.
+13:17:10   Média 9.7s/pergunta — ETA 24.4 min
+13:17:10 
+[171/321] Já foi submetido(a) à anestesia local para tratamento odontológico?
+13:17:15   Já existe uma pergunta com esse nome — pulando.
+13:17:15   Média 9.7s/pergunta — ETA 24.2 min
+13:17:15 
+[172/321] Possui alguma doença atualmente? Se sim, qual(is)?
+13:17:19   Já existe uma pergunta com esse nome — pulando.
+13:17:19   Média 9.6s/pergunta — ETA 23.9 min
+13:17:19 
+[173/321] Está grávida? Se sim, qual o tempo de gestação?
+13:17:24   Já existe uma pergunta com esse nome — pulando.
+13:17:24   Média 9.6s/pergunta — ETA 23.7 min
+13:17:24 
+[174/321] Faz uso de anticoncepcionais? Se sim, qual?
+13:17:28   Já existe uma pergunta com esse nome — pulando.
+13:17:28   Média 9.6s/pergunta — ETA 23.5 min
+13:17:28 
+[175/321] Já teve algum problema de cicatrização? Se sim, em qual situação?
+13:17:33   Já existe uma pergunta com esse nome — pulando.
+13:17:33   Média 9.5s/pergunta — ETA 23.2 min
+13:17:33 
+[176/321] Já teve alguma das seguintes doenças ou condições?
+13:17:37   Já existe uma pergunta com esse nome — pulando.
+13:17:37   Média 9.5s/pergunta — ETA 23.0 min
+13:17:37 
+[177/321] Já teve alguma das seguintes doenças?
+13:17:42   Já existe uma pergunta com esse nome — pulando.
+13:17:42   Média 9.5s/pergunta — ETA 22.8 min
+13:17:42 
+[178/321] Qual o seu tipo sanguíneo?
+13:17:46   Já existe uma pergunta com esse nome — pulando.
+13:17:46   Média 9.5s/pergunta — ETA 22.6 min
+13:17:46 
+[179/321] A vacinação está em dia?
+13:17:51   Já existe uma pergunta com esse nome — pulando.
+13:17:51   Média 9.4s/pergunta — ETA 22.3 min
+13:17:51 
+[180/321] Quantas vezes ao dia escova os dentes?
+13:17:55   Já existe uma pergunta com esse nome — pulando.
+13:17:55   Média 9.4s/pergunta — ETA 22.1 min
+13:17:55 
+[181/321] Utiliza pasta de dente?
+13:18:00   Já existe uma pergunta com esse nome — pulando.
+13:18:00   Média 9.4s/pergunta — ETA 21.9 min
+13:18:00 
+[182/321] A criança já foi ou está sendo amamentada?
+13:18:04   Já existe uma pergunta com esse nome — pulando.
+13:18:04   Média 9.4s/pergunta — ETA 21.7 min
+13:18:04 
+[183/321] Toma bebidas açucaradas (Ex.:achocolatado, refrigerante, suco de caixa)
+13:18:09   Já existe uma pergunta com esse nome — pulando.
+13:18:09   Média 9.3s/pergunta — ETA 21.5 min
+13:18:09 
+[184/321] Consumiu açúcar antes dos 2 anos de idade?
+13:18:13   Já existe uma pergunta com esse nome — pulando.
+13:18:14   Média 9.3s/pergunta — ETA 21.2 min
+13:18:14 
+[185/321] Prática algum dos hábitos baixo:
+13:18:18   Já existe uma pergunta com esse nome — pulando.
+13:18:18   Média 9.3s/pergunta — ETA 21.0 min
+13:18:18 
+[186/321] Já sofreu alguma cirurgia na boca?
+13:18:22   Já existe uma pergunta com esse nome — pulando.
+13:18:23   Média 9.3s/pergunta — ETA 20.8 min
+13:18:23 
+[187/321] Já teve algum problema na gengiva
+13:18:27   Já existe uma pergunta com esse nome — pulando.
+13:18:27   Média 9.2s/pergunta — ETA 20.6 min
+13:18:27 
+[188/321] Está tomando algum medicamento (anti-inflamatório, corticoide, etc.)?
+13:18:32   Já existe uma pergunta com esse nome — pulando.
+13:18:32   Média 9.2s/pergunta — ETA 20.4 min
+13:18:32 
+[189/321] Tem alergia a lactose?
+13:18:36   Já existe uma pergunta com esse nome — pulando.
+13:18:36   Média 9.2s/pergunta — ETA 20.2 min
+13:18:36 
+[190/321] Já tomou antibiótico?
+13:18:41   Já existe uma pergunta com esse nome — pulando.
+13:18:41   Média 9.2s/pergunta — ETA 20.0 min
+13:18:41 
+[191/321] Tem sopro ou outra doença no coração?
+13:18:45   Já existe uma pergunta com esse nome — pulando.
+13:18:46   Média 9.1s/pergunta — ETA 19.8 min
+13:18:46 
+[192/321] Doença dos rins?
+13:18:50   Já existe uma pergunta com esse nome — pulando.
+13:18:50   Média 9.1s/pergunta — ETA 19.6 min
+13:18:50 
+[193/321] Problemas de tireoide?
+13:18:54   Já existe uma pergunta com esse nome — pulando.
+13:18:55   Média 9.1s/pergunta — ETA 19.4 min
+13:18:55 
+[194/321] Teve ou tem alguma doença no fígado?
+13:18:59   Já existe uma pergunta com esse nome — pulando.
+13:18:59   Média 9.1s/pergunta — ETA 19.2 min
+13:18:59 
+[195/321] Bronquite ou asma?
+13:19:04   Já existe uma pergunta com esse nome — pulando.
+13:19:04   Média 9.0s/pergunta — ETA 19.0 min
+13:19:04 
+[196/321] Teve ou tem tuberculose?
+13:19:08   Já existe uma pergunta com esse nome — pulando.
+13:19:08   Média 9.0s/pergunta — ETA 18.8 min
+13:19:08 
+[197/321] Tem febre com frequência?
+13:19:13   Já existe uma pergunta com esse nome — pulando.
+13:19:13   Média 9.0s/pergunta — ETA 18.6 min
+13:19:13 
+[198/321] Anemia ?
+13:19:17   Já existe uma pergunta com esse nome — pulando.
+13:19:18   Média 9.0s/pergunta — ETA 18.4 min
+13:19:18 
+[199/321] Epilepsia ou convulsões?
+13:19:22   Já existe uma pergunta com esse nome — pulando.
+13:19:22   Média 8.9s/pergunta — ETA 18.2 min
+13:19:22 
+[200/321] Reumatismo ou Febre Reumática?
+13:19:27   Já existe uma pergunta com esse nome — pulando.
+13:19:27   Média 8.9s/pergunta — ETA 18.0 min
+13:19:27 
+[201/321] Tem alergias a ovo?
+13:19:31   Já existe uma pergunta com esse nome — pulando.
+13:19:31   Média 8.9s/pergunta — ETA 17.8 min
+13:19:31 
+[202/321] É portador de marca-passo?
+13:19:36   Já existe uma pergunta com esse nome — pulando.
+13:19:36   Média 8.9s/pergunta — ETA 17.6 min
+13:19:36 
+[203/321] Tem problemas de pressão arterial?
+13:19:41   Já existe uma pergunta com esse nome — pulando.
+13:19:41   Média 8.9s/pergunta — ETA 17.4 min
+13:19:41 
+[204/321] Toma antidepressivo?
+13:19:45   Já existe uma pergunta com esse nome — pulando.
+13:19:45   Média 8.8s/pergunta — ETA 17.2 min
+13:19:45 
+[205/321] Já fez tratamento psicológico ou psiquiátrico?
+13:19:50   Já existe uma pergunta com esse nome — pulando.
+13:19:50   Média 8.8s/pergunta — ETA 17.1 min
+13:19:50 
+[206/321] Faz uso de remédios para dormir?
+13:19:54   Já existe uma pergunta com esse nome — pulando.
+13:19:55   Média 8.8s/pergunta — ETA 16.9 min
+13:19:55 
+[207/321] Você já fez algum tipo de preenchimento facial, aplicação de toxina botulínica ou enxerto?
+13:19:59   Já existe uma pergunta com esse nome — pulando.
+13:19:59   Média 8.8s/pergunta — ETA 16.7 min
+13:19:59 
+[208/321] Pratica esportes?
+13:20:03   Já existe uma pergunta com esse nome — pulando.
+13:20:03   Média 8.8s/pergunta — ETA 16.5 min
+13:20:03 
+[209/321] Usa ou já usou ácido na pele?
+13:20:08   Já existe uma pergunta com esse nome — pulando.
+13:20:08   Média 8.7s/pergunta — ETA 16.3 min
+13:20:08 
+[210/321] Costuma tomar sol?
+13:20:13   Já existe uma pergunta com esse nome — pulando.
+13:20:13   Média 8.7s/pergunta — ETA 16.1 min
+13:20:13 
+[211/321] Possui alguma doença autoimune?
+13:20:17   Já existe uma pergunta com esse nome — pulando.
+13:20:17   Média 8.7s/pergunta — ETA 15.9 min
+13:20:17 
+[212/321] Possui algum queloide?
+13:20:22   Já existe uma pergunta com esse nome — pulando.
+13:20:22   Média 8.7s/pergunta — ETA 15.8 min
+13:20:22 
+[213/321] Facilidade em formar hematoma?
+13:20:26   Já existe uma pergunta com esse nome — pulando.
+13:20:26   Média 8.7s/pergunta — ETA 15.6 min
+13:20:26 
+[214/321] Possui alguma disfunção hormonal?
+13:20:30   Já existe uma pergunta com esse nome — pulando.
+13:20:30   Média 8.6s/pergunta — ETA 15.4 min
+13:20:30 
+[215/321] Cuidados estéticos diários?
+13:20:35   Já existe uma pergunta com esse nome — pulando.
+13:20:35   Média 8.6s/pergunta — ETA 15.2 min
+13:20:35 
+[216/321] Fez uso de Roacutan nos últimos seis meses?
+13:20:40   Já existe uma pergunta com esse nome — pulando.
+13:20:40   Média 8.6s/pergunta — ETA 15.1 min
+13:20:40 
+[217/321] Está fazendo uso de alguma medicação?
+13:20:44   Já existe uma pergunta com esse nome — pulando.
+13:20:44   Média 8.6s/pergunta — ETA 14.9 min
+13:20:44 
+[218/321] Já esteve internado / operado?
+13:20:49   Já existe uma pergunta com esse nome — pulando.
+13:20:49   Média 8.6s/pergunta — ETA 14.7 min
+13:20:49 
+[219/321] Comportamento – Como o(a) paciente reage diante de situações novas?
+13:20:56   Nome e tipo (Descritiva curta) preenchidos.
+13:20:56   Observação: Não | Obrigatória: Não
+13:21:02   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:21:02   Média 8.6s/pergunta — ETA 14.6 min
+13:21:02 
+[220/321] Comportamento – O(a) paciente gosta de música? Se sim, qual estilo e música preferidos?
+13:21:09   Nome e tipo (Objetiva) preenchidos.
+13:21:09   Observação: Sim | Obrigatória: Não
+13:21:10   Alternativas: Sim, Não, Não sei
+13:21:17   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:21:17   Média 8.6s/pergunta — ETA 14.5 min
+13:21:17 
+[221/321] Comportamento – Qual é a brincadeira ou atividade preferida do(a) paciente?
+13:21:23   Nome e tipo (Descritiva curta) preenchidos.
+13:21:23   Observação: Não | Obrigatória: Não
+13:21:30   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:21:30   Média 8.6s/pergunta — ETA 14.4 min
+13:21:30 
+[222/321] Comportamento – Quais situações ou atitudes deixam o(a) paciente tranquilo(a)?
+13:21:37   Nome e tipo (Descritiva curta) preenchidos.
+13:21:37   Observação: Não | Obrigatória: Não
+13:21:43   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:21:43   Média 8.7s/pergunta — ETA 14.3 min
+13:21:43 
+[223/321] Comportamento – Quais situações ou atitudes deixam o(a) paciente irritado(a)?
+13:21:50   Nome e tipo (Descritiva curta) preenchidos.
+13:21:50   Observação: Não | Obrigatória: Não
+13:21:57   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:21:57   Média 8.7s/pergunta — ETA 14.2 min
+13:21:57 
+[224/321] Comportamento – O que o(a) paciente menos gosta de fazer?
+13:22:03   Nome e tipo (Descritiva curta) preenchidos.
+13:22:03   Observação: Não | Obrigatória: Não
+13:22:10   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:22:10   Média 8.7s/pergunta — ETA 14.1 min
+13:22:10 
+[225/321] Comportamento – O que o(a) paciente mais gosta de fazer?
+13:22:17   Nome e tipo (Descritiva curta) preenchidos.
+13:22:17   Observação: Não | Obrigatória: Sim
+13:22:24   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:22:24   Média 8.7s/pergunta — ETA 14.0 min
+13:22:24 
+[226/321] Comportamento – Com quem o(a) paciente tem mais dificuldade de relacionamento?
+13:22:31   Nome e tipo (Descritiva curta) preenchidos.
+13:22:32   Observação: Não | Obrigatória: Sim
+13:22:38   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:22:38   Média 8.7s/pergunta — ETA 13.8 min
+13:22:38 
+[227/321] Comportamento – Com quem o(a) paciente tem melhor relacionamento?
+13:22:45   Nome e tipo (Descritiva curta) preenchidos.
+13:22:45   Observação: Não | Obrigatória: Sim
+13:22:52   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:22:52   Média 8.8s/pergunta — ETA 13.7 min
+13:22:52 
+[228/321] Comportamento – Com quem o(a) paciente permanece a maior parte do tempo?
+13:22:59   Nome e tipo (Descritiva curta) preenchidos.
+13:22:59   Observação: Não | Obrigatória: Sim
+13:23:06   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:23:06   Média 8.8s/pergunta — ETA 13.6 min
+13:23:06 
+[229/321] Comportamento – Qual é a conduta dos responsáveis legais diante desses comportamentos?
+13:23:13   Nome e tipo (Descritiva curta) preenchidos.
+13:23:13   Observação: Não | Obrigatória: Não
+13:23:20   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:23:20   Média 8.8s/pergunta — ETA 13.5 min
+13:23:20 
+[230/321] Comportamento – Quais dos seguintes comportamentos o(a) paciente apresenta?
+13:23:27   Nome e tipo (Múltipla escolha) preenchidos.
+13:23:27   Observação: Sim | Obrigatória: Sim
+13:23:29   Alternativas: Birra, Ansiedade, Medo, Agressividade, Timidez, Desconfiança, Insegurança, Agitação, Apatia, Nenhum
+13:23:36   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:23:36   Média 8.8s/pergunta — ETA 13.4 min
+13:23:36 
+[231/321] Sono – Como você descreveria o perfil do sono do(a) paciente?
+13:23:42   Nome e tipo (Descritiva curta) preenchidos.
+13:23:43   Observação: Não | Obrigatória: Sim
+13:23:49   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:23:49   Média 8.9s/pergunta — ETA 13.3 min
+13:23:49 
+[232/321] Sono – Há outras observações relevantes sobre o sono? Se sim, quais?
+13:23:56   Nome e tipo (Descritiva curta) preenchidos.
+13:23:56   Observação: Não | Obrigatória: Sim
+13:24:03   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:24:03   Média 8.9s/pergunta — ETA 13.2 min
+13:24:03 
+[233/321] Sono – Acorda com dor de cabeça?
+13:24:09   Nome e tipo (Objetiva) preenchidos.
+13:24:10   Observação: Sim | Obrigatória: Sim
+13:24:10   Alternativas: Sim, Não, Não sei
+13:24:17   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:24:17   Média 8.9s/pergunta — ETA 13.1 min
+13:24:17 
+[234/321] Sono – Range os dentes durante o sono?
+13:24:24   Nome e tipo (Objetiva) preenchidos.
+13:24:24   Observação: Sim | Obrigatória: Sim
+13:24:25   Alternativas: Sim, Não, Não sei
+13:24:32   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:24:32   Média 8.9s/pergunta — ETA 12.9 min
+13:24:32 
+[235/321] Sono – Apresenta episódios de sonambulismo?
+13:24:38   Nome e tipo (Objetiva) preenchidos.
+13:24:39   Observação: Sim | Obrigatória: Sim
+13:24:39   Alternativas: Sim, Não, Não sei
+13:24:46   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:24:46   Média 9.0s/pergunta — ETA 12.8 min
+13:24:46 
+[236/321] Sono – Apresenta episódios de enurese (perda involuntária de urina durante o sono)?
+13:24:53   Nome e tipo (Objetiva) preenchidos.
+13:24:53   Observação: Sim | Obrigatória: Sim
+13:24:54   Alternativas: Sim, Não, Não sei
+13:25:00   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:25:00   Média 9.0s/pergunta — ETA 12.7 min
+13:25:00 
+[237/321] Sono – Apresenta sono interrompido durante a noite?
+13:25:07   Nome e tipo (Objetiva) preenchidos.
+13:25:08   Observação: Sim | Obrigatória: Sim
+13:25:09   Alternativas: Sim, Não, Não sei
+13:25:15   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:25:15   Média 9.0s/pergunta — ETA 12.6 min
+13:25:15 
+[238/321] Sono – Possui algum ritual ou hábito específico antes de dormir? Se sim, qual?
+13:25:22   Nome e tipo (Objetiva) preenchidos.
+13:25:23   Observação: Sim | Obrigatória: Sim
+13:25:23   Alternativas: Sim, Não
+13:25:30   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:25:30   Média 9.0s/pergunta — ETA 12.5 min
+13:25:30 
+[239/321] Sono – Dorme bem? Se sim, quantas horas por dia?
+13:25:37   Nome e tipo (Objetiva) preenchidos.
+13:25:37   Observação: Sim | Obrigatória: Sim
+13:25:39   Alternativas: Sim, Não, Não sei
+13:25:46   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:25:46   Média 9.1s/pergunta — ETA 12.4 min
+13:25:46 
+[240/321] Histórico médico – Tem ou já teve febre reumática?
+13:25:52   Nome e tipo (Objetiva) preenchidos.
+13:25:53   Observação: Sim | Obrigatória: Sim
+13:25:54   Alternativas: Sim, Não, Não sei
+13:26:01   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:26:01   Média 9.1s/pergunta — ETA 12.3 min
+13:26:01 
+[241/321] Histórico médico – Tem ou já teve diabetes?
+13:26:07   Nome e tipo (Objetiva) preenchidos.
+13:26:08   Observação: Sim | Obrigatória: Sim
+13:26:10   Alternativas: Sim, Não, Não sei
+13:26:17   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:26:17   Média 9.1s/pergunta — ETA 12.1 min
+13:26:17 
+[242/321] Histórico médico – Tem ou já teve algum problema cardíaco? Se sim, qual?
+13:26:23   Nome e tipo (Objetiva) preenchidos.
+13:26:24   Observação: Sim | Obrigatória: Sim
+13:26:24   Alternativas: Sim, Não, Não sei
+13:26:31   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:26:31   Média 9.1s/pergunta — ETA 12.0 min
+13:26:31 
+[243/321] Histórico médico – Tem ou já teve episódios de desmaio?
+13:26:37   Nome e tipo (Objetiva) preenchidos.
+13:26:38   Observação: Sim | Obrigatória: Sim
+13:26:39   Alternativas: Sim, Não, Não sei
+13:26:46   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:26:46   Média 9.2s/pergunta — ETA 11.9 min
+13:26:46 
+[244/321] Histórico médico – Tem ou já teve episódios de convulsão?
+13:26:53   Nome e tipo (Objetiva) preenchidos.
+13:26:53   Observação: Sim | Obrigatória: Sim
+13:26:55   Alternativas: Sim, Não, Não sei
+13:27:01   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:27:01   Média 9.2s/pergunta — ETA 11.8 min
+13:27:01 
+[245/321] Histórico médico – Tem ou já teve algum episódio de hemorragia?
+13:27:08   Nome e tipo (Objetiva) preenchidos.
+13:27:09   Observação: Sim | Obrigatória: Sim
+13:27:09   Alternativas: Sim, Não, Não sei
+13:27:16   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:27:16   Média 9.2s/pergunta — ETA 11.7 min
+13:27:16 
+[246/321] Histórico médico – Apresenta alguma alergia? Se sim, a quê?
+13:27:23   Nome e tipo (Objetiva) preenchidos.
+13:27:24   Observação: Sim | Obrigatória: Sim
+13:27:25   Alternativas: Sim, Não, Não sei
+13:27:32   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:27:32   Média 9.2s/pergunta — ETA 11.5 min
+13:27:32 
+[247/321] Medicamentos em uso – Faz uso de alguma medicação? Se sim, informe o nome, a finalidade, os horários, a dosagem e a apresentação (líquido ou comprimido).
+13:27:38   Nome e tipo (Descritiva curta) preenchidos.
+13:27:39   Observação: Não | Obrigatória: Sim
+13:27:45   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:27:45   Média 9.2s/pergunta — ETA 11.4 min
+13:27:45 
+[248/321] Histórico médico – Já foi submetido(a) à anestesia geral? Se sim, quando e por qual motivo?
+13:27:52   Nome e tipo (Objetiva) preenchidos.
+13:27:52   Observação: Sim | Obrigatória: Sim
+13:27:54   Alternativas: Sim, Não
+13:28:00   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:28:00   Média 9.3s/pergunta — ETA 11.3 min
+13:28:00 
+[249/321] Histórico médico – Já realizou alguma cirurgia? Se sim, qual(is)?
+13:28:07   Nome e tipo (Objetiva) preenchidos.
+13:28:08   Observação: Sim | Obrigatória: Sim
+13:28:08   Alternativas: Sim, Não, Não sei
+13:28:15   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:28:15   Média 9.3s/pergunta — ETA 11.1 min
+13:28:15 
+[250/321] Histórico médico – Quais médicos especialistas acompanham o(a) paciente atualmente?
+13:28:22   Nome e tipo (Descritiva curta) preenchidos.
+13:28:22   Observação: Não | Obrigatória: Não
+13:28:28   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:28:28   Média 9.3s/pergunta — ETA 11.0 min
+13:28:28 
+[251/321] Histórico médico – Está realizando ou já realizou algum tratamento médico? Se sim, qual(is)?
+13:28:35   Nome e tipo (Objetiva) preenchidos.
+13:28:36   Observação: Sim | Obrigatória: Sim
+13:28:37   Alternativas: Sim, Não
+13:28:44   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:28:44   Média 9.3s/pergunta — ETA 10.9 min
+13:28:44 
+[252/321] Histórico médico – Apresenta algum problema de saúde? Se sim, qual(is)?
+13:28:50   Nome e tipo (Objetiva) preenchidos.
+13:28:51   Observação: Sim | Obrigatória: Sim
+13:28:52   Alternativas: Sim, Não, Não sei
+13:28:59   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:28:59   Média 9.4s/pergunta — ETA 10.8 min
+13:28:59 
+[253/321] Desenvolvimento infantil – Apresenta formato da cabeça dentro da normalidade?
+13:29:05   Nome e tipo (Objetiva) preenchidos.
+13:29:06   Observação: Sim | Obrigatória: Sim
+13:29:08   Alternativas: Sim, Não, Não se aplica
+13:29:14   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:29:14   Média 9.4s/pergunta — ETA 10.6 min
+13:29:14 
+[254/321] Desenvolvimento infantil – Faz uso de algum aparelho ou dispositivo de apoio (próteses, muletas etc.)? Se sim, qual e há quanto tempo?
+13:29:21   Nome e tipo (Objetiva) preenchidos.
+13:29:22   Observação: Sim | Obrigatória: Sim
+13:29:22   Alternativas: Sim, Não, Não se aplica
+13:29:29   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:29:29   Média 9.4s/pergunta — ETA 10.5 min
+13:29:29 
+[255/321] Desenvolvimento infantil – Apresenta desenvolvimento normal dos membros superiores e inferiores?
+13:29:35   Nome e tipo (Objetiva) preenchidos.
+13:29:36   Observação: Sim | Obrigatória: Sim
+13:29:38   Alternativas: Sim, Não, Não se aplica
+13:29:45   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:29:45   Média 9.4s/pergunta — ETA 10.4 min
+13:29:45 
+[256/321] Desenvolvimento infantil – Apresenta locomoção normal?
+13:29:52   Nome e tipo (Objetiva) preenchidos.
+13:29:53   Observação: Sim | Obrigatória: Sim
+13:29:53   Alternativas: Sim, Não, Não se aplica
+13:30:00   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:30:00   Média 9.4s/pergunta — ETA 10.2 min
+13:30:00 
+[257/321] Desenvolvimento infantil – Com quantos meses adquiriu o controle dos esfíncteres?
+13:30:07   Nome e tipo (Descritiva curta) preenchidos.
+13:30:07   Observação: Não | Obrigatória: Não
+13:30:14   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:30:14   Média 9.5s/pergunta — ETA 10.1 min
+13:30:14 
+[258/321] Desenvolvimento infantil – Com quantos meses nasceu o primeiro dente?
+13:30:20   Nome e tipo (Descritiva curta) preenchidos.
+13:30:20   Observação: Não | Obrigatória: Não
+13:30:27   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:30:27   Média 9.5s/pergunta — ETA 10.0 min
+13:30:27 
+[259/321] Desenvolvimento infantil – Com quantos meses falou as primeiras palavras?
+13:30:34   Nome e tipo (Descritiva curta) preenchidos.
+13:30:34   Observação: Não | Obrigatória: Não
+13:30:40   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:30:40   Média 9.5s/pergunta — ETA 9.8 min
+13:30:40 
+[260/321] Desenvolvimento infantil – Com quantos meses começou a balbuciar?
+13:30:47   Nome e tipo (Descritiva curta) preenchidos.
+13:30:47   Observação: Não | Obrigatória: Não
+13:30:54   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:30:54   Média 9.5s/pergunta — ETA 9.7 min
+13:30:54 
+[261/321] Desenvolvimento infantil – Com quantos meses começou a andar?
+13:31:00   Nome e tipo (Descritiva curta) preenchidos.
+13:31:00   Observação: Não | Obrigatória: Não
+13:31:07   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:31:07   Média 9.5s/pergunta — ETA 9.5 min
+13:31:07 
+[262/321] Desenvolvimento infantil – Com quantos meses ficou em pé sozinho?
+13:31:13   Nome e tipo (Descritiva curta) preenchidos.
+13:31:13   Observação: Não | Obrigatória: Não
+13:31:20   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:31:20   Média 9.5s/pergunta — ETA 9.4 min
+13:31:20 
+[263/321] Desenvolvimento infantil – Com quantos meses começou a engatinhar?
+13:31:26   Nome e tipo (Descritiva curta) preenchidos.
+13:31:26   Observação: Não | Obrigatória: Não
+13:31:33   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:31:33   Média 9.5s/pergunta — ETA 9.2 min
+13:31:33 
+[264/321] Desenvolvimento infantil – Com quantos meses começou a rastejar?
+13:31:39   Nome e tipo (Descritiva curta) preenchidos.
+13:31:39   Observação: Não | Obrigatória: Não
+13:31:46   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:31:46   Média 9.6s/pergunta — ETA 9.1 min
+13:31:46 
+[265/321] Desenvolvimento infantil – Com quantos meses sentou-se sem apoio?
+13:31:52   Nome e tipo (Descritiva curta) preenchidos.
+13:31:52   Observação: Não | Obrigatória: Não
+13:31:59   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:31:59   Média 9.6s/pergunta — ETA 8.9 min
+13:31:59 
+[266/321] Desenvolvimento infantil – Com quantos meses sustentou a cabeça?
+13:32:06   Nome e tipo (Descritiva curta) preenchidos.
+13:32:06   Observação: Não | Obrigatória: Não
+13:32:12   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:32:12   Média 9.6s/pergunta — ETA 8.8 min
+13:32:12 
+[267/321] Desenvolvimento infantil – O bebê sugou nas primeiras 24 horas após o nascimento?
+13:32:19   Nome e tipo (Objetiva) preenchidos.
+13:32:20   Observação: Sim | Obrigatória: Não
+13:32:20   Alternativas: Sim, Não
+13:32:27   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:32:27   Média 9.6s/pergunta — ETA 8.6 min
+13:32:27 
+[268/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – O bebê realizou o teste do olhinho (avaliação visual)?
+13:32:34   Nome e tipo (Objetiva) preenchidos.
+13:32:34   Observação: Sim | Obrigatória: Não
+13:32:36   Alternativas: Sim, Não, Não sei
+13:32:42   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:32:43   Média 9.6s/pergunta — ETA 8.5 min
+13:32:43 
+[269/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – O bebê realizou o teste de audiometria?
+13:32:49   Nome e tipo (Objetiva) preenchidos.
+13:32:50   Observação: Sim | Obrigatória: Não
+13:32:50   Alternativas: Sim, Não, Não sei
+13:32:57   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:32:57   Média 9.6s/pergunta — ETA 8.4 min
+13:32:57 
+[270/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – O bebê realizou o teste da orelhinha?
+13:33:04   Nome e tipo (Objetiva) preenchidos.
+13:33:04   Observação: Sim | Obrigatória: Não
+13:33:05   Alternativas: Sim, Não, Não sei
+13:33:11   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:33:11   Média 9.7s/pergunta — ETA 8.2 min
+13:33:11 
+[271/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – O bebê realizou o teste do pezinho?
+13:33:18   Nome e tipo (Objetiva) preenchidos.
+13:33:18   Observação: Sim | Obrigatória: Não
+13:33:18   Alternativas: Sim, Não, Não sei
+13:33:25   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:33:25   Média 9.7s/pergunta — ETA 8.1 min
+13:33:25 
+[272/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – Qual foi o parecer do pediatra ao nascimento?
+13:33:32   Nome e tipo (Descritiva curta) preenchidos.
+13:33:32   Observação: Não | Obrigatória: Não
+13:33:39   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:33:39   Média 9.7s/pergunta — ETA 7.9 min
+13:33:39 
+[273/321] Quais foram os dados do nascimento? Informe: Peso; Estatura; Perímetro cefálico; Índice de Apgar
+13:33:45   Nome e tipo (Descritiva curta) preenchidos.
+13:33:45   Observação: Não | Obrigatória: Não
+13:33:52   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:33:52   Média 9.7s/pergunta — ETA 7.8 min
+13:33:52 
+[274/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – O bebê apresentou falta de oxigênio ao nascer?
+13:33:58   Nome e tipo (Objetiva) preenchidos.
+13:33:59   Observação: Sim | Obrigatória: Não
+13:34:00   Alternativas: Sim, Não, Não se aplica
+13:34:06   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:34:06   Média 9.7s/pergunta — ETA 7.6 min
+13:34:06 
+[275/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – O bebê chorou logo após o nascimento?
+13:34:13   Nome e tipo (Objetiva) preenchidos.
+13:34:14   Observação: Sim | Obrigatória: Não
+13:34:14   Alternativas: Sim, Não, Não se aplica
+13:34:21   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:34:21   Média 9.7s/pergunta — ETA 7.5 min
+13:34:21 
+[276/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – Apresentou algum sangramento anormal durante a gestação? Se sim, em que mês?
+13:34:28   Nome e tipo (Objetiva) preenchidos.
+13:34:28   Observação: Sim | Obrigatória: Não
+13:34:29   Alternativas: Sim, Não, Não se aplica
+13:34:35   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:34:36   Média 9.8s/pergunta — ETA 7.3 min
+13:34:36 
+[277/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – Qual foi o tipo de parto?
+13:34:42   Nome e tipo (Objetiva) preenchidos.
+13:34:43   Observação: Sim | Obrigatória: Não
+13:34:43   Alternativas: Parto cesárea, Parto normal - com anestesia, Parto natural - sem anestesia, Não sabe informar
+13:34:50   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:34:50   Média 9.8s/pergunta — ETA 7.2 min
+13:34:50 
+[278/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – Teve ameaça de aborto? Se sim, em que mês?
+13:34:56   Nome e tipo (Objetiva) preenchidos.
+13:34:57   Observação: Sim | Obrigatória: Não
+13:34:59   Alternativas: Sim, Não, Não se aplica
+13:35:05   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:35:05   Média 9.8s/pergunta — ETA 7.0 min
+13:35:05 
+[279/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – Fez uso de algum medicamento durante a gestação? Se sim, qual e em que mês?
+13:35:12   Nome e tipo (Objetiva) preenchidos.
+13:35:12   Observação: Sim | Obrigatória: Não
+13:35:13   Alternativas: Sim, Não, Não se aplica
+13:35:20   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:35:20   Média 9.8s/pergunta — ETA 6.9 min
+13:35:20 
+[280/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – Apresentou aumento ou queda da pressão arterial durante a gestação?
+13:35:26   Nome e tipo (Objetiva) preenchidos.
+13:35:27   Observação: Sim | Obrigatória: Não
+13:35:27   Alternativas: Aumento, Queda, Não sei
+13:35:34   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:35:34   Média 9.8s/pergunta — ETA 6.7 min
+13:35:34 
+[281/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – Apresentou alguma doença infecciosa durante a gestação? Se sim, qual e em que mês?
+13:35:41   Nome e tipo (Objetiva) preenchidos.
+13:35:41   Observação: Sim | Obrigatória: Não
+13:35:42   Alternativas: Sim, Não, Não se aplica
+13:35:48   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:35:48   Média 9.8s/pergunta — ETA 6.6 min
+13:35:48 
+[282/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – Realizou acompanhamento pré-natal? Se sim, a partir de qual mês?
+13:35:55   Nome e tipo (Objetiva) preenchidos.
+13:35:55   Observação: Sim | Obrigatória: Não
+13:35:56   Alternativas: Sim, Não, Não se aplica
+13:36:03   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:36:03   Média 9.9s/pergunta — ETA 6.4 min
+13:36:03 
+[283/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – A gestação foi aceita pela família?
+13:36:09   Nome e tipo (Objetiva) preenchidos.
+13:36:10   Observação: Sim | Obrigatória: Não
+13:36:10   Alternativas: Sim, Não, Não se aplica
+13:36:17   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:36:17   Média 9.9s/pergunta — ETA 6.3 min
+13:36:17 
+[284/321] Gestação e nascimento (exclusivo para pacientes neurológicos) – A gestação foi planejada?
+13:36:24   Nome e tipo (Objetiva) preenchidos.
+13:36:24   Observação: Sim | Obrigatória: Não
+13:36:25   Alternativas: Sim, Não, Não se aplica
+13:36:32   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:36:32   Média 9.9s/pergunta — ETA 6.1 min
+13:36:32 
+[285/321] Antecedentes familiares – Presença de doenças sistêmicas? Se sim, quais?
+13:36:38   Nome e tipo (Objetiva) preenchidos.
+13:36:39   Observação: Sim | Obrigatória: Sim
+13:36:40   Alternativas: Sim, Não, Não sei
+13:36:47   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:36:47   Média 9.9s/pergunta — ETA 5.9 min
+13:36:47 
+[286/321] Antecedentes familiares – Presença de anomalias? Se sim, quais?
+13:36:53   Nome e tipo (Objetiva) preenchidos.
+13:36:54   Observação: Sim | Obrigatória: Sim
+13:36:55   Alternativas: Sim, Não, Não sei
+13:37:02   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:37:02   Média 9.9s/pergunta — ETA 5.8 min
+13:37:02 
+[287/321] Boca Seca?
+13:37:07   Já existe uma pergunta com esse nome — pulando.
+13:37:07   Média 9.9s/pergunta — ETA 5.6 min
+13:37:07 
+[288/321] Ardência/queimação em boca?
+13:37:11   Já existe uma pergunta com esse nome — pulando.
+13:37:11   Média 9.9s/pergunta — ETA 5.4 min
+13:37:11 
+[289/321] Mobilidade dentária:
+13:37:18   Nome e tipo (Objetiva) preenchidos.
+13:37:18   Observação: Sim | Obrigatória: Sim
+13:37:20   Alternativas: Ausente, Pouco, Médio, Muito
+13:37:26   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:37:26   Média 9.9s/pergunta — ETA 5.3 min
+13:37:26 
+[290/321] Cálculo/retração gengival visível?
+13:37:31   Já existe uma pergunta com esse nome — pulando.
+13:37:31   Média 9.9s/pergunta — ETA 5.1 min
+13:37:31 
+[291/321] Saúde Periodontal:
+13:37:35   Já existe uma pergunta com esse nome — pulando.
+13:37:35   Média 9.9s/pergunta — ETA 4.9 min
+13:37:35 
+[292/321] Freio labial, lingual e bridas:
+13:37:40   Já existe uma pergunta com esse nome — pulando.
+13:37:40   Média 9.9s/pergunta — ETA 4.8 min
+13:37:40 
+[293/321] Lesões bucais (mucosa, óssea, cárie, etc...)?
+13:37:44   Já existe uma pergunta com esse nome — pulando.
+13:37:44   Média 9.8s/pergunta — ETA 4.6 min
+13:37:44 
+[294/321] Sofreu trauma na região de face?
+13:37:49   Já existe uma pergunta com esse nome — pulando.
+13:37:49   Média 9.8s/pergunta — ETA 4.4 min
+13:37:49 
+[295/321] Tem sensibilidade a alimentos gelados?
+13:37:53   Já existe uma pergunta com esse nome — pulando.
+13:37:53   Média 9.8s/pergunta — ETA 4.2 min
+13:37:53 
+[296/321] Tem sensibilidade a alimentos quentes?
+13:37:58   Já existe uma pergunta com esse nome — pulando.
+13:37:58   Média 9.8s/pergunta — ETA 4.1 min
+13:37:58 
+[297/321] Sente dor de dente?
+13:38:03   Já existe uma pergunta com esse nome — pulando.
+13:38:03   Média 9.8s/pergunta — ETA 3.9 min
+13:38:03 
+[298/321] Há manifestações frequentes de afta, herpes ou feridas na boca?
+13:38:10   Nome e tipo (Objetiva) preenchidos.
+13:38:10   Observação: Sim | Obrigatória: Sim
+13:38:12   Alternativas: Sim, Não, Não sei
+13:38:19   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:38:19   Média 9.8s/pergunta — ETA 3.8 min
+13:38:19 
+[299/321] Há sangramento gengival frequente?
+13:38:23   Já existe uma pergunta com esse nome — pulando.
+13:38:23   Média 9.8s/pergunta — ETA 3.6 min
+13:38:23 
+[300/321] Sente dor nas áreas temporais, face, ATM, sinusite?
+13:38:28   Já existe uma pergunta com esse nome — pulando.
+13:38:28   Média 9.8s/pergunta — ETA 3.4 min
+13:38:28 
+[301/321] Sente dores ou dificuldades durante a mastigação?
+13:38:33   Já existe uma pergunta com esse nome — pulando.
+13:38:33   Média 9.7s/pergunta — ETA 3.2 min
+13:38:33 
+[302/321] Sente dor ou dificuldade ao abrir a boca?
+13:38:37   Já existe uma pergunta com esse nome — pulando.
+13:38:38   Média 9.7s/pergunta — ETA 3.1 min
+13:38:38 
+[303/321] Possui o hábito de morder os lábios, bochechas, unhas ou objetos?
+13:38:42   Já existe uma pergunta com esse nome — pulando.
+13:38:42   Média 9.7s/pergunta — ETA 2.9 min
+13:38:42 
+[304/321] Aperta ou range os dentes?
+13:38:47   Já existe uma pergunta com esse nome — pulando.
+13:38:47   Média 9.7s/pergunta — ETA 2.7 min
+13:38:47 
+[305/321] Queixa principal:
+13:38:53   Nome e tipo (Descritiva curta) preenchidos.
+13:38:54   Observação: Não | Obrigatória: Sim
+13:39:00   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:39:00   Média 9.7s/pergunta — ETA 2.6 min
+13:39:00 
+[306/321] Usa drogas?
+13:39:08   Nome e tipo (Objetiva) preenchidos.
+13:39:09   Observação: Sim | Obrigatória: Sim
+13:39:10   Alternativas: Sim, Não
+13:39:17   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:39:17   Média 9.7s/pergunta — ETA 2.4 min
+13:39:17 
+[307/321] Quantas vezes por semana bebe?
+13:39:24   Nome e tipo (Objetiva) preenchidos.
+13:39:24   Observação: Sim | Obrigatória: Sim
+13:39:26   Alternativas: Sim, Não
+13:39:32   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:39:32   Média 9.7s/pergunta — ETA 2.3 min
+13:39:32 
+[308/321] qual (is) tipo (s)? (Cerveja, cachaça, vinho, etc.)
+13:39:39   Nome e tipo (Objetiva) preenchidos.
+13:39:40   Observação: Sim | Obrigatória: Sim
+13:39:41   Alternativas: Sim, Não
+13:39:48   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:39:48   Média 9.8s/pergunta — ETA 2.1 min
+13:39:48 
+[309/321] Toma bebida alcoólica?
+13:39:52   Já existe uma pergunta com esse nome — pulando.
+13:39:52   Média 9.7s/pergunta — ETA 1.9 min
+13:39:52 
+[310/321] Já fumou alguma vez na vida?
+13:39:59   Nome e tipo (Objetiva) preenchidos.
+13:40:00   Observação: Sim | Obrigatória: Sim
+13:40:01   Alternativas: Sim, Não
+13:40:08   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:40:08   Média 9.8s/pergunta — ETA 1.8 min
+13:40:08 
+[311/321] Você faz uso de cigarro ou outros produtos derivados do tabaco?
+13:40:12   Já existe uma pergunta com esse nome — pulando.
+13:40:12   Média 9.7s/pergunta — ETA 1.6 min
+13:40:12 
+[312/321] Algum outro problema de saúde para o qual faz acompanhamento médico? Sim Não
+13:40:19   Nome e tipo (Objetiva) preenchidos.
+13:40:20   Observação: Sim | Obrigatória: Sim
+13:40:20   Alternativas: Sim, Não
+13:40:26   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:40:26   Média 9.8s/pergunta — ETA 1.5 min
+13:40:26 
+[313/321] É portador (a) de necessidades especiais?
+13:40:31   Já existe uma pergunta com esse nome — pulando.
+13:40:31   Média 9.7s/pergunta — ETA 1.3 min
+13:40:31 
+[314/321] Tem ou teve alguma doença infecciosa e/ou contagiosa? (Hepatite, AIDS, DSTs, tuberculose, HPV ...)?
+13:40:38   Nome e tipo (Objetiva) preenchidos.
+13:40:38   Observação: Sim | Obrigatória: Sim
+13:40:39   Alternativas: Sim, Não, Não sei
+13:40:46   Salvo. (https://app.clinicanasnuvens.com.br/anamnese)
+13:40:46   Média 9.8s/pergunta — ETA 1.1 min
+13:40:46 
+[315/321] Tem ou já teve algum tipo de câncer?
+13:40:50   Já existe uma pergunta com esse nome — pulando.
+13:40:51   Média 9.7s/pergunta — ETA 1.0 min
+13:40:51 
+[316/321] Já sofreu alguma cirurgia hospitalar?
+13:40:55   Já existe uma pergunta com esse nome — pulando.
+13:40:55   Média 9.7s/pergunta — ETA 0.8 min
+13:40:55 
+[317/321] É alérgico a algum medicamento, cosmético, alimento ou anestesia?
+13:41:00   Já existe uma pergunta com esse nome — pulando.
+13:41:00   Média 9.7s/pergunta — ETA 0.6 min
+13:41:00 
+[318/321] Toma algum medicamento para os ossos? (Cálcio, Alendronato, Forteo, etc.)
+13:41:04   Já existe uma pergunta com esse nome — pulando.
+13:41:04   Média 9.7s/pergunta — ETA 0.5 min
+13:41:04 
+[319/321] Está tomando algum medicamento para afinar o sangue (anticoagulante)?
+13:41:09   Já existe uma pergunta com esse nome — pulando.
+13:41:09   Média 9.7s/pergunta — ETA 0.3 min
+13:41:09 
+[320/321] Toma algum medicamento (seja com receita ou sem receita médica)?
+13:41:13   Já existe uma pergunta com esse nome — pulando.
+13:41:13   Média 9.7s/pergunta — ETA 0.2 min
+13:41:13 
+[321/321] Atualmente tem algum problema de saúde? (Pressão alta, diabete, osteoporose, problemas de coração, ou do sangue, anemia, etc.)?
+13:41:18   Já existe uma pergunta com esse nome — pulando.
+13:41:18   Média 9.6s/pergunta — ETA 0.0 min
+13:41:18 
+Cadastro concluído!

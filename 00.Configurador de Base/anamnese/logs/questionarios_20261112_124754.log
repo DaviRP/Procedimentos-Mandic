@@ -1,0 +1,49 @@
+12:47:55 Abrindo página de login...
+12:48:05 E-mail preenchido, avançando para senha...
+12:48:11 Login realizado com sucesso.
+12:48:21 Clínica 'CAMPINAS - GRUPO MANDIC' selecionada.
+12:48:22   Página 1: 10 modelo(s), 10 novo(s)
+12:48:23   Página 2: 3 modelo(s), 3 novo(s)
+12:48:23 
+13 modelo(s) de anamnese encontrado(s).
+12:48:23 
+[1/13] Anamnese DTM
+12:48:24   11 pergunta(s).
+12:48:24 
+[2/13] Anamnese Cirurgia
+12:48:25   27 pergunta(s).
+12:48:25 
+[3/13] Anamnese Estomatologia
+12:48:26   12 pergunta(s).
+12:48:26 
+[4/13] Formulário do Centro Cirúrgico – Pré-operatório
+12:48:27   8 pergunta(s).
+12:48:27 
+[5/13] Anamnese de Implantodontia
+12:48:28   33 pergunta(s).
+12:48:28 
+[6/13] Anamnese Periodontia
+12:48:29   19 pergunta(s).
+12:48:29 
+[7/13] Anamnese Odontopediatria
+12:48:30   33 pergunta(s).
+12:48:30 
+[8/13] Anamnese Dentística
+12:48:31   28 pergunta(s).
+12:48:31 
+[9/13] Anamnese Harmonização Orofacial
+12:48:32   43 pergunta(s).
+12:48:32 
+[10/13] Anamnese Endodontia
+12:48:33   29 pergunta(s).
+12:48:33 
+[11/13] Anamnese Prótese
+12:48:34   27 pergunta(s).
+12:48:34 
+[12/13] Anamnese Pacientes Especiais
+12:48:35   117 pergunta(s).
+12:48:35 
+[13/13] Anamnese Triagem Geral
+12:48:36   35 pergunta(s).
+12:48:36 
+Concluído! 422 linha(s) gravada(s) em: /Users/davipegoraro/Documents/Claude/Projects/Procedimentos Mandic/00.Configurador de Base/anamnese/Questionarios_Perguntas.csv

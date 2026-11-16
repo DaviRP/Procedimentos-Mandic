@@ -21,9 +21,9 @@ from selenium.webdriver.common.keys import Keys
 ## Cadastrando grupo: Coping/Cilindro/Ucla/Tampa Proteção Básico — 834 produto(s)
 
 # Planilha única com uma aba por script (ver Template Procedimentos, Grupos e Produtos.xlsx)
-ARQUIVO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Template Procedimentos, Grupos e Produtos(CAMPINAS).xlsx")
+ARQUIVO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Template Procedimentos, Grupos e Produtos(Curitiba).xlsx")
 ABA = "Grupos de equivalência"
-CLINICA = "CAMPINAS - GRUPO MANDIC"
+CLINICA = "Curitiba - GRUPO MANDIC"
 URL_LISTA = "https://app.clinicanasnuvens.com.br/grupo-equivalencia/lista"
 
 PASTA = os.path.dirname(os.path.abspath(__file__))
@@ -35,7 +35,7 @@ NUM_NAVEGADORES = 1
 # Segundos entre o login de um navegador e o do próximo
 INTERVALO_ENTRE_LOGINS = 5
 # True = roda sem abrir a janela do Chrome
-HEADLESS = False
+HEADLESS = True
 # Tentativas num mesmo grupo antes de marcá-lo como 'erro' na planilha
 MAX_TENTATIVAS = 3
 # A tela só aceita até 99 produtos por salvamento: salva, clica em Visualizar e continua no mesmo grupo
@@ -47,7 +47,7 @@ ESPERA_AUTOCOMPLETE = 15
 EXIGIR_PRODUTO_NA_OPCAO = True
 # Produto adicionado automaticamente como o 1º de TODOS os grupos (buscado pelo nome).
 # None = desliga
-PRODUTO_FIXO = "Selecione o produto que deseja"
+PRODUTO_FIXO = "SELECIONE O ITEM AO LADO"
 
 # True = painel atualizado no terminal; o log detalhado vai para PASTA_LOGS.
 # False = log corrido no terminal, como antes.
@@ -288,11 +288,22 @@ def _idx_coluna(cabecalho, nome, obrigatoria=True):
     return None
 
 
+def abrir_aba(wb):
+    """Aba ABA da planilha, sem depender de acento, maiúsculas ou plural
+    (ex.: 'Grupos de equivalência' acha 'Grupo de equivalencia')."""
+    def chave(nome):
+        return " ".join(p.rstrip("s") for p in normalizar(nome).split())
+    for nome in wb.sheetnames:
+        if chave(nome) == chave(ABA):
+            return wb[nome]
+    raise ValueError(f"Aba '{ABA}' não encontrada na planilha. Abas disponíveis: {wb.sheetnames}")
+
+
 def carregar_grupos():
     """Devolve (col_status, grupos) com os grupos pendentes, do que tem MENOS
     produtos para o que tem MAIS."""
     wb = openpyxl.load_workbook(ARQUIVO)
-    ws = wb[ABA]
+    ws = abrir_aba(wb)
     cabecalho = [cell.value for cell in ws[1]]
 
     col_grupo         = _idx_coluna(cabecalho, "Nome do Grupos")
@@ -378,7 +389,7 @@ def marcar_status(linhas, col_status, valor):
     """Grava o Status nas linhas do grupo — um navegador por vez."""
     with trava_planilha:
         wb = openpyxl.load_workbook(ARQUIVO)
-        ws = wb[ABA]
+        ws = abrir_aba(wb)
         for linha in linhas:
             ws.cell(row=linha, column=col_status, value=valor)
         _salvar_planilha(wb)

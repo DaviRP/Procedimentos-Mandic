@@ -17,7 +17,7 @@ from selenium.common.exceptions import TimeoutException
 # ── Configuração ──────────────────────────────────────────────────────────────
 PASTA = os.path.dirname(os.path.abspath(__file__))
 ARQUIVO = os.path.join(PASTA, "Perguntas_Detalhadas.xlsx")
-CLINICA = "CAMPINAS - GRUPO MANDIC"   # clínica ONDE as perguntas serão cadastradas
+CLINICA = "BELO HORIZONTE - GRUPO MANDIC"   # clínica ONDE as perguntas serão cadastradas
 HEADLESS = True             # True = sem janela; pode trocar na hora com --headless / --visivel
 LIMITE_PERGUNTAS = None     # ex.: 1 para um teste rápido; None = todas
 CHECAR_EXISTENTE = True     # antes de cadastrar, procura a pergunta pelo nome e pula se já existir

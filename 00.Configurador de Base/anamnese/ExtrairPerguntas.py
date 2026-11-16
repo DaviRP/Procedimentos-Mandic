@@ -6,6 +6,7 @@ import unicodedata
 
 import openpyxl
 from openpyxl.styles import Font
+from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -18,12 +19,18 @@ from selenium.common.exceptions import StaleElementReferenceException
 PASTA = os.path.dirname(os.path.abspath(__file__))
 ARQUIVO_ENTRADA = os.path.join(PASTA, "Perguntas.csv")
 ARQUIVO_SAIDA = os.path.join(PASTA, "Perguntas_Detalhadas.xlsx")
-CLINICA = "GRANDE VITORIA - GRUPO MANDIC"
+CLINICA = "CAMPINAS - GRUPO MANDIC"
 HEADLESS = True
 LIMITE_PERGUNTAS = None   # ex.: 3 para um teste rápido; None = todas
 
+# De onde vem a lista de perguntas:
+#   "sistema" → percorre a tabela de /anamnese/perguntas, página por página
+#   "csv"     → lê o Perguntas.csv e procura cada uma pelo filtro (jeito antigo)
+ORIGEM = "sistema"
+
 URL_ANAMNESE = "https://app.clinicanasnuvens.com.br/anamnese"
 URL_BASE = "https://app.clinicanasnuvens.com.br"
+URL_PERGUNTAS = URL_BASE + "/anamnese/perguntas?page={}"
 
 COLUNAS = [
     "Nome da pergunta",
@@ -44,17 +51,37 @@ def normalizar(texto):
 
 
 def carregar_perguntas():
-    """Lê o CSV de entrada e devolve a lista de (nome, tipo), sem repetir."""
+    """Lê o CSV de entrada e devolve a lista de (nome, tipo, link), sem repetir.
+    O link vem preenchido quando o CSV foi gerado pela leitura do sistema."""
     perguntas = []
     vistos = set()
-    with open(ARQUIVO_ENTRADA, newline="", encoding="utf-8") as f:
+    with open(ARQUIVO_ENTRADA, newline="", encoding="utf-8-sig") as f:
         for linha in csv.DictReader(f):
-            nome = (linha["Pergunta"] or "").strip()
-            tipo = (linha["Tipo"] or "").strip()
-            if nome and normalizar(nome) not in vistos:
-                vistos.add(normalizar(nome))
-                perguntas.append((nome, tipo))
+            nome = (linha.get("Pergunta") or "").strip()
+            tipo = (linha.get("Tipo") or "").strip()
+            link = (linha.get("Link") or "").strip() or None
+            chave = link or normalizar(nome)
+            if nome and chave not in vistos:
+                vistos.add(chave)
+                perguntas.append((nome, tipo, link))
     return perguntas
+
+
+def salvar_lista(perguntas):
+    """Grava a lista lida do sistema no Perguntas.csv (Pergunta, Tipo, Link) assim que termina
+    de percorrer as páginas — se a execução parar depois, a lista não se perde."""
+    temporario = ARQUIVO_ENTRADA + ".tmp"
+    with open(temporario, "w", newline="", encoding="utf-8-sig") as f:
+        escritor = csv.writer(f)
+        escritor.writerow(["Pergunta", "Tipo", "Link"])
+        escritor.writerows(perguntas)
+    os.replace(temporario, ARQUIVO_ENTRADA)
+    print(f"Lista salva em: {ARQUIVO_ENTRADA}")
+
+
+def limpar(valor):
+    """Tira caracteres de controle que o Excel não aceita (o openpyxl recusa salvar com eles)."""
+    return ILLEGAL_CHARACTERS_RE.sub("", valor) if isinstance(valor, str) else valor
 
 
 def carregar_saida():
@@ -83,7 +110,7 @@ def salvar_saida(linhas):
     for celula in ws[1]:
         celula.font = Font(bold=True)
     for linha in linhas:
-        ws.append([linha.get(c, "") for c in COLUNAS])
+        ws.append([limpar(linha.get(c, "")) for c in COLUNAS])
     ws.freeze_panes = "A2"
     larguras = {"A": 60, "B": 18, "C": 18, "D": 18, "E": 40, "F": 55, "G": 16}
     for col, largura in larguras.items():
@@ -197,6 +224,50 @@ def localizar_link_pergunta(driver, nome, timeout=10):
     return ultimo_unico, False
 
 
+def ler_pagina_perguntas(driver, pagina):
+    """Abre uma página da lista de perguntas e devolve ([(nome, tipo, link)], última página)."""
+    driver.get(URL_PERGUNTAS.format(pagina))
+    try:
+        WebDriverWait(driver, 15).until(EC.presence_of_element_located(
+            (By.CSS_SELECTOR, "a[href*='/anamnese/pergunta/'], ul.pagination")
+        ))
+    except Exception:
+        return [], pagina
+    time.sleep(0.5)
+    linhas, ultima = driver.execute_script("""
+        const linhas = [];
+        document.querySelectorAll("table tbody tr").forEach(tr => {
+            const link = tr.querySelector("a[href*='/anamnese/pergunta/']");
+            const tds = tr.querySelectorAll("td");
+            if (!link || tds.length < 2) return;
+            linhas.push([tds[0].textContent.trim(), tds[1].textContent.trim(), link.href]);
+        });
+        const paginas = [...document.querySelectorAll("ul.pagination a.itemPaginacao[data-page]")]
+            .map(a => parseInt(a.getAttribute("data-page"), 10)).filter(n => !isNaN(n));
+        return [linhas, paginas.length ? Math.max(...paginas) : 0];
+    """)
+    return [(re.sub(r"\s+", " ", n), re.sub(r"\s+", " ", t), l) for n, t, l in linhas], ultima
+
+
+def listar_perguntas_do_sistema(driver):
+    """Percorre /anamnese/perguntas página por página e junta (nome, tipo, link) de todas."""
+    perguntas, vistos = [], set()
+    pagina, ultima = 0, 0
+    while pagina <= ultima:
+        linhas, ultima_aqui = ler_pagina_perguntas(driver, pagina)
+        ultima = max(ultima, ultima_aqui)
+        novas = [l for l in linhas if l[2] not in vistos]
+        print(f"  Página {pagina + 1}/{ultima + 1}: {len(linhas)} pergunta(s), {len(novas)} nova(s)")
+        if not novas:
+            break  # página vazia ou repetida: acabou a lista
+        for linha in novas:
+            vistos.add(linha[2])
+            perguntas.append(linha)
+        pagina += 1
+    print(f"{len(perguntas)} pergunta(s) encontrada(s) no sistema.")
+    return perguntas
+
+
 def ler_detalhes(driver, wait, url):
     """Abre a pergunta e lê: possui observação, obrigatória e as alternativas (na ordem)."""
     driver.get(url)
@@ -228,17 +299,18 @@ def ler_detalhes(driver, wait, url):
 
 # ── Execução ──────────────────────────────────────────────────────────────────
 def executar():
-    perguntas = carregar_perguntas()
     linhas_saida = carregar_saida()
     feitas = {normalizar(l["Nome da pergunta"]) for l in linhas_saida}
-    pendentes = [(n, t) for n, t in perguntas if normalizar(n) not in feitas]
-    if LIMITE_PERGUNTAS:
-        pendentes = pendentes[:LIMITE_PERGUNTAS]
+    links_feitos = {l["Link"] for l in linhas_saida if l.get("Link")}
 
-    print(f"{len(perguntas)} pergunta(s) no CSV, {len(feitas)} já extraída(s), {len(pendentes)} a processar.")
-    if not pendentes:
-        print("Nada a fazer.")
-        return
+    if ORIGEM == "csv":
+        perguntas = carregar_perguntas()
+        pendentes = [p for p in perguntas
+                     if (p[2] not in links_feitos if p[2] else normalizar(p[0]) not in feitas)]
+        print(f"{len(perguntas)} pergunta(s) no CSV, {len(feitas)} já extraída(s), {len(pendentes)} a processar.")
+        if not pendentes:
+            print("Nada a fazer.")
+            return
 
     opcoes = webdriver.ChromeOptions()
     if HEADLESS:
@@ -249,24 +321,38 @@ def executar():
 
     try:
         login_e_clinica(driver, wait)
+
+        if ORIGEM == "sistema":
+            print("Lendo a lista de perguntas do sistema...")
+            perguntas = listar_perguntas_do_sistema(driver)
+            salvar_lista(perguntas)
+            pendentes = [p for p in perguntas if p[2] not in links_feitos]
+            print(f"{len(links_feitos)} já extraída(s), {len(pendentes)} a processar.")
+        if LIMITE_PERGUNTAS:
+            pendentes = pendentes[:LIMITE_PERGUNTAS]
+        if not pendentes:
+            print("Nada a fazer.")
+            return
+
         inicio = time.time()
         total = len(pendentes)
 
-        for idx, (nome, tipo) in enumerate(pendentes, start=1):
+        for idx, (nome, tipo, url) in enumerate(pendentes, start=1):
             print(f"\n[{idx}/{total}] {nome}")
-            base = {"Nome da pergunta": nome, "Tipo": tipo}
+            base = {"Nome da pergunta": nome, "Tipo": tipo, "Link": url or ""}
 
             try:
-                filtrar_pergunta(driver, wait, nome)
-                url, exato = localizar_link_pergunta(driver, nome)
+                if not url:  # origem CSV: procura pelo filtro
+                    filtrar_pergunta(driver, wait, nome)
+                    url, exato = localizar_link_pergunta(driver, nome)
 
-                if not url:
-                    print("  Pergunta não encontrada na lista — marcada como 'não encontrada'.")
-                    linhas_saida.append({**base, "Situação": "não encontrada"})
-                    salvar_saida(linhas_saida)
-                    continue
-                if not exato:
-                    print("  AVISO: nome não bateu exatamente; usando o único resultado do filtro.")
+                    if not url:
+                        print("  Pergunta não encontrada na lista — marcada como 'não encontrada'.")
+                        linhas_saida.append({**base, "Situação": "não encontrada"})
+                        salvar_saida(linhas_saida)
+                        continue
+                    if not exato:
+                        print("  AVISO: nome não bateu exatamente; usando o único resultado do filtro.")
 
                 if url.startswith("/"):
                     url = URL_BASE + url
